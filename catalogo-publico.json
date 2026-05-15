@@ -1,6 +1,6 @@
 {
   "version": "neomar-catalogo-v1",
-  "updatedAt": "2026-05-15T03:46:33.923Z",
+  "updatedAt": "2026-05-15T17:45:28.811Z",
   "items": [
     {
       "id": "mo6mmkq9cpbrde92uld",
@@ -11,7 +11,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/2337-capuchino.png",
+      "imagen": "fotos_catalogo/2337-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -23,7 +23,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/2337-negro.png",
+      "imagen": "fotos_catalogo/2337-negro.webp",
       "updatedAt": ""
     },
     {
@@ -35,7 +35,7 @@
       "color": "VERDE OLIVA",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/2217-verde-oliva.png",
+      "imagen": "fotos_catalogo/2217-verde-oliva.webp",
       "updatedAt": ""
     },
     {
@@ -47,7 +47,7 @@
       "color": "GRIS OSCURO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/2217-gris-oscuro.png",
+      "imagen": "fotos_catalogo/2217-gris-oscuro.webp",
       "updatedAt": ""
     },
     {
@@ -59,7 +59,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/2217-vino.png",
+      "imagen": "fotos_catalogo/2217-vino.webp",
       "updatedAt": ""
     },
     {
@@ -71,7 +71,7 @@
       "color": "NEGRA",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/2217-negro.png",
+      "imagen": "fotos_catalogo/2217-negro.webp",
       "updatedAt": ""
     },
     {
@@ -83,7 +83,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2224-beige.png",
+      "imagen": "fotos_catalogo/2224-beige.webp",
       "updatedAt": ""
     },
     {
@@ -95,7 +95,7 @@
       "color": "CAFÉ",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2224-cafe.png",
+      "imagen": "fotos_catalogo/2224-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -107,7 +107,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2224-negro.png",
+      "imagen": "fotos_catalogo/2224-negro.webp",
       "updatedAt": ""
     },
     {
@@ -119,7 +119,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2224-beige.png",
+      "imagen": "fotos_catalogo/2224-beige.webp",
       "updatedAt": ""
     },
     {
@@ -131,7 +131,7 @@
       "color": "CAFÉ",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2224-cafe.png",
+      "imagen": "fotos_catalogo/2224-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -143,7 +143,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2224-negro.png",
+      "imagen": "fotos_catalogo/2224-negro.webp",
       "updatedAt": ""
     },
     {
@@ -155,7 +155,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 11,
-      "imagen": "fotos_catalogo/2228-capuchino.jpg",
+      "imagen": "fotos_catalogo/2228-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -167,7 +167,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 11,
-      "imagen": "fotos_catalogo/2228-negro.jpg",
+      "imagen": "fotos_catalogo/2228-negro.webp",
       "updatedAt": ""
     },
     {
@@ -179,7 +179,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-rosado.png",
+      "imagen": "fotos_catalogo/b0004-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -191,7 +191,7 @@
       "color": "BLANCO",
       "stock": 2,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-blanco.png",
+      "imagen": "fotos_catalogo/b0004-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -203,7 +203,7 @@
       "color": "PERLA",
       "stock": 2,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-perla.png",
+      "imagen": "fotos_catalogo/b0004-perla.webp",
       "updatedAt": ""
     },
     {
@@ -215,7 +215,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-negro.png",
+      "imagen": "fotos_catalogo/b0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -227,7 +227,7 @@
       "color": "LADRILLO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-ladrillo.png",
+      "imagen": "fotos_catalogo/b0004-ladrillo.webp",
       "updatedAt": ""
     },
     {
@@ -239,7 +239,7 @@
       "color": "MELÓN",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-melon.png",
+      "imagen": "fotos_catalogo/b0004-melon.webp",
       "updatedAt": ""
     },
     {
@@ -251,7 +251,7 @@
       "color": "VERDE PERICO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-verde-perico.png",
+      "imagen": "fotos_catalogo/b0004-verde-perico.webp",
       "updatedAt": ""
     },
     {
@@ -263,7 +263,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-beige.png",
+      "imagen": "fotos_catalogo/b0004-beige.webp",
       "updatedAt": ""
     },
     {
@@ -275,7 +275,7 @@
       "color": "BEIGE OSCURO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-beige-oscuro.png",
+      "imagen": "fotos_catalogo/b0004-beige-oscuro.webp",
       "updatedAt": ""
     },
     {
@@ -287,7 +287,7 @@
       "color": "ROJA",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-roja.png",
+      "imagen": "fotos_catalogo/b0004-roja.webp",
       "updatedAt": ""
     },
     {
@@ -299,7 +299,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-capuchino.png",
+      "imagen": "fotos_catalogo/b0004-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -311,7 +311,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/81148-rosado.png",
+      "imagen": "fotos_catalogo/81148-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -323,7 +323,7 @@
       "color": "PERLA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/81148-perla.png",
+      "imagen": "fotos_catalogo/81148-perla.webp",
       "updatedAt": ""
     },
     {
@@ -335,7 +335,7 @@
       "color": "BEISH",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/81148-beish.png",
+      "imagen": "fotos_catalogo/81148-beish.webp",
       "updatedAt": ""
     },
     {
@@ -347,7 +347,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/81148-negro.png",
+      "imagen": "fotos_catalogo/81148-negro.webp",
       "updatedAt": ""
     },
     {
@@ -359,7 +359,7 @@
       "color": "BLANCA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-blanco.png",
+      "imagen": "fotos_catalogo/s-250757-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -371,7 +371,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-beige.png",
+      "imagen": "fotos_catalogo/s-250757-beige.webp",
       "updatedAt": ""
     },
     {
@@ -383,7 +383,7 @@
       "color": "NEGRA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-negro.png",
+      "imagen": "fotos_catalogo/s-250757-negro.webp",
       "updatedAt": ""
     },
     {
@@ -395,7 +395,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-capuchino.png",
+      "imagen": "fotos_catalogo/s-250757-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -407,7 +407,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-capuchino.png",
+      "imagen": "fotos_catalogo/s-250757-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -419,7 +419,7 @@
       "color": "NEGRA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-negro.png",
+      "imagen": "fotos_catalogo/s-250757-negro.webp",
       "updatedAt": ""
     },
     {
@@ -431,7 +431,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-beige.png",
+      "imagen": "fotos_catalogo/s-250757-beige.webp",
       "updatedAt": ""
     },
     {
@@ -443,7 +443,7 @@
       "color": "BLANCA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-blanco.png",
+      "imagen": "fotos_catalogo/s-250757-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -455,7 +455,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-capuchino.png",
+      "imagen": "fotos_catalogo/s-250757-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -467,7 +467,7 @@
       "color": "NEGRA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/s-250757-negro.png",
+      "imagen": "fotos_catalogo/s-250757-negro.webp",
       "updatedAt": ""
     },
     {
@@ -479,7 +479,7 @@
       "color": "BLANCA",
       "stock": 4,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b020-blanco.png",
+      "imagen": "fotos_catalogo/b020-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -491,7 +491,7 @@
       "color": "NEGRA",
       "stock": 2,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b020-negro.png",
+      "imagen": "fotos_catalogo/b020-negro.webp",
       "updatedAt": ""
     },
     {
@@ -503,7 +503,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b020-capuchino.png",
+      "imagen": "fotos_catalogo/b020-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -515,7 +515,7 @@
       "color": "ROSADA",
       "stock": 1,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b020-rosado.png",
+      "imagen": "fotos_catalogo/b020-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -527,7 +527,7 @@
       "color": "PLOMO",
       "stock": 1,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b020-plomo.png",
+      "imagen": "fotos_catalogo/b020-plomo.webp",
       "updatedAt": ""
     },
     {
@@ -539,7 +539,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b020-beige.png",
+      "imagen": "fotos_catalogo/b020-beige.webp",
       "updatedAt": ""
     },
     {
@@ -551,7 +551,7 @@
       "color": "BLANCO/NEGRO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0003-blanconegro.png",
+      "imagen": "fotos_catalogo/b0003-blanconegro.webp",
       "updatedAt": ""
     },
     {
@@ -563,7 +563,7 @@
       "color": "BLANCO/AZUL ELÉCTRICO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0003-blancoazul-electrico.png",
+      "imagen": "fotos_catalogo/b0003-blancoazul-electrico.webp",
       "updatedAt": ""
     },
     {
@@ -575,7 +575,7 @@
       "color": "BLANCO/VERDE CLARO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0003-blancoverde-claro.png",
+      "imagen": "fotos_catalogo/b0003-blancoverde-claro.webp",
       "updatedAt": ""
     },
     {
@@ -587,7 +587,7 @@
       "color": "BLANCO/ BEIGE",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0003-blanco-beige.png",
+      "imagen": "fotos_catalogo/b0003-blanco-beige.webp",
       "updatedAt": ""
     },
     {
@@ -599,7 +599,7 @@
       "color": "BLANCO/VERDE OLIVA",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0003-blancoverde-oliva.png",
+      "imagen": "fotos_catalogo/b0003-blancoverde-oliva.webp",
       "updatedAt": ""
     },
     {
@@ -611,7 +611,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/p251208-negro.png",
+      "imagen": "fotos_catalogo/p251208-negro.webp",
       "updatedAt": ""
     },
     {
@@ -623,7 +623,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/p251208-negro.png",
+      "imagen": "fotos_catalogo/p251208-negro.webp",
       "updatedAt": ""
     },
     {
@@ -635,7 +635,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/p251208-beige.png",
+      "imagen": "fotos_catalogo/p251208-beige.webp",
       "updatedAt": ""
     },
     {
@@ -647,7 +647,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 28,
-      "imagen": "fotos_catalogo/v0001-rosado.jpg",
+      "imagen": "fotos_catalogo/v0001-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -659,7 +659,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 28,
-      "imagen": "fotos_catalogo/v0001-negro.jpg",
+      "imagen": "fotos_catalogo/v0001-negro.webp",
       "updatedAt": ""
     },
     {
@@ -671,7 +671,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 28,
-      "imagen": "fotos_catalogo/v0001-blanco.jpg",
+      "imagen": "fotos_catalogo/v0001-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -683,7 +683,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 28,
-      "imagen": "fotos_catalogo/v0001-celeste.jpg",
+      "imagen": "fotos_catalogo/v0001-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -695,7 +695,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/m033-negro.jpg",
+      "imagen": "fotos_catalogo/m033-negro.webp",
       "updatedAt": ""
     },
     {
@@ -707,7 +707,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/m033-blanco.jpg",
+      "imagen": "fotos_catalogo/m033-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -719,7 +719,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/m033-cafe.jpg",
+      "imagen": "fotos_catalogo/m033-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -731,7 +731,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/m033-blanco.jpg",
+      "imagen": "fotos_catalogo/m033-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -743,7 +743,7 @@
       "color": "GRIS",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/m033-gris.jpg",
+      "imagen": "fotos_catalogo/m033-gris.webp",
       "updatedAt": ""
     },
     {
@@ -755,7 +755,7 @@
       "color": "GRIS",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/m033-gris.jpg",
+      "imagen": "fotos_catalogo/m033-gris.webp",
       "updatedAt": ""
     },
     {
@@ -767,7 +767,7 @@
       "color": "ROJA",
       "stock": 1,
       "pvp": 32,
-      "imagen": "fotos_catalogo/25004-roja.jpg",
+      "imagen": "fotos_catalogo/25004-roja.webp",
       "updatedAt": ""
     },
     {
@@ -779,7 +779,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 32,
-      "imagen": "fotos_catalogo/25004-beige.jpg",
+      "imagen": "fotos_catalogo/25004-beige.webp",
       "updatedAt": ""
     },
     {
@@ -791,7 +791,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 32,
-      "imagen": "fotos_catalogo/25004-miel.jpg",
+      "imagen": "fotos_catalogo/25004-miel.webp",
       "updatedAt": ""
     },
     {
@@ -803,7 +803,7 @@
       "color": "ROJA",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c2030-roja.jpg",
+      "imagen": "fotos_catalogo/c2030-roja.webp",
       "updatedAt": ""
     },
     {
@@ -815,7 +815,7 @@
       "color": "NEGRA",
       "stock": 2,
       "pvp": 26,
-      "imagen": "fotos_catalogo/c818-negro.jpg",
+      "imagen": "fotos_catalogo/c818-negro.webp",
       "updatedAt": ""
     },
     {
@@ -827,7 +827,7 @@
       "color": "BLANCA",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/c818-blanco.jpg",
+      "imagen": "fotos_catalogo/c818-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -839,7 +839,7 @@
       "color": "NEGRA",
       "stock": 1,
       "pvp": 34,
-      "imagen": "fotos_catalogo/cm760-negro.jpg",
+      "imagen": "fotos_catalogo/cm760-negro.webp",
       "updatedAt": ""
     },
     {
@@ -851,7 +851,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 34,
-      "imagen": "fotos_catalogo/cm760-beige.jpg",
+      "imagen": "fotos_catalogo/cm760-beige.webp",
       "updatedAt": ""
     },
     {
@@ -863,7 +863,7 @@
       "color": "BLANCO / BEIGE",
       "stock": 1,
       "pvp": 34,
-      "imagen": "fotos_catalogo/cm760-blanco-beige.jpg",
+      "imagen": "fotos_catalogo/cm760-blanco-beige.webp",
       "updatedAt": ""
     },
     {
@@ -875,7 +875,7 @@
       "color": "NEGRA",
       "stock": 1,
       "pvp": 32,
-      "imagen": "fotos_catalogo/c882-negro.jpg",
+      "imagen": "fotos_catalogo/c882-negro.webp",
       "updatedAt": ""
     },
     {
@@ -887,7 +887,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 32,
-      "imagen": "fotos_catalogo/c882-capuchino.jpg",
+      "imagen": "fotos_catalogo/c882-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -899,7 +899,7 @@
       "color": "NEGRA/BEIGE",
       "stock": 1,
       "pvp": 32,
-      "imagen": "fotos_catalogo/c882-negrabeige.jpg",
+      "imagen": "fotos_catalogo/c882-negrabeige.webp",
       "updatedAt": ""
     },
     {
@@ -911,7 +911,7 @@
       "color": "BEIGE/CAFE",
       "stock": 1,
       "pvp": 32,
-      "imagen": "fotos_catalogo/c882-beigecafe.jpg",
+      "imagen": "fotos_catalogo/c882-beigecafe.webp",
       "updatedAt": ""
     },
     {
@@ -923,7 +923,7 @@
       "color": "ROJA",
       "stock": 1,
       "pvp": 32,
-      "imagen": "fotos_catalogo/c882-roja.jpg",
+      "imagen": "fotos_catalogo/c882-roja.webp",
       "updatedAt": ""
     },
     {
@@ -935,7 +935,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 50,
-      "imagen": "fotos_catalogo/cd002-beige.jpg",
+      "imagen": "fotos_catalogo/cd002-beige.webp",
       "updatedAt": ""
     },
     {
@@ -947,7 +947,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/f8097-negro.jpg",
+      "imagen": "fotos_catalogo/f8097-negro.webp",
       "updatedAt": ""
     },
     {
@@ -959,7 +959,7 @@
       "color": "BLANCO/NEGRO",
       "stock": 1,
       "pvp": 29,
-      "imagen": "fotos_catalogo/2307-blanconegro.jpg",
+      "imagen": "fotos_catalogo/2307-blanconegro.webp",
       "updatedAt": ""
     },
     {
@@ -971,7 +971,7 @@
       "color": "NEGRO/BLANCO",
       "stock": 1,
       "pvp": 29,
-      "imagen": "fotos_catalogo/2307-negroblanco.jpg",
+      "imagen": "fotos_catalogo/2307-negroblanco.webp",
       "updatedAt": ""
     },
     {
@@ -983,7 +983,7 @@
       "color": "ROSADO/BLANCO",
       "stock": 3,
       "pvp": 29,
-      "imagen": "fotos_catalogo/2307-rosadoblanco.jpg",
+      "imagen": "fotos_catalogo/2307-rosadoblanco.webp",
       "updatedAt": ""
     },
     {
@@ -995,7 +995,7 @@
       "color": "CAPUCHINO/BLANCO",
       "stock": 1,
       "pvp": 29,
-      "imagen": "fotos_catalogo/2307-capuchinoblanco.jpg",
+      "imagen": "fotos_catalogo/2307-capuchinoblanco.webp",
       "updatedAt": ""
     },
     {
@@ -1007,7 +1007,7 @@
       "color": "PERLA",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2306-perla.jpg",
+      "imagen": "fotos_catalogo/2306-perla.webp",
       "updatedAt": ""
     },
     {
@@ -1019,7 +1019,7 @@
       "color": "PALO ROSA",
       "stock": 2,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2306-palo-rosa.jpg",
+      "imagen": "fotos_catalogo/2306-palo-rosa.webp",
       "updatedAt": ""
     },
     {
@@ -1031,7 +1031,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/2306-negro.jpg",
+      "imagen": "fotos_catalogo/2306-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1043,7 +1043,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/b2292-negro.jpg",
+      "imagen": "fotos_catalogo/b2292-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1055,7 +1055,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/b2292-rosado.jpg",
+      "imagen": "fotos_catalogo/b2292-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1067,7 +1067,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/b2292-cafe.jpg",
+      "imagen": "fotos_catalogo/b2292-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -1079,7 +1079,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/b2292-blanco.jpg",
+      "imagen": "fotos_catalogo/b2292-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1091,7 +1091,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 17,
-      "imagen": "fotos_catalogo/p2266-negro.jpg",
+      "imagen": "fotos_catalogo/p2266-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1103,7 +1103,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 17,
-      "imagen": "fotos_catalogo/p2266-beige.jpg",
+      "imagen": "fotos_catalogo/p2266-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1115,7 +1115,7 @@
       "color": "ABANO",
       "stock": 1,
       "pvp": 17,
-      "imagen": "fotos_catalogo/p2266-abano.jpg",
+      "imagen": "fotos_catalogo/p2266-abano.webp",
       "updatedAt": ""
     },
     {
@@ -1127,7 +1127,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 17,
-      "imagen": "fotos_catalogo/p2266-negro.jpg",
+      "imagen": "fotos_catalogo/p2266-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1139,7 +1139,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51832-blanco.jpg",
+      "imagen": "fotos_catalogo/c51832-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1151,7 +1151,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51832-negro.jpg",
+      "imagen": "fotos_catalogo/c51832-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1163,7 +1163,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51832-rosado.jpg",
+      "imagen": "fotos_catalogo/c51832-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1175,7 +1175,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51832-rosado.jpg",
+      "imagen": "fotos_catalogo/c51832-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1187,7 +1187,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51832-celeste.jpg",
+      "imagen": "fotos_catalogo/c51832-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -1199,7 +1199,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c51783-negro.jpg",
+      "imagen": "fotos_catalogo/c51783-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1211,7 +1211,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c51783-blanco.jpg",
+      "imagen": "fotos_catalogo/c51783-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1223,7 +1223,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c51783-beige.jpg",
+      "imagen": "fotos_catalogo/c51783-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1235,7 +1235,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c51783-negro.jpg",
+      "imagen": "fotos_catalogo/c51783-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1247,7 +1247,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c51783-blanco.jpg",
+      "imagen": "fotos_catalogo/c51783-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1259,7 +1259,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c51783-capuchino.jpg",
+      "imagen": "fotos_catalogo/c51783-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -1271,7 +1271,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-negro.jpg",
+      "imagen": "fotos_catalogo/c51762-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1283,7 +1283,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-rosado.jpg",
+      "imagen": "fotos_catalogo/c51762-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1295,7 +1295,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-blanco.jpg",
+      "imagen": "fotos_catalogo/c51762-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1307,7 +1307,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-beige.jpg",
+      "imagen": "fotos_catalogo/c51762-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1319,7 +1319,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-blanco.jpg",
+      "imagen": "fotos_catalogo/c51762-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1331,7 +1331,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-celeste.jpg",
+      "imagen": "fotos_catalogo/c51762-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -1343,7 +1343,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-beige.jpg",
+      "imagen": "fotos_catalogo/c51762-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1355,7 +1355,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-negro.jpg",
+      "imagen": "fotos_catalogo/c51762-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1367,7 +1367,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-celeste.jpg",
+      "imagen": "fotos_catalogo/c51762-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -1379,7 +1379,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-rosado.jpg",
+      "imagen": "fotos_catalogo/c51762-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1391,7 +1391,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/c51762-blanco.jpg",
+      "imagen": "fotos_catalogo/c51762-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1403,7 +1403,7 @@
       "color": "BEIGE/NEGRO",
       "stock": 1,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b1837-beigenegro.jpg",
+      "imagen": "fotos_catalogo/b1837-beigenegro.webp",
       "updatedAt": ""
     },
     {
@@ -1415,7 +1415,7 @@
       "color": "NEGRO/BEIGE",
       "stock": 1,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b1837-negrobeige.jpg",
+      "imagen": "fotos_catalogo/b1837-negrobeige.webp",
       "updatedAt": ""
     },
     {
@@ -1427,7 +1427,7 @@
       "color": "LADRILLO",
       "stock": 1,
       "pvp": 10,
-      "imagen": "fotos_catalogo/b1837-ladrillo.jpg",
+      "imagen": "fotos_catalogo/b1837-ladrillo.webp",
       "updatedAt": ""
     },
     {
@@ -1439,7 +1439,7 @@
       "color": "LADRILLO",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/8115-ladrillo.jpg",
+      "imagen": "fotos_catalogo/8115-ladrillo.webp",
       "updatedAt": ""
     },
     {
@@ -1451,7 +1451,7 @@
       "color": "PERLA",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/8115-perla.jpg",
+      "imagen": "fotos_catalogo/8115-perla.webp",
       "updatedAt": ""
     },
     {
@@ -1463,7 +1463,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/8115-beige.jpg",
+      "imagen": "fotos_catalogo/8115-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1475,7 +1475,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/8115-capuchino.jpg",
+      "imagen": "fotos_catalogo/8115-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -1487,7 +1487,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 13,
-      "imagen": "fotos_catalogo/8115-negro.jpg",
+      "imagen": "fotos_catalogo/8115-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1499,7 +1499,7 @@
       "color": "VERDE",
       "stock": 1,
       "pvp": 19,
-      "imagen": "fotos_catalogo/v0006-verde.jpg",
+      "imagen": "fotos_catalogo/v0006-verde.webp",
       "updatedAt": ""
     },
     {
@@ -1511,7 +1511,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 19,
-      "imagen": "fotos_catalogo/v0006-negro.jpg",
+      "imagen": "fotos_catalogo/v0006-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1523,7 +1523,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 19,
-      "imagen": "fotos_catalogo/v0006-rosado.jpg",
+      "imagen": "fotos_catalogo/v0006-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1535,7 +1535,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 19,
-      "imagen": "fotos_catalogo/v0006-beige.jpg",
+      "imagen": "fotos_catalogo/v0006-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1547,7 +1547,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 19,
-      "imagen": "fotos_catalogo/v0006-celeste.jpg",
+      "imagen": "fotos_catalogo/v0006-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -1559,7 +1559,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 19,
-      "imagen": "fotos_catalogo/v0006-vino.jpg",
+      "imagen": "fotos_catalogo/v0006-vino.webp",
       "updatedAt": ""
     },
     {
@@ -1571,7 +1571,7 @@
       "color": "LILA",
       "stock": 1,
       "pvp": 19,
-      "imagen": "fotos_catalogo/v0006-lila.jpg",
+      "imagen": "fotos_catalogo/v0006-lila.webp",
       "updatedAt": ""
     },
     {
@@ -1583,7 +1583,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 19,
-      "imagen": "fotos_catalogo/v0006-rojo.jpg",
+      "imagen": "fotos_catalogo/v0006-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -1595,7 +1595,7 @@
       "color": "NEGRO",
       "stock": 3,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-negro.jpg",
+      "imagen": "fotos_catalogo/v0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1607,7 +1607,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-blanco.jpg",
+      "imagen": "fotos_catalogo/v0004-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1619,7 +1619,7 @@
       "color": "LILA",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-lila.jpg",
+      "imagen": "fotos_catalogo/v0004-lila.webp",
       "updatedAt": ""
     },
     {
@@ -1631,7 +1631,7 @@
       "color": "VERDE MILITAR",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-verde-militar.jpg",
+      "imagen": "fotos_catalogo/v0004-verde-militar.webp",
       "updatedAt": ""
     },
     {
@@ -1643,7 +1643,7 @@
       "color": "BEIGE CLARO",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-beige-claro.jpg",
+      "imagen": "fotos_catalogo/v0004-beige-claro.webp",
       "updatedAt": ""
     },
     {
@@ -1655,7 +1655,7 @@
       "color": "ROJO",
       "stock": 2,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-rojo.jpg",
+      "imagen": "fotos_catalogo/v0004-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -1667,7 +1667,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-cafe.jpg",
+      "imagen": "fotos_catalogo/v0004-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -1679,7 +1679,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-rosado.jpg",
+      "imagen": "fotos_catalogo/v0004-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1691,7 +1691,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0006-negro.jpg",
+      "imagen": "fotos_catalogo/v0006-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1703,7 +1703,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0006-rosado.jpg",
+      "imagen": "fotos_catalogo/v0006-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1715,7 +1715,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0006-blanco.jpg",
+      "imagen": "fotos_catalogo/v0006-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1727,7 +1727,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0006-beige.jpg",
+      "imagen": "fotos_catalogo/v0006-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1739,7 +1739,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0006-vino.jpg",
+      "imagen": "fotos_catalogo/v0006-vino.webp",
       "updatedAt": ""
     },
     {
@@ -1751,7 +1751,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 20,
-      "imagen": "fotos_catalogo/v0003-negro.jpg",
+      "imagen": "fotos_catalogo/v0003-negro.webp",
       "updatedAt": ""
     },
     {
@@ -1763,7 +1763,7 @@
       "color": "VERDE MILITAR",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/v0003-verde-militar.jpg",
+      "imagen": "fotos_catalogo/v0003-verde-militar.webp",
       "updatedAt": ""
     },
     {
@@ -1775,7 +1775,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/v0003-rojo.jpg",
+      "imagen": "fotos_catalogo/v0003-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -1787,7 +1787,7 @@
       "color": "BLANCO",
       "stock": 2,
       "pvp": 20,
-      "imagen": "fotos_catalogo/v0003-blanco.jpg",
+      "imagen": "fotos_catalogo/v0003-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1799,7 +1799,7 @@
       "color": "CAFÉ",
       "stock": 2,
       "pvp": 20,
-      "imagen": "fotos_catalogo/v0003-cafe.jpg",
+      "imagen": "fotos_catalogo/v0003-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -1811,7 +1811,7 @@
       "color": "LILA",
       "stock": 2,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0007-lila.jpg",
+      "imagen": "fotos_catalogo/v0007-lila.webp",
       "updatedAt": ""
     },
     {
@@ -1823,7 +1823,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0007-celeste.jpg",
+      "imagen": "fotos_catalogo/v0007-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -1835,7 +1835,7 @@
       "color": "AZUL MARINO",
       "stock": 2,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0007-azul-marino.jpg",
+      "imagen": "fotos_catalogo/v0007-azul-marino.webp",
       "updatedAt": ""
     },
     {
@@ -1847,7 +1847,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0007-beige.jpg",
+      "imagen": "fotos_catalogo/v0007-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1859,7 +1859,7 @@
       "color": "ROJO",
       "stock": 2,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0007-rojo.jpg",
+      "imagen": "fotos_catalogo/v0007-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -1871,7 +1871,7 @@
       "color": "ROSADO",
       "stock": 2,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0007-rosado.jpg",
+      "imagen": "fotos_catalogo/v0007-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -1883,7 +1883,7 @@
       "color": "VINO",
       "stock": 2,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0007-vino.jpg",
+      "imagen": "fotos_catalogo/v0007-vino.webp",
       "updatedAt": ""
     },
     {
@@ -1895,7 +1895,7 @@
       "color": "BLANCO",
       "stock": 2,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0007-blanco.jpg",
+      "imagen": "fotos_catalogo/v0007-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -1907,7 +1907,7 @@
       "color": "AZUL",
       "stock": 2,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-azul.jpg",
+      "imagen": "fotos_catalogo/v0008-azul.webp",
       "updatedAt": ""
     },
     {
@@ -1919,7 +1919,7 @@
       "color": "LILA",
       "stock": 2,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-lila.jpg",
+      "imagen": "fotos_catalogo/v0008-lila.webp",
       "updatedAt": ""
     },
     {
@@ -1931,7 +1931,7 @@
       "color": "CAFE",
       "stock": 2,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-cafe.jpg",
+      "imagen": "fotos_catalogo/v0008-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -1943,7 +1943,7 @@
       "color": "BEIGE",
       "stock": 2,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-beige.jpg",
+      "imagen": "fotos_catalogo/v0008-beige.webp",
       "updatedAt": ""
     },
     {
@@ -1955,7 +1955,7 @@
       "color": "VINO",
       "stock": 2,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-vino.jpg",
+      "imagen": "fotos_catalogo/v0008-vino.webp",
       "updatedAt": ""
     },
     {
@@ -1967,7 +1967,7 @@
       "color": "BEIGE CLARO",
       "stock": 2,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-beige-claro.jpg",
+      "imagen": "fotos_catalogo/v0008-beige-claro.webp",
       "updatedAt": ""
     },
     {
@@ -1979,7 +1979,7 @@
       "color": "ROJO",
       "stock": 2,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-rojo.jpg",
+      "imagen": "fotos_catalogo/v0008-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -1991,7 +1991,7 @@
       "color": "FUCSIA",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-fucsia.jpg",
+      "imagen": "fotos_catalogo/v0008-fucsia.webp",
       "updatedAt": ""
     },
     {
@@ -2003,7 +2003,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/v0008-blanco.jpg",
+      "imagen": "fotos_catalogo/v0008-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2015,7 +2015,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0009-negro.jpg",
+      "imagen": "fotos_catalogo/v0009-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2027,7 +2027,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0009-cafe.jpg",
+      "imagen": "fotos_catalogo/v0009-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2039,7 +2039,7 @@
       "color": "AZUL MARINO",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0009-azul-marino.jpg",
+      "imagen": "fotos_catalogo/v0009-azul-marino.webp",
       "updatedAt": ""
     },
     {
@@ -2051,7 +2051,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 24,
-      "imagen": "fotos_catalogo/v0009-cafe.jpg",
+      "imagen": "fotos_catalogo/v0009-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2063,7 +2063,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-negro.jpg",
+      "imagen": "fotos_catalogo/f0001-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2075,7 +2075,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-miel.jpg",
+      "imagen": "fotos_catalogo/f0001-miel.webp",
       "updatedAt": ""
     },
     {
@@ -2087,7 +2087,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-beige.jpg",
+      "imagen": "fotos_catalogo/f0001-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2099,7 +2099,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-vino.jpg",
+      "imagen": "fotos_catalogo/f0001-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2111,7 +2111,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-negro.jpg",
+      "imagen": "fotos_catalogo/f0001-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2123,7 +2123,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-miel.jpg",
+      "imagen": "fotos_catalogo/f0001-miel.webp",
       "updatedAt": ""
     },
     {
@@ -2135,7 +2135,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-beige.jpg",
+      "imagen": "fotos_catalogo/f0001-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2147,7 +2147,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-vino.jpg",
+      "imagen": "fotos_catalogo/f0001-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2159,7 +2159,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-cafe.jpg",
+      "imagen": "fotos_catalogo/f0001-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2171,7 +2171,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-negro.jpg",
+      "imagen": "fotos_catalogo/f0001-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2183,7 +2183,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-miel.jpg",
+      "imagen": "fotos_catalogo/f0001-miel.webp",
       "updatedAt": ""
     },
     {
@@ -2195,7 +2195,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-beige.jpg",
+      "imagen": "fotos_catalogo/f0001-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2207,7 +2207,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-vino.jpg",
+      "imagen": "fotos_catalogo/f0001-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2219,7 +2219,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 14,
-      "imagen": "fotos_catalogo/f0001-cafe.jpg",
+      "imagen": "fotos_catalogo/f0001-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2231,7 +2231,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-negro.jpg",
+      "imagen": "fotos_catalogo/f0002-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2243,7 +2243,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-vino.jpg",
+      "imagen": "fotos_catalogo/f0002-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2255,7 +2255,7 @@
       "color": "MOSTAZA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-mostaza.jpg",
+      "imagen": "fotos_catalogo/f0002-mostaza.webp",
       "updatedAt": ""
     },
     {
@@ -2267,7 +2267,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-beige.jpg",
+      "imagen": "fotos_catalogo/f0002-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2279,7 +2279,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-blanco.jpg",
+      "imagen": "fotos_catalogo/f0002-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2291,7 +2291,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-cafe.jpg",
+      "imagen": "fotos_catalogo/f0002-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2303,7 +2303,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-negro.jpg",
+      "imagen": "fotos_catalogo/f0002-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2315,7 +2315,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-vino.jpg",
+      "imagen": "fotos_catalogo/f0002-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2327,7 +2327,7 @@
       "color": "MOSTAZA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-mostaza.jpg",
+      "imagen": "fotos_catalogo/f0002-mostaza.webp",
       "updatedAt": ""
     },
     {
@@ -2339,7 +2339,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-beige.jpg",
+      "imagen": "fotos_catalogo/f0002-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2351,7 +2351,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-blanco.jpg",
+      "imagen": "fotos_catalogo/f0002-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2363,7 +2363,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-cafe.jpg",
+      "imagen": "fotos_catalogo/f0002-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2375,7 +2375,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-negro.jpg",
+      "imagen": "fotos_catalogo/f0002-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2387,7 +2387,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-vino.jpg",
+      "imagen": "fotos_catalogo/f0002-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2399,7 +2399,7 @@
       "color": "MOSTAZA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-mostaza.jpg",
+      "imagen": "fotos_catalogo/f0002-mostaza.webp",
       "updatedAt": ""
     },
     {
@@ -2411,7 +2411,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-blanco.jpg",
+      "imagen": "fotos_catalogo/f0002-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2423,7 +2423,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0002-cafe.jpg",
+      "imagen": "fotos_catalogo/f0002-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2435,7 +2435,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-negro.jpg",
+      "imagen": "fotos_catalogo/f0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2447,7 +2447,7 @@
       "color": "MOSTAZA",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-mostaza.jpg",
+      "imagen": "fotos_catalogo/f0004-mostaza.webp",
       "updatedAt": ""
     },
     {
@@ -2459,7 +2459,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-blanco.jpg",
+      "imagen": "fotos_catalogo/f0004-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2471,7 +2471,7 @@
       "color": "VINO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-vino.jpg",
+      "imagen": "fotos_catalogo/f0004-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2483,7 +2483,7 @@
       "color": "LADRILLO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-ladrillo.jpg",
+      "imagen": "fotos_catalogo/f0004-ladrillo.webp",
       "updatedAt": ""
     },
     {
@@ -2495,7 +2495,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-capuchino.jpg",
+      "imagen": "fotos_catalogo/f0004-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -2507,7 +2507,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rosado.jpg",
+      "imagen": "fotos_catalogo/f0004-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -2519,7 +2519,7 @@
       "color": "BEIGE",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-beige.jpg",
+      "imagen": "fotos_catalogo/f0004-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2531,7 +2531,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-celeste.jpg",
+      "imagen": "fotos_catalogo/f0004-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -2543,7 +2543,7 @@
       "color": "AZUL ELECTRICO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-azul-electrico.jpg",
+      "imagen": "fotos_catalogo/f0004-azul-electrico.webp",
       "updatedAt": ""
     },
     {
@@ -2555,7 +2555,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-negro.jpg",
+      "imagen": "fotos_catalogo/f0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2567,7 +2567,7 @@
       "color": "MOSTAZA",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-mostaza.jpg",
+      "imagen": "fotos_catalogo/f0004-mostaza.webp",
       "updatedAt": ""
     },
     {
@@ -2579,7 +2579,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-blanco.jpg",
+      "imagen": "fotos_catalogo/f0004-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2591,7 +2591,7 @@
       "color": "VINO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-vino.jpg",
+      "imagen": "fotos_catalogo/f0004-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2603,7 +2603,7 @@
       "color": "LADRILLO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-ladrillo.jpg",
+      "imagen": "fotos_catalogo/f0004-ladrillo.webp",
       "updatedAt": ""
     },
     {
@@ -2615,7 +2615,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rosado.jpg",
+      "imagen": "fotos_catalogo/f0004-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -2627,7 +2627,7 @@
       "color": "BEIGE",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-beige.jpg",
+      "imagen": "fotos_catalogo/f0004-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2639,7 +2639,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-celeste.jpg",
+      "imagen": "fotos_catalogo/f0004-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -2651,7 +2651,7 @@
       "color": "AZUL ELECTRICO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-azul-electrico.jpg",
+      "imagen": "fotos_catalogo/f0004-azul-electrico.webp",
       "updatedAt": ""
     },
     {
@@ -2663,7 +2663,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-negro.jpg",
+      "imagen": "fotos_catalogo/f0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2675,7 +2675,7 @@
       "color": "MOSTAZA",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-mostaza.jpg",
+      "imagen": "fotos_catalogo/f0004-mostaza.webp",
       "updatedAt": ""
     },
     {
@@ -2687,7 +2687,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-blanco.jpg",
+      "imagen": "fotos_catalogo/f0004-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2699,7 +2699,7 @@
       "color": "VINO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-vino.jpg",
+      "imagen": "fotos_catalogo/f0004-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2711,7 +2711,7 @@
       "color": "LADRILLO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-ladrillo.jpg",
+      "imagen": "fotos_catalogo/f0004-ladrillo.webp",
       "updatedAt": ""
     },
     {
@@ -2723,7 +2723,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rosado.jpg",
+      "imagen": "fotos_catalogo/f0004-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -2735,7 +2735,7 @@
       "color": "BEIGE",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-beige.jpg",
+      "imagen": "fotos_catalogo/f0004-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2747,7 +2747,7 @@
       "color": "AZUL ELECTRICO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-azul-electrico.jpg",
+      "imagen": "fotos_catalogo/f0004-azul-electrico.webp",
       "updatedAt": ""
     },
     {
@@ -2759,7 +2759,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-negro.jpg",
+      "imagen": "fotos_catalogo/f0003-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2771,7 +2771,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-blanco.jpg",
+      "imagen": "fotos_catalogo/f0003-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2783,7 +2783,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-beige.jpg",
+      "imagen": "fotos_catalogo/f0003-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2795,7 +2795,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-cafe.jpg",
+      "imagen": "fotos_catalogo/f0003-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2807,7 +2807,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-miel.jpg",
+      "imagen": "fotos_catalogo/f0003-miel.webp",
       "updatedAt": ""
     },
     {
@@ -2819,7 +2819,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-blanco.jpg",
+      "imagen": "fotos_catalogo/f0003-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2831,7 +2831,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-beige.jpg",
+      "imagen": "fotos_catalogo/f0003-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2843,7 +2843,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-cafe.jpg",
+      "imagen": "fotos_catalogo/f0003-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2855,7 +2855,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-miel.jpg",
+      "imagen": "fotos_catalogo/f0003-miel.webp",
       "updatedAt": ""
     },
     {
@@ -2867,7 +2867,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-negro.jpg",
+      "imagen": "fotos_catalogo/f0003-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2879,7 +2879,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-blanco.jpg",
+      "imagen": "fotos_catalogo/f0003-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -2891,7 +2891,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-beige.jpg",
+      "imagen": "fotos_catalogo/f0003-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2903,7 +2903,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-cafe.jpg",
+      "imagen": "fotos_catalogo/f0003-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2915,7 +2915,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/f0003-miel.jpg",
+      "imagen": "fotos_catalogo/f0003-miel.webp",
       "updatedAt": ""
     },
     {
@@ -2927,7 +2927,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-cafe.jpg",
+      "imagen": "fotos_catalogo/f0004-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -2939,7 +2939,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-vino.jpg",
+      "imagen": "fotos_catalogo/f0004-vino.webp",
       "updatedAt": ""
     },
     {
@@ -2951,7 +2951,7 @@
       "color": "UVA",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-uva.jpg",
+      "imagen": "fotos_catalogo/f0004-uva.webp",
       "updatedAt": ""
     },
     {
@@ -2963,7 +2963,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-beige.jpg",
+      "imagen": "fotos_catalogo/f0004-beige.webp",
       "updatedAt": ""
     },
     {
@@ -2975,7 +2975,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-negro.jpg",
+      "imagen": "fotos_catalogo/f0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -2987,7 +2987,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rojo.jpg",
+      "imagen": "fotos_catalogo/f0004-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -2999,7 +2999,7 @@
       "color": "AZUL MARINO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-azul-marino.jpg",
+      "imagen": "fotos_catalogo/f0004-azul-marino.webp",
       "updatedAt": ""
     },
     {
@@ -3011,7 +3011,7 @@
       "color": "CAPUCHNO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-capuchno.jpg",
+      "imagen": "fotos_catalogo/f0004-capuchno.webp",
       "updatedAt": ""
     },
     {
@@ -3023,7 +3023,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rosado.jpg",
+      "imagen": "fotos_catalogo/f0004-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -3035,7 +3035,7 @@
       "color": "CAMEL",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-camel.jpg",
+      "imagen": "fotos_catalogo/f0004-camel.webp",
       "updatedAt": ""
     },
     {
@@ -3047,7 +3047,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-cafe.jpg",
+      "imagen": "fotos_catalogo/f0004-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -3059,7 +3059,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-vino.jpg",
+      "imagen": "fotos_catalogo/f0004-vino.webp",
       "updatedAt": ""
     },
     {
@@ -3071,7 +3071,7 @@
       "color": "UVA",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-uva.jpg",
+      "imagen": "fotos_catalogo/f0004-uva.webp",
       "updatedAt": ""
     },
     {
@@ -3083,7 +3083,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-beige.jpg",
+      "imagen": "fotos_catalogo/f0004-beige.webp",
       "updatedAt": ""
     },
     {
@@ -3095,7 +3095,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-negro.jpg",
+      "imagen": "fotos_catalogo/f0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3107,7 +3107,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rojo.jpg",
+      "imagen": "fotos_catalogo/f0004-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -3119,7 +3119,7 @@
       "color": "AZUL MARINO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-azul-marino.jpg",
+      "imagen": "fotos_catalogo/f0004-azul-marino.webp",
       "updatedAt": ""
     },
     {
@@ -3131,7 +3131,7 @@
       "color": "CAPUCHNO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-capuchno.jpg",
+      "imagen": "fotos_catalogo/f0004-capuchno.webp",
       "updatedAt": ""
     },
     {
@@ -3143,7 +3143,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rosado.jpg",
+      "imagen": "fotos_catalogo/f0004-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -3155,7 +3155,7 @@
       "color": "CAMEL",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-camel.jpg",
+      "imagen": "fotos_catalogo/f0004-camel.webp",
       "updatedAt": ""
     },
     {
@@ -3167,7 +3167,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-cafe.jpg",
+      "imagen": "fotos_catalogo/f0004-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -3179,7 +3179,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-vino.jpg",
+      "imagen": "fotos_catalogo/f0004-vino.webp",
       "updatedAt": ""
     },
     {
@@ -3191,7 +3191,7 @@
       "color": "UVA",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-uva.jpg",
+      "imagen": "fotos_catalogo/f0004-uva.webp",
       "updatedAt": ""
     },
     {
@@ -3203,7 +3203,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-beige.jpg",
+      "imagen": "fotos_catalogo/f0004-beige.webp",
       "updatedAt": ""
     },
     {
@@ -3215,7 +3215,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-negro.jpg",
+      "imagen": "fotos_catalogo/f0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3227,7 +3227,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rojo.jpg",
+      "imagen": "fotos_catalogo/f0004-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -3239,7 +3239,7 @@
       "color": "AZUL MARINO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-azul-marino.jpg",
+      "imagen": "fotos_catalogo/f0004-azul-marino.webp",
       "updatedAt": ""
     },
     {
@@ -3251,7 +3251,7 @@
       "color": "CAPUCHNO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-capuchno.jpg",
+      "imagen": "fotos_catalogo/f0004-capuchno.webp",
       "updatedAt": ""
     },
     {
@@ -3263,7 +3263,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/f0004-rosado.jpg",
+      "imagen": "fotos_catalogo/f0004-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -3275,7 +3275,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0012-blanco.jpg",
+      "imagen": "fotos_catalogo/v0012-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -3287,7 +3287,7 @@
       "color": "PALO DE ROSA",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0012-palo-de-rosa.jpg",
+      "imagen": "fotos_catalogo/v0012-palo-de-rosa.webp",
       "updatedAt": ""
     },
     {
@@ -3299,7 +3299,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0012-celeste.jpg",
+      "imagen": "fotos_catalogo/v0012-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -3311,7 +3311,7 @@
       "color": "AZUL",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0012-azul.jpg",
+      "imagen": "fotos_catalogo/v0012-azul.webp",
       "updatedAt": ""
     },
     {
@@ -3323,7 +3323,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0012-negro.jpg",
+      "imagen": "fotos_catalogo/v0012-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3335,7 +3335,7 @@
       "color": "AZUL ELECTRICO",
       "stock": 1,
       "pvp": 18,
-      "imagen": "fotos_catalogo/v0012-azul-electrico.jpg",
+      "imagen": "fotos_catalogo/v0012-azul-electrico.webp",
       "updatedAt": ""
     },
     {
@@ -3347,7 +3347,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-negro.jpg",
+      "imagen": "fotos_catalogo/v0014-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3359,7 +3359,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-rosado.jpg",
+      "imagen": "fotos_catalogo/v0014-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -3371,7 +3371,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-vino.jpg",
+      "imagen": "fotos_catalogo/v0014-vino.webp",
       "updatedAt": ""
     },
     {
@@ -3383,7 +3383,7 @@
       "color": "VERDE MILITAR",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-verde-militar.jpg",
+      "imagen": "fotos_catalogo/v0014-verde-militar.webp",
       "updatedAt": ""
     },
     {
@@ -3395,7 +3395,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-celeste.jpg",
+      "imagen": "fotos_catalogo/v0014-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -3407,7 +3407,7 @@
       "color": "AZUL",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-azul.jpg",
+      "imagen": "fotos_catalogo/v0014-azul.webp",
       "updatedAt": ""
     },
     {
@@ -3419,7 +3419,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-rojo.jpg",
+      "imagen": "fotos_catalogo/v0014-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -3431,7 +3431,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-blanco.jpg",
+      "imagen": "fotos_catalogo/v0014-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -3443,7 +3443,7 @@
       "color": "CREMA",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-crema.jpg",
+      "imagen": "fotos_catalogo/v0014-crema.webp",
       "updatedAt": ""
     },
     {
@@ -3455,7 +3455,7 @@
       "color": "PALO DE ROSA",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0014-palo-de-rosa.jpg",
+      "imagen": "fotos_catalogo/v0014-palo-de-rosa.webp",
       "updatedAt": ""
     },
     {
@@ -3467,7 +3467,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0011-rosado.jpg",
+      "imagen": "fotos_catalogo/v0011-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -3479,7 +3479,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0011-rojo.jpg",
+      "imagen": "fotos_catalogo/v0011-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -3491,7 +3491,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/v0011-beige.jpg",
+      "imagen": "fotos_catalogo/v0011-beige.webp",
       "updatedAt": ""
     },
     {
@@ -3503,7 +3503,7 @@
       "color": "AZUL",
       "stock": 2,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-azul.jpg",
+      "imagen": "fotos_catalogo/v0013-azul.webp",
       "updatedAt": ""
     },
     {
@@ -3515,7 +3515,7 @@
       "color": "FUXIA",
       "stock": 1,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-fuxia.jpg",
+      "imagen": "fotos_catalogo/v0013-fuxia.webp",
       "updatedAt": ""
     },
     {
@@ -3527,7 +3527,7 @@
       "color": "CREMA",
       "stock": 2,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-crema.jpg",
+      "imagen": "fotos_catalogo/v0013-crema.webp",
       "updatedAt": ""
     },
     {
@@ -3539,7 +3539,7 @@
       "color": "BEIGE",
       "stock": 2,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-beige.jpg",
+      "imagen": "fotos_catalogo/v0013-beige.webp",
       "updatedAt": ""
     },
     {
@@ -3551,7 +3551,7 @@
       "color": "BLANCO",
       "stock": 2,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-blanco.jpg",
+      "imagen": "fotos_catalogo/v0013-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -3563,7 +3563,7 @@
       "color": "ROJO",
       "stock": 2,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-rojo.jpg",
+      "imagen": "fotos_catalogo/v0013-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -3575,7 +3575,7 @@
       "color": "CAFE",
       "stock": 2,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-cafe.jpg",
+      "imagen": "fotos_catalogo/v0013-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -3587,7 +3587,7 @@
       "color": "LILA",
       "stock": 2,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-lila.jpg",
+      "imagen": "fotos_catalogo/v0013-lila.webp",
       "updatedAt": ""
     },
     {
@@ -3599,7 +3599,7 @@
       "color": "VINO",
       "stock": 2,
       "pvp": 27,
-      "imagen": "fotos_catalogo/v0013-vino.jpg",
+      "imagen": "fotos_catalogo/v0013-vino.webp",
       "updatedAt": ""
     },
     {
@@ -3611,7 +3611,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 37,
-      "imagen": "fotos_catalogo/2315-capuchino.jpg",
+      "imagen": "fotos_catalogo/2315-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -3623,7 +3623,7 @@
       "color": "CAFÉ CLARO",
       "stock": 1,
       "pvp": 37,
-      "imagen": "fotos_catalogo/2315-cafe-claro.jpg",
+      "imagen": "fotos_catalogo/2315-cafe-claro.webp",
       "updatedAt": ""
     },
     {
@@ -3635,7 +3635,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 37,
-      "imagen": "fotos_catalogo/2315-negro.jpg",
+      "imagen": "fotos_catalogo/2315-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3647,7 +3647,7 @@
       "color": "CAFÉ",
       "stock": 1,
       "pvp": 37,
-      "imagen": "fotos_catalogo/2315-cafe.jpg",
+      "imagen": "fotos_catalogo/2315-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -3659,7 +3659,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 37,
-      "imagen": "fotos_catalogo/2315-negro.jpg",
+      "imagen": "fotos_catalogo/2315-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3671,7 +3671,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 37,
-      "imagen": "fotos_catalogo/2315-capuchino.jpg",
+      "imagen": "fotos_catalogo/2315-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -3683,7 +3683,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0010-vino.jpg",
+      "imagen": "fotos_catalogo/v0010-vino.webp",
       "updatedAt": ""
     },
     {
@@ -3695,7 +3695,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0010-rojo.jpg",
+      "imagen": "fotos_catalogo/v0010-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -3707,7 +3707,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0010-negro.jpg",
+      "imagen": "fotos_catalogo/v0010-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3719,7 +3719,7 @@
       "color": "ROSADO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0010-rosado.jpg",
+      "imagen": "fotos_catalogo/v0010-rosado.webp",
       "updatedAt": ""
     },
     {
@@ -3731,7 +3731,7 @@
       "color": "PALO DE ROSA",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0010-palo-de-rosa.jpg",
+      "imagen": "fotos_catalogo/v0010-palo-de-rosa.webp",
       "updatedAt": ""
     },
     {
@@ -3743,7 +3743,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0010-beige.jpg",
+      "imagen": "fotos_catalogo/v0010-beige.webp",
       "updatedAt": ""
     },
     {
@@ -3755,7 +3755,7 @@
       "color": "AZUL",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0010-azul.jpg",
+      "imagen": "fotos_catalogo/v0010-azul.webp",
       "updatedAt": ""
     },
     {
@@ -3767,7 +3767,7 @@
       "color": "VERDE MILITAR",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v0010-verde-militar.jpg",
+      "imagen": "fotos_catalogo/v0010-verde-militar.webp",
       "updatedAt": ""
     },
     {
@@ -3779,7 +3779,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/c0002-cafe.jpg",
+      "imagen": "fotos_catalogo/c0002-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -3791,7 +3791,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/c0002-negro.jpg",
+      "imagen": "fotos_catalogo/c0002-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3803,7 +3803,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/c0002-vino.jpg",
+      "imagen": "fotos_catalogo/c0002-vino.webp",
       "updatedAt": ""
     },
     {
@@ -3815,7 +3815,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/c0002-beige.jpg",
+      "imagen": "fotos_catalogo/c0002-beige.webp",
       "updatedAt": ""
     },
     {
@@ -3827,7 +3827,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/c0002-miel.jpg",
+      "imagen": "fotos_catalogo/c0002-miel.webp",
       "updatedAt": ""
     },
     {
@@ -3839,7 +3839,7 @@
       "color": "CAMEL",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/c0003-camel.jpg",
+      "imagen": "fotos_catalogo/c0003-camel.webp",
       "updatedAt": ""
     },
     {
@@ -3851,7 +3851,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 21,
-      "imagen": "fotos_catalogo/c0003-negro.jpg",
+      "imagen": "fotos_catalogo/c0003-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3863,7 +3863,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/c0004-negro.jpg",
+      "imagen": "fotos_catalogo/c0004-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3875,7 +3875,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/c0004-cafe.jpg",
+      "imagen": "fotos_catalogo/c0004-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -3887,7 +3887,7 @@
       "color": "MIEL",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/c0004-miel.jpg",
+      "imagen": "fotos_catalogo/c0004-miel.webp",
       "updatedAt": ""
     },
     {
@@ -3899,7 +3899,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/c0004-vino.jpg",
+      "imagen": "fotos_catalogo/c0004-vino.webp",
       "updatedAt": ""
     },
     {
@@ -3911,7 +3911,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/g202-blanco.jpg",
+      "imagen": "fotos_catalogo/g202-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -3923,7 +3923,7 @@
       "color": "MOSTAZA VERDOSO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/g202-mostaza-verdoso.jpg",
+      "imagen": "fotos_catalogo/g202-mostaza-verdoso.webp",
       "updatedAt": ""
     },
     {
@@ -3935,7 +3935,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 25,
-      "imagen": "fotos_catalogo/g202-negro.jpg",
+      "imagen": "fotos_catalogo/g202-negro.webp",
       "updatedAt": ""
     },
     {
@@ -3947,7 +3947,7 @@
       "color": "MOSTAZA VERDOSO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/g202-mostaza-verdoso.jpg",
+      "imagen": "fotos_catalogo/g202-mostaza-verdoso.webp",
       "updatedAt": ""
     },
     {
@@ -3959,7 +3959,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/v0002-vino.jpg",
+      "imagen": "fotos_catalogo/v0002-vino.webp",
       "updatedAt": ""
     },
     {
@@ -3971,7 +3971,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/v0002-beige.jpg",
+      "imagen": "fotos_catalogo/v0002-beige.webp",
       "updatedAt": ""
     },
     {
@@ -3983,7 +3983,7 @@
       "color": "JADE",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/v0002-jade.jpg",
+      "imagen": "fotos_catalogo/v0002-jade.webp",
       "updatedAt": ""
     },
     {
@@ -3995,7 +3995,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/v0002-negro.jpg",
+      "imagen": "fotos_catalogo/v0002-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4007,7 +4007,7 @@
       "color": "CAMEL",
       "stock": 1,
       "pvp": 30,
-      "imagen": "fotos_catalogo/c0001-camel.jpg",
+      "imagen": "fotos_catalogo/c0001-camel.webp",
       "updatedAt": ""
     },
     {
@@ -4019,7 +4019,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 30,
-      "imagen": "fotos_catalogo/c0001-beige.jpg",
+      "imagen": "fotos_catalogo/c0001-beige.webp",
       "updatedAt": ""
     },
     {
@@ -4031,7 +4031,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 30,
-      "imagen": "fotos_catalogo/c0001-negro.jpg",
+      "imagen": "fotos_catalogo/c0001-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4043,7 +4043,7 @@
       "color": "CAMEL",
       "stock": 2,
       "pvp": 30,
-      "imagen": "fotos_catalogo/c0001-camel.jpg",
+      "imagen": "fotos_catalogo/c0001-camel.webp",
       "updatedAt": ""
     },
     {
@@ -4055,7 +4055,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 30,
-      "imagen": "fotos_catalogo/c0001-cafe.jpg",
+      "imagen": "fotos_catalogo/c0001-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -4067,7 +4067,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 30,
-      "imagen": "fotos_catalogo/c0001-vino.jpg",
+      "imagen": "fotos_catalogo/c0001-vino.webp",
       "updatedAt": ""
     },
     {
@@ -4079,7 +4079,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/b2920-negro.jpg",
+      "imagen": "fotos_catalogo/b2920-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4091,7 +4091,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/b2920-vino.jpg",
+      "imagen": "fotos_catalogo/b2920-vino.webp",
       "updatedAt": ""
     },
     {
@@ -4103,7 +4103,7 @@
       "color": "AZUL MARINO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/b2920-azul-marino.jpg",
+      "imagen": "fotos_catalogo/b2920-azul-marino.webp",
       "updatedAt": ""
     },
     {
@@ -4115,7 +4115,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/b2920-blanco.jpg",
+      "imagen": "fotos_catalogo/b2920-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -4127,7 +4127,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 20,
-      "imagen": "fotos_catalogo/b2920-capuchino.jpg",
+      "imagen": "fotos_catalogo/b2920-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -4139,7 +4139,7 @@
       "color": "VERDE MILITAR",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/v0005-verde-militar.jpg",
+      "imagen": "fotos_catalogo/v0005-verde-militar.webp",
       "updatedAt": ""
     },
     {
@@ -4151,7 +4151,7 @@
       "color": "LILA",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/v0005-lila.jpg",
+      "imagen": "fotos_catalogo/v0005-lila.webp",
       "updatedAt": ""
     },
     {
@@ -4163,7 +4163,7 @@
       "color": "ROJO",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/v0005-rojo.jpg",
+      "imagen": "fotos_catalogo/v0005-rojo.webp",
       "updatedAt": ""
     },
     {
@@ -4175,7 +4175,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 26,
-      "imagen": "fotos_catalogo/v0005-blanco.jpg",
+      "imagen": "fotos_catalogo/v0005-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -4187,7 +4187,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v2022-negro.jpg",
+      "imagen": "fotos_catalogo/v2022-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4199,7 +4199,7 @@
       "color": "AZUL ELECTRICO",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v2022-azul-electrico.jpg",
+      "imagen": "fotos_catalogo/v2022-azul-electrico.webp",
       "updatedAt": ""
     },
     {
@@ -4211,7 +4211,7 @@
       "color": "CAFE",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v2022-cafe.jpg",
+      "imagen": "fotos_catalogo/v2022-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -4223,7 +4223,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v2022-beige.jpg",
+      "imagen": "fotos_catalogo/v2022-beige.webp",
       "updatedAt": ""
     },
     {
@@ -4235,7 +4235,7 @@
       "color": "VERDE MILITAR",
       "stock": 1,
       "pvp": 25,
-      "imagen": "fotos_catalogo/v2022-verde-militar.jpg",
+      "imagen": "fotos_catalogo/v2022-verde-militar.webp",
       "updatedAt": ""
     },
     {
@@ -4247,7 +4247,7 @@
       "color": "VARIADO",
       "stock": 80,
       "pvp": 2,
-      "imagen": "fotos_catalogo/vario-variado.jpg",
+      "imagen": "fotos_catalogo/vario-variado.webp",
       "updatedAt": ""
     },
     {
@@ -4259,7 +4259,7 @@
       "color": "Capuchino",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c1820-capuchino.jpg",
+      "imagen": "fotos_catalogo/c1820-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -4271,7 +4271,7 @@
       "color": "BLANCO/AZUL MARINO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blancoazul-marino.jpg",
+      "imagen": "fotos_catalogo/b0001-blancoazul-marino.webp",
       "updatedAt": ""
     },
     {
@@ -4283,7 +4283,7 @@
       "color": "BLANCO/NEGRO",
       "stock": 2,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blanconegro.jpg",
+      "imagen": "fotos_catalogo/b0001-blanconegro.webp",
       "updatedAt": ""
     },
     {
@@ -4295,7 +4295,7 @@
       "color": "BLANCO/CAPUCHINO",
       "stock": 2,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blancocapuchino.jpg",
+      "imagen": "fotos_catalogo/b0001-blancocapuchino.webp",
       "updatedAt": ""
     },
     {
@@ -4307,7 +4307,7 @@
       "color": "BLANCO/ROSADO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blancorosado.jpg",
+      "imagen": "fotos_catalogo/b0001-blancorosado.webp",
       "updatedAt": ""
     },
     {
@@ -4319,7 +4319,7 @@
       "color": "BLANCO/VERDE CLARO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blancoverde-claro.jpg",
+      "imagen": "fotos_catalogo/b0001-blancoverde-claro.webp",
       "updatedAt": ""
     },
     {
@@ -4331,7 +4331,7 @@
       "color": "BLANCO/BEIGE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blancobeige-est-sm.jpg",
+      "imagen": "fotos_catalogo/b0001-blancobeige-est-sm.webp",
       "updatedAt": ""
     },
     {
@@ -4343,7 +4343,7 @@
       "color": "BLANCO/ROJO",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blancorojo.jpg",
+      "imagen": "fotos_catalogo/b0001-blancorojo.webp",
       "updatedAt": ""
     },
     {
@@ -4355,7 +4355,7 @@
       "color": "BLANCO/VERDE AGUA",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blancoverde-agua.jpg",
+      "imagen": "fotos_catalogo/b0001-blancoverde-agua.webp",
       "updatedAt": ""
     },
     {
@@ -4367,7 +4367,7 @@
       "color": "BLANCO/CELESTE",
       "stock": 1,
       "pvp": 15,
-      "imagen": "fotos_catalogo/b0001-blancoceleste.jpg",
+      "imagen": "fotos_catalogo/b0001-blancoceleste.webp",
       "updatedAt": ""
     },
     {
@@ -4379,7 +4379,7 @@
       "color": "BEIGE/CAFE",
       "stock": 1,
       "pvp": 21,
-      "imagen": "fotos_catalogo/55860-beigecafe-l.jpg",
+      "imagen": "fotos_catalogo/55860-beigecafe-l.webp",
       "updatedAt": ""
     },
     {
@@ -4391,7 +4391,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-negro.jpg",
+      "imagen": "fotos_catalogo/m030-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4403,7 +4403,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-beige.jpg",
+      "imagen": "fotos_catalogo/m030-beige.webp",
       "updatedAt": ""
     },
     {
@@ -4415,7 +4415,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-blanco.jpg",
+      "imagen": "fotos_catalogo/m030-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -4427,7 +4427,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-beige.jpg",
+      "imagen": "fotos_catalogo/m030-beige.webp",
       "updatedAt": ""
     },
     {
@@ -4439,7 +4439,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-negro.jpg",
+      "imagen": "fotos_catalogo/m030-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4451,7 +4451,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-blanco.jpg",
+      "imagen": "fotos_catalogo/m030-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -4463,7 +4463,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-capuchino.jpg",
+      "imagen": "fotos_catalogo/m030-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -4475,7 +4475,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-beige.jpg",
+      "imagen": "fotos_catalogo/m030-beige.webp",
       "updatedAt": ""
     },
     {
@@ -4487,7 +4487,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-blanco.jpg",
+      "imagen": "fotos_catalogo/m030-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -4499,7 +4499,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 23,
-      "imagen": "fotos_catalogo/m030-capuchino.jpg",
+      "imagen": "fotos_catalogo/m030-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -4511,7 +4511,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 31,
-      "imagen": "fotos_catalogo/2227-negro.jpg",
+      "imagen": "fotos_catalogo/2227-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4523,7 +4523,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 31,
-      "imagen": "fotos_catalogo/2227-capuchino.jpg",
+      "imagen": "fotos_catalogo/2227-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -4535,7 +4535,7 @@
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 31,
-      "imagen": "fotos_catalogo/2227-capuchino.jpg",
+      "imagen": "fotos_catalogo/2227-capuchino.webp",
       "updatedAt": ""
     },
     {
@@ -4547,7 +4547,7 @@
       "color": "LILA",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-lila.png",
+      "imagen": "fotos_catalogo/b0002-lila.webp",
       "updatedAt": ""
     },
     {
@@ -4559,7 +4559,7 @@
       "color": "MELÓN",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-melón.jpg",
+      "imagen": "fotos_catalogo/b0002-melón.webp",
       "updatedAt": ""
     },
     {
@@ -4571,7 +4571,7 @@
       "color": "BEIGE",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-beige.png",
+      "imagen": "fotos_catalogo/b0002-beige.webp",
       "updatedAt": ""
     },
     {
@@ -4583,7 +4583,7 @@
       "color": "VINO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-vino.png",
+      "imagen": "fotos_catalogo/b0002-vino.webp",
       "updatedAt": ""
     },
     {
@@ -4595,7 +4595,7 @@
       "color": "AZUL CLARO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-azul-claro.png",
+      "imagen": "fotos_catalogo/b0002-azul-claro.webp",
       "updatedAt": ""
     },
     {
@@ -4607,7 +4607,7 @@
       "color": "VERDE CLARO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-verde-claro.png",
+      "imagen": "fotos_catalogo/b0002-verde-claro.webp",
       "updatedAt": ""
     },
     {
@@ -4619,7 +4619,7 @@
       "color": "NEGRO",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-negro.png",
+      "imagen": "fotos_catalogo/b0002-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4631,7 +4631,7 @@
       "color": "PERLA",
       "stock": 2,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-perla.png",
+      "imagen": "fotos_catalogo/b0002-perla.webp",
       "updatedAt": ""
     },
     {
@@ -4643,7 +4643,7 @@
       "color": "CAMEL",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-camel.png",
+      "imagen": "fotos_catalogo/b0002-camel.webp",
       "updatedAt": ""
     },
     {
@@ -4655,7 +4655,7 @@
       "color": "VERDE MILITAR",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-verde-militar.png",
+      "imagen": "fotos_catalogo/b0002-verde-militar.webp",
       "updatedAt": ""
     },
     {
@@ -4667,7 +4667,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0002-blanco.png",
+      "imagen": "fotos_catalogo/b0002-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -4679,7 +4679,7 @@
       "color": "NEGRO",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/a83909-negro.png",
+      "imagen": "fotos_catalogo/a83909-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4691,7 +4691,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/a83909-blanco.png",
+      "imagen": "fotos_catalogo/a83909-blanco.webp",
       "updatedAt": ""
     },
     {
@@ -4703,7 +4703,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/a83909-celeste.png",
+      "imagen": "fotos_catalogo/a83909-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -4715,7 +4715,7 @@
       "color": "CELESTE",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/a83909-celeste.png",
+      "imagen": "fotos_catalogo/a83909-celeste.webp",
       "updatedAt": ""
     },
     {
@@ -4727,7 +4727,7 @@
       "color": "negro",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c0005-negro.jpg",
+      "imagen": "fotos_catalogo/c0005-negro.webp",
       "updatedAt": ""
     },
     {
@@ -4739,7 +4739,7 @@
       "color": "cafe",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c0005-cafe.jpg",
+      "imagen": "fotos_catalogo/c0005-cafe.webp",
       "updatedAt": ""
     },
     {
@@ -4751,7 +4751,7 @@
       "color": "camel",
       "stock": 1,
       "pvp": 22,
-      "imagen": "fotos_catalogo/c0005-camel.jpg",
+      "imagen": "fotos_catalogo/c0005-camel.webp",
       "updatedAt": ""
     },
     {
@@ -4763,7 +4763,7 @@
       "color": "Rosado-blanco",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-rosado-blanco.png",
+      "imagen": "fotos_catalogo/c0006-rosado-blanco.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4775,7 +4775,7 @@
       "color": "Negro-blanco",
       "stock": 2,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-negro-blanco.png",
+      "imagen": "fotos_catalogo/c0006-negro-blanco.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4787,7 +4787,7 @@
       "color": "Rosado-cafe",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-rosado-cafe.png",
+      "imagen": "fotos_catalogo/c0006-rosado-cafe.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4799,7 +4799,7 @@
       "color": "Perla",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-perla.png",
+      "imagen": "fotos_catalogo/c0006-perla.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4811,7 +4811,7 @@
       "color": "Palo de rosa",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-palo-de-rosa.png",
+      "imagen": "fotos_catalogo/c0006-palo-de-rosa.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4823,7 +4823,7 @@
       "color": "Negro",
       "stock": 2,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-negro.png",
+      "imagen": "fotos_catalogo/c0006-negro.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4835,7 +4835,7 @@
       "color": "Vino",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-vino.png",
+      "imagen": "fotos_catalogo/c0006-vino.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4847,7 +4847,7 @@
       "color": "Perla",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-perla.png",
+      "imagen": "fotos_catalogo/c0006-perla.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4859,7 +4859,7 @@
       "color": "Beige",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-beige.png",
+      "imagen": "fotos_catalogo/c0006-beige.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4871,7 +4871,7 @@
       "color": "Beige",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-beige.png",
+      "imagen": "fotos_catalogo/c0006-beige.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4883,7 +4883,7 @@
       "color": "Negro",
       "stock": 2,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-negro.png",
+      "imagen": "fotos_catalogo/c0006-negro.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4895,7 +4895,7 @@
       "color": "Rosado-cafe",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-rosado-cafe.png",
+      "imagen": "fotos_catalogo/c0006-rosado-cafe.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4907,7 +4907,7 @@
       "color": "Perla",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-perla.png",
+      "imagen": "fotos_catalogo/c0006-perla.webp",
       "updatedAt": "2026-05-14T13:28"
     },
     {
@@ -4919,7 +4919,7 @@
       "color": "Negro",
       "stock": 2,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e1740-negro-est-ml.png",
+      "imagen": "fotos_catalogo/e1740-negro-est-ml.webp",
       "updatedAt": "2026-05-14T13:40"
     },
     {
@@ -4931,7 +4931,7 @@
       "color": "Beige",
       "stock": 2,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e1740-beige-est-ml.png",
+      "imagen": "fotos_catalogo/e1740-beige-est-ml.webp",
       "updatedAt": "2026-05-14T13:40"
     },
     {
@@ -4943,7 +4943,7 @@
       "color": "Camel",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e1740-camel-est-ml.png",
+      "imagen": "fotos_catalogo/e1740-camel-est-ml.webp",
       "updatedAt": "2026-05-14T13:40"
     },
     {
@@ -4955,7 +4955,7 @@
       "color": "Ladrillo",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e1740-ladrillo-est-ml.png",
+      "imagen": "fotos_catalogo/e1740-ladrillo-est-ml.webp",
       "updatedAt": "2026-05-14T13:40"
     },
     {
@@ -4967,7 +4967,7 @@
       "color": "Capuchino",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e1740-capuchino-est-ml.png",
+      "imagen": "fotos_catalogo/e1740-capuchino-est-ml.webp",
       "updatedAt": "2026-05-14T13:40"
     },
     {
@@ -4979,7 +4979,7 @@
       "color": "Rojo",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e1740-rojo-est-ml.png",
+      "imagen": "fotos_catalogo/e1740-rojo-est-ml.webp",
       "updatedAt": "2026-05-14T13:40"
     },
     {
@@ -4991,7 +4991,7 @@
       "color": "Camel",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-camel.png",
+      "imagen": "fotos_catalogo/e2045-camel.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5003,7 +5003,7 @@
       "color": "PALO DE ROSA",
       "stock": 2,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-palo-de-rosa.png",
+      "imagen": "fotos_catalogo/e2045-palo-de-rosa.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5015,7 +5015,7 @@
       "color": "BLANCO",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-blanco.png",
+      "imagen": "fotos_catalogo/e2045-blanco.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5027,7 +5027,7 @@
       "color": "Negro",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-negro.png",
+      "imagen": "fotos_catalogo/e2045-negro.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5039,7 +5039,7 @@
       "color": "Beige",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-beige.png",
+      "imagen": "fotos_catalogo/e2045-beige.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5051,7 +5051,7 @@
       "color": "Rojo",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-rojo.png",
+      "imagen": "fotos_catalogo/e2045-rojo.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5063,7 +5063,7 @@
       "color": "Azul marino",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-azul-marino.png",
+      "imagen": "fotos_catalogo/e2045-azul-marino.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5075,7 +5075,7 @@
       "color": "Verde pino",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-verde-pino.png",
+      "imagen": "fotos_catalogo/e2045-verde-pino.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5087,7 +5087,7 @@
       "color": "Azul electrico",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2045-azul-electrico.png",
+      "imagen": "fotos_catalogo/e2045-azul-electrico.webp",
       "updatedAt": "2026-05-14T14:24"
     },
     {
@@ -5099,7 +5099,7 @@
       "color": "Cafe",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2007-cafe.png",
+      "imagen": "fotos_catalogo/e2007-cafe.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5111,7 +5111,7 @@
       "color": "Negro",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2007-negro.png",
+      "imagen": "fotos_catalogo/e2007-negro.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5123,7 +5123,7 @@
       "color": "Rojo",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2007-rojo.png",
+      "imagen": "fotos_catalogo/e2007-rojo.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5135,7 +5135,7 @@
       "color": "Blanco",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2007-blanco.png",
+      "imagen": "fotos_catalogo/e2007-blanco.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5147,7 +5147,7 @@
       "color": "Uva",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-uva.png",
+      "imagen": "fotos_catalogo/e2041-uva.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5159,7 +5159,7 @@
       "color": "Negro",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-negro.png",
+      "imagen": "fotos_catalogo/e2041-negro.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5171,7 +5171,7 @@
       "color": "Perla",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-perla.png",
+      "imagen": "fotos_catalogo/e2041-perla.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5183,7 +5183,7 @@
       "color": "Rojo",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-rojo.png",
+      "imagen": "fotos_catalogo/e2041-rojo.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5195,7 +5195,7 @@
       "color": "Beige",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-beige.png",
+      "imagen": "fotos_catalogo/e2041-beige.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5207,7 +5207,7 @@
       "color": "Camel",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-camel.png",
+      "imagen": "fotos_catalogo/e2041-camel.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -5219,7 +5219,7 @@
       "color": "Azul electrico",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-azul-electrico.png",
+      "imagen": "fotos_catalogo/e2041-azul-electrico.webp",
       "updatedAt": "2026-05-14T14:31"
     }
   ]
