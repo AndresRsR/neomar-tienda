@@ -1757,6 +1757,107 @@ footer {
     display: inline;
   }
 }
+
+@media (max-width: 900px), (hover: none) and (pointer: coarse) {
+  .modal-overlay {
+    align-items: flex-start;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: max(10px, env(safe-area-inset-top));
+    padding-right: max(10px, env(safe-area-inset-right));
+    padding-bottom: max(10px, env(safe-area-inset-bottom));
+    padding-left: max(10px, env(safe-area-inset-left));
+  }
+
+  .modal {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100%;
+    max-width: min(100%, 560px);
+    max-height: none;
+    overflow: visible;
+    margin: 0 auto;
+  }
+
+  .modal > * {
+    min-width: 0;
+  }
+
+  .modal-img-section {
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    aspect-ratio: 1 / 1.08;
+    max-height: min(54svh, 430px);
+  }
+
+  .modal-img-section img,
+  .modal-real-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .modal-info {
+    width: 100%;
+    min-width: 0;
+    overflow: visible;
+    padding: 24px clamp(16px, 5vw, 28px) 22px;
+  }
+
+  .modal-title,
+  .modal-desc,
+  .modal-note {
+    overflow-wrap: anywhere;
+  }
+
+  .modal-colors,
+  .modal-sizes {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .modal-color-chip,
+  .modal-size-chip {
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  .btn-wha-modal {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px), (hover: none) and (pointer: coarse) {
+  .modal-overlay {
+    padding-top: max(8px, env(safe-area-inset-top));
+    padding-right: max(8px, env(safe-area-inset-right));
+    padding-bottom: max(8px, env(safe-area-inset-bottom));
+    padding-left: max(8px, env(safe-area-inset-left));
+  }
+
+  .modal {
+    max-width: 100%;
+  }
+
+  .modal-close {
+    top: 10px;
+    right: 10px;
+  }
+
+  .modal-img-section {
+    aspect-ratio: 1 / 1;
+    max-height: 46svh;
+  }
+
+  .modal-info {
+    padding: 22px 16px 20px;
+  }
+}
 </style>
 </head>
 <body>
@@ -2532,6 +2633,7 @@ function restoreCardImg(id){
 
 var cardColorTimers = {};
 var cardImageResolveCache = {};
+var modalImageRequestId = 0;
 
 function imageCandidates(src){
   var clean=String(src||'').trim();
@@ -2880,19 +2982,28 @@ function renderModalImg(variant, grupo){
   var autoSrc=generatedImgSrc(variant||{});
   var old=sec.querySelector('img.modal-real-img');if(old)old.remove();
   var ph=document.getElementById('modalImgPlaceholder');
+  var requestId=++modalImageRequestId;
   if(src){
-    var img=document.createElement('img');
-    img.className='modal-real-img';
-    img.src=src;
-    img.setAttribute('data-auto-src',autoSrc);
-    img.setAttribute('data-auto-tried','0');
-    img.setAttribute('data-fallback-root',src);
-    img.setAttribute('data-last-good-src','');
-    img.style.cssText='position:absolute;inset:0;width:100%;height:100%;object-fit:cover';
-    img.onerror=function(){if(fallbackImg(img))return;img.remove();if(ph)ph.style.display='flex';};
-    img.onload=function(){img.setAttribute('data-last-good-src',img.getAttribute('src')||'');if(ph)ph.style.display='none';};
-    if(ph)ph.style.display='none';
-    sec.insertBefore(img,sec.firstChild);
+    if(ph)ph.style.display='flex';
+    resolveImageFallbacks(src, autoSrc, function(finalSrc){
+      if(requestId!==modalImageRequestId)return;
+      if(!finalSrc){
+        if(ph)ph.style.display='flex';
+        return;
+      }
+      var current=sec.querySelector('img.modal-real-img');if(current)current.remove();
+      var img=document.createElement('img');
+      img.className='modal-real-img';
+      img.setAttribute('data-auto-src',autoSrc);
+      img.setAttribute('data-auto-tried','0');
+      img.setAttribute('data-fallback-root',src);
+      img.setAttribute('data-last-good-src','');
+      img.style.cssText='position:absolute;inset:0;width:100%;height:100%;object-fit:cover';
+      img.onerror=function(){if(fallbackImg(img))return;img.remove();if(ph)ph.style.display='flex';};
+      img.onload=function(){img.setAttribute('data-last-good-src',img.getAttribute('src')||'');if(ph)ph.style.display='none';};
+      sec.insertBefore(img,sec.firstChild);
+      img.src=finalSrc;
+    });
   } else {
     if(ph)ph.style.display='flex';
   }
