@@ -2004,7 +2004,7 @@ function slugValue(v) {
 }
 function slugColorValue(v) {
   var s = slugValue(v);
-  var aliases = { negra: 'negro', blanca: 'blanco', rosada: 'rosado' };
+  var aliases = { negra: 'negro', blanca: 'blanco', rosada: 'rosado', 'palo-rosa': 'palo-de-rosa' };
   return aliases[s] || s;
 }
 function escapeHtml(v) {
@@ -2445,7 +2445,7 @@ function generatedImgSrc(p){
   var nom=slugValue(p.nombre||'');
   var base=cod||nom;
   var col=(p.color&&p.color!=='POR INGRESAR'?slugColorValue(p.color):'');
-  if(base||col)return 'fotos_catalogo/'+[base,col].filter(Boolean).join('-')+'.jpg';
+  if(base||col)return 'fotos_catalogo/'+[base,col].filter(Boolean).join('-')+'.png';
   return '';
 }
 
@@ -2540,11 +2540,15 @@ function imageCandidates(src){
   var parts=clean.split('?');
   var path=parts[0];
   var query=parts.length>1?'?'+parts.slice(1).join('?'):'';
-  var base=path.replace(/\.(jpg|jpeg|png|webp)$/i,'');
+  var extMatch=path.match(/\.(jpg|jpeg|png|webp)$/i);
+  var base=extMatch?path.slice(0,-extMatch[0].length):path;
   if(base===path&&/^https?:\/\//i.test(clean))return [clean];
   var seen={};
   var suffixes=['','-est-ml','-est-sm','-ml','-sm','-l'];
-  var exts=['.jpg','.png','.jpeg','.webp'];
+  var exts=[];
+  [extMatch?extMatch[0].toLowerCase():'.png','.png','.jpg','.jpeg','.webp'].forEach(function(ext){
+    if(exts.indexOf(ext)<0)exts.push(ext);
+  });
   var out=[];
   suffixes.forEach(function(suffix){
     exts.forEach(function(ext){
