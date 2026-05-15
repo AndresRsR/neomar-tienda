@@ -2126,9 +2126,9 @@ function safeImagePath(v) {
   var s = textValue(v).replace(/\\/g, '/');
   if (!s) return '';
   if (/^https?:\/\//i.test(s) || /^data:image\//i.test(s)) return s;
-  if (/fotos_catalogo\//i.test(s)) return s.replace(/^.*?(fotos_catalogo\/)/i, 'fotos_catalogo/');
-  if (/^[a-z]:\//i.test(s)) return 'fotos_catalogo/' + s.split('/').pop();
-  return s.replace(/^\.?\//, '');
+  if (/fotos_catalogo\//i.test(s)) return preferWebpImagePath(s.replace(/^.*?(fotos_catalogo\/)/i, 'fotos_catalogo/'));
+  if (/^[a-z]:\//i.test(s)) return preferWebpImagePath('fotos_catalogo/' + s.split('/').pop());
+  return preferWebpImagePath(s.replace(/^\.?\//, ''));
 }
 function normalizarProductoPublico(p) {
   p = p || {};
@@ -2537,8 +2537,20 @@ function imgSrc(p, grupo){
   return '';
 }
 
+function preferWebpImagePath(src){
+  var clean=String(src||'').trim().replace(/\\/g,'/');
+  if(!clean)return '';
+  if(/^data:|^blob:|^https?:\/\//i.test(clean))return clean;
+  var parts=clean.split('?');
+  var path=parts[0];
+  var query=parts.length>1?'?'+parts.slice(1).join('?'):'';
+  if(/\.(jpg|jpeg|png|webp)$/i.test(path))path=path.replace(/\.(jpg|jpeg|png|webp)$/i,'.webp');
+  else if(path)path+='.webp';
+  return path+query;
+}
+
 function cleanImgPath(src){
-  return String(src||'').trim().replace(/\\/g,'/');
+  return preferWebpImagePath(src);
 }
 
 function generatedImgSrc(p){
@@ -2546,7 +2558,7 @@ function generatedImgSrc(p){
   var nom=slugValue(p.nombre||'');
   var base=cod||nom;
   var col=(p.color&&p.color!=='POR INGRESAR'?slugColorValue(p.color):'');
-  if(base||col)return 'fotos_catalogo/'+[base,col].filter(Boolean).join('-')+'.png';
+  if(base||col)return 'fotos_catalogo/'+[base,col].filter(Boolean).join('-')+'.webp';
   return '';
 }
 
@@ -2648,7 +2660,7 @@ function imageCandidates(src){
   var seen={};
   var suffixes=['','-est-ml','-est-sm','-ml','-sm','-l'];
   var exts=[];
-  [extMatch?extMatch[0].toLowerCase():'.png','.png','.jpg','.jpeg','.webp'].forEach(function(ext){
+  [extMatch?extMatch[0].toLowerCase():'.webp','.webp','.jpg','.png','.jpeg'].forEach(function(ext){
     if(exts.indexOf(ext)<0)exts.push(ext);
   });
   var out=[];
