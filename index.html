@@ -2243,9 +2243,12 @@ function categoriaDe(nombre) {
   if (n.indexOf('CHAQUETA') >= 0) return 'Chaquetas';
   if (n.indexOf('GABARDINA') >= 0) return 'Gabardinas';
   if (n.indexOf('CONJUNTO') >= 0) return 'Conjuntos';
+  if (n.indexOf('ENTERIZO') >= 0) return 'Enterizos';
+  if (n.indexOf('FALDA') >= 0) return 'Faldas';
+  if (n.indexOf('SHORT') >= 0) return 'Shorts';
   if (n.indexOf('BLUSA') >= 0 || n.indexOf('CAMIBUSO') >= 0) return 'Blusas';
   if (n.indexOf('VESTIDO') >= 0 || n.indexOf('VESTILLO') >= 0) return 'Vestidos';
-  if (n.indexOf('PANTALON') >= 0 || n.indexOf('SHORT') >= 0) return 'Pantalones';
+  if (n.indexOf('PANTALON') >= 0) return 'Pantalones';
   if (n.indexOf('CORSET') >= 0) return 'Corsets';
   if (n.indexOf('CAMISETA') >= 0) return 'Tops';
   return 'Otros';
@@ -2400,7 +2403,7 @@ function toggleMenu() {
 
 // ══ MARQUEE ══
 function buildMarquee() {
-  var cats = ['Chaquetas', 'Conjuntos', 'Blusas', 'Vestidos', 'Pantalones', 'Faldas', 'Shorts', 'Chalecos', 'Gabardinas', 'Corsets', 'Tops', 'Carteras', 'Moda Femenina', 'Calidad Premium', 'Estilo Único'];
+  var cats = ['Chaquetas', 'Conjuntos', 'Enterizos', 'Blusas', 'Vestidos', 'Pantalones', 'Faldas', 'Shorts', 'Chalecos', 'Gabardinas', 'Corsets', 'Tops', 'Carteras', 'Moda Femenina', 'Calidad Premium', 'Estilo Único'];
   var html = '';
   for (var i = 0; i < 3; i++) {
     cats.forEach(function(c) {
@@ -2413,6 +2416,17 @@ function buildMarquee() {
 // ══ FILTERS ══
 var categories = [];
 var sizes = [];
+var CATEGORY_ORDER = ['Todas', 'Chaquetas', 'Conjuntos', 'Enterizos', 'Blusas', 'Vestidos', 'Pantalones', 'Faldas', 'Shorts', 'Chalecos', 'Gabardinas', 'Corsets', 'Tops', 'Otros'];
+
+function ordenarCategorias(cats) {
+  return cats.sort(function(a, b) {
+    var ia = CATEGORY_ORDER.indexOf(a);
+    var ib = CATEGORY_ORDER.indexOf(b);
+    if (ia < 0) ia = 999;
+    if (ib < 0) ib = 999;
+    return ia === ib ? a.localeCompare(b) : ia - ib;
+  });
+}
 
 function buildFilters() {
   var catSet = { 'Todas': true };
@@ -2423,7 +2437,7 @@ function buildFilters() {
       if (v.talla && v.talla !== 'Única') sizeSet[v.talla] = true;
     });
   });
-  categories = Object.keys(catSet);
+  categories = ordenarCategorias(Object.keys(catSet));
   sizes = Object.keys(sizeSet);
 
   var catHtml = categories.map(function(c) {
@@ -2458,7 +2472,7 @@ function filterProducts() {
 function buildFooterCats() {
   var catSet = {};
   allGroups.forEach(function(g) { catSet[categoriaDe(g.base.nombre)] = true; });
-  var cats = Object.keys(catSet);
+  var cats = ordenarCategorias(Object.keys(catSet));
   document.getElementById('footerCatLinks').innerHTML = cats.slice(0,6).map(function(c) {
     return '<li><a href="#coleccion" onclick="setCatByName('+jsArg(c)+')">'+escapeHtml(c)+'</a></li>';
   }).join('');
