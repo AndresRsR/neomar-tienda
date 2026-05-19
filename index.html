@@ -2317,29 +2317,55 @@ function categoriaDe(nombre) {
 
 // ══ COLOR MAP ══
 var COLOR_MAP = {
-  'NEGRO': '#1a1a1a', 'NEGRA': '#1a1a1a',
-  'BLANCO': '#f5f5f0', 'PERLA': '#f0ede5',
-  'CAMEL': '#b79268', 'CAMELLO': '#b79268',
-  'CAFE': '#6b4226', 'CAFE CLARO': '#a0714f',
-  'CAPUCHINO': '#c4956a', 'CAFÉ': '#6b4226', 'CAFÉ CLARO': '#a0714f',
+  'NEGRO': '#161616', 'NEGRA': '#161616',
+  'BLANCO': '#f7f4ee', 'BLANCA': '#f7f4ee', 'PERLA': '#ebe7dd',
+  'BEIGE CLARO': '#eee4d4', 'BEIGE OSCURO': '#c7ad8e', 'BEISH': '#e8dcc8',
   'BEIGE': '#e8dcc8', 'CREMA': '#f5eddc',
+  'CAMEL': '#b79268', 'CAMELLO': '#b79268',
+  'CAFE CLARO': '#a0714f', 'CAFÉ CLARO': '#a0714f', 'CAFÃ‰ CLARO': '#a0714f',
+  'CAFE': '#6b4226', 'CAFÉ': '#6b4226', 'CAFÃ‰': '#6b4226',
+  'CAPUCHINO': '#c4956a', 'CAPUCHNO': '#c4956a', 'MIEL': '#c99a55',
+  'MOSTAZA': '#d3a32d', 'MELON': '#f0a56f', 'MELÓN': '#f0a56f', 'MELÃ“N': '#f0a56f',
   'VINO': '#7b1d3e', 'BURDEOS': '#7b1d3e',
-  'ROJO': '#b92f2f',
-  'ROSADO': '#f0a0b8', 'PALO ROSA': '#dba8b0',
-  'AZUL ELECTRICO': '#1f5fd0', 'AZUL': '#4f78c7',
+  'ROJO': '#b92f2f', 'ROJA': '#b92f2f',
+  'ROSADO': '#f0a0b8', 'ROSADA': '#f0a0b8', 'PALO ROSA': '#dba8b0', 'PALO DE ROSA': '#dba8b0',
+  'FUCSIA': '#d93d8b', 'FUXIA': '#d93d8b',
+  'AZUL ELECTRICO': '#1f5fd0', 'AZUL ELÉCTRICO': '#1f5fd0', 'AZUL ELÃ‰CTRICO': '#1f5fd0',
+  'AZUL MARINO': '#1c2d57', 'AZUL CLARO': '#8eb8e5', 'CELESTE': '#9fd3ee', 'AZUL': '#4f78c7',
   'UVA': '#7b4da0', 'LILA': '#b391c9',
-  'VERDE SHREK': '#8fcf4f', 'VERDE CLARO': '#8dc5a6',
-  'VERDE': '#4a7c59', 'VERDE OLIVA': '#6b7c45',
-  'GRIS': '#9a9a9a', 'GRIS OSCURO': '#555',
+  'VERDE AGUA': '#8ccfb8', 'VERDE CLARO': '#8dc5a6', 'VERDE OLIVA': '#6b7c45',
+  'VERDE MILITAR': '#596b3d', 'VERDE PERICO': '#7fc241', 'VERDE SHREK': '#8fcf4f',
+  'VERDE': '#4a7c59', 'JADE': '#7bbf9c',
+  'GRIS OSCURO': '#555', 'GRIS': '#9a9a9a', 'PLOMO': '#777f86',
   'LADRILLO': '#c0533a',
-  'TURQUESA': '#4db8c0', 'TURQUESA CLARO': '#7dd4d8',
+  'TURQUESA CLARO': '#7dd4d8', 'TURQUESA': '#4db8c0',
+  'VARIADO': '#c7a4b5'
 };
+function colorKey(nombre) {
+  return String(nombre || '').toUpperCase().trim()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/\s+/g,' ');
+}
+function colorHexSimple(nombre) {
+  var n = colorKey(nombre);
+  if (COLOR_MAP[n]) return COLOR_MAP[n];
+  var keys = Object.keys(COLOR_MAP).sort(function(a,b){ return b.length-a.length; });
+  for (var i = 0; i < keys.length; i++) {
+    if (n.indexOf(colorKey(keys[i])) >= 0) return COLOR_MAP[keys[i]];
+  }
+  return '#c9b6bf';
+}
 function colorHex(nombre) {
-  var n = (nombre || '').toUpperCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
-  for (var k in COLOR_MAP) { if (n.indexOf(k) >= 0) return COLOR_MAP[k]; }
-  // generate from name hash
-  var hash = 0; for (var i = 0; i < n.length; i++) hash = n.charCodeAt(i) + ((hash<<5)-hash);
-  return 'hsl('+(Math.abs(hash)%300+30)+',30%,65%)';
+  var raw = String(nombre || '').trim();
+  var parts = raw.split(/[\/-]+/).map(function(p){ return p.trim(); }).filter(Boolean);
+  if (parts.length > 1) {
+    var colors = parts.map(colorHexSimple);
+    var step = 100 / colors.length;
+    return 'linear-gradient(135deg,'+colors.map(function(c,i){
+      return c+' '+Math.round(i*step)+'% '+Math.round((i+1)*step)+'%';
+    }).join(',')+')';
+  }
+  return colorHexSimple(raw);
 }
 
 // ══ STATE ══
