@@ -1,9 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#fffdf9"/>
-  <path d="M296 156a150 150 0 1 1-5 207" fill="none" stroke="#111" stroke-width="14" stroke-linecap="round"/>
-  <text x="48" y="273" fill="#050505" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="500" letter-spacing="-6">NE</text>
-  <path d="M214 181a48 48 0 1 0 0 96a58 58 0 0 1 0-96z" fill="#050505"/>
-  <circle cx="208" cy="229" r="38" fill="#fffdf9" stroke="#d8d8d8" stroke-width="3" stroke-dasharray="5 8"/>
-  <text x="238" y="273" fill="#050505" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="500" letter-spacing="-3">MAR</text>
-  <text x="106" y="337" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="22">BY ALYSSA</text>
+  <defs>
+    <linearGradient id="bg" x1="68" y1="42" x2="456" y2="486" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef7fa4"/>
+      <stop offset=".52" stop-color="#dc638c"/>
+      <stop offset="1" stop-color="#e87598"/>
+    </linearGradient>
+    <radialGradient id="soft" cx="50%" cy="44%" r="65%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".18"/>
+      <stop offset=".58" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="104" fill="url(#soft)"/>
+  <path d="M165 108c132-76 302 9 306 166c4 164-168 257-300 177" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+  <text x="86" y="312" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="218" font-weight="500" letter-spacing="-18">N</text>
+  <path d="M176 258a79 79 0 1 0 0 158a96 96 0 0 1 0-158z" fill="#fff" opacity=".92"/>
+  <text x="240" y="376" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="210" font-weight="500" letter-spacing="-16">M</text>
 </svg>
