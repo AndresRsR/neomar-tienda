@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#fffdf9"/>
+  <path d="M296 156a150 150 0 1 1-5 207" fill="none" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+  <text x="48" y="273" fill="#050505" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="500" letter-spacing="-6">NE</text>
+  <path d="M214 181a48 48 0 1 0 0 96a58 58 0 0 1 0-96z" fill="#050505"/>
+  <circle cx="208" cy="229" r="38" fill="#fffdf9" stroke="#d8d8d8" stroke-width="3" stroke-dasharray="5 8"/>
+  <text x="238" y="273" fill="#050505" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="500" letter-spacing="-3">MAR</text>
+  <text x="106" y="337" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="22">BY ALYSSA</text>
+</svg>
