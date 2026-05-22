@@ -2356,13 +2356,14 @@ function stockHtml(cantidad, exacto) {
 }
 
 // ══ CATEGORÍAS ══
-function categoriaDe(nombre) {
-  var n = textValue(nombre).toUpperCase();
+function categoriaDe(nombre, detalle) {
+  var n = (textValue(nombre) + ' ' + textValue(detalle)).toUpperCase();
   if (n.indexOf('CHALECO') >= 0) return 'Chalecos';
-  if (n.indexOf('CHAQUETA') >= 0) return 'Chaquetas';
+  if (n.indexOf('CHAQUETA') >= 0 || n.indexOf('JACKET') >= 0 || n.indexOf('CASACA') >= 0) return 'Chaquetas';
   if (n.indexOf('GABARDINA') >= 0) return 'Gabardinas';
   if (n.indexOf('CONJUNTO') >= 0) return 'Conjuntos';
   if (n.indexOf('ENTERIZO') >= 0) return 'Enterizos';
+  if (n.indexOf('CARTERA') >= 0 || n.indexOf('MOCHILA') >= 0) return 'Carteras';
   if (n.indexOf('FALDA') >= 0) return 'Faldas';
   if (n.indexOf('SHORT') >= 0) return 'Shorts';
   if (n.indexOf('BLUSA') >= 0 || n.indexOf('CAMIBUSO') >= 0) return 'Blusas';
@@ -2570,7 +2571,7 @@ function buildMarquee() {
 // ══ FILTERS ══
 var categories = [];
 var sizes = [];
-var CATEGORY_ORDER = ['Todas', 'Chaquetas', 'Conjuntos', 'Enterizos', 'Blusas', 'Vestidos', 'Pantalones', 'Faldas', 'Shorts', 'Chalecos', 'Gabardinas', 'Corsets', 'Tops', 'Otros'];
+var CATEGORY_ORDER = ['Todas', 'Chaquetas', 'Conjuntos', 'Enterizos', 'Blusas', 'Vestidos', 'Pantalones', 'Faldas', 'Shorts', 'Chalecos', 'Gabardinas', 'Corsets', 'Tops', 'Carteras', 'Otros'];
 
 function ordenarCategorias(cats) {
   return cats.sort(function(a, b) {
@@ -2586,7 +2587,7 @@ function buildFilters() {
   var catSet = { 'Todas': true };
   var sizeSet = { 'Todas': true };
   allGroups.forEach(function(g) {
-    catSet[categoriaDe(g.base.nombre)] = true;
+    catSet[categoriaDe(g.base.nombre, g.base.detalle)] = true;
     g.variantes.forEach(function(v) {
       if (v.talla && v.talla !== 'Única') sizeSet[v.talla] = true;
     });
@@ -2625,7 +2626,7 @@ function filterProducts() {
 // ══ BUILD FOOTER CATS ══
 function buildFooterCats() {
   var catSet = {};
-  allGroups.forEach(function(g) { catSet[categoriaDe(g.base.nombre)] = true; });
+  allGroups.forEach(function(g) { catSet[categoriaDe(g.base.nombre, g.base.detalle)] = true; });
   var cats = ordenarCategorias(Object.keys(catSet));
   document.getElementById('footerCatLinks').innerHTML = cats.slice(0,6).map(function(c) {
     return '<li><a href="#coleccion" onclick="setCatByName('+jsArg(c)+')">'+escapeHtml(c)+'</a></li>';
@@ -2643,7 +2644,7 @@ function setCatByName(cat) {
 // ══ RENDER PRODUCTS ══
 function renderProducts() {
   var filtered = allGroups.filter(function(g) {
-    var cat = categoriaDe(g.base.nombre);
+    var cat = categoriaDe(g.base.nombre, g.base.detalle);
     if (catActive !== 'Todas' && cat !== catActive) return false;
     if (sizeActive !== 'Todas') {
       var hasSz = g.variantes.some(function(v) { return v.talla === sizeActive && v.stock > 0; });
@@ -2961,7 +2962,7 @@ function stopCardColorRotation(cardId){
 function buildCard(g, idx) {
   var p = g.base;
   var safeIdx = idx;
-  var cat = categoriaDe(p.nombre);
+  var cat = categoriaDe(p.nombre, p.detalle);
   var cardId = 'card-img-'+safeIdx;
   var totalStock = g.variantes.reduce(function(s,v){ return s+(v.stock||0); }, 0);
   var colors = [];
@@ -3046,7 +3047,7 @@ function catIcon(cat) {
   var map = {
     'Chaquetas':'🧥','Gabardinas':'🧥','Conjuntos':'👗','Blusas':'👚',
     'Vestidos':'👗','Enterizos':'👗','Faldas':'👗','Shorts':'👖',
-    'Pantalones':'👖','Chalecos':'🥻','Corsets':'💃','Tops':'👕','Otros':'✨'
+    'Pantalones':'👖','Chalecos':'🥻','Corsets':'💃','Tops':'👕','Carteras':'👜','Otros':'✨'
   };
   return map[cat] || '✨';
 }
@@ -3070,7 +3071,7 @@ function quickWha(e, idx) {
 
 function getFilteredGroups() {
   return allGroups.filter(function(g) {
-    var cat = categoriaDe(g.base.nombre);
+    var cat = categoriaDe(g.base.nombre, g.base.detalle);
     if (catActive !== 'Todas' && cat !== catActive) return false;
     if (sizeActive !== 'Todas') {
       var hasSz = g.variantes.some(function(v) { return v.talla === sizeActive && v.stock > 0; });
@@ -3096,7 +3097,7 @@ function openModal(idx) {
   mSelectedSize = null;
 
   var p = g.base;
-  var cat = categoriaDe(p.nombre);
+  var cat = categoriaDe(p.nombre, p.detalle);
 
   document.getElementById('modalTag').textContent = cat;
   document.getElementById('modalTitle').textContent = p.nombre;
