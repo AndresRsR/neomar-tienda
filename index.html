@@ -2209,10 +2209,13 @@ function normalizarProductoPublico(p) {
     updatedAt: textValue(p.updatedAt || p.actualizado)
   };
 }
+function productoOcultoCatalogo(p) {
+  return slugValue(p.codigo) === 'vario' || slugValue(p.nombre) === 'variado';
+}
 function normalizarInventario(items) {
   if (!Array.isArray(items)) return [];
   return items.map(normalizarProductoPublico).filter(function(p) {
-    return p.nombre && p.stock > 0 && p.pvp > 0;
+    return p.nombre && p.stock > 0 && p.pvp > 0 && !productoOcultoCatalogo(p);
   });
 }
 function payloadItems(data) {

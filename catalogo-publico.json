@@ -2,8 +2,8 @@
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
   "updatedAt": "2026-05-19T17:29:15.226Z",
-  "totalVariantes": 355,
-  "totalStock": 478,
+  "totalVariantes": 354,
+  "totalStock": 416,
   "items": [
     {
       "id": "mo8qxku9bqclcz1mh4w",
@@ -3756,20 +3756,6 @@
       "pvp": 21,
       "imagen": "fotos_catalogo/55860-beigecafe-l.webp",
       "updatedAt": ""
-    },
-    {
-      "id": "mo99cjzbarwmplflukv",
-      "inventarioId": "mo99cjzbarwmplflukv",
-      "variantKey": "vario|variado|diferentes prendas||variado",
-      "codigo": "VARIO",
-      "nombre": "VARIADO",
-      "detalle": "DIFERENTES PRENDAS",
-      "talla": "",
-      "color": "VARIADO",
-      "stock": 62,
-      "pvp": 2,
-      "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-05-19T11:59"
     },
     {
       "id": "modmfjoo4wrbg2krlu9",
