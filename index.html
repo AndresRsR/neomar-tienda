@@ -441,30 +441,6 @@ header.scrolled {
   background: linear-gradient(135deg, rgba(200,86,110,.08) 0%, transparent 60%);
   mix-blend-mode: multiply;
 }
-.hero-badge {
-  position: absolute;
-  bottom: 40px;
-  left: 40px;
-  background: rgba(250,247,244,.92);
-  backdrop-filter: blur(12px);
-  padding: 16px 24px;
-  border: 1px solid var(--border);
-  opacity: 0;
-  animation: fadeUp .8s 1.6s ease forwards;
-}
-.hero-badge-text {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 13px;
-  font-style: italic;
-  color: var(--rose);
-}
-.hero-badge-sub {
-  font-size: 10px;
-  letter-spacing: 2px;
-  color: var(--text-muted);
-  margin-top: 2px;
-  text-transform: uppercase;
-}
 .hero-scroll-hint {
   position: absolute;
   bottom: 32px;
@@ -1577,17 +1553,6 @@ footer {
     min-height: 300px;
   }
 
-  .hero-badge {
-    right: 16px;
-    bottom: 16px;
-    left: 16px;
-    padding: 13px 16px;
-  }
-
-  .hero-badge-sub {
-    letter-spacing: 1.5px;
-  }
-
   .catalog-status {
     margin: -18px 0 26px;
   }
@@ -2051,10 +2016,6 @@ footer {
       </div>
     </div>
     <div class="hero-overlay"></div>
-    <div class="hero-badge">
-      <div class="hero-badge-text">Selección exclusiva</div>
-      <div class="hero-badge-sub">directo de moda internacional</div>
-    </div>
   </div>
   <div class="hero-scroll-hint">
     <div class="scroll-line"></div>
@@ -2208,6 +2169,7 @@ var catalogSource = 'pending';
 var catalogError = '';
 var heroCarouselTimer = null;
 var heroSlideIndex = 0;
+var heroCarouselRunId = 0;
 
 function textValue(v) {
   return (v === undefined || v === null) ? '' : String(v).trim();
@@ -2641,15 +2603,41 @@ function heroCarouselItems() {
   return shuffleHeroItems(items).slice(0, 18);
 }
 
-function initHeroCarousel() {
+function resolveHeroImage(item) {
+  return new Promise(function(resolve) {
+    var candidates = imageCandidateList(item.src, item.auto);
+    var pos = 0;
+    function tryNext() {
+      if (pos >= candidates.length) {
+        resolve(null);
+        return;
+      }
+      var candidate = candidates[pos++];
+      var probe = new Image();
+      probe.onload = function() {
+        resolve(Object.assign({}, item, { src: candidate }));
+      };
+      probe.onerror = tryNext;
+      probe.src = candidate;
+    }
+    tryNext();
+  });
+}
+
+async function initHeroCarousel() {
   var el = document.getElementById('heroCarousel');
   if (!el) return;
+  var runId = ++heroCarouselRunId;
   if (heroCarouselTimer) {
     clearInterval(heroCarouselTimer);
     heroCarouselTimer = null;
   }
   heroSlideIndex = 0;
   var items = heroCarouselItems();
+  if (!items.length) return;
+  var resolved = await Promise.all(items.map(resolveHeroImage));
+  if (runId !== heroCarouselRunId) return;
+  items = resolved.filter(Boolean);
   if (!items.length) return;
   el.innerHTML = items.map(function(item, i) {
     return '<div class="hero-slide' + (i === 0 ? ' active' : '') + '">' +
