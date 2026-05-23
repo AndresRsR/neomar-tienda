@@ -363,6 +363,67 @@ header.scrolled {
   inset: 0;
   overflow: hidden;
 }
+.hero-carousel {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg,#f0dae0 0%,#e8c8d4 40%,#d4a8b8 100%);
+}
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: scale(1.04);
+  transition: opacity 900ms ease, transform 1800ms ease;
+}
+.hero-slide.active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 1;
+}
+.hero-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(.98) contrast(.98);
+}
+.hero-slide::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg,rgba(26,16,21,.04) 0%,rgba(26,16,21,.14) 100%);
+}
+.hero-slide-info {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 126px;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 0 2px 18px rgba(26,16,21,.28);
+}
+.hero-slide-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(28px,3.4vw,48px);
+  line-height: 1;
+  font-weight: 500;
+}
+.hero-slide-meta {
+  margin-top: 8px;
+  font-size: 11px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  opacity: .86;
+}
+.hero-empty-visual {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
 .hero-img-wrap img {
   width: 100%;
   height: 100%;
@@ -1272,11 +1333,14 @@ footer {
   z-index: 600;
   border-radius: 4px;
   border-left: 3px solid var(--rose);
-  transform: translateX(120%);
-  transition: transform .3s ease;
+  transform: translateX(calc(100% + 48px));
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: transform .3s ease, opacity .2s ease, visibility .2s ease;
   max-width: 280px;
 }
-.toast.show { transform: translateX(0); }
+.toast.show { transform: translateX(0); opacity: 1; visibility: visible; }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
@@ -1976,11 +2040,13 @@ footer {
   </div>
   <div class="hero-right">
     <div class="hero-img-wrap">
-      <div style="width:100%;height:100%;background:linear-gradient(160deg,#f0dae0 0%,#e8c8d4 40%,#d4a8b8 100%);display:flex;align-items:center;justify-content:center;position:absolute;inset:0">
-        <div style="text-align:center;padding:40px">
-          <div style="font-size:80px;margin-bottom:24px;opacity:.35">👗</div>
-          <div style="font-family:'Cormorant Garamond',serif;font-size:20px;color:#9e3a52;opacity:.6;letter-spacing:4px;text-transform:uppercase">Moda Femenina</div>
-          <div style="font-size:11px;color:#c8566e;opacity:.5;letter-spacing:3px;margin-top:8px;text-transform:uppercase">Calidad · Estilo · Elegancia</div>
+      <div class="hero-carousel" id="heroCarousel">
+        <div class="hero-empty-visual">
+          <div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:54px;margin-bottom:18px;opacity:.32;letter-spacing:8px">NEOMAR</div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:20px;color:#9e3a52;opacity:.6;letter-spacing:4px;text-transform:uppercase">Moda Femenina</div>
+            <div style="font-size:11px;color:#c8566e;opacity:.5;letter-spacing:3px;margin-top:8px;text-transform:uppercase">Calidad - Estilo - Elegancia</div>
+          </div>
         </div>
       </div>
     </div>
@@ -2140,6 +2206,8 @@ var INV_KEY = 'nm4_inv';
 var CATALOG_URL = 'catalogo-publico.json';
 var catalogSource = 'pending';
 var catalogError = '';
+var heroCarouselTimer = null;
+var heroSlideIndex = 0;
 
 function textValue(v) {
   return (v === undefined || v === null) ? '' : String(v).trim();
@@ -2500,6 +2568,7 @@ async function iniciarCatalogo() {
   buildFooterCats();
   renderProducts();
   updateCatalogStatus();
+  initHeroCarousel();
 }
 
 function renderCatalogLoading() {
@@ -2534,6 +2603,98 @@ function animateCounter(id, target) {
     if (p < 1) requestAnimationFrame(step);
   }
   setTimeout(function() { requestAnimationFrame(step); }, 1800);
+}
+
+function shuffleHeroItems(items) {
+  var out = items.slice();
+  for (var i = out.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = out[i];
+    out[i] = out[j];
+    out[j] = tmp;
+  }
+  return out;
+}
+
+function heroCarouselItems() {
+  var seen = {};
+  var items = [];
+  (allGroups || []).forEach(function(g) {
+    var variantes = (g.variantes || []).filter(function(v) { return stockValue(v.stock) > 0; });
+    if (!variantes.length) variantes = g.variantes || [];
+    variantes.forEach(function(v) {
+      var src = imgSrc(v, g);
+      if (!src) return;
+      var nombre = textValue((g.base && g.base.nombre) || v.nombre || 'Prenda NEOMAR');
+      var detalle = textValue((g.base && g.base.detalle) || v.detalle);
+      var key = src + '|' + nombre + '|' + textValue(v.color);
+      if (seen[key]) return;
+      seen[key] = true;
+      items.push({
+        src: src,
+        auto: generatedImgSrc(v),
+        nombre: nombre,
+        meta: [categoriaDe(nombre, detalle), textValue(v.color)].filter(Boolean).join(' - ')
+      });
+    });
+  });
+  return shuffleHeroItems(items).slice(0, 18);
+}
+
+function initHeroCarousel() {
+  var el = document.getElementById('heroCarousel');
+  if (!el) return;
+  if (heroCarouselTimer) {
+    clearInterval(heroCarouselTimer);
+    heroCarouselTimer = null;
+  }
+  heroSlideIndex = 0;
+  var items = heroCarouselItems();
+  if (!items.length) return;
+  el.innerHTML = items.map(function(item, i) {
+    return '<div class="hero-slide' + (i === 0 ? ' active' : '') + '">' +
+      '<img src="' + escapeAttr(item.src) + '" data-auto-src="' + escapeAttr(item.auto || item.src) + '" data-fallback-step="0" alt="' + escapeAttr(item.nombre) + '" onerror="heroImageFallback(this)">' +
+      '<div class="hero-slide-info">' +
+        '<div class="hero-slide-name">' + escapeHtml(item.nombre) + '</div>' +
+        '<div class="hero-slide-meta">' + escapeHtml(item.meta) + '</div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+  if (items.length > 1) {
+    heroCarouselTimer = setInterval(nextHeroSlide, 4200);
+  }
+}
+
+function nextHeroSlide() {
+  var slides = document.querySelectorAll('#heroCarousel .hero-slide');
+  if (!slides.length) return;
+  slides[heroSlideIndex % slides.length].classList.remove('active');
+  heroSlideIndex = (heroSlideIndex + 1) % slides.length;
+  slides[heroSlideIndex].classList.add('active');
+}
+
+function heroImageFallback(img) {
+  var current = img.getAttribute('src') || '';
+  var auto = img.getAttribute('data-auto-src') || '';
+  var candidates = imageCandidateList(current, auto);
+  var step = parseInt(img.getAttribute('data-fallback-step') || '0', 10);
+  while (step < candidates.length - 1) {
+    step++;
+    if (candidates[step] && candidates[step] !== current) {
+      img.setAttribute('data-fallback-step', String(step));
+      img.src = candidates[step];
+      return;
+    }
+  }
+  var slide = img.closest ? img.closest('.hero-slide') : null;
+  if (slide) slide.remove();
+  setTimeout(function() {
+    var slides = document.querySelectorAll('#heroCarousel .hero-slide');
+    if (slides.length && !document.querySelector('#heroCarousel .hero-slide.active')) {
+      heroSlideIndex = 0;
+      slides[0].classList.add('active');
+    }
+  }, 0);
 }
 
 // ══ CURSOR ══

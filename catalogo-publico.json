@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-05-23T19:53:03.103Z",
-  "totalVariantes": 346,
-  "totalStock": 462,
+  "updatedAt": "2026-05-23T20:02:04.971Z",
+  "totalVariantes": 342,
+  "totalStock": 458,
   "items": [
     {
       "id": "mo8qxku9bqclcz1mh4w",
@@ -4780,34 +4780,6 @@
       "updatedAt": "2026-05-16T06:39"
     },
     {
-      "id": "moequxwu52x6htns6we",
-      "inventarioId": "moequxwu52x6htns6we",
-      "variantKey": "v2022|vestido zafiro|vestido 3/4 de un hombro con vuelito y dije rectangular|est (m/l)|azul electrico",
-      "codigo": "V2022",
-      "nombre": "VESTIDO ZAFIRO",
-      "detalle": "VESTIDO 3/4 DE UN HOMBRO CON VUELITO Y DIJE RECTANGULAR",
-      "talla": "EST (M/L)",
-      "color": "AZUL ELECTRICO",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v2022-azul-electrico.webp",
-      "updatedAt": "2026-05-23T14:50"
-    },
-    {
-      "id": "moeqw5saxhaz0ov350c",
-      "inventarioId": "moeqw5saxhaz0ov350c",
-      "variantKey": "v2022|vestido zafiro|vestido 3/4 de un hombro con vuelito y dije rectangular|est (m/l)|beige",
-      "codigo": "V2022",
-      "nombre": "VESTIDO ZAFIRO",
-      "detalle": "VESTIDO 3/4 DE UN HOMBRO CON VUELITO Y DIJE RECTANGULAR",
-      "talla": "EST (M/L)",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v2022-beige.webp",
-      "updatedAt": "2026-05-23T14:50"
-    },
-    {
       "id": "moequxwulxe1n9bdkfk",
       "inventarioId": "moequxwulxe1n9bdkfk",
       "variantKey": "v2022|vestido zafiro|vestido 3/4 de un hombro con vuelito y dije rectangular|est (m/l)|cafe",
@@ -4819,35 +4791,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/v2022-cafe.webp",
-      "updatedAt": "2026-05-23T14:50"
-    },
-    {
-      "id": "moequxwuk2ti1nraqn",
-      "inventarioId": "moequxwuk2ti1nraqn",
-      "variantKey": "v2022|vestido zafiro|vestido 3/4 de un hombro con vuelito y dije rectangular|est (m/l)|negro",
-      "codigo": "V2022",
-      "nombre": "VESTIDO ZAFIRO",
-      "detalle": "VESTIDO 3/4 DE UN HOMBRO CON VUELITO Y DIJE RECTANGULAR",
-      "talla": "EST (M/L)",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v2022-negro.webp",
-      "updatedAt": "2026-05-23T14:50"
-    },
-    {
-      "id": "moeqwor94dx1tg09dd",
-      "inventarioId": "moeqwor94dx1tg09dd",
-      "variantKey": "v2022|vestido zafiro|vestido 3/4 de un hombro con vuelito y dije rectangular|est (m/l)|verde militar",
-      "codigo": "V2022",
-      "nombre": "VESTIDO ZAFIRO",
-      "detalle": "VESTIDO 3/4 DE UN HOMBRO CON VUELITO Y DIJE RECTANGULAR",
-      "talla": "EST (M/L)",
-      "color": "VERDE MILITAR",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v2022-verde-militar.webp",
-      "updatedAt": "2026-05-23T14:50"
+      "updatedAt": "2026-05-23T15:02"
     }
   ]
 }
