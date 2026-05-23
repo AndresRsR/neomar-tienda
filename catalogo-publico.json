@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-05-19T17:29:15.226Z",
-  "totalVariantes": 354,
-  "totalStock": 416,
+  "updatedAt": "2026-05-23T19:53:03.103Z",
+  "totalVariantes": 346,
+  "totalStock": 462,
   "items": [
     {
       "id": "mo8qxku9bqclcz1mh4w",
@@ -71,9 +71,9 @@
       "talla": "EST (S/M)",
       "color": "AZUL CLARO",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-azul-claro.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mo8pq6mpnzc4fs5rv9j",
@@ -85,9 +85,9 @@
       "talla": "EST (S/M)",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-beige.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mo8pq6mpuwuhs383ssa",
@@ -99,9 +99,9 @@
       "talla": "EST (S/M)",
       "color": "CAMEL",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-camel.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mo8pq6mpp1nextlahjd",
@@ -113,9 +113,9 @@
       "talla": "EST (S/M)",
       "color": "LILA",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-lila.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mp64qz2nxf5a6nf2iyh",
@@ -127,9 +127,9 @@
       "talla": "EST (S/M)",
       "color": "MELON",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-melon.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mo8pq6mp7wsb16oq8bs",
@@ -141,9 +141,9 @@
       "talla": "EST (S/M)",
       "color": "NEGRO",
       "stock": 2,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-negro.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mo8pq6mpkryif75fwa",
@@ -155,9 +155,9 @@
       "talla": "EST (S/M)",
       "color": "PERLA",
       "stock": 2,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-perla.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mo8pq6mp7vgor77cwdk",
@@ -169,9 +169,9 @@
       "talla": "EST (S/M)",
       "color": "VERDE CLARO",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-verde-claro.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mo8pq6mpwmmsx48lfy",
@@ -183,9 +183,9 @@
       "talla": "EST (S/M)",
       "color": "VERDE MILITAR",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-verde-militar.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
     },
     {
       "id": "mo8pq6mphzqnu1n6z5e",
@@ -197,9 +197,107 @@
       "talla": "EST (S/M)",
       "color": "VINO",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b0002-vino.webp",
-      "updatedAt": "2026-05-14T18:39"
+      "updatedAt": "2026-05-23T14:45"
+    },
+    {
+      "id": "mpilxor8dy74bixw5g",
+      "inventarioId": "mpilxor8dy74bixw5g",
+      "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|blanco",
+      "codigo": "b0005",
+      "nombre": "Blusa basica diagonal",
+      "detalle": "Blusa básica en tela suplex diagonal.",
+      "talla": "EST (S/M)",
+      "color": "blanco",
+      "stock": 1,
+      "pvp": 12,
+      "imagen": "fotos_catalogo/b0005-blanco.webp",
+      "updatedAt": "2026-05-23T12:13"
+    },
+    {
+      "id": "mpilxor9zd3e1atg19r",
+      "inventarioId": "mpilxor9zd3e1atg19r",
+      "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|blanco/negro",
+      "codigo": "b0005",
+      "nombre": "Blusa basica diagonal",
+      "detalle": "Blusa básica en tela suplex diagonal.",
+      "talla": "EST (S/M)",
+      "color": "blanco/negro",
+      "stock": 1,
+      "pvp": 12,
+      "imagen": "fotos_catalogo/b0005-blanconegro.webp",
+      "updatedAt": "2026-05-23T12:13"
+    },
+    {
+      "id": "mpilxor9de4kki89fog",
+      "inventarioId": "mpilxor9de4kki89fog",
+      "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|cafe/nego",
+      "codigo": "b0005",
+      "nombre": "Blusa basica diagonal",
+      "detalle": "Blusa básica en tela suplex diagonal.",
+      "talla": "EST (S/M)",
+      "color": "cafe/nego",
+      "stock": 1,
+      "pvp": 12,
+      "imagen": "fotos_catalogo/b0005-cafenego.webp",
+      "updatedAt": "2026-05-23T12:13"
+    },
+    {
+      "id": "mpilxor9pqcxnidp26n",
+      "inventarioId": "mpilxor9pqcxnidp26n",
+      "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|ladrillo",
+      "codigo": "b0005",
+      "nombre": "Blusa basica diagonal",
+      "detalle": "Blusa básica en tela suplex diagonal.",
+      "talla": "EST (S/M)",
+      "color": "ladrillo",
+      "stock": 1,
+      "pvp": 12,
+      "imagen": "fotos_catalogo/b0005-ladrillo.webp",
+      "updatedAt": "2026-05-23T12:13"
+    },
+    {
+      "id": "mpilxor81y59kketqzg",
+      "inventarioId": "mpilxor81y59kketqzg",
+      "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|rosado",
+      "codigo": "b0005",
+      "nombre": "Blusa basica diagonal",
+      "detalle": "Blusa básica en tela suplex diagonal.",
+      "talla": "EST (S/M)",
+      "color": "rosado",
+      "stock": 1,
+      "pvp": 12,
+      "imagen": "fotos_catalogo/b0005-rosado.webp",
+      "updatedAt": "2026-05-23T12:13"
+    },
+    {
+      "id": "mpiojpr5kysqdx1lru9",
+      "inventarioId": "mpiojpr5kysqdx1lru9",
+      "variantKey": "b0006|blusa basica recta|blusa basica de tela suplex, con escote en la espalda|est (s/m)|cafe",
+      "codigo": "b0006",
+      "nombre": "Blusa basica recta",
+      "detalle": "Blusa basica de tela suplex, con escote en la espalda",
+      "talla": "EST (S/M)",
+      "color": "cafe",
+      "stock": 1,
+      "pvp": 12,
+      "imagen": "fotos_catalogo/b0006-cafe.webp",
+      "updatedAt": "2026-05-23T13:26"
+    },
+    {
+      "id": "mpiojpr5lsn28iazxgf",
+      "inventarioId": "mpiojpr5lsn28iazxgf",
+      "variantKey": "b0006|blusa basica recta|blusa basica de tela suplex, con escote en la espalda|est (s/m)|rosado",
+      "codigo": "b0006",
+      "nombre": "Blusa basica recta",
+      "detalle": "Blusa basica de tela suplex, con escote en la espalda",
+      "talla": "EST (S/M)",
+      "color": "rosado",
+      "stock": 1,
+      "pvp": 12,
+      "imagen": "fotos_catalogo/b0006-rosado.webp",
+      "updatedAt": "2026-05-23T13:26"
     },
     {
       "id": "modeqyvr2s1h2tra1kw",
@@ -211,9 +309,9 @@
       "talla": "EST (M/L)",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 13,
+      "pvp": 18,
       "imagen": "fotos_catalogo/b2292-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:33"
     },
     {
       "id": "modeqyvrj66cl6a7za",
@@ -225,9 +323,9 @@
       "talla": "EST (M/L)",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 13,
+      "pvp": 18,
       "imagen": "fotos_catalogo/b2292-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:33"
     },
     {
       "id": "modeqyvrid7elbnx5y",
@@ -239,9 +337,9 @@
       "talla": "EST (M/L)",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 13,
+      "pvp": 18,
       "imagen": "fotos_catalogo/b2292-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:33"
     },
     {
       "id": "modeqyvrqb4ome5yto",
@@ -253,9 +351,9 @@
       "talla": "EST (M/L)",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 13,
+      "pvp": 18,
       "imagen": "fotos_catalogo/b2292-rosado.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:33"
     },
     {
       "id": "mo6mmkq9lb2zlkysk6",
@@ -266,10 +364,10 @@
       "detalle": "Blusa tipo camisa, con bolsillos delanteros.",
       "talla": "M",
       "color": "CAPUCHINO",
-      "stock": 1,
-      "pvp": 15,
+      "stock": 2,
+      "pvp": 18,
       "imagen": "fotos_catalogo/2228-capuchino.webp",
-      "updatedAt": "2026-05-16T07:13"
+      "updatedAt": "2026-05-23T11:42"
     },
     {
       "id": "mo6mmkq9avgfh2n95c4",
@@ -281,9 +379,9 @@
       "talla": "M",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 15,
+      "pvp": 18,
       "imagen": "fotos_catalogo/2228-negro.webp",
-      "updatedAt": "2026-05-16T07:13"
+      "updatedAt": "2026-05-23T11:42"
     },
     {
       "id": "mo8pcq0cg1yc7y9peaj",
@@ -365,23 +463,9 @@
       "talla": "EST (M/L)",
       "color": "AZUL MARINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/b2920-azul-marino.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "moddj2njn7ucqrz0lg",
-      "inventarioId": "moddj2njn7ucqrz0lg",
-      "variantKey": "b2920|blusa zara|blusa tela lona en v con broche/dije|est (m/l)|blanco",
-      "codigo": "B2920",
-      "nombre": "BLUSA ZARA",
-      "detalle": "BLUSA TELA LONA EN V CON BROCHE/DIJE",
-      "talla": "EST (M/L)",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/b2920-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T11:47"
     },
     {
       "id": "moddj2njjkvrswmtsog",
@@ -393,9 +477,9 @@
       "talla": "EST (M/L)",
       "color": "CAPUCHINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/b2920-capuchino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T11:47"
     },
     {
       "id": "moddj2njleta3xr7m7n",
@@ -407,9 +491,9 @@
       "talla": "EST (M/L)",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/b2920-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T11:47"
     },
     {
       "id": "moddj2njl6lb1ebycp",
@@ -421,93 +505,107 @@
       "talla": "EST (M/L)",
       "color": "VINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/b2920-vino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T11:47"
     },
     {
-      "id": "moevej4de5w4yylz9md",
-      "inventarioId": "moevej4de5w4yylz9md",
-      "variantKey": "c0001|bomber jacket|bomber jacket|m|beige",
+      "id": "mpibcmpz48tn66xbhs3",
+      "inventarioId": "mpibcmpz48tn66xbhs3",
+      "variantKey": "c0001|bomber jacket|chaqueta de cuerina oversize, con elastico en cintura y puños.|l|beige",
       "codigo": "C0001",
-      "nombre": "BOMBER JACKET",
-      "detalle": "BOMBER JACKET",
-      "talla": "M",
+      "nombre": "Bomber Jacket",
+      "detalle": "Chaqueta de cuerina oversize, con elastico en cintura y puños.",
+      "talla": "L",
       "color": "BEIGE",
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/c0001-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T07:17"
+    },
+    {
+      "id": "mpibcmpzpaoqu9ihn4p",
+      "inventarioId": "mpibcmpzpaoqu9ihn4p",
+      "variantKey": "c0001|bomber jacket|chaqueta de cuerina oversize, con elastico en cintura y puños.|s|beige",
+      "codigo": "C0001",
+      "nombre": "Bomber Jacket",
+      "detalle": "Chaqueta de cuerina oversize, con elastico en cintura y puños.",
+      "talla": "S",
+      "color": "BEIGE",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/c0001-beige.webp",
+      "updatedAt": "2026-05-23T07:17"
     },
     {
       "id": "moevej4d5lfd6n6c1ir",
       "inventarioId": "moevej4d5lfd6n6c1ir",
-      "variantKey": "c0001|bomber jacket|bomber jacket|l|cafe",
+      "variantKey": "c0001|bomber jacket|chaqueta de cuerina oversize, con elastico en cintura y puños.|l|cafe",
       "codigo": "C0001",
-      "nombre": "BOMBER JACKET",
-      "detalle": "BOMBER JACKET",
+      "nombre": "Bomber Jacket",
+      "detalle": "Chaqueta de cuerina oversize, con elastico en cintura y puños.",
       "talla": "L",
       "color": "CAFE",
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/c0001-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T07:17"
     },
     {
       "id": "moevej4d0sc2d0p4g6ja",
       "inventarioId": "moevej4d0sc2d0p4g6ja",
-      "variantKey": "c0001|bomber jacket|bomber jacket|l|camel",
+      "variantKey": "c0001|bomber jacket|chaqueta de cuerina oversize, con elastico en cintura y puños.|l|camel",
       "codigo": "C0001",
-      "nombre": "BOMBER JACKET",
-      "detalle": "BOMBER JACKET",
+      "nombre": "Bomber Jacket",
+      "detalle": "Chaqueta de cuerina oversize, con elastico en cintura y puños.",
       "talla": "L",
       "color": "CAMEL",
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/c0001-camel.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T07:17"
     },
     {
-      "id": "moevej4duhq4ieg806",
-      "inventarioId": "moevej4duhq4ieg806",
-      "variantKey": "c0001|bomber jacket|bomber jacket|m|camel",
+      "id": "mpibcmpz5nx0wqh3vaj",
+      "inventarioId": "mpibcmpz5nx0wqh3vaj",
+      "variantKey": "c0001|bomber jacket|chaqueta de cuerina oversize, con elastico en cintura y puños.|s|camel",
       "codigo": "C0001",
-      "nombre": "BOMBER JACKET",
-      "detalle": "BOMBER JACKET",
-      "talla": "M",
+      "nombre": "Bomber Jacket",
+      "detalle": "Chaqueta de cuerina oversize, con elastico en cintura y puños.",
+      "talla": "S",
       "color": "CAMEL",
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/c0001-camel.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T07:17"
     },
     {
       "id": "moevej4d4rs4ko33vut",
       "inventarioId": "moevej4d4rs4ko33vut",
-      "variantKey": "c0001|bomber jacket|bomber jacket|l|negro",
+      "variantKey": "c0001|bomber jacket|chaqueta de cuerina oversize, con elastico en cintura y puños.|l|negro",
       "codigo": "C0001",
-      "nombre": "BOMBER JACKET",
-      "detalle": "BOMBER JACKET",
+      "nombre": "Bomber Jacket",
+      "detalle": "Chaqueta de cuerina oversize, con elastico en cintura y puños.",
       "talla": "L",
       "color": "NEGRO",
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/c0001-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T07:17"
     },
     {
       "id": "moevej4dl2qfxotev8",
       "inventarioId": "moevej4dl2qfxotev8",
-      "variantKey": "c0001|bomber jacket|bomber jacket|l|vino",
+      "variantKey": "c0001|bomber jacket|chaqueta de cuerina oversize, con elastico en cintura y puños.|l|vino",
       "codigo": "C0001",
-      "nombre": "BOMBER JACKET",
-      "detalle": "BOMBER JACKET",
+      "nombre": "Bomber Jacket",
+      "detalle": "Chaqueta de cuerina oversize, con elastico en cintura y puños.",
       "talla": "L",
       "color": "VINO",
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/c0001-vino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T07:17"
     },
     {
       "id": "mo6mmkq9k68kdz2w4s",
@@ -519,9 +617,9 @@
       "talla": "EST (S/M)",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 13,
+      "pvp": 22,
       "imagen": "fotos_catalogo/8115-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T11:28"
     },
     {
       "id": "mo6mmkq9a9yzai4ra2r",
@@ -533,9 +631,9 @@
       "talla": "EST (S/M)",
       "color": "CAPUCHINO",
       "stock": 1,
-      "pvp": 13,
+      "pvp": 22,
       "imagen": "fotos_catalogo/8115-capuchino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T11:28"
     },
     {
       "id": "mo6mmkq9nu6utpwwls",
@@ -547,9 +645,9 @@
       "talla": "EST (S/M)",
       "color": "LADRILLO",
       "stock": 1,
-      "pvp": 13,
+      "pvp": 22,
       "imagen": "fotos_catalogo/8115-ladrillo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T11:28"
     },
     {
       "id": "mo6mmkq9fac3ky0swqc",
@@ -561,9 +659,9 @@
       "talla": "EST (S/M)",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 13,
+      "pvp": 22,
       "imagen": "fotos_catalogo/8115-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T11:28"
     },
     {
       "id": "mo8sy2zcnhf6urg28gs",
@@ -575,9 +673,9 @@
       "talla": "EST (S/M)",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 14,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b020-beige.webp",
-      "updatedAt": "2026-05-14T18:46"
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "mo8sy2zc4gehlbylsz7",
@@ -589,9 +687,9 @@
       "talla": "EST (S/M)",
       "color": "BLANCA",
       "stock": 4,
-      "pvp": 14,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b020-blanco.webp",
-      "updatedAt": "2026-05-14T18:46"
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "mo8sy2zcq846yo0nvj",
@@ -603,9 +701,9 @@
       "talla": "EST (S/M)",
       "color": "CAPUCHINO",
       "stock": 1,
-      "pvp": 14,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b020-capuchino.webp",
-      "updatedAt": "2026-05-14T18:46"
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "mo8sy2zcjajjubhrtpn",
@@ -617,9 +715,9 @@
       "talla": "EST (S/M)",
       "color": "NEGRA",
       "stock": 2,
-      "pvp": 14,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b020-negro.webp",
-      "updatedAt": "2026-05-14T18:46"
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "mo8sy2zcx27qc1hdbmo",
@@ -631,9 +729,9 @@
       "talla": "EST (S/M)",
       "color": "PLOMO",
       "stock": 1,
-      "pvp": 14,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b020-plomo.webp",
-      "updatedAt": "2026-05-14T18:46"
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "mo8sy2zcx61mfabga6",
@@ -645,9 +743,9 @@
       "talla": "EST (S/M)",
       "color": "ROSADA",
       "stock": 1,
-      "pvp": 14,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b020-rosado.webp",
-      "updatedAt": "2026-05-14T18:46"
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "modcrc3sd105sea67o8",
@@ -659,9 +757,9 @@
       "talla": "",
       "color": "BEIGE/CAFE",
       "stock": 1,
-      "pvp": 32,
+      "pvp": 35,
       "imagen": "fotos_catalogo/c882-beigecafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:52"
     },
     {
       "id": "modcrc3s3y2pp0bhwog",
@@ -673,9 +771,9 @@
       "talla": "",
       "color": "CAPUCHINO",
       "stock": 1,
-      "pvp": 32,
+      "pvp": 35,
       "imagen": "fotos_catalogo/c882-capuchino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:52"
     },
     {
       "id": "modcrc3sne255aayvsm",
@@ -687,9 +785,9 @@
       "talla": "",
       "color": "NEGRA",
       "stock": 1,
-      "pvp": 32,
+      "pvp": 35,
       "imagen": "fotos_catalogo/c882-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:52"
     },
     {
       "id": "modcrc3sddr2lw5ihw",
@@ -701,9 +799,9 @@
       "talla": "",
       "color": "NEGRA/BEIGE",
       "stock": 1,
-      "pvp": 32,
+      "pvp": 35,
       "imagen": "fotos_catalogo/c882-negrabeige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:52"
     },
     {
       "id": "modcrc3s3j8nt9kofn9",
@@ -715,9 +813,9 @@
       "talla": "",
       "color": "ROJA",
       "stock": 1,
-      "pvp": 32,
+      "pvp": 35,
       "imagen": "fotos_catalogo/c882-roja.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:52"
     },
     {
       "id": "modcwjd7ryiygjdqw1",
@@ -757,9 +855,9 @@
       "talla": "",
       "color": "BLANCA",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 35,
       "imagen": "fotos_catalogo/c818-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:52"
     },
     {
       "id": "modcaz3tcwgh3sdfne8",
@@ -771,9 +869,9 @@
       "talla": "",
       "color": "NEGRA",
       "stock": 2,
-      "pvp": 26,
+      "pvp": 35,
       "imagen": "fotos_catalogo/c818-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:52"
     },
     {
       "id": "modcn20imv8bs59cws",
@@ -813,9 +911,9 @@
       "talla": "",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 32,
+      "pvp": 35,
       "imagen": "fotos_catalogo/25004-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "modbzx4u70tzx5nwjb",
@@ -827,9 +925,9 @@
       "talla": "",
       "color": "MIEL",
       "stock": 1,
-      "pvp": 32,
+      "pvp": 35,
       "imagen": "fotos_catalogo/25004-miel.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "modbzx4uj6qgpkr3a7j",
@@ -841,51 +939,51 @@
       "talla": "",
       "color": "ROJA",
       "stock": 1,
-      "pvp": 32,
+      "pvp": 35,
       "imagen": "fotos_catalogo/25004-roja.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:40"
     },
     {
       "id": "moevk5dkqd498f9bzj8",
       "inventarioId": "moevk5dkqd498f9bzj8",
-      "variantKey": "c0002|casaca roma|chaqueta cuerina croptop boton en cuello|única|beige",
+      "variantKey": "c0002|casaca roma|chaqueta de cuerina, crop top con boton en el cuello.|única|beige",
       "codigo": "C0002",
-      "nombre": "CASACA ROMA",
-      "detalle": "CHAQUETA CUERINA CROPTOP BOTON EN CUELLO",
+      "nombre": "Casaca Roma",
+      "detalle": "Chaqueta de cuerina, crop top con boton en el cuello.",
       "talla": "Única",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/c0002-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T08:27"
     },
     {
       "id": "moevk5dk76zzncqst8f",
       "inventarioId": "moevk5dk76zzncqst8f",
-      "variantKey": "c0002|casaca roma|chaqueta cuerina croptop boton en cuello|única|cafe",
+      "variantKey": "c0002|casaca roma|chaqueta de cuerina, crop top con boton en el cuello.|única|cafe",
       "codigo": "C0002",
-      "nombre": "CASACA ROMA",
-      "detalle": "CHAQUETA CUERINA CROPTOP BOTON EN CUELLO",
+      "nombre": "Casaca Roma",
+      "detalle": "Chaqueta de cuerina, crop top con boton en el cuello.",
       "talla": "Única",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/c0002-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T08:27"
     },
     {
       "id": "moevk5dkcvhbaimtval",
       "inventarioId": "moevk5dkcvhbaimtval",
-      "variantKey": "c0002|casaca roma|chaqueta cuerina croptop boton en cuello|única|miel",
+      "variantKey": "c0002|casaca roma|chaqueta de cuerina, crop top con boton en el cuello.|única|miel",
       "codigo": "C0002",
-      "nombre": "CASACA ROMA",
-      "detalle": "CHAQUETA CUERINA CROPTOP BOTON EN CUELLO",
+      "nombre": "Casaca Roma",
+      "detalle": "Chaqueta de cuerina, crop top con boton en el cuello.",
       "talla": "Única",
       "color": "MIEL",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/c0002-miel.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T08:27"
     },
     {
       "id": "mo6mmkq934p4of1si3m",
@@ -1009,9 +1107,9 @@
       "talla": "EST (M/L)",
       "color": "LADRILLO",
       "stock": 1,
-      "pvp": 10,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b1837-ladrillo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:51"
     },
     {
       "id": "modfsw6xy6bjrqyf10a",
@@ -1023,9 +1121,9 @@
       "talla": "EST (M/L)",
       "color": "NEGRO/BEIGE",
       "stock": 1,
-      "pvp": 10,
+      "pvp": 16,
       "imagen": "fotos_catalogo/b1837-negrobeige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:51"
     },
     {
       "id": "mo6mmkq92i90n7j9bzx",
@@ -1037,9 +1135,9 @@
       "talla": "M",
       "color": "CAPUCHINO",
       "stock": 1,
-      "pvp": 31,
+      "pvp": 30,
       "imagen": "fotos_catalogo/2227-capuchino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T05:54"
     },
     {
       "id": "mo6mmkq9otmhfpv78",
@@ -1051,9 +1149,9 @@
       "talla": "S",
       "color": "CAPUCHINO",
       "stock": 1,
-      "pvp": 31,
+      "pvp": 30,
       "imagen": "fotos_catalogo/2227-capuchino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T05:54"
     },
     {
       "id": "mo6mmkq93iou8bayg1r",
@@ -1065,23 +1163,37 @@
       "talla": "S",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 31,
+      "pvp": 30,
       "imagen": "fotos_catalogo/2227-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T05:54"
     },
     {
-      "id": "mp3drxeptpwyvez8n79",
-      "inventarioId": "mp3drxeptpwyvez8n79",
-      "variantKey": "c0005|chaqueta croptop cuerina|chaqueta cierre croptop cuerina|est (s/m)|camel",
-      "codigo": "C0005",
-      "nombre": "CHAQUETA CROPTOP CUERINA",
-      "detalle": "Chaqueta cierre croptop cuerina",
-      "talla": "EST (S/M)",
-      "color": "camel",
+      "id": "moevpwafsqd0zlwqgtj",
+      "inventarioId": "moevpwafsqd0zlwqgtj",
+      "variantKey": "c0003|chaqueta rider|chaqueta clasica estilo rider, cuerina estilo cocodrilo.|única|camel",
+      "codigo": "C0003",
+      "nombre": "Chaqueta Rider",
+      "detalle": "Chaqueta clasica estilo rider, cuerina estilo cocodrilo.",
+      "talla": "Única",
+      "color": "CAMEL",
       "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/c0005-camel.webp",
-      "updatedAt": ""
+      "pvp": 30,
+      "imagen": "fotos_catalogo/c0003-camel.webp",
+      "updatedAt": "2026-05-23T08:35"
+    },
+    {
+      "id": "moevpwafkcb3lzoheze",
+      "inventarioId": "moevpwafkcb3lzoheze",
+      "variantKey": "c0003|chaqueta rider|chaqueta clasica estilo rider, cuerina estilo cocodrilo.|única|negro",
+      "codigo": "C0003",
+      "nombre": "Chaqueta Rider",
+      "detalle": "Chaqueta clasica estilo rider, cuerina estilo cocodrilo.",
+      "talla": "Única",
+      "color": "NEGRO",
+      "stock": 2,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/c0003-negro.webp",
+      "updatedAt": "2026-05-23T08:35"
     },
     {
       "id": "mo6mmkq9kug2y8paxt",
@@ -1093,37 +1205,9 @@
       "talla": "S",
       "color": "GRIS OSCURO",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/2217-gris-oscuro.webp",
-      "updatedAt": "2026-05-19T10:38"
-    },
-    {
-      "id": "moevpwafsqd0zlwqgtj",
-      "inventarioId": "moevpwafsqd0zlwqgtj",
-      "variantKey": "c0003|clasica croco|chaqueta cocodrilo clasica|única|camel",
-      "codigo": "C0003",
-      "nombre": "CLASICA CROCO",
-      "detalle": "CHAQUETA COCODRILO CLASICA",
-      "talla": "Única",
-      "color": "CAMEL",
-      "stock": 1,
-      "pvp": 21,
-      "imagen": "fotos_catalogo/c0003-camel.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "moevpwafkcb3lzoheze",
-      "inventarioId": "moevpwafkcb3lzoheze",
-      "variantKey": "c0003|clasica croco|chaqueta cocodrilo clasica|única|negro",
-      "codigo": "C0003",
-      "nombre": "CLASICA CROCO",
-      "detalle": "CHAQUETA COCODRILO CLASICA",
-      "talla": "Única",
-      "color": "NEGRO",
-      "stock": 2,
-      "pvp": 21,
-      "imagen": "fotos_catalogo/c0003-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T05:54"
     },
     {
       "id": "modf78jpiid716xkrpf",
@@ -1135,9 +1219,9 @@
       "talla": "M",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 23,
+      "pvp": 32,
       "imagen": "fotos_catalogo/c51832-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-19T13:25"
     },
     {
       "id": "modf78jpbwq0wsuy4ws",
@@ -1149,9 +1233,9 @@
       "talla": "L",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 23,
+      "pvp": 32,
       "imagen": "fotos_catalogo/c51832-rosado.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-19T13:25"
     },
     {
       "id": "mo6mmkq9jtwzpkcokwj",
@@ -1275,9 +1359,9 @@
       "talla": "S",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 30,
+      "pvp": 32,
       "imagen": "fotos_catalogo/a83909-blanco.webp",
-      "updatedAt": "2026-05-14T19:13"
+      "updatedAt": "2026-05-23T14:44"
     },
     {
       "id": "mo8wbz5imxyzfb71zur",
@@ -1289,9 +1373,9 @@
       "talla": "L",
       "color": "CELESTE",
       "stock": 1,
-      "pvp": 30,
+      "pvp": 32,
       "imagen": "fotos_catalogo/a83909-celeste.webp",
-      "updatedAt": "2026-05-14T19:13"
+      "updatedAt": "2026-05-23T14:44"
     },
     {
       "id": "mo8wbz5i5qa037yhf79",
@@ -1303,37 +1387,9 @@
       "talla": "S",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 30,
+      "pvp": 32,
       "imagen": "fotos_catalogo/a83909-negro.webp",
-      "updatedAt": "2026-05-14T19:13"
-    },
-    {
-      "id": "mp5tmzkc45rcsvck5mb",
-      "inventarioId": "mp5tmzkc45rcsvck5mb",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|l|beige",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "L",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-beige.webp",
-      "updatedAt": "2026-05-16T12:50"
-    },
-    {
-      "id": "mp5tmzkcxjywhsdd",
-      "inventarioId": "mp5tmzkcxjywhsdd",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|m|negro",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "M",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-negro.webp",
-      "updatedAt": "2026-05-19T08:46"
+      "updatedAt": "2026-05-23T14:44"
     },
     {
       "id": "mp5tmzkcynbow9uj9x",
@@ -1347,7 +1403,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-negro-blanco.webp",
-      "updatedAt": "2026-05-16T12:50"
+      "updatedAt": "2026-05-23T05:39"
     },
     {
       "id": "mp8mruk1e3aogoge8rp",
@@ -1361,7 +1417,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-palo-de-rosa.webp",
-      "updatedAt": "2026-05-16T12:50"
+      "updatedAt": "2026-05-23T05:39"
     },
     {
       "id": "mp5tmzkcbcns6myvndj",
@@ -1375,35 +1431,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-rosado-blanco.webp",
-      "updatedAt": "2026-05-16T12:50"
-    },
-    {
-      "id": "mp5tmzkci16a2pobse",
-      "inventarioId": "mp5tmzkci16a2pobse",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|l|rosado-cafe",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "L",
-      "color": "Rosado-cafe",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-rosado-cafe.webp",
-      "updatedAt": "2026-05-16T12:50"
-    },
-    {
-      "id": "modfm63yr9qciyb1s78",
-      "inventarioId": "modfm63yr9qciyb1s78",
-      "variantKey": "c51762|conjunto croptop emma|conjunto chaleco croptop, con boton de cintura.|s|beige",
-      "codigo": "C51762",
-      "nombre": "CONJUNTO CROPTOP EMMA",
-      "detalle": "Conjunto chaleco croptop, con boton de cintura.",
-      "talla": "S",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 32,
-      "imagen": "fotos_catalogo/c51762-beige.webp",
-      "updatedAt": "2026-05-19T10:30"
+      "updatedAt": "2026-05-23T05:39"
     },
     {
       "id": "modfm63yzxqi2c5z0ia",
@@ -1529,20 +1557,6 @@
       "stock": 1,
       "pvp": 32,
       "imagen": "fotos_catalogo/c51783-blanco.webp",
-      "updatedAt": "2026-05-19T10:33"
-    },
-    {
-      "id": "modff9r8wwspcvzb4za",
-      "inventarioId": "modff9r8wwspcvzb4za",
-      "variantKey": "c51783|conjunto elegant|conjunto chaleco, con botones dorados.|l|capuchino",
-      "codigo": "C51783",
-      "nombre": "CONJUNTO ELEGANT",
-      "detalle": "Conjunto chaleco, con botones dorados.",
-      "talla": "L",
-      "color": "CAPUCHINO",
-      "stock": 1,
-      "pvp": 32,
-      "imagen": "fotos_catalogo/c51783-capuchino.webp",
       "updatedAt": "2026-05-19T10:33"
     },
     {
@@ -1840,48 +1854,6 @@
       "updatedAt": "2026-05-14T19:22"
     },
     {
-      "id": "moew0hpt75a7c0czxri",
-      "inventarioId": "moew0hpt75a7c0czxri",
-      "variantKey": "c0004|croc top correa|chaqueta cuerina croctop con correa|única|cafe",
-      "codigo": "C0004",
-      "nombre": "CROC TOP CORREA",
-      "detalle": "CHAQUETA CUERINA CROCTOP CON CORREA",
-      "talla": "Única",
-      "color": "CAFE",
-      "stock": 1,
-      "pvp": 26,
-      "imagen": "fotos_catalogo/c0004-cafe.webp",
-      "updatedAt": "2026-05-16T13:29"
-    },
-    {
-      "id": "moew0hpth4i8u6bir7i",
-      "inventarioId": "moew0hpth4i8u6bir7i",
-      "variantKey": "c0004|croc top correa|chaqueta cuerina croctop con correa|única|miel",
-      "codigo": "C0004",
-      "nombre": "CROC TOP CORREA",
-      "detalle": "CHAQUETA CUERINA CROCTOP CON CORREA",
-      "talla": "Única",
-      "color": "MIEL",
-      "stock": 1,
-      "pvp": 26,
-      "imagen": "fotos_catalogo/c0004-miel.webp",
-      "updatedAt": "2026-05-16T13:29"
-    },
-    {
-      "id": "moew0hptzpw55qvurqi",
-      "inventarioId": "moew0hptzpw55qvurqi",
-      "variantKey": "c0004|croc top correa|chaqueta cuerina croctop con correa|única|negro",
-      "codigo": "C0004",
-      "nombre": "CROC TOP CORREA",
-      "detalle": "CHAQUETA CUERINA CROCTOP CON CORREA",
-      "talla": "Única",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 26,
-      "imagen": "fotos_catalogo/c0004-negro.webp",
-      "updatedAt": "2026-05-16T13:29"
-    },
-    {
       "id": "mp5vrxj8h8rvcrf3v3",
       "inventarioId": "mp5vrxj8h8rvcrf3v3",
       "variantKey": "e2007|enterizo boo|enterizo con cuello chaleco en v, y dije circular de perlas|est (m/l)|blanco",
@@ -1893,20 +1865,6 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2007-blanco.webp",
-      "updatedAt": "2026-05-14T14:31"
-    },
-    {
-      "id": "mp5vqhe360n3sx36scf",
-      "inventarioId": "mp5vqhe360n3sx36scf",
-      "variantKey": "e2007|enterizo boo|enterizo con cuello chaleco en v, y dije circular de perlas|est (m/l)|cafe",
-      "codigo": "E2007",
-      "nombre": "ENTERIZO BOO",
-      "detalle": "Enterizo con cuello chaleco en V, y dije circular de perlas",
-      "talla": "EST (M/L)",
-      "color": "Cafe",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2007-cafe.webp",
       "updatedAt": "2026-05-14T14:31"
     },
     {
@@ -1938,20 +1896,6 @@
       "updatedAt": "2026-05-14T14:31"
     },
     {
-      "id": "mp5uvlthb9zlr39u9kl",
-      "inventarioId": "mp5uvlthb9zlr39u9kl",
-      "variantKey": "e2041|enterizo flor|enterizo con dije de flor, manga corta, cuello en v, y capa lateral.|est (m/l)|camel",
-      "codigo": "E2041",
-      "nombre": "Enterizo Flor",
-      "detalle": "Enterizo con dije de flor, manga corta, cuello en V, y capa lateral.",
-      "talla": "EST (M/L)",
-      "color": "Camel",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-camel.webp",
-      "updatedAt": "2026-05-14T14:31"
-    },
-    {
       "id": "mp5uvlth5docdi8h7w",
       "inventarioId": "mp5uvlth5docdi8h7w",
       "variantKey": "e2041|enterizo flor|enterizo con dije de flor, manga corta, cuello en v, y capa lateral.|est (m/l)|perla",
@@ -1975,9 +1919,9 @@
       "talla": "EST (M/L)",
       "color": "Cafe",
       "stock": 1,
-      "pvp": 42,
+      "pvp": 32,
       "imagen": "fotos_catalogo/e2045-cafe.webp",
-      "updatedAt": "2026-05-19T09:21"
+      "updatedAt": "2026-05-19T13:52"
     },
     {
       "id": "mp5vafpjvh4aeuxkxjr",
@@ -1989,9 +1933,9 @@
       "talla": "EST (M/L)",
       "color": "Rojo",
       "stock": 1,
-      "pvp": 42,
+      "pvp": 32,
       "imagen": "fotos_catalogo/e2045-rojo.webp",
-      "updatedAt": "2026-05-19T09:21"
+      "updatedAt": "2026-05-19T13:52"
     },
     {
       "id": "modoksyz7hcm5no7u9x",
@@ -3403,9 +3347,9 @@
       "talla": "S",
       "color": "CAFÉ",
       "stock": 1,
-      "pvp": 40,
+      "pvp": 42,
       "imagen": "fotos_catalogo/2315-cafe.webp",
-      "updatedAt": "2026-05-16T06:23"
+      "updatedAt": "2026-05-23T14:24"
     },
     {
       "id": "mo6mmkq9x25wy8ao2h8",
@@ -3417,23 +3361,9 @@
       "talla": "S",
       "color": "CAFÉ CLARO",
       "stock": 1,
-      "pvp": 40,
+      "pvp": 42,
       "imagen": "fotos_catalogo/2315-cafe-claro.webp",
-      "updatedAt": "2026-05-16T06:23"
-    },
-    {
-      "id": "mo6mmkq915z772biktn",
-      "inventarioId": "mo6mmkq915z772biktn",
-      "variantKey": "2315|gabardina nova|gabardina botones dorados|m|capuchino",
-      "codigo": "2315",
-      "nombre": "GABARDINA NOVA",
-      "detalle": "Gabardina botones dorados",
-      "talla": "M",
-      "color": "CAPUCHINO",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/2315-capuchino.webp",
-      "updatedAt": "2026-05-16T06:23"
+      "updatedAt": "2026-05-23T14:24"
     },
     {
       "id": "mo6mmkq8tq8ru3rsmz",
@@ -3445,9 +3375,9 @@
       "talla": "S",
       "color": "CAPUCHINO",
       "stock": 1,
-      "pvp": 40,
+      "pvp": 42,
       "imagen": "fotos_catalogo/2315-capuchino.webp",
-      "updatedAt": "2026-05-16T06:23"
+      "updatedAt": "2026-05-23T14:24"
     },
     {
       "id": "mo6mmkq93wwhfuehgzd",
@@ -3459,9 +3389,9 @@
       "talla": "M",
       "color": "NEGRO",
       "stock": 2,
-      "pvp": 40,
+      "pvp": 42,
       "imagen": "fotos_catalogo/2315-negro.webp",
-      "updatedAt": "2026-05-16T06:23"
+      "updatedAt": "2026-05-23T14:24"
     },
     {
       "id": "mo6mmkq9avcq01fq1wh",
@@ -3473,107 +3403,93 @@
       "talla": "S",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 40,
+      "pvp": 42,
       "imagen": "fotos_catalogo/2315-negro.webp",
-      "updatedAt": "2026-05-16T06:23"
+      "updatedAt": "2026-05-23T14:24"
     },
     {
       "id": "mo9a1cppl43m25nbg6",
       "inventarioId": "mo9a1cppl43m25nbg6",
-      "variantKey": "m033|pantalon cinturon ariadna|pantalon cinturon brillos bolitas|l|blanco",
+      "variantKey": "m033|pantalón ariadna|pantalón con cinturon de colitas con brillo.|l|blanco",
       "codigo": "M033",
-      "nombre": "PANTALON CINTURON ARIADNA",
-      "detalle": "Pantalon cinturon brillos bolitas",
+      "nombre": "Pantalón Ariadna",
+      "detalle": "Pantalón con cinturon de colitas con brillo.",
       "talla": "L",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 23,
       "imagen": "fotos_catalogo/m033-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T09:12"
     },
     {
       "id": "mo9a1cpp6spihv0sqz3",
       "inventarioId": "mo9a1cpp6spihv0sqz3",
-      "variantKey": "m033|pantalon cinturon ariadna|pantalon cinturon brillos bolitas|m|blanco",
+      "variantKey": "m033|pantalón ariadna|pantalón con cinturon de colitas con brillo.|m|blanco",
       "codigo": "M033",
-      "nombre": "PANTALON CINTURON ARIADNA",
-      "detalle": "Pantalon cinturon brillos bolitas",
+      "nombre": "Pantalón Ariadna",
+      "detalle": "Pantalón con cinturon de colitas con brillo.",
       "talla": "M",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 23,
       "imagen": "fotos_catalogo/m033-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T09:12"
+    },
+    {
+      "id": "mo9a1cppqi84jjw2mnp",
+      "inventarioId": "mo9a1cppqi84jjw2mnp",
+      "variantKey": "m033|pantalón ariadna|pantalón con cinturon de colitas con brillo.|s|blanco",
+      "codigo": "M033",
+      "nombre": "Pantalón Ariadna",
+      "detalle": "Pantalón con cinturon de colitas con brillo.",
+      "talla": "S",
+      "color": "BLANCO",
+      "stock": 1,
+      "pvp": 23,
+      "imagen": "fotos_catalogo/m033-blanco.webp",
+      "updatedAt": "2026-05-23T09:12"
     },
     {
       "id": "mo9a1cppez3g87vqrr",
       "inventarioId": "mo9a1cppez3g87vqrr",
-      "variantKey": "m033|pantalon cinturon ariadna|pantalon cinturon brillos bolitas|m|cafe",
+      "variantKey": "m033|pantalón ariadna|pantalón con cinturon de colitas con brillo.|m|cafe",
       "codigo": "M033",
-      "nombre": "PANTALON CINTURON ARIADNA",
-      "detalle": "Pantalon cinturon brillos bolitas",
+      "nombre": "Pantalón Ariadna",
+      "detalle": "Pantalón con cinturon de colitas con brillo.",
       "talla": "M",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 23,
       "imagen": "fotos_catalogo/m033-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T09:12"
     },
     {
       "id": "mo9a1cpp9caykk7yih",
       "inventarioId": "mo9a1cpp9caykk7yih",
-      "variantKey": "m033|pantalon cinturon ariadna|pantalon cinturon brillos bolitas|l|gris",
+      "variantKey": "m033|pantalón ariadna|pantalón con cinturon de colitas con brillo.|l|gris",
       "codigo": "M033",
-      "nombre": "PANTALON CINTURON ARIADNA",
-      "detalle": "Pantalon cinturon brillos bolitas",
+      "nombre": "Pantalón Ariadna",
+      "detalle": "Pantalón con cinturon de colitas con brillo.",
       "talla": "L",
       "color": "GRIS",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 23,
       "imagen": "fotos_catalogo/m033-gris.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "mo9a2uzllwap10scinj",
-      "inventarioId": "mo9a2uzllwap10scinj",
-      "variantKey": "m033|pantalon cinturon ariadna|pantalon cinturon brillos bolitas|s|gris",
-      "codigo": "M033",
-      "nombre": "PANTALON CINTURON ARIADNA",
-      "detalle": "Pantalon cinturon brillos bolitas",
-      "talla": "S",
-      "color": "GRIS",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/m033-gris.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T09:12"
     },
     {
       "id": "mo9a1cppkeq9pukd14",
       "inventarioId": "mo9a1cppkeq9pukd14",
-      "variantKey": "m033|pantalon cinturon ariadna|pantalon cinturon brillos bolitas|m|negro",
+      "variantKey": "m033|pantalón ariadna|pantalón con cinturon de colitas con brillo.|m|negro",
       "codigo": "M033",
-      "nombre": "PANTALON CINTURON ARIADNA",
-      "detalle": "Pantalon cinturon brillos bolitas",
+      "nombre": "Pantalón Ariadna",
+      "detalle": "Pantalón con cinturon de colitas con brillo.",
       "talla": "M",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 23,
       "imagen": "fotos_catalogo/m033-negro.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "modexw8dmyoxl7c6id",
-      "inventarioId": "modexw8dmyoxl7c6id",
-      "variantKey": "p2266|pantalon exotic|pantalon cinturon chino cinturon|m|beige",
-      "codigo": "P2266",
-      "nombre": "PANTALON EXOTIC",
-      "detalle": "PANTALON CINTURON CHINO CINTURON",
-      "talla": "M",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 17,
-      "imagen": "fotos_catalogo/p2266-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T09:12"
     },
     {
       "id": "modexw8dly7pghr64bh",
@@ -3585,9 +3501,9 @@
       "talla": "L",
       "color": "NEGRO",
       "stock": 2,
-      "pvp": 17,
+      "pvp": 23,
       "imagen": "fotos_catalogo/p2266-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T10:30"
     },
     {
       "id": "mo99j7w6nf4mlecb5i",
@@ -3611,20 +3527,6 @@
       "nombre": "PANTALON JESSIE",
       "detalle": "Pantalon con cinturon doble evilla",
       "talla": "M",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 23,
-      "imagen": "fotos_catalogo/m030-blanco.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "mo99j7w653wak97kfcn",
-      "inventarioId": "mo99j7w653wak97kfcn",
-      "variantKey": "m030|pantalon jessie|pantalon con cinturon doble evilla|s|blanco",
-      "codigo": "M030",
-      "nombre": "PANTALON JESSIE",
-      "detalle": "Pantalon con cinturon doble evilla",
-      "talla": "S",
       "color": "BLANCO",
       "stock": 1,
       "pvp": 23,
@@ -3683,9 +3585,9 @@
       "talla": "M",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 23,
       "imagen": "fotos_catalogo/g202-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T10:37"
     },
     {
       "id": "mo92ilkaisi11h70rio",
@@ -3697,51 +3599,65 @@
       "talla": "L",
       "color": "NEGRO",
       "stock": 2,
-      "pvp": 25,
+      "pvp": 23,
       "imagen": "fotos_catalogo/g202-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T10:37"
+    },
+    {
+      "id": "mp3drxeptpwyvez8n79",
+      "inventarioId": "mp3drxeptpwyvez8n79",
+      "variantKey": "c0005|pilot jacket|chaqueta con cierre y correa, croptop estilo rider croptop.|est (s/m)|camel",
+      "codigo": "C0005",
+      "nombre": "Pilot Jacket",
+      "detalle": "Chaqueta con cierre y correa, croptop estilo rider croptop.",
+      "talla": "EST (S/M)",
+      "color": "camel",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/c0005-camel.webp",
+      "updatedAt": "2026-05-23T08:16"
     },
     {
       "id": "mo8x0af0mhjckko4axh",
       "inventarioId": "mo8x0af0mhjckko4axh",
-      "variantKey": "p251208|short lola|short llano de tela tipo gabardina con cinturon.|l|beige",
+      "variantKey": "p251208|short lola|short llano de tela con cinturon.|l|beige",
       "codigo": "P251208",
       "nombre": "SHORT LOLA",
-      "detalle": "Short llano de tela tipo gabardina con cinturon.",
+      "detalle": "Short llano de tela con cinturon.",
       "talla": "L",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 20,
       "imagen": "fotos_catalogo/p251208-beige.webp",
-      "updatedAt": "2026-05-14T19:16"
+      "updatedAt": "2026-05-23T09:07"
     },
     {
       "id": "mo8x0af0jmbvu6zfqrb",
       "inventarioId": "mo8x0af0jmbvu6zfqrb",
-      "variantKey": "p251208|short lola|short llano de tela tipo gabardina con cinturon.|m|negro",
+      "variantKey": "p251208|short lola|short llano de tela con cinturon.|m|negro",
       "codigo": "P251208",
       "nombre": "SHORT LOLA",
-      "detalle": "Short llano de tela tipo gabardina con cinturon.",
+      "detalle": "Short llano de tela con cinturon.",
       "talla": "M",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 20,
       "imagen": "fotos_catalogo/p251208-negro.webp",
-      "updatedAt": "2026-05-14T19:16"
+      "updatedAt": "2026-05-23T09:07"
     },
     {
       "id": "mo8x0af0xq8cbwgc1cf",
       "inventarioId": "mo8x0af0xq8cbwgc1cf",
-      "variantKey": "p251208|short lola|short llano de tela tipo gabardina con cinturon.|s|negro",
+      "variantKey": "p251208|short lola|short llano de tela con cinturon.|s|negro",
       "codigo": "P251208",
       "nombre": "SHORT LOLA",
-      "detalle": "Short llano de tela tipo gabardina con cinturon.",
+      "detalle": "Short llano de tela con cinturon.",
       "talla": "S",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 20,
       "imagen": "fotos_catalogo/p251208-negro.webp",
-      "updatedAt": "2026-05-14T19:16"
+      "updatedAt": "2026-05-23T09:07"
     },
     {
       "id": "mo8wmoaahpkgxkmibtv",
@@ -3753,9 +3669,23 @@
       "talla": "L",
       "color": "BEIGE/CAFE",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 20,
       "imagen": "fotos_catalogo/55860-beigecafe-l.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:41"
+    },
+    {
+      "id": "mo99cjzbarwmplflukv",
+      "inventarioId": "mo99cjzbarwmplflukv",
+      "variantKey": "vario|variado|diferentes prendas||variado",
+      "codigo": "VARIO",
+      "nombre": "VARIADO",
+      "detalle": "DIFERENTES PRENDAS",
+      "talla": "",
+      "color": "VARIADO",
+      "stock": 55,
+      "pvp": 2,
+      "imagen": "fotos_catalogo/vario-variado.webp",
+      "updatedAt": "2026-05-23T13:20"
     },
     {
       "id": "modmfjoo4wrbg2krlu9",
@@ -3767,9 +3697,9 @@
       "talla": "EST (S/M)",
       "color": "AZUL",
       "stock": 2,
-      "pvp": 22,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0008-azul.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmfjooildv11kb3v",
@@ -3780,10 +3710,10 @@
       "detalle": "VESTIDO EN A TIRAS ANCHAS 2 LAZOS CADERA",
       "talla": "EST (S/M)",
       "color": "BEIGE CLARO",
-      "stock": 2,
-      "pvp": 22,
+      "stock": 1,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0008-beige-claro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmmkygtwdx93pv3ia",
@@ -3795,9 +3725,9 @@
       "talla": "EST (S/M)",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 22,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0008-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmfjoozm46zkosk0p",
@@ -3809,9 +3739,9 @@
       "talla": "EST (S/M)",
       "color": "CAFE",
       "stock": 2,
-      "pvp": 22,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0008-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmfjooazyd6u5hc9b",
@@ -3823,9 +3753,9 @@
       "talla": "EST (S/M)",
       "color": "FUCSIA",
       "stock": 1,
-      "pvp": 22,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0008-fucsia.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmfjoogrk615wsxlq",
@@ -3837,9 +3767,9 @@
       "talla": "EST (S/M)",
       "color": "LILA",
       "stock": 2,
-      "pvp": 22,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0008-lila.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmfjoovywkyc918cr",
@@ -3851,9 +3781,9 @@
       "talla": "EST (S/M)",
       "color": "ROJO",
       "stock": 2,
-      "pvp": 22,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0008-rojo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmfjooeu3b61764gp",
@@ -3865,9 +3795,9 @@
       "talla": "EST (S/M)",
       "color": "VINO",
       "stock": 2,
-      "pvp": 22,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0008-vino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moeilb7qi5khie0twc",
@@ -3879,9 +3809,9 @@
       "talla": "M",
       "color": "AZUL",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-azul.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeilb7q0fglvm9zf3pj",
@@ -3893,9 +3823,9 @@
       "talla": "M",
       "color": "CELESTE",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-celeste.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeilb7q6qc8hbu79n2",
@@ -3907,9 +3837,9 @@
       "talla": "M",
       "color": "CREMA",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-crema.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeilb7qu5doxa75q8",
@@ -3921,9 +3851,9 @@
       "talla": "M",
       "color": "NEGRO",
       "stock": 2,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeilb7q6xyio6rk278",
@@ -3935,9 +3865,9 @@
       "talla": "M",
       "color": "PALO DE ROSA",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-palo-de-rosa.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeilb7qmgjwuz8uqgr",
@@ -3949,9 +3879,9 @@
       "talla": "M",
       "color": "ROJO",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-rojo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeilb7qieutb93cqj",
@@ -3963,9 +3893,9 @@
       "talla": "M",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-rosado.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeilb7qnm81kpmmmpd",
@@ -3977,9 +3907,9 @@
       "talla": "M",
       "color": "VERDE MILITAR",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-verde-militar.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeilb7q2cslo25r3nh",
@@ -3991,9 +3921,9 @@
       "talla": "M",
       "color": "VINO",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0014-vino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "mo909jzicbsaoxn1bi8",
@@ -4005,9 +3935,9 @@
       "talla": "S",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 28,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0001-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:47"
     },
     {
       "id": "mo909jzis874bq3mr2a",
@@ -4019,9 +3949,9 @@
       "talla": "S",
       "color": "CELESTE",
       "stock": 1,
-      "pvp": 28,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0001-celeste.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:47"
     },
     {
       "id": "mo909jzitm6ir7xgh9",
@@ -4033,9 +3963,9 @@
       "talla": "S",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 28,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0001-rosado.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:47"
     },
     {
       "id": "modjbsva4sxuuz2s35x",
@@ -4047,9 +3977,9 @@
       "talla": "EST (S/M)",
       "color": "BEIGE CLARO",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0004-beige-claro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkx9qs682g0o64rtk",
@@ -4061,9 +3991,9 @@
       "talla": "EST (S/M)",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0004-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modjbsvao6czg1fw4p",
@@ -4075,9 +4005,9 @@
       "talla": "EST (S/M)",
       "color": "NEGRO",
       "stock": 3,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0004-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modjbsvalap4szeu6cr",
@@ -4089,9 +4019,9 @@
       "talla": "EST (S/M)",
       "color": "ROJO",
       "stock": 2,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0004-rojo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkx9qs37f3o4r4uv9",
@@ -4103,23 +4033,9 @@
       "talla": "EST (S/M)",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0004-rosado.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "modjbsva1esqjolkdq3",
-      "inventarioId": "modjbsva1esqjolkdq3",
-      "variantKey": "v0004|vestido jossie|vestido tablones con borde blanco en a|est (s/m)|verde militar",
-      "codigo": "V0004",
-      "nombre": "VESTIDO JOSSIE",
-      "detalle": "Vestido tablones con borde blanco en A",
-      "talla": "EST (S/M)",
-      "color": "VERDE MILITAR",
-      "stock": 1,
-      "pvp": 21,
-      "imagen": "fotos_catalogo/v0004-verde-militar.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkcs5823xp0hlgeav",
@@ -4131,9 +4047,9 @@
       "talla": "EST (S/M)",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0006-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkcs58yp02wxob1u",
@@ -4145,9 +4061,9 @@
       "talla": "EST (S/M)",
       "color": "CELESTE",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0006-celeste.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkcs58kyfof7i865",
@@ -4159,9 +4075,9 @@
       "talla": "EST (S/M)",
       "color": "LILA",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0006-lila.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkcs58yoj65xoq9zo",
@@ -4173,9 +4089,9 @@
       "talla": "EST (S/M)",
       "color": "NEGRO",
       "stock": 2,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0006-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkcs585vzj1ubsgyx",
@@ -4187,9 +4103,9 @@
       "talla": "EST (S/M)",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0006-rosado.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkcs58pw6qiixr3y",
@@ -4201,9 +4117,9 @@
       "talla": "EST (S/M)",
       "color": "VERDE",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0006-verde.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modkcs58c4fqn29262j",
@@ -4215,9 +4131,9 @@
       "talla": "EST (S/M)",
       "color": "VINO",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0006-vino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "mo90fo3i2iirk9jlug",
@@ -4229,9 +4145,9 @@
       "talla": "EST (S/M)",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0002-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "mo90fo3iqs0748lhte",
@@ -4243,9 +4159,9 @@
       "talla": "EST (S/M)",
       "color": "JADE",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0002-jade.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "mo90fo3iut2f4aug43",
@@ -4257,9 +4173,9 @@
       "talla": "EST (S/M)",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0002-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "mo90fo3ib28pddjqf6q",
@@ -4271,9 +4187,9 @@
       "talla": "EST (S/M)",
       "color": "VINO",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0002-vino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "moeg9hopa7c3tpjxpni",
@@ -4285,9 +4201,9 @@
       "talla": "EST (S/M)",
       "color": "ROJO",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0011-rojo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moeg9hoptpt5w6yovxr",
@@ -4299,9 +4215,9 @@
       "talla": "EST (S/M)",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0011-rosado.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modj6yvm8ts53cazu4n",
@@ -4313,9 +4229,9 @@
       "talla": "EST (S/M)",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0003-blanco.webp",
-      "updatedAt": "2026-05-16T13:50"
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modj6yvmz75elxnzfnd",
@@ -4327,9 +4243,9 @@
       "talla": "EST (S/M)",
       "color": "CAFÉ",
       "stock": 2,
-      "pvp": 20,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0003-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modj6yvmkhgg1kz6x6o",
@@ -4341,9 +4257,9 @@
       "talla": "EST (S/M)",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0003-negro.webp",
-      "updatedAt": "2026-05-16T13:50"
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modj6yvmvgs1fj9ati",
@@ -4355,51 +4271,23 @@
       "talla": "EST (S/M)",
       "color": "ROJO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0003-rojo.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "modk7dljjrnhx88guxn",
-      "inventarioId": "modk7dljjrnhx88guxn",
-      "variantKey": "v0015|vestido mia|vestido corto con capa y broche en la mitad|est (m/l)|blanco",
-      "codigo": "V0015",
-      "nombre": "VESTIDO MIA",
-      "detalle": "Vestido corto con capa y broche en la mitad",
-      "talla": "EST (M/L)",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 24,
-      "imagen": "fotos_catalogo/v0015-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modk7dlj21ylo5hr6mx",
       "inventarioId": "modk7dlj21ylo5hr6mx",
-      "variantKey": "v0015|vestido mia|vestido corto con capa y broche en la mitad|est (m/l)|rosado",
-      "codigo": "V0015",
+      "variantKey": "v0006|vestido mia|vestido corto con capa y broche en la mitad|est (m/l)|rosado",
+      "codigo": "V0006",
       "nombre": "VESTIDO MIA",
       "detalle": "Vestido corto con capa y broche en la mitad",
       "talla": "EST (M/L)",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 24,
-      "imagen": "fotos_catalogo/v0015-rosado.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "modmvn75ktqp8w8g8k",
-      "inventarioId": "modmvn75ktqp8w8g8k",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|s|azul marino",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "S",
-      "color": "AZUL MARINO",
-      "stock": 1,
-      "pvp": 24,
-      "imagen": "fotos_catalogo/v0009-azul-marino.webp",
-      "updatedAt": ""
+      "pvp": 35,
+      "imagen": "fotos_catalogo/v0006-rosado.webp",
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmvn756z2fblf8ds5",
@@ -4411,9 +4299,9 @@
       "talla": "M",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 24,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0009-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmvn757jebu9qd7oj",
@@ -4425,9 +4313,9 @@
       "talla": "S",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 24,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0009-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modmvn758rl41mxs5lr",
@@ -4439,79 +4327,79 @@
       "talla": "S",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 24,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0009-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moegsunlovlql31shf",
       "inventarioId": "moegsunlovlql31shf",
-      "variantKey": "v0012|vestido silvia|vestido short|única|azul",
+      "variantKey": "v0012|vestido silvia|vestido jumper|única|azul",
       "codigo": "V0012",
       "nombre": "VESTIDO SILVIA",
-      "detalle": "Vestido short",
+      "detalle": "Vestido jumper",
       "talla": "Única",
       "color": "AZUL",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0012-azul.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moegsunlkvysan22rb",
       "inventarioId": "moegsunlkvysan22rb",
-      "variantKey": "v0012|vestido silvia|vestido short|única|azul electrico",
+      "variantKey": "v0012|vestido silvia|vestido jumper|única|azul electrico",
       "codigo": "V0012",
       "nombre": "VESTIDO SILVIA",
-      "detalle": "Vestido short",
+      "detalle": "Vestido jumper",
       "talla": "Única",
       "color": "AZUL ELECTRICO",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0012-azul-electrico.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moegsunl2po9dl8xo6w",
       "inventarioId": "moegsunl2po9dl8xo6w",
-      "variantKey": "v0012|vestido silvia|vestido short|única|blanco",
+      "variantKey": "v0012|vestido silvia|vestido jumper|única|blanco",
       "codigo": "V0012",
       "nombre": "VESTIDO SILVIA",
-      "detalle": "Vestido short",
+      "detalle": "Vestido jumper",
       "talla": "Única",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0012-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moegsunlnbkitpfifnb",
       "inventarioId": "moegsunlnbkitpfifnb",
-      "variantKey": "v0012|vestido silvia|vestido short|única|negro",
+      "variantKey": "v0012|vestido silvia|vestido jumper|única|negro",
       "codigo": "V0012",
       "nombre": "VESTIDO SILVIA",
-      "detalle": "Vestido short",
+      "detalle": "Vestido jumper",
       "talla": "Única",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0012-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moegsunl4fhpame3ca3",
       "inventarioId": "moegsunl4fhpame3ca3",
-      "variantKey": "v0012|vestido silvia|vestido short|única|palo de rosa",
+      "variantKey": "v0012|vestido silvia|vestido jumper|única|palo de rosa",
       "codigo": "V0012",
       "nombre": "VESTIDO SILVIA",
-      "detalle": "Vestido short",
+      "detalle": "Vestido jumper",
       "talla": "Única",
       "color": "PALO DE ROSA",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0012-palo-de-rosa.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1exnu8glb8769",
@@ -4523,9 +4411,9 @@
       "talla": "M",
       "color": "AZUL",
       "stock": 2,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-azul.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1en2cytha7kq",
@@ -4537,9 +4425,9 @@
       "talla": "M",
       "color": "BEIGE",
       "stock": 2,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1exo7t0t76bkr",
@@ -4551,9 +4439,9 @@
       "talla": "M",
       "color": "BLANCO",
       "stock": 2,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1exua1xwir6wb",
@@ -4565,9 +4453,9 @@
       "talla": "M",
       "color": "CAFE",
       "stock": 2,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1ea6ozsjtk2q8",
@@ -4579,9 +4467,9 @@
       "talla": "M",
       "color": "CREMA",
       "stock": 2,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-crema.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1ewefnloeilvn",
@@ -4593,9 +4481,9 @@
       "talla": "M",
       "color": "FUXIA",
       "stock": 1,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-fuxia.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1eik9q7yptnmh",
@@ -4607,9 +4495,9 @@
       "talla": "M",
       "color": "LILA",
       "stock": 2,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-lila.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1ems3d7j0hx8",
@@ -4621,9 +4509,9 @@
       "talla": "M",
       "color": "ROJO",
       "stock": 2,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-rojo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moehjs1eg4ze2c4zi6a",
@@ -4635,9 +4523,9 @@
       "talla": "M",
       "color": "VINO",
       "stock": 2,
-      "pvp": 27,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0013-vino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modjwlnvixe4agvne5r",
@@ -4649,9 +4537,9 @@
       "talla": "EST (S/M)",
       "color": "LILA",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0005-lila.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modjwlnv3gugzk2wc31",
@@ -4663,9 +4551,9 @@
       "talla": "EST (S/M)",
       "color": "ROJO",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0005-rojo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modjwlnv65z0e2y2ew",
@@ -4677,9 +4565,9 @@
       "talla": "EST (S/M)",
       "color": "VERDE MILITAR",
       "stock": 1,
-      "pvp": 26,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0005-verde-militar.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:48"
     },
     {
       "id": "modlzg4fa3ba85620wk",
@@ -4691,9 +4579,9 @@
       "talla": "EST (S/M)",
       "color": "AZUL MARINO",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0007-azul-marino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modlzg4fa3n3yzn91a",
@@ -4705,9 +4593,9 @@
       "talla": "EST (S/M)",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0007-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modlzg4ffvxts9p2vui",
@@ -4719,9 +4607,9 @@
       "talla": "EST (S/M)",
       "color": "BLANCO",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0007-blanco.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modlzg4ffj6mhiqxm2v",
@@ -4733,9 +4621,9 @@
       "talla": "EST (S/M)",
       "color": "CELESTE",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0007-celeste.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modlzg4fybhf5dj808a",
@@ -4747,9 +4635,9 @@
       "talla": "EST (S/M)",
       "color": "LILA",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0007-lila.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modlzg4f3b1im3l3afr",
@@ -4761,9 +4649,9 @@
       "talla": "EST (S/M)",
       "color": "ROJO",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0007-rojo.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modlzg4fo9d58tzqnq",
@@ -4775,9 +4663,9 @@
       "talla": "EST (S/M)",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0007-rosado.webp",
-      "updatedAt": "2026-05-17T15:11"
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "modlzg4fxtpgmguq7fm",
@@ -4789,9 +4677,9 @@
       "talla": "EST (S/M)",
       "color": "VINO",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0007-vino.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:49"
     },
     {
       "id": "moee7l9oli9gjsk92o",
@@ -4901,9 +4789,9 @@
       "talla": "EST (M/L)",
       "color": "AZUL ELECTRICO",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 35,
       "imagen": "fotos_catalogo/v2022-azul-electrico.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeqw5saxhaz0ov350c",
@@ -4915,9 +4803,9 @@
       "talla": "EST (M/L)",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 35,
       "imagen": "fotos_catalogo/v2022-beige.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moequxwulxe1n9bdkfk",
@@ -4929,9 +4817,9 @@
       "talla": "EST (M/L)",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 35,
       "imagen": "fotos_catalogo/v2022-cafe.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moequxwuk2ti1nraqn",
@@ -4943,9 +4831,9 @@
       "talla": "EST (M/L)",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 35,
       "imagen": "fotos_catalogo/v2022-negro.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     },
     {
       "id": "moeqwor94dx1tg09dd",
@@ -4957,9 +4845,9 @@
       "talla": "EST (M/L)",
       "color": "VERDE MILITAR",
       "stock": 1,
-      "pvp": 25,
+      "pvp": 35,
       "imagen": "fotos_catalogo/v2022-verde-militar.webp",
-      "updatedAt": ""
+      "updatedAt": "2026-05-23T14:50"
     }
   ]
 }
