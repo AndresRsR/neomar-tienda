@@ -2356,8 +2356,34 @@ function stockHtml(cantidad, exacto) {
 }
 
 // ══ CATEGORÍAS ══
+function textoCategoria(v) {
+  return textValue(v).toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+function primeraPalabraCategoria(v) {
+  var limpio = textoCategoria(v).replace(/[^A-Z0-9Ñ ]+/g, ' ').trim();
+  return limpio ? limpio.split(/\s+/)[0] : '';
+}
+function categoriaPorPalabra(p) {
+  p = textoCategoria(p);
+  if (p === 'BLUSA' || p === 'BLUSAS' || p === 'BLUSITA' || p === 'CAMIBUSO' || p === 'CAMISA') return 'Blusas';
+  if (p === 'CHALECO' || p === 'CHALECOS') return 'Chalecos';
+  if (p === 'CHAQUETA' || p === 'CHAQUETAS' || p === 'JACKET' || p === 'CASACA') return 'Chaquetas';
+  if (p === 'GABARDINA' || p === 'GABARDINAS') return 'Gabardinas';
+  if (p === 'CONJUNTO' || p === 'CONJUNTOS') return 'Conjuntos';
+  if (p === 'ENTERIZO' || p === 'ENTERIZOS') return 'Enterizos';
+  if (p === 'FALDA' || p === 'FALDAS') return 'Faldas';
+  if (p === 'SHORT' || p === 'SHORTS') return 'Shorts';
+  if (p === 'VESTIDO' || p === 'VESTIDOS' || p === 'VESTILLO') return 'Vestidos';
+  if (p === 'PANTALON' || p === 'PANTALONES') return 'Pantalones';
+  if (p === 'CORSET' || p === 'CORSETS') return 'Corsets';
+  if (p === 'TOP' || p === 'TOPS' || p === 'CROP' || p === 'CAMISETA') return 'Tops';
+  if (p === 'CARTERA' || p === 'CARTERAS' || p === 'MOCHILA') return 'Carteras';
+  return '';
+}
 function categoriaDe(nombre, detalle) {
-  var n = (textValue(nombre) + ' ' + textValue(detalle)).toUpperCase();
+  var principal = categoriaPorPalabra(primeraPalabraCategoria(detalle)) || categoriaPorPalabra(primeraPalabraCategoria(nombre));
+  if (principal) return principal;
+  var n = (textoCategoria(nombre) + ' ' + textoCategoria(detalle));
   if (n.indexOf('CHALECO') >= 0) return 'Chalecos';
   if (n.indexOf('CHAQUETA') >= 0 || n.indexOf('JACKET') >= 0 || n.indexOf('CASACA') >= 0) return 'Chaquetas';
   if (n.indexOf('GABARDINA') >= 0) return 'Gabardinas';
