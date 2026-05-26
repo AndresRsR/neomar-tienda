@@ -202,6 +202,35 @@ header.scrolled {
   stroke: none;
   overflow: visible;
 }
+.ig-glyph {
+  position: relative;
+  display: block;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+.ig-glyph::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+.ig-glyph::after {
+  content: '';
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  border-radius: 50%;
+}
 .header-social:hover {
   color: var(--charcoal);
   border-color: var(--rose);
@@ -2254,9 +2283,7 @@ footer {
   <div class="header-actions">
     <div class="header-socials" aria-label="Redes sociales">
       <a class="header-social instagram" href="https://www.instagram.com/neomar.ec?igsh=MXduYWhxYzJsN2RzMg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
-        <svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-2.2a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"></path>
-        </svg>
+        <span class="ig-glyph" aria-hidden="true"></span>
       </a>
       <a class="header-social tiktok" href="https://www.tiktok.com/@neomar..ec?_r=1&amp;_d=elkmgmjmmglc5g&amp;sec_uid=MS4wLjABAAAAcoL6uj-VlECxLpXncsXrC1B_5TPj6FTof9vwg52siUnwCtyUMPo6p3KPH0PyFwVz&amp;share_author_id=7198001237932557317&amp;sharer_language=es&amp;source=h5_m&amp;u_code=e6abbabc1875ah&amp;item_author_type=1&amp;utm_source=copy&amp;tt_from=copy&amp;enable_checksum=1&amp;utm_medium=ios&amp;share_link_id=1785A5B6-B0DF-4FB8-86A0-71205928FD12&amp;user_id=7198001237932557317&amp;sec_user_id=MS4wLjABAAAAcoL6uj-VlECxLpXncsXrC1B_5TPj6FTof9vwg52siUnwCtyUMPo6p3KPH0PyFwVz&amp;social_share_type=4&amp;ug_btm=b8727,b0&amp;utm_campaign=client_share&amp;share_app_id=1233" target="_blank" rel="noopener" title="TikTok" aria-label="TikTok">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
