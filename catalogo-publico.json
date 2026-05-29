@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-05-29T14:46:40.483Z",
-  "totalVariantes": 381,
-  "totalStock": 478,
+  "updatedAt": "2026-05-29T20:52:34.448Z",
+  "totalVariantes": 384,
+  "totalStock": 481,
   "items": [
     {
       "id": "mo8qxku9bqclcz1mh4w",
@@ -300,6 +300,76 @@
       "updatedAt": "2026-05-23T13:26"
     },
     {
+      "id": "mprea7wcu5o3f8l5q88",
+      "inventarioId": "mprea7wcu5o3f8l5q88",
+      "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|azul",
+      "codigo": "b0009",
+      "nombre": "Blusa berry",
+      "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
+      "talla": "EST (S/M)",
+      "color": "Azul",
+      "stock": 1,
+      "pvp": 16,
+      "imagen": "fotos_catalogo/b0009-azul.webp",
+      "updatedAt": "2026-05-29T15:51"
+    },
+    {
+      "id": "mprea7wa549jqng3uw4",
+      "inventarioId": "mprea7wa549jqng3uw4",
+      "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|melon",
+      "codigo": "b0009",
+      "nombre": "Blusa berry",
+      "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
+      "talla": "EST (S/M)",
+      "color": "Melon",
+      "stock": 1,
+      "pvp": 16,
+      "imagen": "fotos_catalogo/b0009-melon.webp",
+      "updatedAt": "2026-05-29T15:51"
+    },
+    {
+      "id": "mprea7wbj9xe42uhlc",
+      "inventarioId": "mprea7wbj9xe42uhlc",
+      "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|negro",
+      "codigo": "b0009",
+      "nombre": "Blusa berry",
+      "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
+      "talla": "EST (S/M)",
+      "color": "Negro",
+      "stock": 2,
+      "pvp": 16,
+      "imagen": "fotos_catalogo/b0009-negro.webp",
+      "updatedAt": "2026-05-29T15:51"
+    },
+    {
+      "id": "mprea7wet8nvvhz546o",
+      "inventarioId": "mprea7wet8nvvhz546o",
+      "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|perla",
+      "codigo": "b0009",
+      "nombre": "Blusa berry",
+      "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
+      "talla": "EST (S/M)",
+      "color": "Perla",
+      "stock": 2,
+      "pvp": 16,
+      "imagen": "fotos_catalogo/b0009-perla.webp",
+      "updatedAt": "2026-05-29T15:51"
+    },
+    {
+      "id": "mprea7w8ns54i217aeb",
+      "inventarioId": "mprea7w8ns54i217aeb",
+      "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|rosado",
+      "codigo": "b0009",
+      "nombre": "Blusa berry",
+      "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
+      "talla": "EST (S/M)",
+      "color": "Rosado",
+      "stock": 1,
+      "pvp": 16,
+      "imagen": "fotos_catalogo/b0009-rosado.webp",
+      "updatedAt": "2026-05-29T15:51"
+    },
+    {
       "id": "modeqyvr2s1h2tra1kw",
       "inventarioId": "modeqyvr2s1h2tra1kw",
       "variantKey": "b2292|blusa chaleco hilo prestige|blusa chaleco hilo con dije dorado|est (m/l)|blanco",
@@ -507,7 +577,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b2920-vino.webp",
-      "updatedAt": "2026-05-23T11:47"
+      "updatedAt": "2026-05-29T11:08"
     },
     {
       "id": "mpibcmpz48tn66xbhs3",
@@ -1560,20 +1630,6 @@
       "updatedAt": "2026-05-19T10:30"
     },
     {
-      "id": "modff9r8x53mpn8v5c",
-      "inventarioId": "modff9r8x53mpn8v5c",
-      "variantKey": "c51783|conjunto elegant|conjunto chaleco, con botones dorados.|s|negro",
-      "codigo": "C51783",
-      "nombre": "CONJUNTO ELEGANT",
-      "detalle": "Conjunto chaleco, con botones dorados.",
-      "talla": "S",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 32,
-      "imagen": "fotos_catalogo/c51783-negro.webp",
-      "updatedAt": "2026-05-26T05:44"
-    },
-    {
       "id": "mpjz1d2ztkl8y4395d9",
       "inventarioId": "mpjz1d2ztkl8y4395d9",
       "variantKey": "c0007|conjunto venecia|conjunto de chaleco y pantalon a cuadros.|s|capuchino",
@@ -2534,10 +2590,10 @@
       "detalle": "Falda short recta en cuerina.",
       "talla": "S",
       "color": "NEGRO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 20,
       "imagen": "fotos_catalogo/f0001-negro.webp",
-      "updatedAt": "2026-05-17T15:58"
+      "updatedAt": "2026-05-29T13:16"
     },
     {
       "id": "modoksyzyipiuyxvhtn",
@@ -4214,10 +4270,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 43,
+      "stock": 42,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-05-26T19:34"
+      "updatedAt": "2026-05-29T11:51"
     },
     {
       "id": "mpk3cd089lypl5ktch",
@@ -5127,20 +5183,6 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0012-azul-electrico.webp",
-      "updatedAt": "2026-05-23T14:49"
-    },
-    {
-      "id": "moegsunl2po9dl8xo6w",
-      "inventarioId": "moegsunl2po9dl8xo6w",
-      "variantKey": "v0012|vestido silvia|vestido jumper|única|blanco",
-      "codigo": "V0012",
-      "nombre": "VESTIDO SILVIA",
-      "detalle": "Vestido jumper",
-      "talla": "Única",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0012-blanco.webp",
       "updatedAt": "2026-05-23T14:49"
     },
     {
