@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-05-26T17:02:12.481Z",
-  "totalVariantes": 384,
-  "totalStock": 484,
+  "updatedAt": "2026-05-29T14:46:40.483Z",
+  "totalVariantes": 381,
+  "totalStock": 478,
   "items": [
     {
       "id": "mo8qxku9bqclcz1mh4w",
@@ -1389,7 +1389,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-perla.webp",
-      "updatedAt": "2026-05-26T11:37"
+      "updatedAt": "2026-05-26T19:40"
     },
     {
       "id": "mp5tmzkcwjwdslrlt3s",
@@ -2226,10 +2226,10 @@
       "detalle": "Enterizo con capa de brillos en forma de diamante.",
       "talla": "EST (M/L)",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1021-negro.webp",
-      "updatedAt": "2026-05-26T11:45"
+      "updatedAt": "2026-05-26T14:24"
     },
     {
       "id": "mpmto5q2p59x2sowgu",
@@ -4214,10 +4214,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 45,
+      "stock": 43,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-05-24T18:29"
+      "updatedAt": "2026-05-26T19:34"
     },
     {
       "id": "mpk3cd089lypl5ktch",
@@ -4455,7 +4455,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0014-vino.webp",
-      "updatedAt": "2026-05-26T06:46"
+      "updatedAt": "2026-05-26T14:06"
     },
     {
       "id": "mpk70e9nfebzhvgx3s5",
@@ -4469,20 +4469,6 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0020-azul.webp",
-      "updatedAt": "2026-05-24T14:51"
-    },
-    {
-      "id": "mpk70e9ha1pa2mm578j",
-      "inventarioId": "mpk70e9ha1pa2mm578j",
-      "variantKey": "v0020|vestido flower|vestido jumper, en tela gasa floreado, estilo corset.|est (s/m)|blanco",
-      "codigo": "v0020",
-      "nombre": "Vestido Flower",
-      "detalle": "Vestido jumper, en tela gasa floreado, estilo corset.",
-      "talla": "EST (S/M)",
-      "color": "Blanco",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0020-blanco.webp",
       "updatedAt": "2026-05-24T14:51"
     },
     {
@@ -4903,7 +4889,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0016-rojo.webp",
-      "updatedAt": "2026-05-24T13:01"
+      "updatedAt": "2026-05-26T12:09"
     },
     {
       "id": "mpk30smc4z4561e69od",
@@ -5018,20 +5004,6 @@
       "updatedAt": "2026-05-24T13:28"
     },
     {
-      "id": "mpk41zitlsn8311duac",
-      "inventarioId": "mpk41zitlsn8311duac",
-      "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|perla",
-      "codigo": "v0018",
-      "nombre": "Vestido Rose",
-      "detalle": "Vestido jumper, estilo corset con flor en pecho.",
-      "talla": "EST (S/M)",
-      "color": "Perla",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0018-perla.webp",
-      "updatedAt": "2026-05-24T13:28"
-    },
-    {
       "id": "mpk41ziq5bs7or6iu4o",
       "inventarioId": "mpk41ziq5bs7or6iu4o",
       "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|rojo",
@@ -5043,20 +5015,6 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-rojo.webp",
-      "updatedAt": "2026-05-24T13:28"
-    },
-    {
-      "id": "mpk41ziw5ppstcqmerm",
-      "inventarioId": "mpk41ziw5ppstcqmerm",
-      "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|rosado",
-      "codigo": "v0018",
-      "nombre": "Vestido Rose",
-      "detalle": "Vestido jumper, estilo corset con flor en pecho.",
-      "talla": "EST (S/M)",
-      "color": "Rosado",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0018-rosado.webp",
       "updatedAt": "2026-05-24T13:28"
     },
     {
