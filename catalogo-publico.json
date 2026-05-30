@@ -1,8 +1,8 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-05-30T23:32:20.438Z",
-  "totalVariantes": 399,
+  "updatedAt": "2026-05-30T23:49:55.400Z",
+  "totalVariantes": 402,
   "totalStock": 492,
   "items": [
     {
@@ -1484,24 +1484,10 @@
       "detalle": "Conjunto de falda short con chaqueta a cuadros",
       "talla": "L",
       "color": "Vino",
-      "stock": 2,
+      "stock": 4,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-vino.webp",
-      "updatedAt": "2026-05-26T07:46"
-    },
-    {
-      "id": "mp5tmzkc9n469hmbyf",
-      "inventarioId": "mp5tmzkc9n469hmbyf",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|m|vino",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "M",
-      "color": "Vino",
-      "stock": 2,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-vino.webp",
-      "updatedAt": "2026-05-26T07:46"
+      "updatedAt": "2026-05-30T18:47"
     },
     {
       "id": "modfm63yzxqi2c5z0ia",
@@ -2106,20 +2092,6 @@
       "updatedAt": "2026-05-14T14:31"
     },
     {
-      "id": "mp5vqhe360n3sx36scf",
-      "inventarioId": "mp5vqhe360n3sx36scf",
-      "variantKey": "e2007|enterizo boo|enterizo con cuello chaleco en v, y dije circular de perlas|est (m/l)|cafe",
-      "codigo": "E2007",
-      "nombre": "ENTERIZO BOO",
-      "detalle": "Enterizo con cuello chaleco en V, y dije circular de perlas",
-      "talla": "EST (M/L)",
-      "color": "Cafe",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2007-vino.webp",
-      "updatedAt": "2026-05-26T10:10"
-    },
-    {
       "id": "mp5uxw1erud1czi447",
       "inventarioId": "mp5uxw1erud1czi447",
       "variantKey": "e2007|enterizo boo|enterizo con cuello chaleco en v, y dije circular de perlas|est (m/l)|negro",
@@ -2146,6 +2118,20 @@
       "pvp": 35,
       "imagen": "fotos_catalogo/e2007-rojo.webp",
       "updatedAt": "2026-05-30T08:00"
+    },
+    {
+      "id": "mpt030c8gber2no50wr",
+      "inventarioId": "mpt030c8gber2no50wr",
+      "variantKey": "e2007|enterizo boo|enterizo con cuello chaleco en v, y dije circular de perlas|est (m/l)|vino",
+      "codigo": "E2007",
+      "nombre": "ENTERIZO BOO",
+      "detalle": "Enterizo con cuello chaleco en V, y dije circular de perlas",
+      "talla": "EST (M/L)",
+      "color": "Vino",
+      "stock": 1,
+      "pvp": 35,
+      "imagen": "fotos_catalogo/e2007-vino.webp",
+      "updatedAt": "2026-05-30T18:47"
     },
     {
       "id": "mp5uvlthbb6scndf3ia",
@@ -5183,7 +5169,35 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0009-azul-marino.webp",
-      "updatedAt": "2026-05-30T14:45"
+      "updatedAt": "2026-05-30T18:49"
+    },
+    {
+      "id": "mpt030cgbnu9kh8bqdn",
+      "inventarioId": "mpt030cgbnu9kh8bqdn",
+      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|beige",
+      "codigo": "V0009",
+      "nombre": "VESTIDO REBECCA",
+      "detalle": "Vestido cuello y pliegues en A",
+      "talla": "M",
+      "color": "BEIGE",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0009-beige.webp",
+      "updatedAt": "2026-05-30T18:49"
+    },
+    {
+      "id": "mpt030cekrmqw72wslo",
+      "inventarioId": "mpt030cekrmqw72wslo",
+      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|blanco",
+      "codigo": "V0009",
+      "nombre": "VESTIDO REBECCA",
+      "detalle": "Vestido cuello y pliegues en A",
+      "talla": "M",
+      "color": "BLANCO",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0009-blanco.webp",
+      "updatedAt": "2026-05-30T18:49"
     },
     {
       "id": "modmvn756z2fblf8ds5",
@@ -5197,7 +5211,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0009-cafe.webp",
-      "updatedAt": "2026-05-30T06:13"
+      "updatedAt": "2026-05-30T18:49"
     },
     {
       "id": "modmvn757jebu9qd7oj",
@@ -5211,7 +5225,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0009-cafe.webp",
-      "updatedAt": "2026-05-30T06:13"
+      "updatedAt": "2026-05-30T18:49"
     },
     {
       "id": "modmvn75ggufu8sk3r",
@@ -5225,7 +5239,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0009-negro.webp",
-      "updatedAt": "2026-05-30T14:45"
+      "updatedAt": "2026-05-30T18:49"
     },
     {
       "id": "modmvn758rl41mxs5lr",
@@ -5239,7 +5253,35 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0009-negro.webp",
-      "updatedAt": "2026-05-30T06:13"
+      "updatedAt": "2026-05-30T18:49"
+    },
+    {
+      "id": "mpt030ca91bdj1vvrkl",
+      "inventarioId": "mpt030ca91bdj1vvrkl",
+      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|rojo",
+      "codigo": "V0009",
+      "nombre": "VESTIDO REBECCA",
+      "detalle": "Vestido cuello y pliegues en A",
+      "talla": "M",
+      "color": "ROJO",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0009-rojo.webp",
+      "updatedAt": "2026-05-30T18:49"
+    },
+    {
+      "id": "mpt030ccmgugjqd5oa",
+      "inventarioId": "mpt030ccmgugjqd5oa",
+      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|rosado",
+      "codigo": "V0009",
+      "nombre": "VESTIDO REBECCA",
+      "detalle": "Vestido cuello y pliegues en A",
+      "talla": "M",
+      "color": "ROSADO",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0009-rosado.webp",
+      "updatedAt": "2026-05-30T18:49"
     },
     {
       "id": "modmvn751i7ioo4syk5",
@@ -5250,10 +5292,10 @@
       "detalle": "Vestido cuello y pliegues en A",
       "talla": "M",
       "color": "VINO",
-      "stock": 5,
+      "stock": 1,
       "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-beige.webp",
-      "updatedAt": "2026-05-30T14:45"
+      "imagen": "fotos_catalogo/v0009-vino.webp",
+      "updatedAt": "2026-05-30T18:49"
     },
     {
       "id": "mpk41zisdvfdy1rkjyv",
