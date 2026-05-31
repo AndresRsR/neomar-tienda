@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-05-30T23:49:55.400Z",
-  "totalVariantes": 402,
-  "totalStock": 492,
+  "updatedAt": "2026-05-31T02:34:58.618Z",
+  "totalVariantes": 401,
+  "totalStock": 489,
   "items": [
     {
       "id": "mo8qxku9bqclcz1mh4w",
@@ -311,20 +311,6 @@
       "stock": 1,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0009-azul.webp",
-      "updatedAt": "2026-05-29T15:51"
-    },
-    {
-      "id": "mprea7wa549jqng3uw4",
-      "inventarioId": "mprea7wa549jqng3uw4",
-      "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|melon",
-      "codigo": "b0009",
-      "nombre": "Blusa berry",
-      "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
-      "talla": "EST (S/M)",
-      "color": "Melon",
-      "stock": 1,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/b0009-melon.webp",
       "updatedAt": "2026-05-29T15:51"
     },
     {
@@ -4158,10 +4144,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 32,
+      "stock": 30,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-05-30T17:12"
+      "updatedAt": "2026-05-30T19:11"
     },
     {
       "id": "mpsjmpvu4hot1xd0067",
@@ -4173,9 +4159,9 @@
       "talla": "EST (S/M)",
       "color": "Beige",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0023-beige.webp",
-      "updatedAt": "2026-05-30T11:06"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsjmpvqyz8y7rrdt29",
@@ -4187,9 +4173,9 @@
       "talla": "EST (S/M)",
       "color": "Cafe",
       "stock": 2,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0023-cafe.webp",
-      "updatedAt": "2026-05-30T18:22"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsjmpvzn7fm3ts1f9b",
@@ -4201,9 +4187,9 @@
       "talla": "EST (S/M)",
       "color": "Celeste",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0023-celeste.webp",
-      "updatedAt": "2026-05-30T11:06"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsjmpw2we5da0u41",
@@ -4215,9 +4201,9 @@
       "talla": "EST (S/M)",
       "color": "Perla",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0023-perla.webp",
-      "updatedAt": "2026-05-30T11:06"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsjmpvw14fsmjg84did",
@@ -4229,9 +4215,9 @@
       "talla": "EST (S/M)",
       "color": "Rosado",
       "stock": 1,
-      "pvp": 21,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0023-rosado.webp",
-      "updatedAt": "2026-05-30T11:06"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsphuae9w4nxf7aty8",
@@ -4243,9 +4229,9 @@
       "talla": "EST (S/M)",
       "color": "Beige",
       "stock": 1,
-      "pvp": 17,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0024-beige.webp",
-      "updatedAt": "2026-05-30T13:50"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsphuaj9hrjbg45jl",
@@ -4257,9 +4243,9 @@
       "talla": "EST (S/M)",
       "color": "Palo de rosas",
       "stock": 1,
-      "pvp": 17,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0024-palo-de-rosas.webp",
-      "updatedAt": "2026-05-30T13:50"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsphua5ks0z8xdwas",
@@ -4271,9 +4257,9 @@
       "talla": "EST (S/M)",
       "color": "Rojo",
       "stock": 1,
-      "pvp": 17,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0024-rojo.webp",
-      "updatedAt": "2026-05-30T13:50"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpk3cd089lypl5ktch",
@@ -4411,9 +4397,9 @@
       "talla": "EST (S/M)",
       "color": "Amarillo",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0021-amarillo.webp",
-      "updatedAt": "2026-05-30T10:13"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpshqfl21967qmkalfo",
@@ -4425,9 +4411,9 @@
       "talla": "EST (S/M)",
       "color": "Beige",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0021-beige.webp",
-      "updatedAt": "2026-05-30T10:13"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpshqfkyfwl7xmtlby5",
@@ -4439,9 +4425,9 @@
       "talla": "EST (S/M)",
       "color": "Blanco",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0021-blanco.webp",
-      "updatedAt": "2026-05-30T10:13"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpshqfl9drnciovkggf",
@@ -4453,9 +4439,9 @@
       "talla": "EST (S/M)",
       "color": "Negro",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0021-negro.webp",
-      "updatedAt": "2026-05-30T10:13"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpshqfkq63bn4rnsc54",
@@ -4467,9 +4453,9 @@
       "talla": "EST (S/M)",
       "color": "Rosado",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0021-rosado.webp",
-      "updatedAt": "2026-05-30T10:13"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpshqfkveik34apatxb",
@@ -4481,9 +4467,9 @@
       "talla": "EST (S/M)",
       "color": "Vino",
       "stock": 1,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0021-vino.webp",
-      "updatedAt": "2026-05-30T10:13"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "moeilb7qhsvak75iax",
@@ -4803,9 +4789,9 @@
       "talla": "EST (S/M)",
       "color": "Azul petroleo",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0025-azul-petroleo.webp",
-      "updatedAt": "2026-05-30T13:55"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpspnsojbkz720y8ajn",
@@ -4817,9 +4803,9 @@
       "talla": "EST (S/M)",
       "color": "Beige",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0025-beige.webp",
-      "updatedAt": "2026-05-30T13:55"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpspnsoarxifavjshla",
@@ -4831,9 +4817,9 @@
       "talla": "EST (S/M)",
       "color": "Celeste",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0025-celeste.webp",
-      "updatedAt": "2026-05-30T13:55"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpspnsntwvxvjhtr83i",
@@ -4845,9 +4831,9 @@
       "talla": "EST (S/M)",
       "color": "Negro",
       "stock": 2,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0025-negro.webp",
-      "updatedAt": "2026-05-30T13:55"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpspnsofpreflha8ap9",
@@ -4859,9 +4845,9 @@
       "talla": "EST (S/M)",
       "color": "Rojo",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0025-rojo.webp",
-      "updatedAt": "2026-05-30T13:55"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpspnsom099pom1gbh4e",
@@ -4873,9 +4859,9 @@
       "talla": "EST (S/M)",
       "color": "Rosa",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0025-rosa.webp",
-      "updatedAt": "2026-05-30T13:55"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpspnsnmjtdfhang06",
@@ -4887,9 +4873,9 @@
       "talla": "EST (S/M)",
       "color": "Verde",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0025-verde.webp",
-      "updatedAt": "2026-05-30T13:55"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpspnso1gwxx7n3di7k",
@@ -4901,9 +4887,9 @@
       "talla": "EST (S/M)",
       "color": "Vino",
       "stock": 1,
-      "pvp": 19,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0025-vino.webp",
-      "updatedAt": "2026-05-30T13:55"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mo90fo3i2iirk9jlug",
@@ -4971,9 +4957,9 @@
       "talla": "EST (S/M)",
       "color": "Amarillo",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0022-amarillo.webp",
-      "updatedAt": "2026-05-30T14:48"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsjgs9na7ecs1q0zqs",
@@ -4985,9 +4971,9 @@
       "talla": "EST (S/M)",
       "color": "Blanco",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0022-blanco.webp",
-      "updatedAt": "2026-05-30T11:01"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsjgs9f006chkrhdf1e",
@@ -4999,9 +4985,9 @@
       "talla": "EST (S/M)",
       "color": "Negro",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0022-negro.webp",
-      "updatedAt": "2026-05-30T11:01"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "mpsjgs9jrs9lipn18wg",
@@ -5013,9 +4999,9 @@
       "talla": "EST (S/M)",
       "color": "Rosado",
       "stock": 2,
-      "pvp": 18,
+      "pvp": 30,
       "imagen": "fotos_catalogo/v0022-rosado.webp",
-      "updatedAt": "2026-05-30T11:01"
+      "updatedAt": "2026-05-30T21:34"
     },
     {
       "id": "moeg9hopa7c3tpjxpni",
