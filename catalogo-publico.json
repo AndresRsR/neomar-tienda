@@ -1,8 +1,8 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-05-31T23:32:23.963Z",
-  "totalVariantes": 443,
+  "updatedAt": "2026-06-02T11:44:19.661Z",
+  "totalVariantes": 444,
   "totalStock": 555,
   "items": [
     {
@@ -213,7 +213,7 @@
       "stock": 1,
       "pvp": 12,
       "imagen": "fotos_catalogo/b0005-blanco.webp",
-      "updatedAt": "2026-05-23T12:13"
+      "updatedAt": "2026-06-02T06:44"
     },
     {
       "id": "mpilxor9zd3e1atg19r",
@@ -227,21 +227,21 @@
       "stock": 1,
       "pvp": 12,
       "imagen": "fotos_catalogo/b0005-blanconegro.webp",
-      "updatedAt": "2026-05-23T12:13"
+      "updatedAt": "2026-06-02T06:44"
     },
     {
-      "id": "mpilxor9de4kki89fog",
-      "inventarioId": "mpilxor9de4kki89fog",
-      "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|cafe/nego",
+      "id": "mpwkkmzgu6u29jv292",
+      "inventarioId": "mpwkkmzgu6u29jv292",
+      "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|cafe/negro",
       "codigo": "b0005",
       "nombre": "Blusa basica diagonal",
       "detalle": "Blusa básica en tela suplex diagonal.",
       "talla": "EST (S/M)",
-      "color": "cafe/nego",
+      "color": "cafe/negro",
       "stock": 1,
       "pvp": 12,
-      "imagen": "fotos_catalogo/b0005-cafenego.webp",
-      "updatedAt": "2026-05-23T12:13"
+      "imagen": "fotos_catalogo/b0005-cafenegro.webp",
+      "updatedAt": "2026-06-02T06:44"
     },
     {
       "id": "mpilxor9pqcxnidp26n",
@@ -255,7 +255,7 @@
       "stock": 1,
       "pvp": 12,
       "imagen": "fotos_catalogo/b0005-ladrillo.webp",
-      "updatedAt": "2026-05-23T12:13"
+      "updatedAt": "2026-06-02T06:44"
     },
     {
       "id": "mpilxor81y59kketqzg",
@@ -269,7 +269,7 @@
       "stock": 1,
       "pvp": 12,
       "imagen": "fotos_catalogo/b0005-rosado.webp",
-      "updatedAt": "2026-05-23T12:13"
+      "updatedAt": "2026-06-02T06:44"
     },
     {
       "id": "mpiojpr5kysqdx1lru9",
@@ -1361,7 +1361,7 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-negro.webp",
-      "updatedAt": "2026-05-26T07:46"
+      "updatedAt": "2026-06-02T06:09"
     },
     {
       "id": "mp5tmzkcxjywhsdd",
@@ -1375,7 +1375,7 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-negro.webp",
-      "updatedAt": "2026-05-26T07:46"
+      "updatedAt": "2026-06-02T06:11"
     },
     {
       "id": "mp5tmzkcynbow9uj9x",
@@ -1389,7 +1389,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-negro-blanco.webp",
-      "updatedAt": "2026-05-26T07:46"
+      "updatedAt": "2026-06-02T06:11"
     },
     {
       "id": "mp8mruk1e3aogoge8rp",
@@ -1403,7 +1403,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-palo-de-rosa.webp",
-      "updatedAt": "2026-05-26T07:46"
+      "updatedAt": "2026-06-02T06:09"
     },
     {
       "id": "mp5tmzkc80sc363thys",
@@ -1417,7 +1417,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-perla.webp",
-      "updatedAt": "2026-05-26T19:40"
+      "updatedAt": "2026-06-02T06:09"
     },
     {
       "id": "mp5tmzkcwjwdslrlt3s",
@@ -1431,7 +1431,7 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-perla.webp",
-      "updatedAt": "2026-05-26T07:46"
+      "updatedAt": "2026-06-02T06:09"
     },
     {
       "id": "mp5tmzkci16a2pobse",
@@ -1445,7 +1445,7 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-rosado-cafe.webp",
-      "updatedAt": "2026-05-26T07:46"
+      "updatedAt": "2026-06-02T06:09"
     },
     {
       "id": "mp8n6gzslbck0fe2n3",
@@ -1459,7 +1459,7 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-rosado-cafe.webp",
-      "updatedAt": "2026-05-26T07:46"
+      "updatedAt": "2026-06-02T06:09"
     },
     {
       "id": "mpk20lvzylbjfgahvm9",
@@ -1470,10 +1470,24 @@
       "detalle": "Conjunto de falda short con chaqueta a cuadros",
       "talla": "L",
       "color": "Vino",
-      "stock": 4,
+      "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-vino.webp",
-      "updatedAt": "2026-05-30T18:47"
+      "updatedAt": "2026-06-02T06:09"
+    },
+    {
+      "id": "mp5tmzkc9n469hmbyf",
+      "inventarioId": "mp5tmzkc9n469hmbyf",
+      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|m|vino",
+      "codigo": "c0006",
+      "nombre": "Conjunto Channel",
+      "detalle": "Conjunto de falda short con chaqueta a cuadros",
+      "talla": "M",
+      "color": "Vino",
+      "stock": 2,
+      "pvp": 35,
+      "imagen": "fotos_catalogo/c0006-vino.webp",
+      "updatedAt": "2026-06-02T06:09"
     },
     {
       "id": "modfm63yzxqi2c5z0ia",
@@ -4805,7 +4819,7 @@
       "stock": 27,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-05-31T18:31"
+      "updatedAt": "2026-05-31T22:43"
     },
     {
       "id": "mpsjmpvu4hot1xd0067",
