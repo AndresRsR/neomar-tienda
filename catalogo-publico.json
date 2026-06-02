@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-02T11:44:19.661Z",
-  "totalVariantes": 444,
-  "totalStock": 555,
+  "updatedAt": "2026-06-02T18:07:08.616Z",
+  "totalVariantes": 408,
+  "totalStock": 490,
   "items": [
     {
       "id": "mo8qxku9bqclcz1mh4w",
@@ -300,20 +300,6 @@
       "updatedAt": "2026-05-23T13:26"
     },
     {
-      "id": "mprea7wcu5o3f8l5q88",
-      "inventarioId": "mprea7wcu5o3f8l5q88",
-      "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|azul",
-      "codigo": "b0009",
-      "nombre": "Blusa berry",
-      "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
-      "talla": "EST (S/M)",
-      "color": "Azul",
-      "stock": 1,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/b0009-azul.webp",
-      "updatedAt": "2026-05-29T15:51"
-    },
-    {
       "id": "mprea7wbj9xe42uhlc",
       "inventarioId": "mprea7wbj9xe42uhlc",
       "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|negro",
@@ -322,10 +308,10 @@
       "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
       "talla": "EST (S/M)",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0009-negro.webp",
-      "updatedAt": "2026-05-29T15:51"
+      "updatedAt": "2026-06-02T10:56"
     },
     {
       "id": "mprea7wet8nvvhz546o",
@@ -336,24 +322,10 @@
       "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
       "talla": "EST (S/M)",
       "color": "Perla",
-      "stock": 2,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/b0009-perla.webp",
-      "updatedAt": "2026-05-29T15:51"
-    },
-    {
-      "id": "mprea7w8ns54i217aeb",
-      "inventarioId": "mprea7w8ns54i217aeb",
-      "variantKey": "b0009|blusa berry|blusa camisa, con ajuste en la espalda tipo corset.|est (s/m)|rosado",
-      "codigo": "b0009",
-      "nombre": "Blusa berry",
-      "detalle": "Blusa camisa, con ajuste en la espalda tipo corset.",
-      "talla": "EST (S/M)",
-      "color": "Rosado",
       "stock": 1,
       "pvp": 16,
-      "imagen": "fotos_catalogo/b0009-rosado.webp",
-      "updatedAt": "2026-05-29T15:51"
+      "imagen": "fotos_catalogo/b0009-perla.webp",
+      "updatedAt": "2026-06-02T10:56"
     },
     {
       "id": "modeqyvr2s1h2tra1kw",
@@ -1350,62 +1322,6 @@
       "updatedAt": "2026-05-23T14:44"
     },
     {
-      "id": "mp5tmzkc3ollthkh0uc",
-      "inventarioId": "mp5tmzkc3ollthkh0uc",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|l|negro",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "L",
-      "color": "Negro",
-      "stock": 2,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-negro.webp",
-      "updatedAt": "2026-06-02T06:09"
-    },
-    {
-      "id": "mp5tmzkcxjywhsdd",
-      "inventarioId": "mp5tmzkcxjywhsdd",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|m|negro",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "M",
-      "color": "Negro",
-      "stock": 2,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-negro.webp",
-      "updatedAt": "2026-06-02T06:11"
-    },
-    {
-      "id": "mp5tmzkcynbow9uj9x",
-      "inventarioId": "mp5tmzkcynbow9uj9x",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|s|negro-blanco",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "S",
-      "color": "Negro-blanco",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-negro-blanco.webp",
-      "updatedAt": "2026-06-02T06:11"
-    },
-    {
-      "id": "mp8mruk1e3aogoge8rp",
-      "inventarioId": "mp8mruk1e3aogoge8rp",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|s|palo de rosa",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "S",
-      "color": "Palo de rosa",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-palo-de-rosa.webp",
-      "updatedAt": "2026-06-02T06:09"
-    },
-    {
       "id": "mp5tmzkc80sc363thys",
       "inventarioId": "mp5tmzkc80sc363thys",
       "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|l|perla",
@@ -1420,20 +1336,6 @@
       "updatedAt": "2026-06-02T06:09"
     },
     {
-      "id": "mp5tmzkcwjwdslrlt3s",
-      "inventarioId": "mp5tmzkcwjwdslrlt3s",
-      "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|m|perla",
-      "codigo": "c0006",
-      "nombre": "Conjunto Channel",
-      "detalle": "Conjunto de falda short con chaqueta a cuadros",
-      "talla": "M",
-      "color": "Perla",
-      "stock": 2,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c0006-perla.webp",
-      "updatedAt": "2026-06-02T06:09"
-    },
-    {
       "id": "mp5tmzkci16a2pobse",
       "inventarioId": "mp5tmzkci16a2pobse",
       "variantKey": "c0006|conjunto channel|conjunto de falda short con chaqueta a cuadros|l|rosado-cafe",
@@ -1442,10 +1344,10 @@
       "detalle": "Conjunto de falda short con chaqueta a cuadros",
       "talla": "L",
       "color": "Rosado-cafe",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-rosado-cafe.webp",
-      "updatedAt": "2026-06-02T06:09"
+      "updatedAt": "2026-06-02T10:56"
     },
     {
       "id": "mp8n6gzslbck0fe2n3",
@@ -1456,10 +1358,10 @@
       "detalle": "Conjunto de falda short con chaqueta a cuadros",
       "talla": "M",
       "color": "Rosado-cafe",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-rosado-cafe.webp",
-      "updatedAt": "2026-06-02T06:09"
+      "updatedAt": "2026-06-02T10:56"
     },
     {
       "id": "mpk20lvzylbjfgahvm9",
@@ -1484,10 +1386,10 @@
       "detalle": "Conjunto de falda short con chaqueta a cuadros",
       "talla": "M",
       "color": "Vino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/c0006-vino.webp",
-      "updatedAt": "2026-06-02T06:09"
+      "updatedAt": "2026-06-02T10:56"
     },
     {
       "id": "modfm63yzxqi2c5z0ia",
@@ -2100,10 +2002,10 @@
       "detalle": "Enterizo con manga caida y dije circular con cinto.",
       "talla": "EST (M/L)",
       "color": "azul petroleo",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2057-azul-petroleo.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-06-02T09:44"
     },
     {
       "id": "mpucudgjdag06ebyra6",
@@ -2184,10 +2086,10 @@
       "detalle": "Enterizo con manga caida y dije circular con cinto.",
       "talla": "EST (M/L)",
       "color": "uva",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2057-uva.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-06-02T09:44"
     },
     {
       "id": "mpucudgfg01ivvac034",
@@ -2268,10 +2170,10 @@
       "detalle": "Enterizo de un solo hombro, con dije rectangular metálico en la cintura.",
       "talla": "EST (M/L)",
       "color": "Beige oscuro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-beige-oscuro.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-06-02T09:56"
     },
     {
       "id": "mpu97ajojtbxyup3jw",
@@ -2352,10 +2254,10 @@
       "detalle": "Enterizo de un solo hombro, con dije rectangular metálico en la cintura.",
       "talla": "EST (M/L)",
       "color": "Vino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-vino.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-06-02T09:56"
     },
     {
       "id": "mp5vrxj8h8rvcrf3v3",
@@ -2369,7 +2271,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2007-blanco.webp",
-      "updatedAt": "2026-05-14T14:31"
+      "updatedAt": "2026-06-02T09:01"
     },
     {
       "id": "mp5uxw1erud1czi447",
@@ -2383,7 +2285,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2007-negro.webp",
-      "updatedAt": "2026-05-30T16:44"
+      "updatedAt": "2026-06-02T09:01"
     },
     {
       "id": "mp5uxw1edo2sz8qvtgs",
@@ -2397,7 +2299,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2007-rojo.webp",
-      "updatedAt": "2026-05-30T08:00"
+      "updatedAt": "2026-06-02T09:01"
     },
     {
       "id": "mpt030c8gber2no50wr",
@@ -2411,7 +2313,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2007-vino.webp",
-      "updatedAt": "2026-05-30T18:47"
+      "updatedAt": "2026-06-02T09:01"
     },
     {
       "id": "mpudrijj4tc1938icxp",
@@ -2450,10 +2352,10 @@
       "detalle": "Enterizo con una tira ancha y otra con dije, y capa lateral.",
       "talla": "EST (M/L)",
       "color": "Beige",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1740-beige-est-ml.webp",
-      "updatedAt": "2026-05-31T17:57"
+      "updatedAt": "2026-06-02T09:44"
     },
     {
       "id": "mpudrijgk18lzhicdh",
@@ -2467,20 +2369,6 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1740-blanco.webp",
-      "updatedAt": "2026-05-31T17:57"
-    },
-    {
-      "id": "mp06ustbu5efdn9ug1",
-      "inventarioId": "mp06ustbu5efdn9ug1",
-      "variantKey": "e1740|enterizo dc|enterizo con una tira ancha y otra con dije, y capa lateral.|est (m/l)|capuchino",
-      "codigo": "E1740",
-      "nombre": "Enterizo DC",
-      "detalle": "Enterizo con una tira ancha y otra con dije, y capa lateral.",
-      "talla": "EST (M/L)",
-      "color": "Capuchino",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e1740-capuchino-est-ml.webp",
       "updatedAt": "2026-05-31T17:57"
     },
     {
@@ -2554,20 +2442,6 @@
       "updatedAt": "2026-05-31T17:57"
     },
     {
-      "id": "mp5uvlthbb6scndf3ia",
-      "inventarioId": "mp5uvlthbb6scndf3ia",
-      "variantKey": "e2041|enterizo flor|enterizo con dije de flor, manga corta, cuello en v, y capa lateral.|est (m/l)|azul electrico",
-      "codigo": "E2041",
-      "nombre": "Enterizo Flor",
-      "detalle": "Enterizo con dije de flor, manga corta, cuello en V, y capa lateral.",
-      "talla": "EST (M/L)",
-      "color": "Azul electrico",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-azul-electrico.webp",
-      "updatedAt": "2026-05-30T08:00"
-    },
-    {
       "id": "mp5uvlthwq3m1b1pjqb",
       "inventarioId": "mp5uvlthwq3m1b1pjqb",
       "variantKey": "e2041|enterizo flor|enterizo con dije de flor, manga corta, cuello en v, y capa lateral.|est (m/l)|negro",
@@ -2576,24 +2450,10 @@
       "detalle": "Enterizo con dije de flor, manga corta, cuello en V, y capa lateral.",
       "talla": "EST (M/L)",
       "color": "Negro",
-      "stock": 2,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-negro.webp",
-      "updatedAt": "2026-05-26T10:16"
-    },
-    {
-      "id": "mp5uvlthepiepcgnj56",
-      "inventarioId": "mp5uvlthepiepcgnj56",
-      "variantKey": "e2041|enterizo flor|enterizo con dije de flor, manga corta, cuello en v, y capa lateral.|est (m/l)|rojo",
-      "codigo": "E2041",
-      "nombre": "Enterizo Flor",
-      "detalle": "Enterizo con dije de flor, manga corta, cuello en V, y capa lateral.",
-      "talla": "EST (M/L)",
-      "color": "Rojo",
       "stock": 1,
       "pvp": 35,
-      "imagen": "fotos_catalogo/e2041-rojo.webp",
-      "updatedAt": "2026-05-26T10:16"
+      "imagen": "fotos_catalogo/e2041-negro.webp",
+      "updatedAt": "2026-06-02T09:44"
     },
     {
       "id": "mpmto5pw901ikq9wgit",
@@ -2607,20 +2467,6 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1021-azul-electrico.webp",
-      "updatedAt": "2026-05-31T17:59"
-    },
-    {
-      "id": "mpmto5q4mvar1nfw9sf",
-      "inventarioId": "mpmto5q4mvar1nfw9sf",
-      "variantKey": "e1021|enterizo glam|enterizo con capa de brillos en forma de diamante.|est (m/l)|beige",
-      "codigo": "E1021",
-      "nombre": "Enterizo Glam",
-      "detalle": "Enterizo con capa de brillos en forma de diamante.",
-      "talla": "EST (M/L)",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e1021-beige.webp",
       "updatedAt": "2026-05-31T17:59"
     },
     {
@@ -2652,20 +2498,6 @@
       "updatedAt": "2026-05-31T17:59"
     },
     {
-      "id": "mpmto5q0k6inugc4j4b",
-      "inventarioId": "mpmto5q0k6inugc4j4b",
-      "variantKey": "e1021|enterizo glam|enterizo con capa de brillos en forma de diamante.|est (m/l)|verde claro",
-      "codigo": "E1021",
-      "nombre": "Enterizo Glam",
-      "detalle": "Enterizo con capa de brillos en forma de diamante.",
-      "talla": "EST (M/L)",
-      "color": "Verde claro",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e1021-verde-claro.webp",
-      "updatedAt": "2026-05-31T17:59"
-    },
-    {
       "id": "mpmto5pyky8dhtc8lvr",
       "inventarioId": "mpmto5pyky8dhtc8lvr",
       "variantKey": "e1021|enterizo glam|enterizo con capa de brillos en forma de diamante.|est (m/l)|verde pino",
@@ -2691,20 +2523,6 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2049-azul-electrico.webp",
-      "updatedAt": "2026-05-31T17:59"
-    },
-    {
-      "id": "mpudndbnpqne3s5vmd",
-      "inventarioId": "mpudndbnpqne3s5vmd",
-      "variantKey": "e2049|enterizo mandy|enterizo con bordes en blanco, con manga de gasa y cuello tipo chaleco.|est (m/l)|blanco",
-      "codigo": "E2049",
-      "nombre": "Enterizo Mandy",
-      "detalle": "Enterizo con bordes en blanco, con manga de gasa y cuello tipo chaleco.",
-      "talla": "EST (M/L)",
-      "color": "blanco",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2049-blanco.webp",
       "updatedAt": "2026-05-31T17:59"
     },
     {
@@ -2744,10 +2562,10 @@
       "detalle": "Enterizo con bordes en blanco, con manga de gasa y cuello tipo chaleco.",
       "talla": "EST (M/L)",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2049-negro.webp",
-      "updatedAt": "2026-05-31T17:59"
+      "updatedAt": "2026-06-02T09:44"
     },
     {
       "id": "mpudndbjrg76kzxgal",
@@ -2856,10 +2674,10 @@
       "detalle": "Enterizo con tira en un hombro y dije en cintura con capa en la pierna.",
       "talla": "EST (M/L)",
       "color": "beige",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1862-beige.webp",
-      "updatedAt": "2026-05-31T17:59"
+      "updatedAt": "2026-06-02T09:56"
     },
     {
       "id": "mpudf5p4io14mzpq6oh",
@@ -2873,20 +2691,6 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1862-blanco.webp",
-      "updatedAt": "2026-05-31T17:59"
-    },
-    {
-      "id": "mpudf5p2wqfzf1pqfng",
-      "inventarioId": "mpudf5p2wqfzf1pqfng",
-      "variantKey": "e1862|enterizo queen|enterizo con tira en un hombro y dije en cintura con capa en la pierna.|est (m/l)|camel",
-      "codigo": "E1862",
-      "nombre": "Enterizo Queen",
-      "detalle": "Enterizo con tira en un hombro y dije en cintura con capa en la pierna.",
-      "talla": "EST (M/L)",
-      "color": "camel",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e1862-camel.webp",
       "updatedAt": "2026-05-31T17:59"
     },
     {
@@ -2912,10 +2716,10 @@
       "detalle": "Enterizo con tira en un hombro y dije en cintura con capa en la pierna.",
       "talla": "EST (M/L)",
       "color": "Ladrillo",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1862-ladrillo.webp",
-      "updatedAt": "2026-05-31T17:59"
+      "updatedAt": "2026-06-02T09:56"
     },
     {
       "id": "mpudf5osknis7vqehp",
@@ -2954,10 +2758,10 @@
       "detalle": "Enterizo con tira en un hombro y dije en cintura con capa en la pierna.",
       "talla": "EST (M/L)",
       "color": "uva",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1862-uva.webp",
-      "updatedAt": "2026-05-31T17:59"
+      "updatedAt": "2026-06-02T09:56"
     },
     {
       "id": "mpudf5ov7hsuwvvvif",
@@ -3968,20 +3772,6 @@
       "updatedAt": "2026-05-16T17:39"
     },
     {
-      "id": "moddv7ynb5sjf35oh9g",
-      "inventarioId": "moddv7ynb5sjf35oh9g",
-      "variantKey": "f8097|falda satín nova|falda larga satinada|s|negro",
-      "codigo": "F8097",
-      "nombre": "FALDA SATÍN NOVA",
-      "detalle": "FALDA LARGA SATINADA",
-      "talla": "S",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/f8097-negro.webp",
-      "updatedAt": ""
-    },
-    {
       "id": "modq61x27ol6vjwyeb",
       "inventarioId": "modq61x27ol6vjwyeb",
       "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|l|beige",
@@ -4816,10 +4606,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 27,
+      "stock": 22,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-05-31T22:43"
+      "updatedAt": "2026-06-02T11:39"
     },
     {
       "id": "mpsjmpvu4hot1xd0067",
@@ -4932,20 +4722,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0024-rojo.webp",
       "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpk3cd089lypl5ktch",
-      "inventarioId": "mpk3cd089lypl5ktch",
-      "variantKey": "v0017|vestido amelie|vestido con cuello chino y manga corta.|est (m/l)|negro",
-      "codigo": "v0017",
-      "nombre": "Vestido Amelie",
-      "detalle": "Vestido con cuello chino y manga corta.",
-      "talla": "EST (M/L)",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0017-negro.webp",
-      "updatedAt": "2026-05-26T07:45"
     },
     {
       "id": "mpk3cd0bz92on9yyqme",
@@ -5074,20 +4850,6 @@
       "updatedAt": "2026-05-30T21:34"
     },
     {
-      "id": "mpshqfkyfwl7xmtlby5",
-      "inventarioId": "mpshqfkyfwl7xmtlby5",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|blanco",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Blanco",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-blanco.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
       "id": "mpshqfl9drnciovkggf",
       "inventarioId": "mpshqfl9drnciovkggf",
       "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|negro",
@@ -5096,10 +4858,10 @@
       "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
       "talla": "EST (S/M)",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0021-negro.webp",
-      "updatedAt": "2026-05-30T21:34"
+      "updatedAt": "2026-06-02T10:51"
     },
     {
       "id": "mpshqfkq63bn4rnsc54",
@@ -5326,20 +5088,6 @@
       "updatedAt": "2026-05-23T14:47"
     },
     {
-      "id": "modjbsvao6czg1fw4p",
-      "inventarioId": "modjbsvao6czg1fw4p",
-      "variantKey": "v0004|vestido jossie|vestido tablones con borde blanco en a|est (s/m)|negro",
-      "codigo": "V0004",
-      "nombre": "VESTIDO JOSSIE",
-      "detalle": "Vestido tablones con borde blanco en A",
-      "talla": "EST (S/M)",
-      "color": "NEGRO",
-      "stock": 2,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0004-negro.webp",
-      "updatedAt": "2026-05-26T06:24"
-    },
-    {
       "id": "modkcs58yp02wxob1u",
       "inventarioId": "modkcs58yp02wxob1u",
       "variantKey": "v0006|vestido karol|vestido en a tirantes|est (s/m)|celeste",
@@ -5351,7 +5099,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0006-celeste.webp",
-      "updatedAt": "2026-05-26T11:42"
+      "updatedAt": "2026-06-02T07:29"
     },
     {
       "id": "modkcs58kyfof7i865",
@@ -5365,7 +5113,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0006-lila.webp",
-      "updatedAt": "2026-05-26T11:42"
+      "updatedAt": "2026-06-02T07:29"
     },
     {
       "id": "modkcs58yoj65xoq9zo",
@@ -5376,10 +5124,10 @@
       "detalle": "Vestido en A tirantes",
       "talla": "EST (S/M)",
       "color": "NEGRO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0006-negro.webp",
-      "updatedAt": "2026-05-26T11:42"
+      "updatedAt": "2026-06-02T10:51"
     },
     {
       "id": "modkcs585vzj1ubsgyx",
@@ -5393,7 +5141,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0006-rosado.webp",
-      "updatedAt": "2026-05-26T11:42"
+      "updatedAt": "2026-06-02T07:29"
     },
     {
       "id": "modkcs58pw6qiixr3y",
@@ -5407,21 +5155,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0006-verde.webp",
-      "updatedAt": "2026-05-26T11:42"
-    },
-    {
-      "id": "modkcs58c4fqn29262j",
-      "inventarioId": "modkcs58c4fqn29262j",
-      "variantKey": "v0006|vestido karol|vestido en a tirantes|est (s/m)|vino",
-      "codigo": "V0006",
-      "nombre": "VESTIDO KAROL",
-      "detalle": "Vestido en A tirantes",
-      "talla": "EST (S/M)",
-      "color": "VINO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0006-vino.webp",
-      "updatedAt": "2026-05-26T11:42"
+      "updatedAt": "2026-06-02T07:29"
     },
     {
       "id": "mpspnsnxgnjpzbm7fi7",
@@ -5435,20 +5169,6 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-azul-petroleo.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpspnsojbkz720y8ajn",
-      "inventarioId": "mpspnsojbkz720y8ajn",
-      "variantKey": "v0025|vestido kathe|vestido en tela lomas, con tres lazos en la cadera.|est (s/m)|beige",
-      "codigo": "v0025",
-      "nombre": "Vestido Kathe",
-      "detalle": "Vestido en tela lomas, con tres lazos en la cadera.",
-      "talla": "EST (S/M)",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0025-beige.webp",
       "updatedAt": "2026-05-30T21:34"
     },
     {
@@ -5474,10 +5194,10 @@
       "detalle": "Vestido en tela lomas, con tres lazos en la cadera.",
       "talla": "EST (S/M)",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-negro.webp",
-      "updatedAt": "2026-05-30T21:34"
+      "updatedAt": "2026-06-02T11:20"
     },
     {
       "id": "mpspnsofpreflha8ap9",
@@ -5491,20 +5211,6 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-rojo.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpspnsom099pom1gbh4e",
-      "inventarioId": "mpspnsom099pom1gbh4e",
-      "variantKey": "v0025|vestido kathe|vestido en tela lomas, con tres lazos en la cadera.|est (s/m)|rosa",
-      "codigo": "v0025",
-      "nombre": "Vestido Kathe",
-      "detalle": "Vestido en tela lomas, con tres lazos en la cadera.",
-      "talla": "EST (S/M)",
-      "color": "Rosa",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0025-rosa.webp",
       "updatedAt": "2026-05-30T21:34"
     },
     {
@@ -5620,20 +5326,6 @@
       "updatedAt": "2026-05-30T21:34"
     },
     {
-      "id": "mpsjgs9f006chkrhdf1e",
-      "inventarioId": "mpsjgs9f006chkrhdf1e",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|negro",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-negro.webp",
-      "updatedAt": "2026-05-31T14:16"
-    },
-    {
       "id": "mpsjgs9jrs9lipn18wg",
       "inventarioId": "mpsjgs9jrs9lipn18wg",
       "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|rosado",
@@ -5659,21 +5351,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0011-rojo.webp",
-      "updatedAt": "2026-05-23T14:49"
-    },
-    {
-      "id": "moeg9hoptpt5w6yovxr",
-      "inventarioId": "moeg9hoptpt5w6yovxr",
-      "variantKey": "v0011|vestido madelyn|vestido con botones bicolores|est (s/m)|rosado",
-      "codigo": "V0011",
-      "nombre": "VESTIDO MADELYN",
-      "detalle": "VESTIDO CON BOTONES BICOLORES",
-      "talla": "EST (S/M)",
-      "color": "ROSADO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0011-rosado.webp",
-      "updatedAt": "2026-05-23T14:49"
+      "updatedAt": "2026-06-02T08:46"
     },
     {
       "id": "modj6yvmz75elxnzfnd",
@@ -5684,10 +5362,10 @@
       "detalle": "Vestido con lazo en un hombro",
       "talla": "EST (S/M)",
       "color": "CAFÉ",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0003-cafe.webp",
-      "updatedAt": "2026-05-26T07:16"
+      "updatedAt": "2026-06-02T11:20"
     },
     {
       "id": "modj6yvmvgs1fj9ati",
@@ -5701,7 +5379,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0003-rojo.webp",
-      "updatedAt": "2026-05-26T07:16"
+      "updatedAt": "2026-06-02T08:47"
     },
     {
       "id": "modk7dlj21ylo5hr6mx",
@@ -5732,20 +5410,6 @@
       "updatedAt": "2026-05-24T13:01"
     },
     {
-      "id": "mpk2r7176708jyan6o7",
-      "inventarioId": "mpk2r7176708jyan6o7",
-      "variantKey": "v0016|vestido nataly|vestido 3/4, en tela gaza con abertura en una pierna.|est (s/m)|azul petroleo",
-      "codigo": "v0016",
-      "nombre": "Vestido Nataly",
-      "detalle": "Vestido 3/4, en tela gaza con abertura en una pierna.",
-      "talla": "EST (S/M)",
-      "color": "Azul petroleo",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0016-azul-petroleo.webp",
-      "updatedAt": "2026-05-24T13:01"
-    },
-    {
       "id": "mpk2r71662gssw328nc",
       "inventarioId": "mpk2r71662gssw328nc",
       "variantKey": "v0016|vestido nataly|vestido 3/4, en tela gaza con abertura en una pierna.|est (s/m)|rojo",
@@ -5758,62 +5422,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0016-rojo.webp",
       "updatedAt": "2026-05-26T12:09"
-    },
-    {
-      "id": "modmvn75fa3tqsugqh6",
-      "inventarioId": "modmvn75fa3tqsugqh6",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|azul marino",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "M",
-      "color": "AZUL MARINO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-azul-marino.webp",
-      "updatedAt": "2026-05-30T18:49"
-    },
-    {
-      "id": "mpt030cgbnu9kh8bqdn",
-      "inventarioId": "mpt030cgbnu9kh8bqdn",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|beige",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "M",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-beige.webp",
-      "updatedAt": "2026-05-30T18:49"
-    },
-    {
-      "id": "mpt030cekrmqw72wslo",
-      "inventarioId": "mpt030cekrmqw72wslo",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|blanco",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "M",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-blanco.webp",
-      "updatedAt": "2026-05-30T18:49"
-    },
-    {
-      "id": "modmvn756z2fblf8ds5",
-      "inventarioId": "modmvn756z2fblf8ds5",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|cafe",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "M",
-      "color": "CAFE",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-cafe.webp",
-      "updatedAt": "2026-05-30T18:49"
     },
     {
       "id": "modmvn757jebu9qd7oj",
@@ -5830,90 +5438,6 @@
       "updatedAt": "2026-05-30T18:49"
     },
     {
-      "id": "modmvn75ggufu8sk3r",
-      "inventarioId": "modmvn75ggufu8sk3r",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|negro",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "M",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-negro.webp",
-      "updatedAt": "2026-05-30T18:49"
-    },
-    {
-      "id": "modmvn758rl41mxs5lr",
-      "inventarioId": "modmvn758rl41mxs5lr",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|s|negro",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "S",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-negro.webp",
-      "updatedAt": "2026-05-30T18:49"
-    },
-    {
-      "id": "mpt030ca91bdj1vvrkl",
-      "inventarioId": "mpt030ca91bdj1vvrkl",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|rojo",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "M",
-      "color": "ROJO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-rojo.webp",
-      "updatedAt": "2026-05-30T18:49"
-    },
-    {
-      "id": "mpt030ccmgugjqd5oa",
-      "inventarioId": "mpt030ccmgugjqd5oa",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|rosado",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "M",
-      "color": "ROSADO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-rosado.webp",
-      "updatedAt": "2026-05-30T18:49"
-    },
-    {
-      "id": "modmvn751i7ioo4syk5",
-      "inventarioId": "modmvn751i7ioo4syk5",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|m|vino",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "M",
-      "color": "VINO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-vino.webp",
-      "updatedAt": "2026-05-30T18:49"
-    },
-    {
-      "id": "mpk41zisdvfdy1rkjyv",
-      "inventarioId": "mpk41zisdvfdy1rkjyv",
-      "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|beige",
-      "codigo": "v0018",
-      "nombre": "Vestido Rose",
-      "detalle": "Vestido jumper, estilo corset con flor en pecho.",
-      "talla": "EST (S/M)",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0018-beige.webp",
-      "updatedAt": "2026-05-24T13:28"
-    },
-    {
       "id": "mpk41zivthm46l4mwub",
       "inventarioId": "mpk41zivthm46l4mwub",
       "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|lila",
@@ -5925,20 +5449,6 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-lila.webp",
-      "updatedAt": "2026-05-24T13:28"
-    },
-    {
-      "id": "mpk41ziu101vjqkqsfv",
-      "inventarioId": "mpk41ziu101vjqkqsfv",
-      "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|negro",
-      "codigo": "v0018",
-      "nombre": "Vestido Rose",
-      "detalle": "Vestido jumper, estilo corset con flor en pecho.",
-      "talla": "EST (S/M)",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0018-negro.webp",
       "updatedAt": "2026-05-24T13:28"
     },
     {
@@ -5995,20 +5505,6 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0019-blanco.webp",
-      "updatedAt": "2026-05-24T14:26"
-    },
-    {
-      "id": "mpk64bqnoya85awq0p",
-      "inventarioId": "mpk64bqnoya85awq0p",
-      "variantKey": "v0019|vestido rose estampado|vesitdo jumper, con manga corta floreado.|est (s/m)|blanco/morado",
-      "codigo": "v0019",
-      "nombre": "Vestido Rose Estampado",
-      "detalle": "Vesitdo jumper, con manga corta floreado.",
-      "talla": "EST (S/M)",
-      "color": "Blanco/morado",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0019-blancomorado.webp",
       "updatedAt": "2026-05-24T14:26"
     },
     {
@@ -6093,7 +5589,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-lila.webp",
-      "updatedAt": "2026-05-30T10:30"
+      "updatedAt": "2026-06-02T08:45"
     },
     {
       "id": "modjwlnv3gugzk2wc31",
@@ -6107,7 +5603,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-rojo.webp",
-      "updatedAt": "2026-05-26T06:50"
+      "updatedAt": "2026-06-02T08:45"
     },
     {
       "id": "modjwlnv65z0e2y2ew",
@@ -6121,7 +5617,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-verde-militar.webp",
-      "updatedAt": "2026-05-26T06:50"
+      "updatedAt": "2026-06-02T08:45"
     },
     {
       "id": "modlzg4ffvxts9p2vui",
@@ -6160,10 +5656,10 @@
       "detalle": "VESTIDO RECTO TIRANTES CON LAZOS EN HOMBROS",
       "talla": "EST (S/M)",
       "color": "LILA",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0007-lila.webp",
-      "updatedAt": "2026-05-26T07:01"
+      "updatedAt": "2026-06-02T11:39"
     },
     {
       "id": "modlzg4fo9d58tzqnq",
