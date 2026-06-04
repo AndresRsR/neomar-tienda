@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-02T18:07:08.616Z",
-  "totalVariantes": 408,
-  "totalStock": 490,
+  "updatedAt": "2026-06-04T17:03:23.700Z",
+  "totalVariantes": 402,
+  "totalStock": 481,
   "items": [
     {
       "id": "mo8qxku9bqclcz1mh4w",
@@ -3772,20 +3772,6 @@
       "updatedAt": "2026-05-16T17:39"
     },
     {
-      "id": "modq61x27ol6vjwyeb",
-      "inventarioId": "modq61x27ol6vjwyeb",
-      "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|l|beige",
-      "codigo": "F0003",
-      "nombre": "FALDA SOFIA",
-      "detalle": "Falda plisada en tela lomas, con cinturon.",
-      "talla": "L",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0003-beige.webp",
-      "updatedAt": "2026-05-16T11:19"
-    },
-    {
       "id": "modq61x245e30aukn7r",
       "inventarioId": "modq61x245e30aukn7r",
       "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|m|beige",
@@ -4374,20 +4360,6 @@
       "updatedAt": ""
     },
     {
-      "id": "mo99j7w63gb9jcax94r",
-      "inventarioId": "mo99j7w63gb9jcax94r",
-      "variantKey": "m030|pantalon jessie|pantalon con cinturon doble evilla|m|capuchino",
-      "codigo": "M030",
-      "nombre": "PANTALON JESSIE",
-      "detalle": "Pantalon con cinturon doble evilla",
-      "talla": "M",
-      "color": "CAPUCHINO",
-      "stock": 1,
-      "pvp": 23,
-      "imagen": "fotos_catalogo/m030-capuchino.webp",
-      "updatedAt": ""
-    },
-    {
       "id": "mo99j7w6mlmzliafcwi",
       "inventarioId": "mo99j7w6mlmzliafcwi",
       "variantKey": "m030|pantalon jessie|pantalon con cinturon doble evilla|s|negro",
@@ -4606,10 +4578,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 22,
+      "stock": 21,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-06-02T11:39"
+      "updatedAt": "2026-06-02T19:50"
     },
     {
       "id": "mpsjmpvu4hot1xd0067",
@@ -4836,34 +4808,6 @@
       "updatedAt": "2026-05-30T21:34"
     },
     {
-      "id": "mpshqfl21967qmkalfo",
-      "inventarioId": "mpshqfl21967qmkalfo",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|beige",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-beige.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpshqfl9drnciovkggf",
-      "inventarioId": "mpshqfl9drnciovkggf",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|negro",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-negro.webp",
-      "updatedAt": "2026-06-02T10:51"
-    },
-    {
       "id": "mpshqfkq63bn4rnsc54",
       "inventarioId": "mpshqfkq63bn4rnsc54",
       "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|rosado",
@@ -4889,7 +4833,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0021-vino.webp",
-      "updatedAt": "2026-05-30T21:34"
+      "updatedAt": "2026-06-02T14:37"
     },
     {
       "id": "moeilb7qhsvak75iax",
@@ -5309,34 +5253,6 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0022-amarillo.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpsjgs9na7ecs1q0zqs",
-      "inventarioId": "mpsjgs9na7ecs1q0zqs",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|blanco",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Blanco",
-      "stock": 2,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-blanco.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpsjgs9jrs9lipn18wg",
-      "inventarioId": "mpsjgs9jrs9lipn18wg",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|rosado",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Rosado",
-      "stock": 2,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-rosado.webp",
       "updatedAt": "2026-05-30T21:34"
     },
     {
