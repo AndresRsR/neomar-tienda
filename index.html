@@ -658,6 +658,57 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   border-color: var(--charcoal);
   color: #fff;
 }
+.color-compass {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.color-filter-btn {
+  min-height: 38px;
+  padding: 6px 12px 6px 7px;
+  border: 1px solid var(--border-strong);
+  background: rgba(255,253,249,.68);
+  border-radius: 999px;
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  transition: border-color .2s ease, color .2s ease, background .2s ease, transform .2s ease;
+  white-space: nowrap;
+}
+.color-filter-btn:hover {
+  border-color: var(--rose);
+  color: var(--rose);
+  transform: translateY(-1px);
+}
+.color-filter-btn.active {
+  background: var(--charcoal);
+  border-color: var(--charcoal);
+  color: #fff;
+}
+.color-filter-swatch {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  flex: 0 0 22px;
+  box-shadow: inset 0 0 0 1px rgba(26,16,21,.16), 0 1px 5px rgba(74,45,56,.08);
+}
+.color-filter-btn.active .color-filter-swatch {
+  box-shadow: 0 0 0 2px rgba(255,255,255,.8), inset 0 0 0 1px rgba(26,16,21,.18);
+}
+.color-filter-all .color-filter-swatch {
+  background: conic-gradient(#1f5fd0, #7bbf9c, #f1c84b, #d93d8b, #161616, #e8dcc8, #1f5fd0);
+}
+.color-filter-count {
+  font-size: 10px;
+  color: var(--rose);
+  opacity: .82;
+}
+.color-filter-btn.active .color-filter-count { color: rgba(255,255,255,.72); }
 .filter-divider {
   width: 1px;
   height: 28px;
@@ -1826,10 +1877,30 @@ footer {
     display: none;
   }
 
+  .color-compass {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 2px 0 9px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .color-compass::-webkit-scrollbar {
+    display: none;
+  }
+
   .filter-pill {
     flex: 0 0 auto;
     min-height: 40px;
     padding: 10px 16px;
+  }
+
+  .color-filter-btn {
+    flex: 0 0 auto;
   }
 
   .filter-divider {
@@ -2522,6 +2593,9 @@ footer {
     <div class="filter-divider"></div>
     <span class="filter-label">Talla</span>
     <div class="filter-group" id="sizeFilters"></div>
+    <div class="filter-divider"></div>
+    <span class="filter-label">Color</span>
+    <div class="color-compass" id="colorFilters" aria-label="Filtrar por color"></div>
     <div class="search-input-wrap">
       <span class="search-icon">🔍</span>
       <input class="search-input" type="text" placeholder="Buscar prenda…" id="searchInput" oninput="filterProducts()">
@@ -3006,6 +3080,7 @@ function colorHex(nombre) {
 var allGroups = [];
 var catActive = 'Todas';
 var sizeActive = 'Todas';
+var colorActive = 'Todos';
 var searchQ = '';
 var currentModal = null;
 var wishlist = {};
@@ -3292,7 +3367,18 @@ function buildMarquee() {
 // ══ FILTERS ══
 var categories = [];
 var sizes = [];
+var colorFilters = [];
 var CATEGORY_ORDER = ['Todas', 'Chaquetas', 'Conjuntos', 'Enterizos', 'Blusas', 'Vestidos', 'Pantalones', 'Faldas', 'Shorts', 'Chalecos', 'Gabardinas', 'Corsets', 'Tops', 'Carteras', 'Otros'];
+var COLOR_FILTER_ORDER = ['BLANCO', 'PERLA', 'CREMA', 'BEIGE', 'CAMEL', 'CAPUCHINO', 'CAFE', 'AMARILLO', 'MOSTAZA', 'LADRILLO', 'ROJO', 'VINO', 'ROSADO', 'FUCSIA', 'LILA', 'MORADO', 'UVA', 'CELESTE', 'AZUL CLARO', 'AZUL', 'AZUL ELECTRICO', 'AZUL MARINO', 'TURQUESA', 'VERDE AGUA', 'VERDE', 'VERDE OLIVA', 'GRIS', 'NEGRO', 'VARIADO'];
+var COLOR_FILTER_ALIASES = {
+  'NEGRA': 'NEGRO', 'NEGO': 'NEGRO',
+  'BLANCA': 'BLANCO',
+  'ROSADA': 'ROSADO', 'PALO DE ROSA': 'PALO ROSA',
+  'ROJA': 'ROJO',
+  'BEISH': 'BEIGE',
+  'CAMELLO': 'CAMEL',
+  'CAPUCHNO': 'CAPUCHINO'
+};
 
 function ordenarCategorias(cats) {
   return cats.sort(function(a, b) {
@@ -3304,17 +3390,100 @@ function ordenarCategorias(cats) {
   });
 }
 
+function nombreColorFiltro(nombre) {
+  var raw = textValue(nombre);
+  if (!raw) return '';
+  return raw.toLowerCase().replace(/\s+/g,' ').split(' ').map(function(w) {
+    return w ? w.charAt(0).toUpperCase() + w.slice(1) : '';
+  }).join(' ');
+}
+
+function colorFiltroKey(nombre) {
+  var key = colorKey(nombre);
+  return COLOR_FILTER_ALIASES[key] || key;
+}
+
+function colorKeysFiltro(nombre) {
+  var raw = textValue(nombre);
+  if (!raw) return [];
+  var parts = raw.split(/[\/-]+/).map(function(p){ return p.trim(); }).filter(Boolean);
+  if (!parts.length) parts = [raw];
+  var seen = {};
+  return parts.map(colorFiltroKey).filter(function(k) {
+    if (!k || seen[k]) return false;
+    seen[k] = true;
+    return true;
+  });
+}
+
+function colorOrdenIndex(nombre) {
+  var ck = colorFiltroKey(nombre);
+  for (var i = 0; i < COLOR_FILTER_ORDER.length; i++) {
+    var ok = colorKey(COLOR_FILTER_ORDER[i]);
+    if (ck === ok || ck.indexOf(ok) >= 0 || ok.indexOf(ck) >= 0) return i;
+  }
+  return 999;
+}
+
+function ordenarColoresFiltro(items) {
+  return items.sort(function(a, b) {
+    var ia = colorOrdenIndex(a.label);
+    var ib = colorOrdenIndex(b.label);
+    if (ia !== ib) return ia - ib;
+    return a.label.localeCompare(b.label);
+  });
+}
+
+function coloresDisponiblesGrupo(g) {
+  var out = [];
+  var seen = {};
+  (g.variantes || []).forEach(function(v) {
+    if (stockValue(v.stock) <= 0) return;
+    var color = textValue(v.color);
+    if (!color || color === 'POR INGRESAR') return;
+    colorKeysFiltro(color).forEach(function(key) {
+      if (!key || seen[key]) return;
+      seen[key] = true;
+      out.push({ key: key, label: nombreColorFiltro(key), raw: key });
+    });
+  });
+  return out;
+}
+
+function grupoTieneColor(g, key) {
+  if (!key || key === 'Todos') return true;
+  return (g.variantes || []).some(function(v) {
+    return stockValue(v.stock) > 0 && colorKeysFiltro(v.color).indexOf(key) >= 0;
+  });
+}
+
+function grupoCoincideTallaColor(g) {
+  if (sizeActive === 'Todas' && colorActive === 'Todos') return true;
+  return (g.variantes || []).some(function(v) {
+    if (stockValue(v.stock) <= 0) return false;
+    if (sizeActive !== 'Todas' && v.talla !== sizeActive) return false;
+    if (colorActive !== 'Todos' && colorKeysFiltro(v.color).indexOf(colorActive) < 0) return false;
+    return true;
+  });
+}
+
 function buildFilters() {
   var catSet = { 'Todas': true };
   var sizeSet = { 'Todas': true };
+  var colorMap = {};
   allGroups.forEach(function(g) {
     catSet[categoriaDe(g.base.nombre, g.base.detalle)] = true;
     g.variantes.forEach(function(v) {
       if (v.talla && v.talla !== 'Única') sizeSet[v.talla] = true;
     });
+    coloresDisponiblesGrupo(g).forEach(function(c) {
+      if (!colorMap[c.key]) colorMap[c.key] = { key: c.key, label: c.label, raw: c.raw, count: 0 };
+      colorMap[c.key].count += 1;
+    });
   });
   categories = ordenarCategorias(Object.keys(catSet));
   sizes = Object.keys(sizeSet);
+  colorFilters = ordenarColoresFiltro(Object.keys(colorMap).map(function(k) { return colorMap[k]; }));
 
   var catHtml = categories.map(function(c) {
     return '<button class="filter-pill'+(c==='Todas'?' active':'')+'" onclick="setCat('+jsArg(c)+',this)">'+escapeHtml(c)+'</button>';
@@ -3325,6 +3494,17 @@ function buildFilters() {
     return '<button class="filter-pill'+(s==='Todas'?' active':'')+'" onclick="setSize('+jsArg(s)+',this)">'+escapeHtml(s)+'</button>';
   }).join('');
   document.getElementById('sizeFilters').innerHTML = sizeHtml;
+
+  var colorHtml = '<button class="color-filter-btn color-filter-all active" onclick="setColorFilter(\'Todos\',this)" title="Ver todos los colores">'+
+    '<span class="color-filter-swatch"></span><span>Todos</span><span class="color-filter-count">'+allGroups.length+'</span></button>';
+  colorHtml += colorFilters.map(function(c) {
+    return '<button class="color-filter-btn" onclick="setColorFilter('+jsArg(c.key)+',this)" title="Ver prendas en '+escapeAttr(c.label)+'">'+
+      '<span class="color-filter-swatch" style="background:'+colorHex(c.raw)+'"></span>'+
+      '<span>'+escapeHtml(c.label)+'</span>'+
+      '<span class="color-filter-count">'+c.count+'</span>'+
+    '</button>';
+  }).join('');
+  document.getElementById('colorFilters').innerHTML = colorHtml;
 }
 
 function setCat(cat, btn) {
@@ -3336,6 +3516,12 @@ function setCat(cat, btn) {
 function setSize(sz, btn) {
   sizeActive = sz;
   document.querySelectorAll('#sizeFilters .filter-pill').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  renderProducts();
+}
+function setColorFilter(color, btn) {
+  colorActive = color || 'Todos';
+  document.querySelectorAll('#colorFilters .color-filter-btn').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
   renderProducts();
 }
@@ -3367,10 +3553,7 @@ function renderProducts() {
   var filtered = allGroups.filter(function(g) {
     var cat = categoriaDe(g.base.nombre, g.base.detalle);
     if (catActive !== 'Todas' && cat !== catActive) return false;
-    if (sizeActive !== 'Todas') {
-      var hasSz = g.variantes.some(function(v) { return v.talla === sizeActive && v.stock > 0; });
-      if (!hasSz) return false;
-    }
+    if (!grupoCoincideTallaColor(g)) return false;
     if (searchQ) {
       var hay = g.base.nombre.toLowerCase().indexOf(searchQ) >= 0 ||
                 (g.base.detalle||'').toLowerCase().indexOf(searchQ) >= 0 ||
@@ -3860,7 +4043,10 @@ function buildCardData(g, idx, previousInitialColor) {
     if(fallbackSrc)colorOptions.push({ color: colors[0] || 'Disponible', src: fallbackSrc, auto: generatedImgSrc(g.base) });
   }
 
-  var initialIndex = indiceColorInicial(colorOptions, previousInitialColor, idx);
+  var selectedColorIndex = colorActive !== 'Todos'
+    ? colorOptions.findIndex(function(opt) { return colorKeysFiltro(opt.color).indexOf(colorActive) >= 0; })
+    : -1;
+  var initialIndex = selectedColorIndex >= 0 ? selectedColorIndex : indiceColorInicial(colorOptions, previousInitialColor, idx);
   var colorsHtml = colorOptions.map(function(opt, colorIdx) {
     var c = opt.color;
     return '<div class="color-dot'+(colorIdx===initialIndex?' active':'')+'" '+
@@ -3947,10 +4133,7 @@ function getFilteredGroups() {
   return allGroups.filter(function(g) {
     var cat = categoriaDe(g.base.nombre, g.base.detalle);
     if (catActive !== 'Todas' && cat !== catActive) return false;
-    if (sizeActive !== 'Todas') {
-      var hasSz = g.variantes.some(function(v) { return v.talla === sizeActive && v.stock > 0; });
-      if (!hasSz) return false;
-    }
+    if (!grupoCoincideTallaColor(g)) return false;
     if (searchQ) {
       var hay = g.base.nombre.toLowerCase().indexOf(searchQ) >= 0 ||
                 (g.base.detalle||'').toLowerCase().indexOf(searchQ) >= 0 ||
