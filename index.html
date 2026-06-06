@@ -624,24 +624,52 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 
 /* ── FILTERS ── */
 .filters-bar {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 12px;
   margin-bottom: 48px;
-  align-items: center;
 }
-.filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
+.filter-row {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+}
+.filter-row-tools {
+  grid-template-columns: 96px minmax(220px, auto) minmax(220px, 360px);
+}
+.filter-row-color {
+  align-items: start;
+}
+.filter-group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 0;
+  padding: 2px 0 7px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200,86,110,.28) transparent;
+}
+.filter-group::-webkit-scrollbar { height: 4px; }
+.filter-group::-webkit-scrollbar-thumb {
+  background: rgba(200,86,110,.26);
+  border-radius: 999px;
+}
+.filter-group-tight {
+  justify-self: start;
+}
 .filter-label {
   font-size: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--text-muted);
-  padding: 8px 0;
-  margin-right: 8px;
+  padding: 0;
   align-self: center;
 }
 .filter-pill {
-  padding: 8px 18px;
+  padding: 8px 17px;
   border: 1px solid var(--border-strong);
   background: transparent;
   border-radius: 100px;
@@ -658,27 +686,68 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   border-color: var(--charcoal);
   color: #fff;
 }
+.color-filter-area {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  background: rgba(255,253,249,.62);
+}
+.color-filter-summary {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  color: var(--charcoal);
+  line-height: 1;
+}
+.color-filter-summary span {
+  display: block;
+  margin-top: 5px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--rose);
+}
 .color-compass {
   display: flex;
-  gap: 7px;
-  flex-wrap: wrap;
+  gap: 9px;
+  flex-wrap: nowrap;
   align-items: center;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 5px 1px 7px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200,86,110,.28) transparent;
+}
+.color-compass::-webkit-scrollbar { height: 4px; }
+.color-compass::-webkit-scrollbar-thumb {
+  background: rgba(200,86,110,.26);
+  border-radius: 999px;
 }
 .color-filter-btn {
-  min-height: 38px;
-  padding: 6px 12px 6px 7px;
+  position: relative;
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+  padding: 0;
   border: 1px solid var(--border-strong);
   background: rgba(255,253,249,.68);
-  border-radius: 999px;
+  border-radius: 50%;
   color: var(--text-muted);
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   font-family: 'DM Sans', sans-serif;
   font-size: 12px;
   cursor: pointer;
   transition: border-color .2s ease, color .2s ease, background .2s ease, transform .2s ease;
   white-space: nowrap;
+  flex: 0 0 auto;
 }
 .color-filter-btn:hover {
   border-color: var(--rose);
@@ -691,10 +760,10 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   color: #fff;
 }
 .color-filter-swatch {
-  width: 22px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  flex: 0 0 22px;
+  flex: 0 0 30px;
   box-shadow: inset 0 0 0 1px rgba(26,16,21,.16), 0 1px 5px rgba(74,45,56,.08);
 }
 .color-filter-btn.active .color-filter-swatch {
@@ -703,19 +772,36 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 .color-filter-all .color-filter-swatch {
   background: conic-gradient(#1f5fd0, #7bbf9c, #f1c84b, #d93d8b, #161616, #e8dcc8, #1f5fd0);
 }
+.color-filter-name { display: none; }
+.color-filter-all {
+  width: auto;
+  min-width: auto;
+  border-radius: 999px;
+  padding: 0 12px 0 6px;
+}
+.color-filter-all .color-filter-name { display: inline; }
+.color-filter-all .color-filter-count {
+  position: static;
+  margin-left: -2px;
+}
 .color-filter-count {
+  position: absolute;
+  top: -6px;
+  right: -5px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border: 1px solid rgba(200,86,110,.24);
+  border-radius: 999px;
+  background: var(--warm-white);
   font-size: 10px;
   color: var(--rose);
   opacity: .82;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
-.color-filter-btn.active .color-filter-count { color: rgba(255,255,255,.72); }
-.filter-divider {
-  width: 1px;
-  height: 28px;
-  background: var(--border-strong);
-  margin: 0 4px;
-  align-self: center;
-}
+.color-filter-btn.active .color-filter-count { color: var(--charcoal); }
 .catalog-status {
   display: none;
   margin: -28px 0 32px;
@@ -1856,6 +1942,13 @@ footer {
     min-width: 0;
   }
 
+  .filter-row,
+  .filter-row-tools,
+  .filter-row-color {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+
   .filter-label {
     margin-right: 0;
     padding: 0;
@@ -1891,6 +1984,16 @@ footer {
 
   .color-compass::-webkit-scrollbar {
     display: none;
+  }
+
+  .color-filter-area {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .color-filter-summary {
+    font-size: 18px;
   }
 
   .filter-pill {
@@ -2588,17 +2691,24 @@ footer {
 
   <!-- FILTROS -->
   <div class="filters-bar reveal">
-    <span class="filter-label">Categoría</span>
-    <div class="filter-group" id="catFilters"></div>
-    <div class="filter-divider"></div>
-    <span class="filter-label">Talla</span>
-    <div class="filter-group" id="sizeFilters"></div>
-    <div class="filter-divider"></div>
-    <span class="filter-label">Color</span>
-    <div class="color-compass" id="colorFilters" aria-label="Filtrar por color"></div>
-    <div class="search-input-wrap">
-      <span class="search-icon">🔍</span>
-      <input class="search-input" type="text" placeholder="Buscar prenda…" id="searchInput" oninput="filterProducts()">
+    <div class="filter-row filter-row-main">
+      <span class="filter-label">Categoría</span>
+      <div class="filter-group" id="catFilters"></div>
+    </div>
+    <div class="filter-row filter-row-tools">
+      <span class="filter-label">Talla</span>
+      <div class="filter-group filter-group-tight" id="sizeFilters"></div>
+      <div class="search-input-wrap">
+        <span class="search-icon">🔍</span>
+        <input class="search-input" type="text" placeholder="Buscar prenda…" id="searchInput" oninput="filterProducts()">
+      </div>
+    </div>
+    <div class="filter-row filter-row-color">
+      <span class="filter-label">Color</span>
+      <div class="color-filter-area">
+        <div class="color-filter-summary" id="colorFilterSummary">Todos los colores</div>
+        <div class="color-compass" id="colorFilters" aria-label="Filtrar por color"></div>
+      </div>
     </div>
   </div>
   <div class="catalog-status" id="catalogStatus" role="status"></div>
@@ -3467,6 +3577,22 @@ function grupoCoincideTallaColor(g) {
   });
 }
 
+function colorFiltroActual() {
+  if (colorActive === 'Todos') return null;
+  return colorFilters.find(function(c) { return c.key === colorActive; }) || null;
+}
+
+function actualizarColorFilterSummary() {
+  var el = document.getElementById('colorFilterSummary');
+  if (!el) return;
+  var info = colorFiltroActual();
+  if (!info) {
+    el.innerHTML = 'Todos los colores<span>'+allGroups.length+' modelos disponibles</span>';
+    return;
+  }
+  el.innerHTML = escapeHtml(info.label)+'<span>'+info.count+' modelos disponibles</span>';
+}
+
 function buildFilters() {
   var catSet = { 'Todas': true };
   var sizeSet = { 'Todas': true };
@@ -3484,6 +3610,7 @@ function buildFilters() {
   categories = ordenarCategorias(Object.keys(catSet));
   sizes = Object.keys(sizeSet);
   colorFilters = ordenarColoresFiltro(Object.keys(colorMap).map(function(k) { return colorMap[k]; }));
+  if (colorActive !== 'Todos' && !colorFilters.some(function(c) { return c.key === colorActive; })) colorActive = 'Todos';
 
   var catHtml = categories.map(function(c) {
     return '<button class="filter-pill'+(c==='Todas'?' active':'')+'" onclick="setCat('+jsArg(c)+',this)">'+escapeHtml(c)+'</button>';
@@ -3495,16 +3622,17 @@ function buildFilters() {
   }).join('');
   document.getElementById('sizeFilters').innerHTML = sizeHtml;
 
-  var colorHtml = '<button class="color-filter-btn color-filter-all active" onclick="setColorFilter(\'Todos\',this)" title="Ver todos los colores">'+
-    '<span class="color-filter-swatch"></span><span>Todos</span><span class="color-filter-count">'+allGroups.length+'</span></button>';
+  var colorHtml = '<button class="color-filter-btn color-filter-all'+(colorActive==='Todos'?' active':'')+'" onclick="setColorFilter(\'Todos\',this)" title="Ver todos los colores">'+
+    '<span class="color-filter-swatch"></span><span class="color-filter-name">Todos</span><span class="color-filter-count">'+allGroups.length+'</span></button>';
   colorHtml += colorFilters.map(function(c) {
-    return '<button class="color-filter-btn" onclick="setColorFilter('+jsArg(c.key)+',this)" title="Ver prendas en '+escapeAttr(c.label)+'">'+
+    return '<button class="color-filter-btn'+(c.key===colorActive?' active':'')+'" onclick="setColorFilter('+jsArg(c.key)+',this)" title="Ver prendas en '+escapeAttr(c.label)+'">'+
       '<span class="color-filter-swatch" style="background:'+colorHex(c.raw)+'"></span>'+
-      '<span>'+escapeHtml(c.label)+'</span>'+
+      '<span class="color-filter-name">'+escapeHtml(c.label)+'</span>'+
       '<span class="color-filter-count">'+c.count+'</span>'+
     '</button>';
   }).join('');
   document.getElementById('colorFilters').innerHTML = colorHtml;
+  actualizarColorFilterSummary();
 }
 
 function setCat(cat, btn) {
@@ -3523,6 +3651,7 @@ function setColorFilter(color, btn) {
   colorActive = color || 'Todos';
   document.querySelectorAll('#colorFilters .color-filter-btn').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
+  actualizarColorFilterSummary();
   renderProducts();
 }
 function filterProducts() {
