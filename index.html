@@ -957,7 +957,7 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   margin-left: auto;
 }
 .search-input {
-  padding: 9px 16px 9px 40px;
+  padding: 9px 42px 9px 40px;
   border: 1px solid var(--border-strong);
   background: var(--warm-white);
   border-radius: 100px;
@@ -981,6 +981,34 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   color: var(--text-muted);
   font-size: 15px;
   pointer-events: none;
+}
+.search-clear {
+  position: absolute;
+  right: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(200,86,110,.1);
+  color: var(--rose-deep);
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1;
+  font-family: 'DM Sans', sans-serif;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+.search-clear:hover {
+  background: var(--charcoal);
+  color: #fff;
+  transform: translateY(-50%) scale(1.04);
+}
+.search-input-wrap.has-text .search-clear {
+  display: flex;
 }
 
 /* ── PRODUCT GRID ── */
@@ -2701,6 +2729,7 @@ footer {
       <div class="search-input-wrap">
         <span class="search-icon">🔍</span>
         <input class="search-input" type="text" placeholder="Buscar prenda…" id="searchInput" oninput="filterProducts()">
+        <button class="search-clear" type="button" onclick="clearSearch()" aria-label="Borrar búsqueda">×</button>
       </div>
     </div>
     <div class="filter-row filter-row-color">
@@ -3657,7 +3686,22 @@ function setColorFilter(color, btn) {
 }
 function filterProducts() {
   searchQ = document.getElementById('searchInput').value.toLowerCase().trim();
+  updateSearchClear();
   renderProducts();
+}
+function updateSearchClear() {
+  var input = document.getElementById('searchInput');
+  var wrap = input && input.closest ? input.closest('.search-input-wrap') : null;
+  if (wrap) wrap.classList.toggle('has-text', !!(input.value || '').trim());
+}
+function clearSearch() {
+  var input = document.getElementById('searchInput');
+  if (!input) return;
+  input.value = '';
+  searchQ = '';
+  updateSearchClear();
+  renderProducts();
+  input.focus();
 }
 
 // ══ BUILD FOOTER CATS ══
@@ -3694,7 +3738,7 @@ function renderProducts() {
   });
 
   var grid = document.getElementById('productsGrid');
-  renderCatalogShowcase(filtered);
+  renderCatalogShowcase(catActive === 'Todas' ? filtered : []);
   if (!filtered.length) {
     if (!allGroups.length) {
       grid.innerHTML = '<div class="no-results"><div class="no-results-icon">⌛</div><div class="no-results-text">Catálogo en actualización</div><p style="font-size:13px;margin-top:12px;color:var(--text-muted)">Sube catalogo-publico.json para mostrar las prendas disponibles.</p></div>';
