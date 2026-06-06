@@ -1,24 +1,10 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-04T17:03:23.700Z",
-  "totalVariantes": 402,
-  "totalStock": 481,
+  "updatedAt": "2026-06-06T04:27:48.093Z",
+  "totalVariantes": 389,
+  "totalStock": 465,
   "items": [
-    {
-      "id": "mo8qxku9bqclcz1mh4w",
-      "inventarioId": "mo8qxku9bqclcz1mh4w",
-      "variantKey": "s-250757|blusa alba|blusa tela galleta con diseño de flor en pecho y tirante en un hombro.|s|beige",
-      "codigo": "S-250757",
-      "nombre": "BLUSA ALBA",
-      "detalle": "Blusa tela galleta con diseño de flor en pecho y tirante en un hombro.",
-      "talla": "S",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/s-250757-beige.webp",
-      "updatedAt": "2026-05-14T18:30"
-    },
     {
       "id": "mo8qxku91w3svs41fyx",
       "inventarioId": "mo8qxku91w3svs41fyx",
@@ -1445,7 +1431,7 @@
       "stock": 1,
       "pvp": 32,
       "imagen": "fotos_catalogo/c51762-celeste.webp",
-      "updatedAt": "2026-05-19T10:30"
+      "updatedAt": "2026-06-05T12:24"
     },
     {
       "id": "modfm63yfkg8twv04wk",
@@ -2680,20 +2666,6 @@
       "updatedAt": "2026-06-02T09:56"
     },
     {
-      "id": "mpudf5p4io14mzpq6oh",
-      "inventarioId": "mpudf5p4io14mzpq6oh",
-      "variantKey": "e1862|enterizo queen|enterizo con tira en un hombro y dije en cintura con capa en la pierna.|est (m/l)|blanco",
-      "codigo": "E1862",
-      "nombre": "Enterizo Queen",
-      "detalle": "Enterizo con tira en un hombro y dije en cintura con capa en la pierna.",
-      "talla": "EST (M/L)",
-      "color": "blanco",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e1862-blanco.webp",
-      "updatedAt": "2026-05-31T17:59"
-    },
-    {
       "id": "mpudf5p5dnqke95etm",
       "inventarioId": "mpudf5p5dnqke95etm",
       "variantKey": "e1862|enterizo queen|enterizo con tira en un hombro y dije en cintura con capa en la pierna.|est (m/l)|capuchino",
@@ -3926,20 +3898,6 @@
       "updatedAt": "2026-05-16T11:19"
     },
     {
-      "id": "modq61x2z43cf0x2b2",
-      "inventarioId": "modq61x2z43cf0x2b2",
-      "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|m|negro",
-      "codigo": "F0003",
-      "nombre": "FALDA SOFIA",
-      "detalle": "Falda plisada en tela lomas, con cinturon.",
-      "talla": "M",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0003-negro.webp",
-      "updatedAt": "2026-05-16T11:19"
-    },
-    {
       "id": "modp4xgxas980h728lq",
       "inventarioId": "modp4xgxas980h728lq",
       "variantKey": "f0002|falda star|falda plisada en cuerina, detalle doble evilla.|m|beige",
@@ -4578,24 +4536,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 21,
+      "stock": 20,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-06-02T19:50"
-    },
-    {
-      "id": "mpsjmpvu4hot1xd0067",
-      "inventarioId": "mpsjmpvu4hot1xd0067",
-      "variantKey": "v0023|vestido adara|vestido en tela lomas, strapless recto, con lazo en la pierna.|est (s/m)|beige",
-      "codigo": "v0023",
-      "nombre": "Vestido Adara",
-      "detalle": "Vestido en tela lomas, strapless recto, con lazo en la pierna.",
-      "talla": "EST (S/M)",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0023-beige.webp",
-      "updatedAt": "2026-05-30T21:34"
+      "updatedAt": "2026-06-05T17:36"
     },
     {
       "id": "mpsjmpvqyz8y7rrdt29",
@@ -4606,52 +4550,10 @@
       "detalle": "Vestido en tela lomas, strapless recto, con lazo en la pierna.",
       "talla": "EST (S/M)",
       "color": "Cafe",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0023-cafe.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpsjmpvzn7fm3ts1f9b",
-      "inventarioId": "mpsjmpvzn7fm3ts1f9b",
-      "variantKey": "v0023|vestido adara|vestido en tela lomas, strapless recto, con lazo en la pierna.|est (s/m)|celeste",
-      "codigo": "v0023",
-      "nombre": "Vestido Adara",
-      "detalle": "Vestido en tela lomas, strapless recto, con lazo en la pierna.",
-      "talla": "EST (S/M)",
-      "color": "Celeste",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0023-celeste.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpsjmpw2we5da0u41",
-      "inventarioId": "mpsjmpw2we5da0u41",
-      "variantKey": "v0023|vestido adara|vestido en tela lomas, strapless recto, con lazo en la pierna.|est (s/m)|perla",
-      "codigo": "v0023",
-      "nombre": "Vestido Adara",
-      "detalle": "Vestido en tela lomas, strapless recto, con lazo en la pierna.",
-      "talla": "EST (S/M)",
-      "color": "Perla",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0023-perla.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpsjmpvw14fsmjg84did",
-      "inventarioId": "mpsjmpvw14fsmjg84did",
-      "variantKey": "v0023|vestido adara|vestido en tela lomas, strapless recto, con lazo en la pierna.|est (s/m)|rosado",
-      "codigo": "v0023",
-      "nombre": "Vestido Adara",
-      "detalle": "Vestido en tela lomas, strapless recto, con lazo en la pierna.",
-      "talla": "EST (S/M)",
-      "color": "Rosado",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0023-rosado.webp",
-      "updatedAt": "2026-05-30T21:34"
+      "updatedAt": "2026-06-05T15:00"
     },
     {
       "id": "mpsphuae9w4nxf7aty8",
@@ -4792,48 +4694,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0008-rojo.webp",
       "updatedAt": "2026-05-26T07:15"
-    },
-    {
-      "id": "mpshqfl580g97mw3c35",
-      "inventarioId": "mpshqfl580g97mw3c35",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|amarillo",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Amarillo",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-amarillo.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpshqfkq63bn4rnsc54",
-      "inventarioId": "mpshqfkq63bn4rnsc54",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|rosado",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Rosado",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-rosado.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpshqfkveik34apatxb",
-      "inventarioId": "mpshqfkveik34apatxb",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|vino",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-vino.webp",
-      "updatedAt": "2026-06-02T14:37"
     },
     {
       "id": "moeilb7qhsvak75iax",
@@ -5242,20 +5102,6 @@
       "updatedAt": "2026-05-23T14:48"
     },
     {
-      "id": "mpsjgs9bnb2y7d62l4a",
-      "inventarioId": "mpsjgs9bnb2y7d62l4a",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|amarillo",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Amarillo",
-      "stock": 2,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-amarillo.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
       "id": "moeg9hopa7c3tpjxpni",
       "inventarioId": "moeg9hopa7c3tpjxpni",
       "variantKey": "v0011|vestido madelyn|vestido con botones bicolores|est (s/m)|rojo",
@@ -5338,20 +5184,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0016-rojo.webp",
       "updatedAt": "2026-05-26T12:09"
-    },
-    {
-      "id": "modmvn757jebu9qd7oj",
-      "inventarioId": "modmvn757jebu9qd7oj",
-      "variantKey": "v0009|vestido rebecca|vestido cuello y pliegues en a|s|cafe",
-      "codigo": "V0009",
-      "nombre": "VESTIDO REBECCA",
-      "detalle": "Vestido cuello y pliegues en A",
-      "talla": "S",
-      "color": "CAFE",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0009-cafe.webp",
-      "updatedAt": "2026-05-30T18:49"
     },
     {
       "id": "mpk41zivthm46l4mwub",
@@ -5534,20 +5366,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-verde-militar.webp",
       "updatedAt": "2026-06-02T08:45"
-    },
-    {
-      "id": "modlzg4ffvxts9p2vui",
-      "inventarioId": "modlzg4ffvxts9p2vui",
-      "variantKey": "v0007|vestido ximena|vestido recto tirantes con lazos en hombros|est (s/m)|blanco",
-      "codigo": "V0007",
-      "nombre": "VESTIDO XIMENA",
-      "detalle": "VESTIDO RECTO TIRANTES CON LAZOS EN HOMBROS",
-      "talla": "EST (S/M)",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0007-blanco.webp",
-      "updatedAt": "2026-05-26T07:01"
     },
     {
       "id": "modlzg4ffj6mhiqxm2v",
