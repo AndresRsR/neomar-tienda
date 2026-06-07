@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-07T17:24:40.891Z",
-  "totalVariantes": 352,
-  "totalStock": 413,
+  "updatedAt": "2026-06-07T23:07:31.051Z",
+  "totalVariantes": 349,
+  "totalStock": 408,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -4158,10 +4158,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 12,
+      "stock": 10,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-06-07T12:02"
+      "updatedAt": "2026-06-07T17:35"
     },
     {
       "id": "mpsjmpvqyz8y7rrdt29",
@@ -4374,34 +4374,6 @@
       "updatedAt": "2026-06-06T16:32"
     },
     {
-      "id": "mpk70e9p2f8um5z6rh9",
-      "inventarioId": "mpk70e9p2f8um5z6rh9",
-      "variantKey": "v0020|vestido flower|vestido jumper, en tela gasa floreado, estilo corset.|est (s/m)|palo de rosa",
-      "codigo": "v0020",
-      "nombre": "Vestido Flower",
-      "detalle": "Vestido jumper, en tela gasa floreado, estilo corset.",
-      "talla": "EST (S/M)",
-      "color": "Palo de rosa",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0020-palo-de-rosa.webp",
-      "updatedAt": "2026-05-24T14:51"
-    },
-    {
-      "id": "mpk70e9mwg06lersdsk",
-      "inventarioId": "mpk70e9mwg06lersdsk",
-      "variantKey": "v0020|vestido flower|vestido jumper, en tela gasa floreado, estilo corset.|est (s/m)|rosado",
-      "codigo": "v0020",
-      "nombre": "Vestido Flower",
-      "detalle": "Vestido jumper, en tela gasa floreado, estilo corset.",
-      "talla": "EST (S/M)",
-      "color": "Rosado",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0020-rosado.webp",
-      "updatedAt": "2026-05-24T14:51"
-    },
-    {
       "id": "mo909jzicbsaoxn1bi8",
       "inventarioId": "mo909jzicbsaoxn1bi8",
       "variantKey": "v0001|vestido griega|vestillo jhons detalle en hombro strapless|s|blanco",
@@ -4525,20 +4497,6 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-verde.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpspnso1gwxx7n3di7k",
-      "inventarioId": "mpspnso1gwxx7n3di7k",
-      "variantKey": "v0025|vestido kathe|vestido en tela lomas, con tres lazos en la cadera.|est (s/m)|vino",
-      "codigo": "v0025",
-      "nombre": "Vestido Kathe",
-      "detalle": "Vestido en tela lomas, con tres lazos en la cadera.",
-      "talla": "EST (S/M)",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0025-vino.webp",
       "updatedAt": "2026-05-30T21:34"
     },
     {
