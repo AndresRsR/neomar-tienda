@@ -802,6 +802,208 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   justify-content: center;
 }
 .color-filter-btn.active .color-filter-count { color: var(--charcoal); }
+.color-filter-area {
+  position: relative;
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.tone-filter-trigger {
+  width: min(100%, 420px);
+  min-height: 58px;
+  border: 1px solid var(--border-strong);
+  background: rgba(255,253,249,.82);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'DM Sans', sans-serif;
+  box-shadow: 0 10px 28px rgba(74,45,56,.06);
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+.tone-filter-trigger:hover,
+.tone-filter-trigger.active {
+  border-color: var(--rose);
+  box-shadow: 0 14px 34px rgba(140,60,80,.10);
+  transform: translateY(-1px);
+}
+.tone-filter-swatch {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  flex: 0 0 34px;
+  background: conic-gradient(#f33,#ff0,#1ee873,#1cc9ff,#2747ff,#d51dff,#f33);
+  box-shadow: inset 0 0 0 1px rgba(26,16,21,.14), 0 0 0 5px rgba(245,232,237,.72);
+}
+.tone-filter-copy strong {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+}
+.tone-filter-copy small {
+  display: block;
+  margin-top: 5px;
+  color: var(--text-muted);
+  font-size: 10px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.color-tone-popover {
+  position: absolute;
+  z-index: 60;
+  top: calc(100% + 10px);
+  left: 0;
+  width: min(92vw, 380px);
+  padding: 18px;
+  border: 1px solid var(--border-strong);
+  background: rgba(255,253,249,.98);
+  box-shadow: 0 24px 70px rgba(74,45,56,.18);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity .2s ease, visibility .2s ease, transform .2s ease;
+}
+.color-tone-popover.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.tone-pop-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.tone-pop-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 23px;
+  color: var(--charcoal);
+  line-height: 1;
+}
+.tone-pop-note {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+.tone-wheel-wrap {
+  display: grid;
+  grid-template-columns: 190px minmax(0,1fr);
+  gap: 16px;
+  align-items: center;
+}
+.tone-wheel {
+  position: relative;
+  width: 190px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: crosshair;
+  background:
+    radial-gradient(circle, #fff 0 9%, rgba(255,255,255,.78) 10%, rgba(255,255,255,0) 42%),
+    conic-gradient(from 90deg, #ff3737, #ffb238, #ffff2e, #3cff55, #2dffe2, #3262ff, #b738ff, #ff3da5, #ff3737);
+  box-shadow: inset 0 0 0 1px rgba(26,16,21,.08), 0 12px 35px rgba(74,45,56,.11);
+}
+.tone-wheel::after {
+  content: '';
+  position: absolute;
+  inset: 14%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,.85), rgba(255,255,255,0) 65%);
+  pointer-events: none;
+}
+.tone-wheel-marker {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(26,16,21,.28), 0 4px 10px rgba(0,0,0,.16);
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  z-index: 2;
+}
+.tone-wheel-tools {
+  display: grid;
+  gap: 10px;
+}
+.tone-chip-row {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.tone-mini-btn {
+  border: 1px solid var(--border-strong);
+  background: rgba(255,255,255,.72);
+  color: var(--text-muted);
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+}
+.tone-mini-btn:hover,
+.tone-mini-btn.active {
+  border-color: var(--charcoal);
+  background: var(--charcoal);
+  color: #fff;
+}
+.tone-range-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.tone-range {
+  width: 100%;
+  accent-color: var(--rose);
+}
+.tone-neutral-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 14px;
+}
+.tone-neutral-btn {
+  border: 1px solid var(--border-strong);
+  background: rgba(255,255,255,.72);
+  color: var(--text);
+  padding: 9px 8px;
+  font-size: 11px;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.tone-neutral-btn:hover,
+.tone-neutral-btn.active {
+  border-color: var(--rose);
+  color: var(--rose);
+}
+.tone-neutral-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(26,16,21,.16);
+}
+.tone-result-line {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 12px;
+}
 .catalog-status {
   display: none;
   margin: -28px 0 32px;
@@ -2015,13 +2217,29 @@ footer {
   }
 
   .color-filter-area {
-    grid-template-columns: 1fr;
-    gap: 8px;
-    padding: 10px;
+    padding: 0;
   }
 
-  .color-filter-summary {
-    font-size: 18px;
+  .tone-filter-trigger {
+    width: 100%;
+  }
+
+  .color-tone-popover {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tone-wheel-wrap {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .tone-wheel-tools {
+    width: 100%;
+  }
+
+  .tone-neutral-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .filter-pill {
@@ -2735,8 +2953,14 @@ footer {
     <div class="filter-row filter-row-color">
       <span class="filter-label">Color</span>
       <div class="color-filter-area">
-        <div class="color-filter-summary" id="colorFilterSummary">Todos los colores</div>
-        <div class="color-compass" id="colorFilters" aria-label="Filtrar por color"></div>
+        <button class="tone-filter-trigger" type="button" id="colorFilterTrigger" onclick="toggleColorTonePopup(event)">
+          <span class="tone-filter-swatch" id="colorFilterSwatch"></span>
+          <span class="tone-filter-copy">
+            <strong id="colorFilterSummary">Todos los tonos</strong>
+            <small id="colorFilterMeta">Filtrar por tono visual</small>
+          </span>
+        </button>
+        <div class="color-tone-popover" id="colorFilters" aria-label="Filtrar por tono de color"></div>
       </div>
     </div>
   </div>
@@ -3221,6 +3445,7 @@ var allGroups = [];
 var catActive = 'Todas';
 var sizeActive = 'Todas';
 var colorActive = 'Todos';
+var colorToneTolerance = 28;
 var searchQ = '';
 var currentModal = null;
 var wishlist = {};
@@ -3481,10 +3706,18 @@ function toggleFloatingSocials(e) {
 document.addEventListener('click', function(e) {
   var group = document.getElementById('floatingSocials');
   if (group && !group.contains(e.target)) setFloatingSocials(false);
+  var colorPop = document.getElementById('colorFilters');
+  var colorTrigger = document.getElementById('colorFilterTrigger');
+  if (colorPop && colorTrigger && colorPop.classList.contains('open') && !colorPop.contains(e.target) && !colorTrigger.contains(e.target)) {
+    closeColorTonePopup();
+  }
 });
 
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') setFloatingSocials(false);
+  if (e.key === 'Escape') {
+    setFloatingSocials(false);
+    closeColorTonePopup();
+  }
 });
 
 // ══ MENU ══
@@ -3519,6 +3752,12 @@ var COLOR_FILTER_ALIASES = {
   'CAMELLO': 'CAMEL',
   'CAPUCHNO': 'CAPUCHINO'
 };
+var COLOR_NEUTRAL_FILTERS = [
+  {key:'claro',label:'Claros',style:'#f7f1e6',keys:['BLANCO','PERLA','CREMA']},
+  {key:'beige',label:'Beige / camel',style:'#c7a27a',keys:['BEIGE','BEIGE CLARO','BEIGE OSCURO','CAMEL','CAPUCHINO','CAFE','CAFE CLARO','MIEL']},
+  {key:'gris',label:'Gris',style:'#8e8e8e',keys:['GRIS','GRIS OSCURO','PLOMO']},
+  {key:'negro',label:'Negro',style:'#161616',keys:['NEGRO']}
+];
 
 function ordenarCategorias(cats) {
   return cats.sort(function(a, b) {
@@ -3554,6 +3793,71 @@ function colorKeysFiltro(nombre) {
     seen[k] = true;
     return true;
   });
+}
+
+function hexToRgb(hex) {
+  hex = String(hex || '').replace('#','').trim();
+  if (hex.length === 3) hex = hex.split('').map(function(c){ return c+c; }).join('');
+  var n = parseInt(hex, 16);
+  if (!isFinite(n)) return null;
+  return { r:(n >> 16) & 255, g:(n >> 8) & 255, b:n & 255 };
+}
+function rgbToHsl(rgb) {
+  var r=rgb.r/255,g=rgb.g/255,b=rgb.b/255;
+  var max=Math.max(r,g,b),min=Math.min(r,g,b);
+  var h=0,s=0,l=(max+min)/2;
+  if(max!==min){
+    var d=max-min;
+    s=l>.5?d/(2-max-min):d/(max+min);
+    switch(max){
+      case r:h=(g-b)/d+(g<b?6:0);break;
+      case g:h=(b-r)/d+2;break;
+      case b:h=(r-g)/d+4;break;
+    }
+    h*=60;
+  }
+  return {h:h,s:s,l:l};
+}
+function hueDistance(a,b) {
+  var d=Math.abs((a-b)%360);
+  return d>180?360-d:d;
+}
+function neutralFilterByKey(key) {
+  key=colorFiltroKey(key);
+  for(var i=0;i<COLOR_NEUTRAL_FILTERS.length;i++){
+    if(COLOR_NEUTRAL_FILTERS[i].keys.map(colorFiltroKey).indexOf(key)>=0)return COLOR_NEUTRAL_FILTERS[i];
+  }
+  return null;
+}
+function colorToneParts(nombre) {
+  return colorKeysFiltro(nombre).map(function(key) {
+    var neutral=neutralFilterByKey(key);
+    var rgb=hexToRgb(colorHexSimple(key));
+    if(!rgb)return null;
+    var hsl=rgbToHsl(rgb);
+    return {key:key,h:hsl.h,s:hsl.s,l:hsl.l,neutral:neutral?neutral.key:''};
+  }).filter(Boolean);
+}
+function activeColorFilter() {
+  if(!colorActive||colorActive==='Todos')return {type:'all'};
+  if(colorActive.indexOf('hue:')===0)return {type:'hue',hue:parseFloat(colorActive.slice(4))||0};
+  if(colorActive.indexOf('neutral:')===0)return {type:'neutral',key:colorActive.slice(8)};
+  return {type:'exact',key:colorActive};
+}
+function colorMatchesActiveFilter(nombre) {
+  var filter=activeColorFilter();
+  if(filter.type==='all')return true;
+  var parts=colorToneParts(nombre);
+  if(filter.type==='hue'){
+    return parts.some(function(p){
+      if(p.neutral||p.s<.18)return false;
+      return hueDistance(p.h,filter.hue)<=colorToneTolerance;
+    });
+  }
+  if(filter.type==='neutral'){
+    return parts.some(function(p){return p.neutral===filter.key;});
+  }
+  return colorKeysFiltro(nombre).indexOf(filter.key)>=0;
 }
 
 function colorOrdenIndex(nombre) {
@@ -3593,7 +3897,7 @@ function coloresDisponiblesGrupo(g) {
 function grupoTieneColor(g, key) {
   if (!key || key === 'Todos') return true;
   return (g.variantes || []).some(function(v) {
-    return stockValue(v.stock) > 0 && colorKeysFiltro(v.color).indexOf(key) >= 0;
+    return stockValue(v.stock) > 0 && colorMatchesActiveFilter(v.color);
   });
 }
 
@@ -3602,46 +3906,173 @@ function grupoCoincideTallaColor(g) {
   return (g.variantes || []).some(function(v) {
     if (stockValue(v.stock) <= 0) return false;
     if (sizeActive !== 'Todas' && v.talla !== sizeActive) return false;
-    if (colorActive !== 'Todos' && colorKeysFiltro(v.color).indexOf(colorActive) < 0) return false;
+    if (!colorMatchesActiveFilter(v.color)) return false;
     return true;
   });
 }
 
-function colorFiltroActual() {
-  if (colorActive === 'Todos') return null;
-  return colorFilters.find(function(c) { return c.key === colorActive; }) || null;
+function neutralFilterByActive() {
+  if (colorActive.indexOf('neutral:') !== 0) return null;
+  var key = colorActive.slice(8);
+  return COLOR_NEUTRAL_FILTERS.find(function(n){ return n.key === key; }) || null;
 }
-
-function actualizarColorFilterSummary() {
-  var el = document.getElementById('colorFilterSummary');
-  if (!el) return;
-  var info = colorFiltroActual();
-  if (!info) {
-    el.innerHTML = 'Todos los colores<span>'+allGroups.length+' modelos disponibles</span>';
-    return;
+function colorFilterCount() {
+  return allGroups.filter(function(g) {
+    var cat = categoriaDe(g.base.nombre, g.base.detalle);
+    if (catActive !== 'Todas' && cat !== catActive) return false;
+    if (!grupoCoincideTallaColor(g)) return false;
+    if (searchQ) {
+      var hay = g.base.nombre.toLowerCase().indexOf(searchQ) >= 0 ||
+                (g.base.detalle||'').toLowerCase().indexOf(searchQ) >= 0 ||
+                (g.base.codigo||'').toLowerCase().indexOf(searchQ) >= 0;
+      if (!hay) return false;
+    }
+    return true;
+  }).length;
+}
+function colorFilterTitle() {
+  var filter = activeColorFilter();
+  if (filter.type === 'all') return 'Todos los tonos';
+  if (filter.type === 'hue') return 'Tono ' + Math.round(filter.hue) + '°';
+  if (filter.type === 'neutral') {
+    var n = neutralFilterByActive();
+    return n ? n.label : 'Tono neutro';
   }
-  el.innerHTML = escapeHtml(info.label)+'<span>'+info.count+' modelos disponibles</span>';
+  return nombreColorFiltro(filter.key);
+}
+function colorFilterSwatchStyle() {
+  var filter = activeColorFilter();
+  if (filter.type === 'hue') return 'background:hsl('+Math.round(filter.hue)+',86%,58%)';
+  if (filter.type === 'neutral') {
+    var n = neutralFilterByActive();
+    return 'background:'+(n?n.style:'#c9b6bf');
+  }
+  return 'background:conic-gradient(#f33,#ff0,#1ee873,#1cc9ff,#2747ff,#d51dff,#f33)';
+}
+function actualizarColorFilterSummary() {
+  var title = document.getElementById('colorFilterSummary');
+  var meta = document.getElementById('colorFilterMeta');
+  var swatch = document.getElementById('colorFilterSwatch');
+  if (!title) return;
+  var count = colorFilterCount();
+  title.textContent = colorFilterTitle();
+  if (meta) meta.textContent = (activeColorFilter().type === 'hue' ? 'Rango ±'+colorToneTolerance+'° · ' : '') + count + ' modelos encontrados';
+  if (swatch) swatch.setAttribute('style', colorFilterSwatchStyle());
+  actualizarColorTonePickerEstado();
+}
+function renderColorTonePicker() {
+  var el = document.getElementById('colorFilters');
+  if (!el) return;
+  el.innerHTML =
+    '<div class="tone-pop-head">'+
+      '<div><div class="tone-pop-title">Selector por tono</div><div class="tone-pop-note">Elige un punto de la rueda para agrupar colores similares.</div></div>'+
+      '<button type="button" class="tone-mini-btn" onclick="setColorToneAll()">Todos</button>'+
+    '</div>'+
+    '<div class="tone-wheel-wrap">'+
+      '<div class="tone-wheel" onclick="selectHueFromWheel(event)" title="Elige un tono">'+
+        '<span class="tone-wheel-marker" id="toneWheelMarker"></span>'+
+      '</div>'+
+      '<div class="tone-wheel-tools">'+
+        '<div class="tone-range-label"><span>Precisión</span><strong id="toneToleranceLabel">±'+colorToneTolerance+'°</strong></div>'+
+        '<input class="tone-range" id="toneToleranceRange" type="range" min="12" max="50" step="1" value="'+colorToneTolerance+'" oninput="onToneToleranceChange(this.value)">'+
+        '<div class="tone-pop-note">Menos precisión = tonos más parecidos. Más precisión = más colores cercanos.</div>'+
+      '</div>'+
+    '</div>'+
+    '<div class="tone-neutral-row">'+COLOR_NEUTRAL_FILTERS.map(function(n){
+      return '<button type="button" class="tone-neutral-btn" data-neutral="'+escapeAttr(n.key)+'" onclick="setNeutralTone('+jsArg(n.key)+')">'+
+        '<span class="tone-neutral-dot" style="background:'+escapeAttr(n.style)+'"></span>'+escapeHtml(n.label)+
+      '</button>';
+    }).join('')+'</div>'+
+    '<div class="tone-result-line" id="colorToneResult"></div>';
+  actualizarColorTonePickerEstado();
+}
+function actualizarColorTonePickerEstado() {
+  var pop = document.getElementById('colorFilters');
+  if (!pop) return;
+  var filter = activeColorFilter();
+  var marker = document.getElementById('toneWheelMarker');
+  if (marker) {
+    if (filter.type === 'hue') {
+      var rad = filter.hue * Math.PI / 180;
+      marker.style.display = 'block';
+      marker.style.left = (50 + Math.cos(rad) * 36) + '%';
+      marker.style.top = (50 + Math.sin(rad) * 36) + '%';
+      marker.style.background = 'hsl('+Math.round(filter.hue)+',86%,58%)';
+    } else {
+      marker.style.display = 'none';
+    }
+  }
+  var range = document.getElementById('toneToleranceRange');
+  var label = document.getElementById('toneToleranceLabel');
+  if (range) range.value = colorToneTolerance;
+  if (label) label.textContent = '±'+colorToneTolerance+'°';
+  pop.querySelectorAll('.tone-neutral-btn').forEach(function(btn){
+    btn.classList.toggle('active', filter.type === 'neutral' && btn.getAttribute('data-neutral') === filter.key);
+  });
+  var result = document.getElementById('colorToneResult');
+  if (result) result.textContent = colorFilterTitle() + ' · ' + colorFilterCount() + ' modelos encontrados';
+}
+function toggleColorTonePopup(e) {
+  if (e) { e.preventDefault(); e.stopPropagation(); }
+  var pop = document.getElementById('colorFilters');
+  var btn = document.getElementById('colorFilterTrigger');
+  if (!pop) return;
+  var open = !pop.classList.contains('open');
+  pop.classList.toggle('open', open);
+  if (btn) btn.classList.toggle('active', open);
+}
+function closeColorTonePopup() {
+  var pop = document.getElementById('colorFilters');
+  var btn = document.getElementById('colorFilterTrigger');
+  if (pop) pop.classList.remove('open');
+  if (btn) btn.classList.remove('active');
+}
+function setColorToneAll() {
+  colorActive = 'Todos';
+  actualizarColorFilterSummary();
+  renderProducts();
+}
+function setColorHue(hue) {
+  hue = ((parseFloat(hue)||0) % 360 + 360) % 360;
+  colorActive = 'hue:' + Math.round(hue);
+  actualizarColorFilterSummary();
+  renderProducts();
+}
+function setNeutralTone(key) {
+  colorActive = 'neutral:' + key;
+  actualizarColorFilterSummary();
+  renderProducts();
+}
+function onToneToleranceChange(value) {
+  colorToneTolerance = parseInt(value,10) || 28;
+  actualizarColorFilterSummary();
+  renderProducts();
+}
+function selectHueFromWheel(e) {
+  var wheel = e.currentTarget;
+  var rect = wheel.getBoundingClientRect();
+  var cx = rect.left + rect.width/2;
+  var cy = rect.top + rect.height/2;
+  var dx = e.clientX - cx;
+  var dy = e.clientY - cy;
+  var dist = Math.sqrt(dx*dx + dy*dy);
+  if (dist > rect.width/2 || dist < rect.width*.08) return;
+  var hue = Math.atan2(dy, dx) * 180 / Math.PI;
+  if (hue < 0) hue += 360;
+  setColorHue(hue);
 }
 
 function buildFilters() {
   var catSet = { 'Todas': true };
   var sizeSet = { 'Todas': true };
-  var colorMap = {};
   allGroups.forEach(function(g) {
     catSet[categoriaDe(g.base.nombre, g.base.detalle)] = true;
     g.variantes.forEach(function(v) {
       if (v.talla && v.talla !== 'Única') sizeSet[v.talla] = true;
     });
-    coloresDisponiblesGrupo(g).forEach(function(c) {
-      if (!colorMap[c.key]) colorMap[c.key] = { key: c.key, label: c.label, raw: c.raw, count: 0 };
-      colorMap[c.key].count += 1;
-    });
   });
   categories = ordenarCategorias(Object.keys(catSet));
   sizes = Object.keys(sizeSet);
-  colorFilters = ordenarColoresFiltro(Object.keys(colorMap).map(function(k) { return colorMap[k]; }));
-  if (colorActive !== 'Todos' && !colorFilters.some(function(c) { return c.key === colorActive; })) colorActive = 'Todos';
-
   var catHtml = categories.map(function(c) {
     return '<button class="filter-pill'+(c==='Todas'?' active':'')+'" onclick="setCat('+jsArg(c)+',this)">'+escapeHtml(c)+'</button>';
   }).join('');
@@ -3652,16 +4083,7 @@ function buildFilters() {
   }).join('');
   document.getElementById('sizeFilters').innerHTML = sizeHtml;
 
-  var colorHtml = '<button class="color-filter-btn color-filter-all'+(colorActive==='Todos'?' active':'')+'" onclick="setColorFilter(\'Todos\',this)" title="Ver todos los colores">'+
-    '<span class="color-filter-swatch"></span><span class="color-filter-name">Todos</span><span class="color-filter-count">'+allGroups.length+'</span></button>';
-  colorHtml += colorFilters.map(function(c) {
-    return '<button class="color-filter-btn'+(c.key===colorActive?' active':'')+'" onclick="setColorFilter('+jsArg(c.key)+',this)" title="Ver prendas en '+escapeAttr(c.label)+'">'+
-      '<span class="color-filter-swatch" style="background:'+colorHex(c.raw)+'"></span>'+
-      '<span class="color-filter-name">'+escapeHtml(c.label)+'</span>'+
-      '<span class="color-filter-count">'+c.count+'</span>'+
-    '</button>';
-  }).join('');
-  document.getElementById('colorFilters').innerHTML = colorHtml;
+  renderColorTonePicker();
   actualizarColorFilterSummary();
 }
 
@@ -3669,24 +4091,25 @@ function setCat(cat, btn) {
   catActive = cat;
   document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
+  actualizarColorFilterSummary();
   renderProducts();
 }
 function setSize(sz, btn) {
   sizeActive = sz;
   document.querySelectorAll('#sizeFilters .filter-pill').forEach(function(b) { b.classList.remove('active'); });
   btn.classList.add('active');
+  actualizarColorFilterSummary();
   renderProducts();
 }
 function setColorFilter(color, btn) {
   colorActive = color || 'Todos';
-  document.querySelectorAll('#colorFilters .color-filter-btn').forEach(function(b) { b.classList.remove('active'); });
-  btn.classList.add('active');
   actualizarColorFilterSummary();
   renderProducts();
 }
 function filterProducts() {
   searchQ = document.getElementById('searchInput').value.toLowerCase().trim();
   updateSearchClear();
+  actualizarColorFilterSummary();
   renderProducts();
 }
 function updateSearchClear() {
@@ -3700,6 +4123,7 @@ function clearSearch() {
   input.value = '';
   searchQ = '';
   updateSearchClear();
+  actualizarColorFilterSummary();
   renderProducts();
   input.focus();
 }
@@ -4218,7 +4642,7 @@ function buildCardData(g, idx, previousInitialColor) {
   }
 
   var selectedColorIndex = colorActive !== 'Todos'
-    ? colorOptions.findIndex(function(opt) { return colorKeysFiltro(opt.color).indexOf(colorActive) >= 0; })
+    ? colorOptions.findIndex(function(opt) { return colorMatchesActiveFilter(opt.color); })
     : -1;
   var initialIndex = selectedColorIndex >= 0 ? selectedColorIndex : indiceColorInicial(colorOptions, previousInitialColor, idx);
   var colorsHtml = colorOptions.map(function(opt, colorIdx) {
