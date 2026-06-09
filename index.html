@@ -1803,6 +1803,31 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(158,58,82,.24);
 }
+.btn-share-modal {
+  width: 100%;
+  padding: 13px 16px;
+  background: transparent;
+  color: var(--rose-deep);
+  border: 1px solid var(--border-strong);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all .25s;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.btn-share-modal:hover {
+  border-color: var(--rose);
+  background: var(--rose-blush);
+  color: var(--charcoal);
+  transform: translateY(-1px);
+}
 .btn-wha-modal {
   width: 100%;
   padding: 16px;
@@ -3607,6 +3632,7 @@ footer {
         </div>
       </div>
       <button class="btn-cart-modal" id="modalBtnCart" type="button" onclick="addSelectedToCart()">Agregar al carrito</button>
+      <button class="btn-share-modal" id="modalBtnShare" type="button" onclick="shareCurrentProduct()">Compartir producto</button>
       <!-- Botón -->
       <button class="btn-wha-modal" id="modalBtnWha">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.123 1.528 5.86L.057 23.57a.75.75 0 00.921.921l5.71-1.47A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.711 9.711 0 01-4.94-1.354l-.354-.21-3.665.943.962-3.51-.23-.368A9.713 9.713 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
@@ -4272,6 +4298,94 @@ function updateHeroAvailability() {
     if (label) label.textContent = 'Catalogo disponible';
   }
 }
+function productCodeValue(g) {
+  return textValue(g && g.base && g.base.codigo) || grupoCatalogKey(g);
+}
+function productUrlForGroup(g) {
+  var code = productCodeValue(g);
+  return productBaseUrl() + '?producto=' + encodeURIComponent(String(code || '').toLowerCase());
+}
+function productBaseUrl() {
+  if (window.location.origin && window.location.origin !== 'null') return window.location.origin + window.location.pathname;
+  return window.location.href.split(/[?#]/)[0];
+}
+function currentProductParam() {
+  try {
+    return textValue(new URLSearchParams(window.location.search).get('producto')).toLowerCase();
+  } catch(e) {
+    return '';
+  }
+}
+function findGroupByProductCode(code) {
+  code = slugValue(code);
+  if (!code) return null;
+  return (allGroups || []).find(function(g) {
+    if (slugValue(g && g.base && g.base.codigo) === code) return true;
+    return (g.variantes || []).some(function(v) { return slugValue(v.codigo) === code; });
+  }) || null;
+}
+function setProductUrl(g, replace) {
+  if (!g || !history || !history.pushState) return;
+  var url = productUrlForGroup(g);
+  if (window.location.href === url) return;
+  if (replace) history.replaceState({ producto: productCodeValue(g) }, '', url);
+  else history.pushState({ producto: productCodeValue(g) }, '', url);
+}
+function clearProductUrl(replace) {
+  if (!history || !history.pushState) return;
+  var url = productBaseUrl();
+  if (window.location.href === url) return;
+  if (replace) history.replaceState({}, '', url);
+  else history.pushState({}, '', url);
+}
+function showProductNotFoundMessage() {
+  var msg = 'Producto no encontrado o no disponible actualmente.';
+  var el = document.getElementById('catalogStatus');
+  if (el) {
+    el.textContent = msg;
+    el.classList.add('show');
+  }
+  setTimeout(function() { showToast(msg); }, 900);
+}
+function openProductFromUrl(replaceUrl) {
+  var code = currentProductParam();
+  if (!code) return false;
+  var g = findGroupByProductCode(code);
+  if (!g) {
+    showProductNotFoundMessage();
+    return false;
+  }
+  openGroupModal(g, '', { updateUrl: false });
+  if (replaceUrl) setProductUrl(g, true);
+  return true;
+}
+function shareTextForCurrentProduct() {
+  if (!mGroup) return '';
+  var varsPrecio = variantesPorSeleccion().length ? variantesPorSeleccion() : mGroup.variantes;
+  return 'Mira esta prenda de NEOMAR 💗\n' +
+    textValue(mGroup.base.nombre) + '\n' +
+    'Precio: ' + precioModalTexto(varsPrecio) + '\n' +
+    'Link: ' + productUrlForGroup(mGroup);
+}
+async function shareCurrentProduct() {
+  if (!mGroup) return;
+  var url = productUrlForGroup(mGroup);
+  var title = textValue(mGroup.base.nombre) || 'Prenda NEOMAR';
+  var text = shareTextForCurrentProduct();
+  setProductUrl(mGroup, true);
+  try {
+    if (navigator.share) {
+      await navigator.share({ title: title, text: text });
+      return;
+    }
+  } catch(e) {}
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast('Link del producto copiado');
+  } catch(e2) {
+    showToast(url);
+  }
+}
 
 // ══ INIT ══
 window.addEventListener('DOMContentLoaded', function() {
@@ -4304,6 +4418,11 @@ window.addEventListener('DOMContentLoaded', function() {
       closeCart();
     }
   });
+
+  window.addEventListener('popstate', function() {
+    if (currentProductParam()) openProductFromUrl(false);
+    else closeModal(false);
+  });
 });
 
 async function iniciarCatalogo() {
@@ -4315,6 +4434,7 @@ async function iniciarCatalogo() {
   renderProducts();
   updateCatalogStatus();
   initHeroCarousel();
+  openProductFromUrl(true);
 }
 
 function renderCatalogLoading() {
@@ -5596,8 +5716,9 @@ function openModalByKey(key, preferredColor) {
   if (g) openGroupModal(g, preferredColor);
 }
 
-function openGroupModal(g, preferredColor) {
+function openGroupModal(g, preferredColor, options) {
   if (!g) return;
+  options = options || {};
   mGroup = g;
   mSelectedColor = null;
   mSelectedSize = null;
@@ -5654,6 +5775,7 @@ function openGroupModal(g, preferredColor) {
 
   document.getElementById('modalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
+  if (options.updateUrl !== false) setProductUrl(g, false);
 }
 
 function renderModalImg(variant, grupo){
@@ -5779,10 +5901,11 @@ function updateWhaBtn() {
   document.getElementById('modalNote').textContent = note;
 }
 
-function closeModal() {
+function closeModal(updateUrl) {
   document.getElementById('modalOverlay').classList.remove('open');
   var cartOpen = document.getElementById('cartDrawer') && document.getElementById('cartDrawer').classList.contains('open');
   if (!cartOpen) document.body.style.overflow = '';
+  if (updateUrl !== false) clearProductUrl(true);
 }
 function closeModalOnBg(e) {
   if (e.target === document.getElementById('modalOverlay')) closeModal();
