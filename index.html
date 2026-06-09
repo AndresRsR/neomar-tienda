@@ -4286,6 +4286,41 @@ function currentProductParam() {
     return '';
   }
 }
+function categoryUrlForName(cat) {
+  cat = textValue(cat || 'Todas');
+  if (!cat || cat === 'Todas') return productBaseUrl();
+  return productBaseUrl() + '?categoria=' + encodeURIComponent(slugValue(cat));
+}
+function currentCategoryParam() {
+  try {
+    return textValue(new URLSearchParams(window.location.search).get('categoria')).toLowerCase();
+  } catch(e) {
+    return '';
+  }
+}
+function findCategoryByParam(value) {
+  var key = slugValue(value);
+  if (!key) return 'Todas';
+  return (categories || []).find(function(cat) { return slugValue(cat) === key; }) || '';
+}
+function setCategoryUrl(cat, replace) {
+  if (!history || !history.pushState || currentProductParam()) return;
+  var url = categoryUrlForName(cat);
+  if (window.location.href === url) return;
+  if (replace) history.replaceState({ categoria: cat }, '', url);
+  else history.pushState({ categoria: cat }, '', url);
+}
+function applyCategoryFromUrl() {
+  var param = currentCategoryParam();
+  if (!param) return false;
+  var cat = findCategoryByParam(param);
+  if (!cat) {
+    showToast('Categoria no encontrada o no disponible actualmente.');
+    return false;
+  }
+  setCatByName(cat, { updateUrl: false, scroll: false, render: false });
+  return true;
+}
 function findGroupByProductCode(code) {
   code = slugValue(code);
   if (!code) return null;
@@ -4303,7 +4338,7 @@ function setProductUrl(g, replace) {
 }
 function clearProductUrl(replace) {
   if (!history || !history.pushState) return;
-  var url = productBaseUrl();
+  var url = categoryUrlForName(catActive);
   if (window.location.href === url) return;
   if (replace) history.replaceState({}, '', url);
   else history.pushState({}, '', url);
@@ -4391,7 +4426,11 @@ window.addEventListener('DOMContentLoaded', function() {
 
   window.addEventListener('popstate', function() {
     if (currentProductParam()) openProductFromUrl(false);
-    else closeModal(false);
+    else {
+      closeModal(false);
+      if (currentCategoryParam()) applyCategoryFromUrl();
+      else setCatByName('Todas', { updateUrl: false, scroll: false });
+    }
   });
 });
 
@@ -4401,6 +4440,7 @@ async function iniciarCatalogo() {
   updateHeroAvailability();
   buildFilters();
   buildFooterCats();
+  applyCategoryFromUrl();
   renderProducts();
   updateCatalogStatus();
   initHeroCarousel();
@@ -5006,8 +5046,9 @@ function buildFilters() {
 function setCat(cat, btn) {
   catActive = cat;
   document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) { b.classList.remove('active'); });
-  btn.classList.add('active');
+  if (btn) btn.classList.add('active');
   actualizarColorFilterSummary();
+  setCategoryUrl(catActive, false);
   renderProducts();
 }
 function setSize(sz, btn) {
@@ -5050,16 +5091,19 @@ function buildFooterCats() {
   allGroups.forEach(function(g) { catSet[categoriaDe(g.base.nombre, g.base.detalle)] = true; });
   var cats = ordenarCategorias(Object.keys(catSet));
   document.getElementById('footerCatLinks').innerHTML = cats.slice(0,6).map(function(c) {
-    return '<li><a href="#coleccion" onclick="setCatByName('+jsArg(c)+')">'+escapeHtml(c)+'</a></li>';
+    return '<li><a href="'+escapeAttr(categoryUrlForName(c))+'" onclick="setCatByName('+jsArg(c)+');return false;">'+escapeHtml(c)+'</a></li>';
   }).join('');
 }
-function setCatByName(cat) {
+function setCatByName(cat, options) {
+  options = options || {};
   catActive = cat;
   document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) {
     b.classList.toggle('active', b.textContent === cat);
   });
-  renderProducts();
-  setTimeout(function() { document.getElementById('coleccion').scrollIntoView({ behavior: 'smooth' }); }, 100);
+  actualizarColorFilterSummary();
+  if (options.updateUrl !== false) setCategoryUrl(catActive, false);
+  if (options.render !== false) renderProducts();
+  if (options.scroll !== false) setTimeout(function() { document.getElementById('coleccion').scrollIntoView({ behavior: 'smooth' }); }, 100);
 }
 
 // ══ RENDER PRODUCTS ══
