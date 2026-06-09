@@ -2104,7 +2104,8 @@ footer {
   pointer-events: none;
 }
 .floating-socials .wha-float,
-.floating-socials .social-float {
+.floating-socials .social-float,
+.floating-socials .cart-float {
   position: relative;
   right: auto !important;
   bottom: auto !important;
@@ -2116,7 +2117,8 @@ footer {
   animation: none;
 }
 .floating-socials.open .wha-float,
-.floating-socials.open .social-float {
+.floating-socials.open .social-float,
+.floating-socials.open .cart-float {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -2188,6 +2190,44 @@ footer {
 .social-float:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 28px rgba(120,40,60,.28);
+}
+.cart-float {
+  width: 58px;
+  height: 58px;
+  border: 1px solid rgba(180,120,140,.24);
+  border-radius: 50%;
+  background: linear-gradient(135deg, #fffdf9 0%, #f5e8ed 100%);
+  color: var(--charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(120,40,60,.16);
+  cursor: pointer;
+  transition: all .3s var(--transition);
+}
+.cart-float:hover {
+  color: #fff;
+  background: var(--rose-deep);
+  transform: scale(1.1);
+  box-shadow: 0 8px 28px rgba(158,58,82,.28);
+}
+.cart-float svg {
+  width: 27px;
+  height: 27px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.cart-float .cart-count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 20px;
+  height: 20px;
+  border: 2px solid var(--warm-white);
+  box-shadow: 0 3px 10px rgba(158,58,82,.18);
 }
 .wha-pulse {
   position: absolute;
@@ -2462,7 +2502,6 @@ footer {
   transform: none;
   box-shadow: none;
 }
-.mobile-bottom-bar { display: none; }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
@@ -2865,7 +2904,8 @@ footer {
     height: 52px;
   }
 
-  .social-float {
+  .social-float,
+  .cart-float {
     width: 52px;
     height: 52px;
   }
@@ -2875,7 +2915,8 @@ footer {
     height: 26px;
   }
 
-  .social-float svg {
+  .social-float svg,
+  .cart-float svg {
     width: 24px;
     height: 24px;
   }
@@ -3102,7 +3143,8 @@ footer {
 
   .floating-social-toggle,
   .floating-socials .wha-float,
-  .floating-socials .social-float {
+  .floating-socials .social-float,
+  .floating-socials .cart-float {
     width: 48px;
     height: 48px;
   }
@@ -3235,10 +3277,6 @@ footer {
 }
 
 @media (max-width: 760px) {
-  body {
-    padding-bottom: calc(74px + env(safe-area-inset-bottom));
-  }
-
   .cart-btn-header {
     width: 40px;
     height: 40px;
@@ -3310,65 +3348,8 @@ footer {
     padding-right: 18px;
   }
 
-  .floating-socials {
-    bottom: calc(86px + env(safe-area-inset-bottom));
-  }
-
   .scroll-top-btn {
-    bottom: calc(92px + env(safe-area-inset-bottom));
-  }
-
-  .mobile-bottom-bar {
-    position: fixed;
-    left: 10px;
-    right: 10px;
-    bottom: max(10px, env(safe-area-inset-bottom));
-    z-index: 430;
-    min-height: 58px;
-    padding: 7px 8px;
-    border: 1px solid var(--border-strong);
-    border-radius: 22px;
-    background: rgba(255,253,249,.94);
-    box-shadow: 0 12px 38px rgba(74,45,56,.16);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 4px;
-  }
-
-  .mobile-bottom-bar a,
-  .mobile-bottom-bar button {
-    border: 0;
-    background: transparent;
-    color: var(--text-muted);
-    font-family: 'DM Sans', sans-serif;
-    font-size: 10px;
-    letter-spacing: .7px;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3px;
-    position: relative;
-    cursor: pointer;
-  }
-
-  .mobile-bottom-bar strong {
-    font-size: 17px;
-    line-height: 1;
-    color: var(--charcoal);
-    font-weight: 500;
-  }
-
-  .mobile-bottom-bar .cart-count {
-    position: absolute;
-    top: 2px;
-    right: 16%;
-    min-width: 17px;
-    height: 17px;
-    font-size: 9px;
+    bottom: calc(88px + env(safe-area-inset-bottom));
   }
 }
 </style>
@@ -3675,6 +3656,16 @@ footer {
 <!-- SOCIAL FLOAT -->
 <div class="floating-socials" id="floatingSocials">
   <div class="floating-social-menu" id="floatingSocialMenu" aria-label="Redes sociales">
+    <button class="cart-float" type="button" onclick="openCart()" title="Abrir carrito" aria-label="Abrir carrito">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.5 7.5h13l-1.4 7.2a2 2 0 0 1-2 1.6H9.3a2 2 0 0 1-2-1.6L5.8 4.8H3.5"></path>
+        <path d="M9.2 20.2h.1"></path>
+        <path d="M16.8 20.2h.1"></path>
+        <circle cx="9.2" cy="20.2" r="1"></circle>
+        <circle cx="16.8" cy="20.2" r="1"></circle>
+      </svg>
+      <span class="cart-count" data-cart-count>0</span>
+    </button>
     <a class="social-float instagram" href="https://www.instagram.com/neomar.ec?igsh=MXduYWhxYzJsN2RzMg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
       <svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-2.2a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"></path>
@@ -3697,27 +3688,6 @@ footer {
     </svg>
   </button>
 </div>
-
-<!-- BARRA MOVIL -->
-<nav class="mobile-bottom-bar" aria-label="Accesos rapidos">
-  <a href="#">
-    <strong>⌂</strong>
-    Inicio
-  </a>
-  <a href="#coleccion">
-    <strong>◌</strong>
-    Catálogo
-  </a>
-  <button type="button" onclick="openCart()">
-    <strong>□</strong>
-    Carrito
-    <span class="cart-count" data-cart-count>0</span>
-  </button>
-  <a href="https://wa.me/593978713623" target="_blank">
-    <strong>☎</strong>
-    WhatsApp
-  </a>
-</nav>
 
 <script>
 // ══ CONFIG ══════════════════════════════════════════
