@@ -627,6 +627,8 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   display: grid;
   gap: 12px;
   margin-bottom: 48px;
+  position: relative;
+  z-index: 80;
 }
 .filter-row {
   display: grid;
@@ -640,6 +642,8 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 }
 .filter-row-color {
   align-items: start;
+  position: relative;
+  z-index: 90;
 }
 .filter-group {
   display: flex;
@@ -808,6 +812,8 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   padding: 0;
   border: 0;
   background: transparent;
+  z-index: 1;
+  isolation: isolate;
 }
 .tone-filter-trigger {
   width: min(100%, 420px);
@@ -856,7 +862,7 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 }
 .color-tone-popover {
   position: absolute;
-  z-index: 60;
+  z-index: 700;
   top: calc(100% + 10px);
   left: 0;
   width: min(92vw, 380px);
@@ -868,11 +874,13 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   visibility: hidden;
   transform: translateY(-4px);
   transition: opacity .2s ease, visibility .2s ease, transform .2s ease;
+  pointer-events: none;
 }
 .color-tone-popover.open {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  pointer-events: auto;
 }
 .tone-pop-head {
   display: flex;
