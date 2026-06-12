@@ -792,34 +792,40 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 }
 .category-panel-content {
   position: absolute;
-  inset: auto 0 0;
+  inset: 50% 0 auto;
   z-index: 2;
-  padding: 28px 22px;
+  padding: 28px 26px;
   text-align: center;
-  transform: translateY(8px);
-  transition: transform .35s ease;
+  opacity: 0;
+  transform: translateY(-42%);
+  transition: opacity .28s ease, transform .35s ease;
+  pointer-events: none;
 }
 .category-panel.active .category-panel-content,
 .category-panel:hover .category-panel-content,
 .category-panel:focus-visible .category-panel-content {
-  transform: translateY(0);
+  opacity: 1;
+  transform: translateY(-50%);
 }
 .category-panel-kicker {
-  font-size: 10px;
+  display: block;
+  font-size: 11px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: rgba(255,255,255,.70);
-  margin-bottom: 10px;
+  color: rgba(255,255,255,.82);
+  margin-top: 12px;
   white-space: nowrap;
+  text-shadow: 0 2px 14px rgba(0,0,0,.22);
 }
 .category-panel-title {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(24px,3vw,42px);
+  font-size: clamp(26px,3.2vw,48px);
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  line-height: 1;
+  line-height: 1.04;
   text-shadow: 0 2px 18px rgba(0,0,0,.22);
+  overflow-wrap: anywhere;
 }
 .category-panel-meta {
   max-width: 460px;
@@ -879,6 +885,11 @@ section { padding: clamp(60px,10vw,120px) 5%; }
     border-bottom: 1px solid rgba(255,255,255,.18);
   }
   .category-panel-side { display: none; }
+  .category-panel-content {
+    inset: 50% 0 auto;
+    opacity: 1;
+    transform: translateY(-50%);
+  }
   .category-panel-meta {
     opacity: 1;
     transform: none;
@@ -5324,25 +5335,19 @@ function renderCategoryAccordion() {
     return;
   }
   el.innerHTML = items.map(function(item, idx) {
-    var active = catActive === item.cat || (catActive === 'Todas' && idx === 0);
-    var p = item.group.base || item.variant || {};
+    var active = catActive !== 'Todas' && catActive === item.cat;
     var src = item.src || '';
     var imgHtml = src
       ? '<img src="'+escapeAttr(src)+'" alt="'+escapeAttr(item.cat+' NEOMAR')+'" loading="lazy" data-auto-src="'+escapeAttr(item.auto || '')+'" data-fallback-root="'+escapeAttr(src)+'" data-fallback-step="0" data-last-good-src="" onload="this.style.display=\'block\';this.setAttribute(\'data-last-good-src\',this.getAttribute(\'src\')||\'\')" onerror="if(!fallbackImg(this))this.style.display=\'none\'">'
       : '';
-    var meta = [
-      item.models + (item.models === 1 ? ' modelo' : ' modelos'),
-      item.totalStock + ' uds',
-      item.color || 'color disponible'
-    ].join(' · ');
+    var meta = item.models + (item.models === 1 ? ' modelo' : ' modelos');
     return '<button type="button" class="category-panel'+(active?' active':'')+'" onclick="setCatByName('+jsArg(item.cat)+')" aria-label="Ver categoría '+escapeAttr(item.cat)+'">'+
       '<span class="category-panel-fallback">'+catIcon(item.cat)+'</span>'+
       imgHtml+
       '<span class="category-panel-side">'+escapeHtml(item.cat)+'</span>'+
       '<span class="category-panel-content">'+
-        '<span class="category-panel-kicker">'+escapeHtml(meta)+'</span>'+
         '<span class="category-panel-title">'+escapeHtml(item.cat)+'</span>'+
-        '<span class="category-panel-meta">'+escapeHtml(p.nombre || 'Prendas seleccionadas NEOMAR')+' · '+escapeHtml(item.color || 'tono destacado')+'</span>'+
+        '<span class="category-panel-kicker">'+escapeHtml(meta)+'</span>'+
       '</span>'+
     '</button>';
   }).join('');
