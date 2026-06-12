@@ -695,6 +695,13 @@ header.scrolled {
 
 /* ── SECTION COMMON ── */
 section { padding: clamp(60px,10vw,120px) 5%; }
+#coleccion {
+  padding-top: 0;
+  scroll-margin-top: 88px;
+}
+#coleccion > .reveal:first-child {
+  display: none;
+}
 .section-tag {
   font-size: 11px;
   letter-spacing: 4px;
@@ -717,8 +724,10 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   display: none;
   gap: 0;
   width: 100vw;
-  height: clamp(430px, calc(100svh - 92px), 760px);
-  margin: -24px calc(50% - 50vw) 42px;
+  height: calc(100svh - 88px);
+  min-height: 520px;
+  max-height: 760px;
+  margin: 0 calc(50% - 50vw) 42px;
   overflow: hidden;
   border: 0;
   background: var(--charcoal);
@@ -769,10 +778,13 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center center;
   transform: scale(1.02);
   filter: saturate(.84) contrast(.92) brightness(1.05);
   transition: transform .8s ease, filter .45s ease;
 }
+.category-panel--blusas img { object-position: 24% center; }
+.category-panel--faldas img { object-position: 16% center; }
 .category-panel.active img,
 .category-panel:hover img,
 .category-panel:focus-visible img {
@@ -5255,6 +5267,31 @@ function selectHueFromWheel(e) {
   setColorHue(hue);
 }
 
+var CATEGORY_PANEL_PREFS = {
+  'Blusas': ['B0002', 'B0001', 'B0005', 'S-250757'],
+  'Faldas': ['F0002', 'F0005', 'F0004', 'F0001']
+};
+
+function categoriaPanelCode(c) {
+  return slugValue(
+    (c && c.group && c.group.base && c.group.base.codigo) ||
+    (c && c.variant && c.variant.codigo) ||
+    ''
+  );
+}
+
+function categoriaPanelPreferred(cat, candidates) {
+  var prefs = CATEGORY_PANEL_PREFS[cat] || [];
+  for (var i = 0; i < prefs.length; i++) {
+    var wanted = slugValue(prefs[i]);
+    var found = candidates.find(function(c) {
+      return c.src && categoriaPanelCode(c) === wanted;
+    });
+    if (found) return found;
+  }
+  return null;
+}
+
 function categoriaPanelCandidates(cat) {
   var out = [];
   allGroups.forEach(function(g) {
@@ -5297,7 +5334,7 @@ function categoriaPanelItems() {
   return cats.map(function(cat) {
     var candidates = categoriaPanelCandidates(cat);
     if (!candidates.length) return null;
-    var chosen = candidates.find(function(c) {
+    var chosen = categoriaPanelPreferred(cat, candidates) || candidates.find(function(c) {
       return c.src && c.colorKey && c.colorKey !== previousColor && !usedColors[c.colorKey];
     }) || candidates.find(function(c) {
       return c.colorKey && c.colorKey !== previousColor;
@@ -5341,7 +5378,8 @@ function renderCategoryAccordion() {
       ? '<img src="'+escapeAttr(src)+'" alt="'+escapeAttr(item.cat+' NEOMAR')+'" loading="lazy" data-auto-src="'+escapeAttr(item.auto || '')+'" data-fallback-root="'+escapeAttr(src)+'" data-fallback-step="0" data-last-good-src="" onload="this.style.display=\'block\';this.setAttribute(\'data-last-good-src\',this.getAttribute(\'src\')||\'\')" onerror="if(!fallbackImg(this))this.style.display=\'none\'">'
       : '';
     var meta = item.models + (item.models === 1 ? ' modelo' : ' modelos');
-    return '<button type="button" class="category-panel'+(active?' active':'')+'" onclick="setCatByName('+jsArg(item.cat)+')" aria-label="Ver categoría '+escapeAttr(item.cat)+'">'+
+    var panelClass = 'category-panel category-panel--' + slugValue(item.cat) + (active ? ' active' : '');
+    return '<button type="button" class="'+escapeAttr(panelClass)+'" onclick="setCatByName('+jsArg(item.cat)+')" aria-label="Ver categoría '+escapeAttr(item.cat)+'">'+
       '<span class="category-panel-fallback">'+catIcon(item.cat)+'</span>'+
       imgHtml+
       '<span class="category-panel-side">'+escapeHtml(item.cat)+'</span>'+
