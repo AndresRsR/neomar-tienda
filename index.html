@@ -715,14 +715,15 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 /* ── CATEGORY ACCORDION ── */
 .category-accordion {
   display: none;
-  gap: 10px;
-  height: clamp(300px, 38vw, 480px);
-  margin: -24px 0 42px;
+  gap: 0;
+  width: 100vw;
+  height: clamp(430px, calc(100svh - 92px), 760px);
+  margin: -24px calc(50% - 50vw) 42px;
   overflow: hidden;
-  border: 1px solid rgba(180,120,140,.10);
-  background: linear-gradient(135deg, rgba(255,253,249,.88), rgba(245,232,237,.55));
-  box-shadow: 0 24px 70px rgba(120,40,60,.08);
-  padding: 8px;
+  border: 0;
+  background: var(--charcoal);
+  box-shadow: none;
+  padding: 0;
 }
 .category-accordion.show { display: flex; }
 .category-panel {
@@ -730,7 +731,7 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   flex: 1 1 0;
   min-width: 68px;
   border: 0;
-  border-right: 1px solid rgba(255,255,255,.5);
+  border-right: 1px solid rgba(255,255,255,.18);
   background: var(--rose-pale);
   cursor: pointer;
   overflow: hidden;
@@ -858,12 +859,14 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 }
 @media (max-width: 900px) {
   .category-accordion {
+    width: 100vw;
     height: auto;
     flex-direction: column;
-    gap: 10px;
+    gap: 0;
     border: 0;
     background: transparent;
-    margin: -18px 0 34px;
+    margin: -18px calc(50% - 50vw) 34px;
+    padding: 0;
   }
   .category-panel,
   .category-panel.active,
@@ -872,7 +875,8 @@ section { padding: clamp(60px,10vw,120px) 5%; }
     flex: none;
     width: 100%;
     min-height: 210px;
-    border: 1px solid var(--border);
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.18);
   }
   .category-panel-side { display: none; }
   .category-panel-meta {
@@ -905,7 +909,7 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   position: relative;
   z-index: 80;
 }
-.filter-row-main { display: none; }
+#coleccion .filter-row-main { display: none !important; }
 .filter-row {
   display: grid;
   grid-template-columns: 96px minmax(0, 1fr);
@@ -3693,7 +3697,7 @@ footer {
 
   <!-- FILTROS -->
   <div class="filters-bar reveal">
-    <div class="filter-row filter-row-main">
+    <div class="filter-row filter-row-main" hidden aria-hidden="true" style="display:none!important">
       <span class="filter-label">Categoría</span>
       <div class="filter-group" id="catFilters"></div>
     </div>
