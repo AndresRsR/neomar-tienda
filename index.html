@@ -707,6 +707,185 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 }
 .section-title em { font-style: italic; color: var(--rose); }
 
+/* ── CATEGORY ACCORDION ── */
+.category-accordion {
+  display: none;
+  gap: 8px;
+  height: clamp(320px, 42vw, 520px);
+  margin: -18px 0 42px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--warm-white);
+}
+.category-accordion.show { display: flex; }
+.category-panel {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 68px;
+  border: 0;
+  border-right: 1px solid rgba(255,255,255,.55);
+  background: var(--rose-pale);
+  cursor: pointer;
+  overflow: hidden;
+  color: #fff;
+  font: inherit;
+  text-align: left;
+  transition: flex .62s cubic-bezier(.2,.7,.12,1), filter .3s ease;
+}
+.category-panel:last-child { border-right: 0; }
+.category-panel.active,
+.category-panel:hover,
+.category-panel:focus-visible {
+  flex: 4 1 0;
+  outline: none;
+}
+.category-panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(26,16,21,.58), rgba(26,16,21,.18) 48%, rgba(26,16,21,.52));
+  z-index: 1;
+  transition: opacity .35s ease;
+}
+.category-panel.active::before,
+.category-panel:hover::before,
+.category-panel:focus-visible::before {
+  opacity: .78;
+}
+.category-panel img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.02);
+  filter: saturate(.96) contrast(.96);
+  transition: transform .8s ease, filter .45s ease;
+}
+.category-panel.active img,
+.category-panel:hover img,
+.category-panel:focus-visible img {
+  transform: scale(1.08);
+  filter: saturate(1.04) contrast(1);
+}
+.category-panel-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--rose);
+  opacity: .42;
+  font-size: 34px;
+  background: linear-gradient(135deg, var(--rose-pale), #fff8fa);
+}
+.category-panel-content {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 2;
+  padding: 28px 22px;
+  text-align: center;
+  transform: translateY(8px);
+  transition: transform .35s ease;
+}
+.category-panel.active .category-panel-content,
+.category-panel:hover .category-panel-content,
+.category-panel:focus-visible .category-panel-content {
+  transform: translateY(0);
+}
+.category-panel-kicker {
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.72);
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+.category-panel-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(24px,3vw,42px);
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 0 2px 18px rgba(0,0,0,.28);
+}
+.category-panel-meta {
+  max-width: 460px;
+  margin: 12px auto 0;
+  color: rgba(255,255,255,.82);
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .28s ease, transform .28s ease;
+}
+.category-panel.active .category-panel-meta,
+.category-panel:hover .category-panel-meta,
+.category-panel:focus-visible .category-panel-meta {
+  opacity: 1;
+  transform: translateY(0);
+}
+.category-panel-side {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) rotate(-90deg);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: rgba(255,255,255,.86);
+  transition: opacity .22s ease;
+}
+.category-panel.active .category-panel-side,
+.category-panel:hover .category-panel-side,
+.category-panel:focus-visible .category-panel-side {
+  opacity: 0;
+}
+@media (max-width: 900px) {
+  .category-accordion {
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    border: 0;
+    background: transparent;
+    margin: -18px 0 34px;
+  }
+  .category-panel,
+  .category-panel.active,
+  .category-panel:hover,
+  .category-panel:focus-visible {
+    flex: none;
+    width: 100%;
+    min-height: 210px;
+    border: 1px solid var(--border);
+  }
+  .category-panel-side { display: none; }
+  .category-panel-meta {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 560px) {
+  .category-panel {
+    min-height: 180px;
+  }
+  .category-panel-content {
+    padding: 22px 18px;
+  }
+  .category-panel-title {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .category-panel-kicker {
+    white-space: normal;
+    letter-spacing: 2px;
+  }
+}
+
 /* ── FILTERS ── */
 .filters-bar {
   display: grid;
@@ -3485,6 +3664,7 @@ footer {
     <div class="section-tag">Colección Disponible</div>
     <div class="section-title">Encuentra tu <em>estilo</em></div>
   </div>
+  <div class="category-accordion reveal" id="categoryAccordion" aria-label="Explorar categorías destacadas"></div>
 
   <!-- FILTROS -->
   <div class="filters-bar reveal">
@@ -5034,6 +5214,110 @@ function selectHueFromWheel(e) {
   setColorHue(hue);
 }
 
+function categoriaPanelCandidates(cat) {
+  var out = [];
+  allGroups.forEach(function(g) {
+    if (categoriaDe(g.base.nombre, g.base.detalle) !== cat) return;
+    var totalGrupo = grupoStockTotal(g);
+    if (totalGrupo <= 0) return;
+    (g.variantes || []).forEach(function(v) {
+      var st = stockValue(v.stock);
+      if (st <= 0) return;
+      var src = imgSrc(v, g);
+      out.push({
+        group: g,
+        variant: v,
+        groupStock: totalGrupo,
+        variantStock: st,
+        src: src,
+        auto: generatedImgSrc(v),
+        colorKey: colorFiltroKey(v.color || ''),
+        color: textValue(v.color)
+      });
+    });
+  });
+  out.sort(function(a, b) {
+    return b.groupStock - a.groupStock ||
+      (b.src ? 1 : 0) - (a.src ? 1 : 0) ||
+      b.variantStock - a.variantStock ||
+      textValue(a.group.base && a.group.base.nombre).localeCompare(textValue(b.group.base && b.group.base.nombre));
+  });
+  return out;
+}
+function categoriaPanelItems() {
+  var catSet = {};
+  allGroups.forEach(function(g) {
+    var cat = categoriaDe(g.base.nombre, g.base.detalle);
+    if (cat && cat !== 'Otros' && grupoStockTotal(g) > 0) catSet[cat] = true;
+  });
+  var cats = ordenarCategorias(Object.keys(catSet));
+  var usedColors = {};
+  var previousColor = '';
+  return cats.map(function(cat) {
+    var candidates = categoriaPanelCandidates(cat);
+    if (!candidates.length) return null;
+    var chosen = candidates.find(function(c) {
+      return c.src && c.colorKey && c.colorKey !== previousColor && !usedColors[c.colorKey];
+    }) || candidates.find(function(c) {
+      return c.colorKey && c.colorKey !== previousColor;
+    }) || candidates.find(function(c) {
+      return c.src;
+    }) || candidates[0];
+    if (chosen.colorKey) {
+      usedColors[chosen.colorKey] = true;
+      previousColor = chosen.colorKey;
+    }
+    var gruposCat = {};
+    allGroups.forEach(function(g) {
+      if (categoriaDe(g.base.nombre, g.base.detalle) === cat && grupoStockTotal(g) > 0) gruposCat[g.key] = grupoStockTotal(g);
+    });
+    var totalCat = Object.keys(gruposCat).reduce(function(s, k) { return s + gruposCat[k]; }, 0);
+    return {
+      cat: cat,
+      group: chosen.group,
+      variant: chosen.variant,
+      src: chosen.src,
+      auto: chosen.auto,
+      color: chosen.color,
+      totalStock: totalCat,
+      models: Object.keys(gruposCat).length
+    };
+  }).filter(Boolean);
+}
+function renderCategoryAccordion() {
+  var el = document.getElementById('categoryAccordion');
+  if (!el) return;
+  var items = categoriaPanelItems();
+  el.classList.toggle('show', !!items.length);
+  if (!items.length) {
+    el.innerHTML = '';
+    return;
+  }
+  el.innerHTML = items.map(function(item, idx) {
+    var active = catActive === item.cat || (catActive === 'Todas' && idx === 0);
+    var p = item.group.base || item.variant || {};
+    var src = item.src || '';
+    var imgHtml = src
+      ? '<img src="'+escapeAttr(src)+'" alt="'+escapeAttr(item.cat+' NEOMAR')+'" loading="lazy" data-auto-src="'+escapeAttr(item.auto || '')+'" data-fallback-root="'+escapeAttr(src)+'" data-fallback-step="0" data-last-good-src="" onload="this.style.display=\'block\';this.setAttribute(\'data-last-good-src\',this.getAttribute(\'src\')||\'\')" onerror="if(!fallbackImg(this))this.style.display=\'none\'">'
+      : '';
+    var meta = [
+      item.models + (item.models === 1 ? ' modelo' : ' modelos'),
+      item.totalStock + ' uds',
+      item.color || 'color disponible'
+    ].join(' · ');
+    return '<button type="button" class="category-panel'+(active?' active':'')+'" onclick="setCatByName('+jsArg(item.cat)+')" aria-label="Ver categoría '+escapeAttr(item.cat)+'">'+
+      '<span class="category-panel-fallback">'+catIcon(item.cat)+'</span>'+
+      imgHtml+
+      '<span class="category-panel-side">'+escapeHtml(item.cat)+'</span>'+
+      '<span class="category-panel-content">'+
+        '<span class="category-panel-kicker">'+escapeHtml(meta)+'</span>'+
+        '<span class="category-panel-title">'+escapeHtml(item.cat)+'</span>'+
+        '<span class="category-panel-meta">'+escapeHtml(p.nombre || 'Prendas seleccionadas NEOMAR')+' · '+escapeHtml(item.color || 'tono destacado')+'</span>'+
+      '</span>'+
+    '</button>';
+  }).join('');
+}
+
 function buildFilters() {
   var catSet = { 'Todas': true };
   var sizeSet = { 'Todas': true };
@@ -5057,6 +5341,7 @@ function buildFilters() {
 
   renderColorTonePicker();
   actualizarColorFilterSummary();
+  renderCategoryAccordion();
 }
 
 function setCat(cat, btn) {
@@ -5065,6 +5350,7 @@ function setCat(cat, btn) {
   if (btn) btn.classList.add('active');
   actualizarColorFilterSummary();
   setCategoryUrl(catActive, false);
+  renderCategoryAccordion();
   renderProducts();
 }
 function setSize(sz, btn) {
@@ -5118,6 +5404,7 @@ function setCatByName(cat, options) {
   });
   actualizarColorFilterSummary();
   if (options.updateUrl !== false) setCategoryUrl(catActive, false);
+  renderCategoryAccordion();
   if (options.render !== false) renderProducts();
   if (options.scroll !== false) setTimeout(function() { document.getElementById('coleccion').scrollIntoView({ behavior: 'smooth' }); }, 100);
 }
