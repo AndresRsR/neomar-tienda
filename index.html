@@ -878,9 +878,9 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 @media (max-width: 900px) {
   .category-accordion {
     width: 100vw;
-    height: calc(100svh - 104px);
-    min-height: 520px;
-    max-height: 680px;
+    height: auto;
+    min-height: 0;
+    max-height: none;
     flex-direction: column;
     gap: 0;
     border: 0;
@@ -892,9 +892,9 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   .category-panel.active,
   .category-panel:hover,
   .category-panel:focus-visible {
-    flex: 1 1 0;
+    flex: none;
     width: 100%;
-    min-height: 0;
+    min-height: clamp(170px, 28svh, 230px);
     border: 0;
     border-bottom: 1px solid rgba(255,255,255,.18);
   }
@@ -911,25 +911,25 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 }
 @media (max-width: 560px) {
   .category-accordion {
-    height: calc(100svh - 106px);
-    min-height: 500px;
-    max-height: 660px;
+    height: auto;
+    min-height: 0;
+    max-height: none;
   }
   .category-panel {
-    min-height: 0;
+    min-height: clamp(165px, 27svh, 210px);
   }
   .category-panel-content {
-    padding: 8px 16px;
+    padding: 22px 18px;
   }
   .category-panel-title {
-    font-size: clamp(20px, 6vw, 28px);
+    font-size: clamp(26px, 8vw, 36px);
     letter-spacing: 2px;
   }
   .category-panel-kicker {
     white-space: normal;
     letter-spacing: 2px;
-    font-size: 9px;
-    margin-top: 5px;
+    font-size: 10px;
+    margin-top: 10px;
   }
 }
 
