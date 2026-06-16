@@ -4190,7 +4190,7 @@ function categoriaPorPalabra(p) {
   p = textoCategoria(p);
   if (p === 'BLUSA' || p === 'BLUSAS' || p === 'BLUSITA' || p === 'CAMIBUSO' || p === 'CAMISA') return 'Blusas';
   if (p === 'CHALECO' || p === 'CHALECOS') return 'Chalecos';
-  if (p === 'CHAQUETA' || p === 'CHAQUETAS' || p === 'JACKET' || p === 'CASACA') return 'Chaquetas';
+  if (p === 'CHAQUETA' || p === 'CHAQUETAS' || p === 'BOLERO' || p === 'BOLEROS' || p === 'JACKET' || p === 'CASACA') return 'Chaquetas';
   if (p === 'GABARDINA' || p === 'GABARDINAS') return 'Gabardinas';
   if (p === 'CONJUNTO' || p === 'CONJUNTOS') return 'Conjuntos';
   if (p === 'ENTERIZO' || p === 'ENTERIZOS') return 'Enterizos';
@@ -4208,7 +4208,7 @@ function categoriaDe(nombre, detalle) {
   if (principal) return principal;
   var n = (textoCategoria(nombre) + ' ' + textoCategoria(detalle));
   if (n.indexOf('CHALECO') >= 0) return 'Chalecos';
-  if (n.indexOf('CHAQUETA') >= 0 || n.indexOf('JACKET') >= 0 || n.indexOf('CASACA') >= 0) return 'Chaquetas';
+  if (n.indexOf('CHAQUETA') >= 0 || n.indexOf('BOLERO') >= 0 || n.indexOf('JACKET') >= 0 || n.indexOf('CASACA') >= 0) return 'Chaquetas';
   if (n.indexOf('GABARDINA') >= 0) return 'Gabardinas';
   if (n.indexOf('CONJUNTO') >= 0) return 'Conjuntos';
   if (n.indexOf('ENTERIZO') >= 0) return 'Enterizos';
