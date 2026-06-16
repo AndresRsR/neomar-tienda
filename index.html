@@ -5460,6 +5460,15 @@ function clearSearch() {
   input.focus();
 }
 
+function scrollToCatalogProducts() {
+  var target = document.getElementById('productsGrid');
+  if (!target) return;
+  var header = document.getElementById('header');
+  var offset = (header ? header.offsetHeight : 0) + 18;
+  var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+  window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+}
+
 // ══ BUILD FOOTER CATS ══
 function buildFooterCats() {
   var catSet = {};
@@ -5479,7 +5488,7 @@ function setCatByName(cat, options) {
   if (options.updateUrl !== false) setCategoryUrl(catActive, false);
   renderCategoryAccordion();
   if (options.render !== false) renderProducts();
-  if (options.scroll !== false) setTimeout(function() { document.getElementById('coleccion').scrollIntoView({ behavior: 'smooth' }); }, 100);
+  if (options.scroll !== false) setTimeout(scrollToCatalogProducts, 120);
 }
 
 // ══ RENDER PRODUCTS ══
