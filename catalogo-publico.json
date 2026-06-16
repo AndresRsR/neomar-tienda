@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-16T19:53:44.273Z",
-  "totalVariantes": 345,
-  "totalStock": 432,
+  "updatedAt": "2026-06-16T21:58:47.733Z",
+  "totalVariantes": 344,
+  "totalStock": 431,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -1362,20 +1362,6 @@
       "pvp": 32,
       "imagen": "fotos_catalogo/2306-perla.webp",
       "updatedAt": "2026-05-19T10:34"
-    },
-    {
-      "id": "mpk0cmi3u7vflkykun",
-      "inventarioId": "mpk0cmi3u7vflkykun",
-      "variantKey": "b0008|corset cynderela|blusa corset, con manga corta.|est (s/m)|blanco",
-      "codigo": "b0008",
-      "nombre": "Corset Cynderela",
-      "detalle": "Blusa Corset, con manga corta.",
-      "talla": "EST (S/M)",
-      "color": "Blanco",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/b0008-blanco.webp",
-      "updatedAt": "2026-05-24T11:44"
     },
     {
       "id": "mpk0cmhz6hhb3zy21e7",
@@ -3977,9 +3963,9 @@
       "talla": "S",
       "color": "BLANCO",
       "stock": 1,
-      "pvp": 30,
+      "pvp": 38,
       "imagen": "fotos_catalogo/v0001-blanco.webp",
-      "updatedAt": "2026-05-23T14:47"
+      "updatedAt": "2026-06-16T16:58"
     },
     {
       "id": "mo909jzis874bq3mr2a",
@@ -3991,9 +3977,9 @@
       "talla": "S",
       "color": "CELESTE",
       "stock": 1,
-      "pvp": 30,
+      "pvp": 38,
       "imagen": "fotos_catalogo/v0001-celeste.webp",
-      "updatedAt": "2026-05-23T14:47"
+      "updatedAt": "2026-06-16T16:58"
     },
     {
       "id": "mo909jzitm6ir7xgh9",
@@ -4005,9 +3991,9 @@
       "talla": "S",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 30,
+      "pvp": 38,
       "imagen": "fotos_catalogo/v0001-rosado.webp",
-      "updatedAt": "2026-05-23T14:47"
+      "updatedAt": "2026-06-16T16:58"
     },
     {
       "id": "modkcs58kyfof7i865",
