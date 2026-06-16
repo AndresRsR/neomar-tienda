@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-13T14:33:26.587Z",
-  "totalVariantes": 392,
-  "totalStock": 496,
+  "updatedAt": "2026-06-16T14:43:02.289Z",
+  "totalVariantes": 340,
+  "totalStock": 427,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -202,20 +202,6 @@
       "updatedAt": "2026-06-02T06:44"
     },
     {
-      "id": "mpwkkmzgu6u29jv292",
-      "inventarioId": "mpwkkmzgu6u29jv292",
-      "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|cafe/negro",
-      "codigo": "b0005",
-      "nombre": "Blusa basica diagonal",
-      "detalle": "Blusa básica en tela suplex diagonal.",
-      "talla": "EST (S/M)",
-      "color": "cafe/negro",
-      "stock": 1,
-      "pvp": 12,
-      "imagen": "fotos_catalogo/b0005-cafenegro.webp",
-      "updatedAt": "2026-06-02T06:44"
-    },
-    {
       "id": "mpilxor9pqcxnidp26n",
       "inventarioId": "mpilxor9pqcxnidp26n",
       "variantKey": "b0005|blusa basica diagonal|blusa básica en tela suplex diagonal.|est (s/m)|ladrillo",
@@ -314,20 +300,6 @@
       "updatedAt": "2026-05-23T11:42"
     },
     {
-      "id": "mo6mmkq9avgfh2n95c4",
-      "inventarioId": "mo6mmkq9avgfh2n95c4",
-      "variantKey": "2228|blusa daenerys|blusa tipo camisa, con bolsillos delanteros.|m|negro",
-      "codigo": "2228",
-      "nombre": "BLUSA DAENERYS",
-      "detalle": "Blusa tipo camisa, con bolsillos delanteros.",
-      "talla": "M",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 18,
-      "imagen": "fotos_catalogo/2228-negro.webp",
-      "updatedAt": "2026-05-23T11:42"
-    },
-    {
       "id": "mo8pcq0cg1yc7y9peaj",
       "inventarioId": "mo8pcq0cg1yc7y9peaj",
       "variantKey": "b0001|blusa elira|blusa rayas corta botones plateados en v|est (s/m)|blanco/capuchino",
@@ -409,20 +381,6 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b2920-azul-marino.webp",
-      "updatedAt": "2026-05-23T11:47"
-    },
-    {
-      "id": "moddj2njjkvrswmtsog",
-      "inventarioId": "moddj2njjkvrswmtsog",
-      "variantKey": "b2920|blusa zara|blusa tela lona en v con broche/dije|est (m/l)|capuchino",
-      "codigo": "B2920",
-      "nombre": "BLUSA ZARA",
-      "detalle": "BLUSA TELA LONA EN V CON BROCHE/DIJE",
-      "talla": "EST (M/L)",
-      "color": "CAPUCHINO",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/b2920-capuchino.webp",
       "updatedAt": "2026-05-23T11:47"
     },
     {
@@ -521,20 +479,6 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/8115-beige.webp",
-      "updatedAt": "2026-05-23T11:28"
-    },
-    {
-      "id": "mo6mmkq9a9yzai4ra2r",
-      "inventarioId": "mo6mmkq9a9yzai4ra2r",
-      "variantKey": "8115|camibuso luna|camibuso lana con camisa blanca|est (s/m)|capuchino",
-      "codigo": "8115",
-      "nombre": "CAMIBUSO LUNA",
-      "detalle": "Camibuso lana con camisa blanca",
-      "talla": "EST (S/M)",
-      "color": "CAPUCHINO",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/8115-capuchino.webp",
       "updatedAt": "2026-05-23T11:28"
     },
     {
@@ -874,20 +818,6 @@
       "updatedAt": ""
     },
     {
-      "id": "mo6mmkq93joc153iwrg",
-      "inventarioId": "mo6mmkq93joc153iwrg",
-      "variantKey": "2224|chaleco auren|chaleco cuerina forrado felpa cierre|s|beige",
-      "codigo": "2224",
-      "nombre": "CHALECO AUREN",
-      "detalle": "Chaleco cuerina forrado felpa cierre",
-      "talla": "S",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 25,
-      "imagen": "fotos_catalogo/2224-beige.webp",
-      "updatedAt": ""
-    },
-    {
       "id": "mo6mmkq9grp3aetbqyf",
       "inventarioId": "mo6mmkq9grp3aetbqyf",
       "variantKey": "2224|chaleco auren|chaleco cuerina forrado felpa cierre|l|café",
@@ -913,20 +843,6 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/2224-cafe.webp",
-      "updatedAt": ""
-    },
-    {
-      "id": "mo6mmkq9oypfz7njulq",
-      "inventarioId": "mo6mmkq9oypfz7njulq",
-      "variantKey": "2224|chaleco auren|chaleco cuerina forrado felpa cierre|l|negro",
-      "codigo": "2224",
-      "nombre": "CHALECO AUREN",
-      "detalle": "Chaleco cuerina forrado felpa cierre",
-      "talla": "L",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 25,
-      "imagen": "fotos_catalogo/2224-negro.webp",
       "updatedAt": ""
     },
     {
@@ -986,20 +902,6 @@
       "updatedAt": "2026-05-23T14:51"
     },
     {
-      "id": "modfsw6xy6bjrqyf10a",
-      "inventarioId": "modfsw6xy6bjrqyf10a",
-      "variantKey": "b1837|chaleco modhapy|chaleco hilo rayas de hilo|est (m/l)|negro/beige",
-      "codigo": "B1837",
-      "nombre": "CHALECO MODHAPY",
-      "detalle": "CHALECO HILO RAYAS DE HILO",
-      "talla": "EST (M/L)",
-      "color": "NEGRO/BEIGE",
-      "stock": 1,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/b1837-negrobeige.webp",
-      "updatedAt": "2026-05-23T14:51"
-    },
-    {
       "id": "mo6mmkq92i90n7j9bzx",
       "inventarioId": "mo6mmkq92i90n7j9bzx",
       "variantKey": "2227|chaqueta aira|chaqueta corta botón dorado tela galleta|m|capuchino",
@@ -1007,20 +909,6 @@
       "nombre": "CHAQUETA AIRA",
       "detalle": "Chaqueta corta botón dorado tela galleta",
       "talla": "M",
-      "color": "CAPUCHINO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/2227-capuchino.webp",
-      "updatedAt": "2026-05-23T05:54"
-    },
-    {
-      "id": "mo6mmkq9otmhfpv78",
-      "inventarioId": "mo6mmkq9otmhfpv78",
-      "variantKey": "2227|chaqueta aira|chaqueta corta botón dorado tela galleta|s|capuchino",
-      "codigo": "2227",
-      "nombre": "CHAQUETA AIRA",
-      "detalle": "Chaqueta corta botón dorado tela galleta",
-      "talla": "S",
       "color": "CAPUCHINO",
       "stock": 1,
       "pvp": 30,
@@ -1040,20 +928,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/2227-negro.webp",
       "updatedAt": "2026-05-23T05:54"
-    },
-    {
-      "id": "moevpwafsqd0zlwqgtj",
-      "inventarioId": "moevpwafsqd0zlwqgtj",
-      "variantKey": "c0003|chaqueta rider|chaqueta clasica estilo rider, cuerina estilo cocodrilo.|única|camel",
-      "codigo": "C0003",
-      "nombre": "Chaqueta Rider",
-      "detalle": "Chaqueta clasica estilo rider, cuerina estilo cocodrilo.",
-      "talla": "Única",
-      "color": "CAMEL",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/c0003-camel.webp",
-      "updatedAt": "2026-05-23T08:35"
     },
     {
       "id": "moevpwafkcb3lzoheze",
@@ -1098,20 +972,6 @@
       "updatedAt": "2026-05-19T13:25"
     },
     {
-      "id": "mo6mmkq9jtwzpkcokwj",
-      "inventarioId": "mo6mmkq9jtwzpkcokwj",
-      "variantKey": "2307|conjunto amelie|conjunto hilo manga larga raya|est (m/l)|blanco/negro",
-      "codigo": "2307",
-      "nombre": "CONJUNTO AMELIE",
-      "detalle": "Conjunto hilo manga larga raya",
-      "talla": "EST (M/L)",
-      "color": "BLANCO/NEGRO",
-      "stock": 1,
-      "pvp": 32,
-      "imagen": "fotos_catalogo/2307-blanconegro.webp",
-      "updatedAt": "2026-05-19T10:36"
-    },
-    {
       "id": "mo6mmkq9afdw2lplb5p",
       "inventarioId": "mo6mmkq9afdw2lplb5p",
       "variantKey": "2307|conjunto amelie|conjunto hilo manga larga raya|est (m/l)|capuchino/blanco",
@@ -1151,7 +1011,7 @@
       "stock": 3,
       "pvp": 32,
       "imagen": "fotos_catalogo/2307-rosadoblanco.webp",
-      "updatedAt": "2026-05-19T10:36"
+      "updatedAt": "2026-06-13T15:15"
     },
     {
       "id": "mo8qlmu4ry2y4raj5kn",
@@ -1320,20 +1180,6 @@
       "pvp": 32,
       "imagen": "fotos_catalogo/c51762-blanco.webp",
       "updatedAt": "2026-05-19T10:30"
-    },
-    {
-      "id": "modfm63y7pgqev5wy4x",
-      "inventarioId": "modfm63y7pgqev5wy4x",
-      "variantKey": "c51762|conjunto croptop emma|conjunto chaleco croptop, con boton de cintura.|m|celeste",
-      "codigo": "C51762",
-      "nombre": "CONJUNTO CROPTOP EMMA",
-      "detalle": "Conjunto chaleco croptop, con boton de cintura.",
-      "talla": "M",
-      "color": "CELESTE",
-      "stock": 1,
-      "pvp": 32,
-      "imagen": "fotos_catalogo/c51762-celeste.webp",
-      "updatedAt": "2026-06-05T12:24"
     },
     {
       "id": "modfm63yfkg8twv04wk",
@@ -1882,20 +1728,6 @@
       "updatedAt": "2026-05-31T17:58"
     },
     {
-      "id": "mpucudgjdag06ebyra6",
-      "inventarioId": "mpucudgjdag06ebyra6",
-      "variantKey": "e2057|enterizo aime|enterizo con manga caida y dije circular con cinto.|est (m/l)|beige",
-      "codigo": "E2057",
-      "nombre": "Enterizo Aime",
-      "detalle": "Enterizo con manga caida y dije circular con cinto.",
-      "talla": "EST (M/L)",
-      "color": "beige",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2057-beige.webp",
-      "updatedAt": "2026-06-06T06:41"
-    },
-    {
       "id": "mpucudgr2jzgynognqk",
       "inventarioId": "mpucudgr2jzgynognqk",
       "variantKey": "e2057|enterizo aime|enterizo con manga caida y dije circular con cinto.|est (m/l)|blanco",
@@ -1946,10 +1778,10 @@
       "detalle": "Enterizo de un solo hombro, con dije rectangular metálico en la cintura.",
       "talla": "EST (M/L)",
       "color": "Azul electrico",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-azul-electrico.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-06-14T13:38"
     },
     {
       "id": "mpu97ajkpi8vlgxcia",
@@ -1974,10 +1806,10 @@
       "detalle": "Enterizo de un solo hombro, con dije rectangular metálico en la cintura.",
       "talla": "EST (M/L)",
       "color": "Beige",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-beige.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-06-13T17:28"
     },
     {
       "id": "mpu97ajn9pfvigl1drg",
@@ -2005,20 +1837,6 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-negro.webp",
-      "updatedAt": "2026-06-12T13:22"
-    },
-    {
-      "id": "mpu97aj63sgm7v7o7gy",
-      "inventarioId": "mpu97aj63sgm7v7o7gy",
-      "variantKey": "e2058|enterizo atenea|enterizo de un solo hombro, con dije rectangular metálico en la cintura.|est (m/l)|uva",
-      "codigo": "E2058",
-      "nombre": "Enterizo Atenea",
-      "detalle": "Enterizo de un solo hombro, con dije rectangular metálico en la cintura.",
-      "talla": "EST (M/L)",
-      "color": "Uva",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2058-uva.webp",
       "updatedAt": "2026-06-12T13:22"
     },
     {
@@ -2328,20 +2146,6 @@
       "pvp": 20,
       "imagen": "fotos_catalogo/f0001-miel.webp",
       "updatedAt": "2026-05-17T15:58"
-    },
-    {
-      "id": "modoksyzmbirubyrja",
-      "inventarioId": "modoksyzmbirubyrja",
-      "variantKey": "f0001|falda bichota cuerina|falda short recta en cuerina.|l|negro",
-      "codigo": "F0001",
-      "nombre": "FALDA BICHOTA CUERINA",
-      "detalle": "Falda short recta en cuerina.",
-      "talla": "L",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0001-negro.webp",
-      "updatedAt": "2026-06-06T17:17"
     },
     {
       "id": "modoksyzaj7ilwpr8vc",
@@ -2659,20 +2463,6 @@
       "nombre": "FALDA KAROL",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "L",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0004-negro.webp",
-      "updatedAt": "2026-05-16T16:58"
-    },
-    {
-      "id": "modprjtgo8kneycoej",
-      "inventarioId": "modprjtgo8kneycoej",
-      "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|m|negro",
-      "codigo": "F0004",
-      "nombre": "FALDA KAROL",
-      "detalle": "Falda short recta en tela loma, con abertura.",
-      "talla": "M",
       "color": "NEGRO",
       "stock": 1,
       "pvp": 20,
@@ -3142,20 +2932,6 @@
       "updatedAt": "2026-05-16T17:39"
     },
     {
-      "id": "modq61x245e30aukn7r",
-      "inventarioId": "modq61x245e30aukn7r",
-      "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|m|beige",
-      "codigo": "F0003",
-      "nombre": "FALDA SOFIA",
-      "detalle": "Falda plisada en tela lomas, con cinturon.",
-      "talla": "M",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0003-beige.webp",
-      "updatedAt": "2026-05-16T11:19"
-    },
-    {
       "id": "modq61x2uovs8f874gk",
       "inventarioId": "modq61x2uovs8f874gk",
       "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|s|beige",
@@ -3576,20 +3352,6 @@
       "updatedAt": "2026-05-23T09:12"
     },
     {
-      "id": "mo9a1cpp6spihv0sqz3",
-      "inventarioId": "mo9a1cpp6spihv0sqz3",
-      "variantKey": "m033|pantalón ariadna|pantalón con cinturon de colitas con brillo.|m|blanco",
-      "codigo": "M033",
-      "nombre": "Pantalón Ariadna",
-      "detalle": "Pantalón con cinturon de colitas con brillo.",
-      "talla": "M",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 23,
-      "imagen": "fotos_catalogo/m033-blanco.webp",
-      "updatedAt": "2026-05-23T09:12"
-    },
-    {
       "id": "mo9a1cppqi84jjw2mnp",
       "inventarioId": "mo9a1cppqi84jjw2mnp",
       "variantKey": "m033|pantalón ariadna|pantalón con cinturon de colitas con brillo.|s|blanco",
@@ -3744,20 +3506,6 @@
       "updatedAt": "2026-06-06T11:20"
     },
     {
-      "id": "mpk1z2g5t6ef7ests89",
-      "inventarioId": "mpk1z2g5t6ef7ests89",
-      "variantKey": "c0005|pilot jacket|chaqueta con cierre y correa, croptop estilo rider croptop.|m|blanco",
-      "codigo": "C0005",
-      "nombre": "Pilot Jacket",
-      "detalle": "Chaqueta con cierre y correa, croptop estilo rider croptop.",
-      "talla": "M",
-      "color": "blanco",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/c0005-blanco.webp",
-      "updatedAt": "2026-06-06T11:20"
-    },
-    {
       "id": "mpk1z2g408kwcoupml4t",
       "inventarioId": "mpk1z2g408kwcoupml4t",
       "variantKey": "c0005|pilot jacket|chaqueta con cierre y correa, croptop estilo rider croptop.|s|camel",
@@ -3864,66 +3612,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 59,
+      "stock": 47,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-06-13T09:29"
-    },
-    {
-      "id": "mpsjmpvqyz8y7rrdt29",
-      "inventarioId": "mpsjmpvqyz8y7rrdt29",
-      "variantKey": "v0023|vestido adara|vestido en tela lomas, strapless recto, con lazo en la pierna.|est (s/m)|cafe",
-      "codigo": "v0023",
-      "nombre": "Vestido Adara",
-      "detalle": "Vestido en tela lomas, strapless recto, con lazo en la pierna.",
-      "talla": "EST (S/M)",
-      "color": "Cafe",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0023-cafe.webp",
-      "updatedAt": "2026-06-05T15:00"
-    },
-    {
-      "id": "mpsphuaa8ssnj8nsznj",
-      "inventarioId": "mpsphuaa8ssnj8nsznj",
-      "variantKey": "v0024|vestido alejandra|vestido en tela lomas, con lazos en el pecho.|est (s/m)|negro",
-      "codigo": "v0024",
-      "nombre": "Vestido Alejandra",
-      "detalle": "Vestido en tela lomas, con lazos en el pecho.",
-      "talla": "EST (S/M)",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0024-negro.webp",
-      "updatedAt": "2026-06-08T14:08"
-    },
-    {
-      "id": "mpsphuaj9hrjbg45jl",
-      "inventarioId": "mpsphuaj9hrjbg45jl",
-      "variantKey": "v0024|vestido alejandra|vestido en tela lomas, con lazos en el pecho.|est (s/m)|palo de rosas",
-      "codigo": "v0024",
-      "nombre": "Vestido Alejandra",
-      "detalle": "Vestido en tela lomas, con lazos en el pecho.",
-      "talla": "EST (S/M)",
-      "color": "Palo de rosas",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0024-palo-de-rosas.webp",
-      "updatedAt": "2026-05-30T21:34"
-    },
-    {
-      "id": "mpsphua5ks0z8xdwas",
-      "inventarioId": "mpsphua5ks0z8xdwas",
-      "variantKey": "v0024|vestido alejandra|vestido en tela lomas, con lazos en el pecho.|est (s/m)|rojo",
-      "codigo": "v0024",
-      "nombre": "Vestido Alejandra",
-      "detalle": "Vestido en tela lomas, con lazos en el pecho.",
-      "talla": "EST (S/M)",
-      "color": "Rojo",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0024-rojo.webp",
-      "updatedAt": "2026-05-30T21:34"
+      "updatedAt": "2026-06-16T06:31"
     },
     {
       "id": "mpk3cd0bz92on9yyqme",
@@ -3996,48 +3688,6 @@
       "updatedAt": "2026-06-13T08:12"
     },
     {
-      "id": "mq5kpcviwve8x27syq",
-      "inventarioId": "mq5kpcviwve8x27syq",
-      "variantKey": "v0008|vestido arlet|vestido en a tiras anchas 2 lazos cadera|est (s/m)|negro",
-      "codigo": "V0008",
-      "nombre": "VESTIDO ARLET",
-      "detalle": "VESTIDO EN A TIRAS ANCHAS 2 LAZOS CADERA",
-      "talla": "EST (S/M)",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0008-negro.webp",
-      "updatedAt": "2026-06-08T13:57"
-    },
-    {
-      "id": "mq5ksgpo9lv27lxndt5",
-      "inventarioId": "mq5ksgpo9lv27lxndt5",
-      "variantKey": "v0030|vestido arleth manga|vestido en tela lomas, con manga y lazos en la cadera|est (s/m)|rojo",
-      "codigo": "v0030",
-      "nombre": "Vestido Arleth Manga",
-      "detalle": "Vestido en tela lomas, con manga y lazos en la cadera",
-      "talla": "EST (S/M)",
-      "color": "Rojo",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0030-rojo.webp",
-      "updatedAt": "2026-06-09T06:04"
-    },
-    {
-      "id": "mq5ksgq0fde35plmu84",
-      "inventarioId": "mq5ksgq0fde35plmu84",
-      "variantKey": "v0030|vestido arleth manga|vestido en tela lomas, con manga y lazos en la cadera|est (s/m)|vino",
-      "codigo": "v0030",
-      "nombre": "Vestido Arleth Manga",
-      "detalle": "Vestido en tela lomas, con manga y lazos en la cadera",
-      "talla": "EST (S/M)",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0030-vino.webp",
-      "updatedAt": "2026-06-09T06:04"
-    },
-    {
       "id": "mq5n9rkwxqyxqf4b4y9",
       "inventarioId": "mq5n9rkwxqyxqf4b4y9",
       "variantKey": "v0036|vestido artemisa|vestido largo, en tela suplex, con nudo a un lado de la cintura.|única|negro",
@@ -4078,62 +3728,6 @@
       "pvp": 40,
       "imagen": "fotos_catalogo/v0036-rosado.webp",
       "updatedAt": "2026-06-08T15:09"
-    },
-    {
-      "id": "mpshqfl21967qmkalfo",
-      "inventarioId": "mpshqfl21967qmkalfo",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|beige",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-beige.webp",
-      "updatedAt": "2026-06-08T14:06"
-    },
-    {
-      "id": "mpshqfkyfwl7xmtlby5",
-      "inventarioId": "mpshqfkyfwl7xmtlby5",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|blanco",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Blanco",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-blanco.webp",
-      "updatedAt": "2026-06-08T14:06"
-    },
-    {
-      "id": "mpshqfl9drnciovkggf",
-      "inventarioId": "mpshqfl9drnciovkggf",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|negro",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Negro",
-      "stock": 2,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-negro.webp",
-      "updatedAt": "2026-06-08T14:06"
-    },
-    {
-      "id": "mq5l0own302pmvcb9qr",
-      "inventarioId": "mq5l0own302pmvcb9qr",
-      "variantKey": "v0021|vestido aurora|vestido en tela lomas, con manga bombacha y bolsillos delanteros.|est (s/m)|rojo",
-      "codigo": "v0021",
-      "nombre": "Vestido Aurora",
-      "detalle": "Vestido en tela lomas, con manga bombacha y bolsillos delanteros.",
-      "talla": "EST (S/M)",
-      "color": "Rojo",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0021-rojo.webp",
-      "updatedAt": "2026-06-08T14:06"
     },
     {
       "id": "mq5nywglu9y4xde4o6",
@@ -4192,20 +3786,6 @@
       "updatedAt": "2026-06-08T15:29"
     },
     {
-      "id": "moeilb7qhsvak75iax",
-      "inventarioId": "moeilb7qhsvak75iax",
-      "variantKey": "v0014|vestido bethi|vestido en a llano tira ancha|m|azul marino",
-      "codigo": "V0014",
-      "nombre": "VESTIDO BETHI",
-      "detalle": "VESTIDO EN A LLANO TIRA ANCHA",
-      "talla": "M",
-      "color": "AZUL MARINO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0014-azul-marino.webp",
-      "updatedAt": "2026-05-26T06:46"
-    },
-    {
       "id": "moeilb7q6qc8hbu79n2",
       "inventarioId": "moeilb7q6qc8hbu79n2",
       "variantKey": "v0014|vestido bethi|vestido en a llano tira ancha|m|crema",
@@ -4218,62 +3798,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0014-crema.webp",
       "updatedAt": "2026-05-26T06:46"
-    },
-    {
-      "id": "moeilb7q6xyio6rk278",
-      "inventarioId": "moeilb7q6xyio6rk278",
-      "variantKey": "v0014|vestido bethi|vestido en a llano tira ancha|m|palo de rosa",
-      "codigo": "V0014",
-      "nombre": "VESTIDO BETHI",
-      "detalle": "VESTIDO EN A LLANO TIRA ANCHA",
-      "talla": "M",
-      "color": "PALO DE ROSA",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0014-palo-de-rosa.webp",
-      "updatedAt": "2026-05-26T06:46"
-    },
-    {
-      "id": "moeilb7qmgjwuz8uqgr",
-      "inventarioId": "moeilb7qmgjwuz8uqgr",
-      "variantKey": "v0014|vestido bethi|vestido en a llano tira ancha|m|rojo",
-      "codigo": "V0014",
-      "nombre": "VESTIDO BETHI",
-      "detalle": "VESTIDO EN A LLANO TIRA ANCHA",
-      "talla": "M",
-      "color": "ROJO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0014-rojo.webp",
-      "updatedAt": "2026-05-26T06:46"
-    },
-    {
-      "id": "moeilb7qnm81kpmmmpd",
-      "inventarioId": "moeilb7qnm81kpmmmpd",
-      "variantKey": "v0014|vestido bethi|vestido en a llano tira ancha|m|verde militar",
-      "codigo": "V0014",
-      "nombre": "VESTIDO BETHI",
-      "detalle": "VESTIDO EN A LLANO TIRA ANCHA",
-      "talla": "M",
-      "color": "VERDE MILITAR",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0014-verde-militar.webp",
-      "updatedAt": "2026-05-26T06:46"
-    },
-    {
-      "id": "moeilb7q2cslo25r3nh",
-      "inventarioId": "moeilb7q2cslo25r3nh",
-      "variantKey": "v0014|vestido bethi|vestido en a llano tira ancha|m|vino",
-      "codigo": "V0014",
-      "nombre": "VESTIDO BETHI",
-      "detalle": "VESTIDO EN A LLANO TIRA ANCHA",
-      "talla": "M",
-      "color": "VINO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0014-vino.webp",
-      "updatedAt": "2026-05-26T14:06"
     },
     {
       "id": "mq5lfm1o4qteem67t77",
@@ -4360,34 +3884,6 @@
       "updatedAt": "2026-06-08T14:18"
     },
     {
-      "id": "mq5lfm19qi5s4jto2tm",
-      "inventarioId": "mq5lfm19qi5s4jto2tm",
-      "variantKey": "v0031|vestido briela|vestido largo, en tela tul con pañuelo de cuello.|est (m/l)|vino",
-      "codigo": "v0031",
-      "nombre": "Vestido Briela",
-      "detalle": "Vestido largo, en tela tul con pañuelo de cuello.",
-      "talla": "EST (M/L)",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0031-vino.webp",
-      "updatedAt": "2026-06-08T14:18"
-    },
-    {
-      "id": "mq5jmnar1nkg5cigkuu",
-      "inventarioId": "mq5jmnar1nkg5cigkuu",
-      "variantKey": "v0026|vestido britania|vestido en manga asimetrica, tela premium brillosa.|est (s/m)|azul noche",
-      "codigo": "v0026",
-      "nombre": "Vestido Britania",
-      "detalle": "Vestido en manga asimetrica, tela premium brillosa.",
-      "talla": "EST (S/M)",
-      "color": "Azul noche",
-      "stock": 1,
-      "pvp": 45,
-      "imagen": "fotos_catalogo/v0026-azul-noche.webp",
-      "updatedAt": "2026-06-12T14:30"
-    },
-    {
       "id": "mq5jmnb03lnspgg3krs",
       "inventarioId": "mq5jmnb03lnspgg3krs",
       "variantKey": "v0026|vestido britania|vestido en manga asimetrica, tela premium brillosa.|est (s/m)|rojo",
@@ -4414,20 +3910,6 @@
       "pvp": 45,
       "imagen": "fotos_catalogo/v0026-vino.webp",
       "updatedAt": "2026-06-12T14:30"
-    },
-    {
-      "id": "mq5juzdnap2dpmlp59",
-      "inventarioId": "mq5juzdnap2dpmlp59",
-      "variantKey": "v0027|vestido cielo|vestido en tela lomas, con manga larga y abertura.|est (s/m)|rojo",
-      "codigo": "v0027",
-      "nombre": "Vestido Cielo",
-      "detalle": "Vestido en tela lomas, con manga larga y abertura.",
-      "talla": "EST (S/M)",
-      "color": "Rojo",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0027-rojo.webp",
-      "updatedAt": "2026-06-09T06:03"
     },
     {
       "id": "mpk70e9lwmi4sqkjth",
@@ -4626,76 +4108,6 @@
       "updatedAt": "2026-05-23T14:48"
     },
     {
-      "id": "mq5ky9sgch0mokjfvb7",
-      "inventarioId": "mq5ky9sgch0mokjfvb7",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|beish oscuro",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Beish oscuro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-beish-oscuro.webp",
-      "updatedAt": "2026-06-08T14:04"
-    },
-    {
-      "id": "mq5ky9s0smbbirircal",
-      "inventarioId": "mq5ky9s0smbbirircal",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|celeste",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Celeste",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-celeste.webp",
-      "updatedAt": "2026-06-08T14:04"
-    },
-    {
-      "id": "mpsjgs9f006chkrhdf1e",
-      "inventarioId": "mpsjgs9f006chkrhdf1e",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|negro",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-negro.webp",
-      "updatedAt": "2026-06-13T07:30"
-    },
-    {
-      "id": "mq5ky9sk6xg4b0blyqx",
-      "inventarioId": "mq5ky9sk6xg4b0blyqx",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|rojo",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Rojo",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-rojo.webp",
-      "updatedAt": "2026-06-08T14:04"
-    },
-    {
-      "id": "mq5ky9rub4ekuf1mo5j",
-      "inventarioId": "mq5ky9rub4ekuf1mo5j",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|verde pino",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Verde pino",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-verde-pino.webp",
-      "updatedAt": "2026-06-08T14:04"
-    },
-    {
       "id": "mq5k376beusro7lo9ws",
       "inventarioId": "mq5k376beusro7lo9ws",
       "variantKey": "v0028|vestido londres|vestido largo en tela suplex, con fajin de lentejuelas.|est (m/l)|rojo",
@@ -4708,20 +4120,6 @@
       "pvp": 45,
       "imagen": "fotos_catalogo/v0028-rojo.webp",
       "updatedAt": "2026-06-08T13:40"
-    },
-    {
-      "id": "moeg9hopa7c3tpjxpni",
-      "inventarioId": "moeg9hopa7c3tpjxpni",
-      "variantKey": "v0011|vestido madelyn|vestido con botones bicolores|est (s/m)|rojo",
-      "codigo": "V0011",
-      "nombre": "VESTIDO MADELYN",
-      "detalle": "VESTIDO CON BOTONES BICOLORES",
-      "talla": "EST (S/M)",
-      "color": "ROJO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0011-rojo.webp",
-      "updatedAt": "2026-06-02T08:46"
     },
     {
       "id": "mq5mu2xrtbdjnj93df",
@@ -4834,48 +4232,6 @@
       "pvp": 40,
       "imagen": "fotos_catalogo/v0035-vino.webp",
       "updatedAt": "2026-06-08T14:57"
-    },
-    {
-      "id": "modj6yvm8ts53cazu4n",
-      "inventarioId": "modj6yvm8ts53cazu4n",
-      "variantKey": "v0003|vestido melissa|vestido con lazo en un hombro|est (s/m)|blanco",
-      "codigo": "V0003",
-      "nombre": "VESTIDO MELISSA",
-      "detalle": "Vestido con lazo en un hombro",
-      "talla": "EST (S/M)",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0003-blanco.webp",
-      "updatedAt": "2026-06-08T13:51"
-    },
-    {
-      "id": "modj6yvmunjzi9uz5n",
-      "inventarioId": "modj6yvmunjzi9uz5n",
-      "variantKey": "v0003|vestido melissa|vestido con lazo en un hombro|est (s/m)|verde militar",
-      "codigo": "V0003",
-      "nombre": "VESTIDO MELISSA",
-      "detalle": "Vestido con lazo en un hombro",
-      "talla": "EST (S/M)",
-      "color": "VERDE MILITAR",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0003-verde-militar.webp",
-      "updatedAt": "2026-06-08T13:51"
-    },
-    {
-      "id": "modj6yvm73r7dk5dh2d",
-      "inventarioId": "modj6yvm73r7dk5dh2d",
-      "variantKey": "v0003|vestido melissa|vestido con lazo en un hombro|est (s/m)|vino",
-      "codigo": "V0003",
-      "nombre": "VESTIDO MELISSA",
-      "detalle": "Vestido con lazo en un hombro",
-      "talla": "EST (S/M)",
-      "color": "VINO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0003-vino.webp",
-      "updatedAt": "2026-06-08T13:51"
     },
     {
       "id": "modk7dlj21ylo5hr6mx",
@@ -5130,20 +4486,6 @@
       "updatedAt": "2026-06-08T14:43"
     },
     {
-      "id": "mq5mbscsnleru346nhn",
-      "inventarioId": "mq5mbscsnleru346nhn",
-      "variantKey": "v0034|vestido teresa|vestido corto, con dije en hombro y nudo|est (s/m)|lila",
-      "codigo": "v0034",
-      "nombre": "Vestido Teresa",
-      "detalle": "Vestido corto, con dije en hombro y nudo",
-      "talla": "EST (S/M)",
-      "color": "Lila",
-      "stock": 1,
-      "pvp": 25,
-      "imagen": "fotos_catalogo/v0034-lila.webp",
-      "updatedAt": "2026-06-08T14:43"
-    },
-    {
       "id": "mq5mbsbe8x7gixz38xo",
       "inventarioId": "mq5mbsbe8x7gixz38xo",
       "variantKey": "v0034|vestido teresa|vestido corto, con dije en hombro y nudo|est (s/m)|negro",
@@ -5242,34 +4584,6 @@
       "updatedAt": "2026-06-08T14:27"
     },
     {
-      "id": "mq5ls2l37jazk4i9aoy",
-      "inventarioId": "mq5ls2l37jazk4i9aoy",
-      "variantKey": "v0032|vestido thalia|vestido estilo brasileño, manga larga|única|cafe",
-      "codigo": "v0032",
-      "nombre": "Vestido Thalia",
-      "detalle": "Vestido estilo brasileño, manga larga",
-      "talla": "Única",
-      "color": "Cafe",
-      "stock": 1,
-      "pvp": 25,
-      "imagen": "fotos_catalogo/v0032-cafe.webp",
-      "updatedAt": "2026-06-08T14:27"
-    },
-    {
-      "id": "mq5ls2kwvdg0tsgv7z",
-      "inventarioId": "mq5ls2kwvdg0tsgv7z",
-      "variantKey": "v0032|vestido thalia|vestido estilo brasileño, manga larga|única|negro",
-      "codigo": "v0032",
-      "nombre": "Vestido Thalia",
-      "detalle": "Vestido estilo brasileño, manga larga",
-      "talla": "Única",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 25,
-      "imagen": "fotos_catalogo/v0032-negro.webp",
-      "updatedAt": "2026-06-09T17:46"
-    },
-    {
       "id": "mq5ls2lhb7u6ewie0ve",
       "inventarioId": "mq5ls2lhb7u6ewie0ve",
       "variantKey": "v0032|vestido thalia|vestido estilo brasileño, manga larga|única|verde pino",
@@ -5292,10 +4606,10 @@
       "detalle": "Vestido largo tipo corset de tira, floreado.",
       "talla": "EST (M/L)",
       "color": "Blanco",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0029-blanco.webp",
-      "updatedAt": "2026-06-08T13:43"
+      "updatedAt": "2026-06-14T13:38"
     },
     {
       "id": "mq5k7qpaasxjrk6slug",
@@ -5351,7 +4665,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-lila.webp",
-      "updatedAt": "2026-06-02T08:45"
+      "updatedAt": "2026-06-13T10:13"
     },
     {
       "id": "modjwlnv3gugzk2wc31",
@@ -5365,21 +4679,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-rojo.webp",
-      "updatedAt": "2026-06-02T08:45"
-    },
-    {
-      "id": "modjwlnv65z0e2y2ew",
-      "inventarioId": "modjwlnv65z0e2y2ew",
-      "variantKey": "v0005|vestido veronica|vestido con un tirante en el cuello boton atrás|est (s/m)|verde militar",
-      "codigo": "V0005",
-      "nombre": "VESTIDO VERONICA",
-      "detalle": "Vestido con un tirante en el cuello boton atrás",
-      "talla": "EST (S/M)",
-      "color": "VERDE MILITAR",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0005-verde-militar.webp",
-      "updatedAt": "2026-06-02T08:45"
+      "updatedAt": "2026-06-13T10:13"
     },
     {
       "id": "modlzg4ffj6mhiqxm2v",
@@ -5432,38 +4732,10 @@
       "detalle": "VESTIDO RECTO TIRANTES CON LAZOS EN HOMBROS",
       "talla": "EST (S/M)",
       "color": "ROJO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0007-rojo.webp",
-      "updatedAt": "2026-06-08T14:07"
-    },
-    {
-      "id": "modlzg4fo9d58tzqnq",
-      "inventarioId": "modlzg4fo9d58tzqnq",
-      "variantKey": "v0007|vestido ximena|vestido recto tirantes con lazos en hombros|est (s/m)|rosado",
-      "codigo": "V0007",
-      "nombre": "VESTIDO XIMENA",
-      "detalle": "VESTIDO RECTO TIRANTES CON LAZOS EN HOMBROS",
-      "talla": "EST (S/M)",
-      "color": "ROSADO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0007-rosado.webp",
-      "updatedAt": "2026-06-06T06:18"
-    },
-    {
-      "id": "modlzg4fxtpgmguq7fm",
-      "inventarioId": "modlzg4fxtpgmguq7fm",
-      "variantKey": "v0007|vestido ximena|vestido recto tirantes con lazos en hombros|est (s/m)|vino",
-      "codigo": "V0007",
-      "nombre": "VESTIDO XIMENA",
-      "detalle": "VESTIDO RECTO TIRANTES CON LAZOS EN HOMBROS",
-      "talla": "EST (S/M)",
-      "color": "VINO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0007-vino.webp",
-      "updatedAt": "2026-06-06T06:18"
+      "updatedAt": "2026-06-16T09:36"
     },
     {
       "id": "moee7l9o5svt9x6qdsr",
