@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-16T14:43:02.289Z",
-  "totalVariantes": 340,
-  "totalStock": 427,
+  "updatedAt": "2026-06-16T19:53:44.273Z",
+  "totalVariantes": 345,
+  "totalStock": 432,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -410,6 +410,34 @@
       "pvp": 22,
       "imagen": "fotos_catalogo/b2920-vino.webp",
       "updatedAt": "2026-05-29T11:08"
+    },
+    {
+      "id": "mqgwlpx44o6c58i3j8e",
+      "inventarioId": "mqgwlpx44o6c58i3j8e",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|m|perla",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "M",
+      "color": "Perla",
+      "stock": 2,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/c0008-perla.webp",
+      "updatedAt": "2026-06-16T12:16"
+    },
+    {
+      "id": "mqgwlpx2silnqi481l",
+      "inventarioId": "mqgwlpx2silnqi481l",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|s|perla",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "S",
+      "color": "Perla",
+      "stock": 2,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/c0008-perla.webp",
+      "updatedAt": "2026-06-16T12:16"
     },
     {
       "id": "mpibcmpz48tn66xbhs3",
@@ -928,6 +956,20 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/2227-negro.webp",
       "updatedAt": "2026-05-23T05:54"
+    },
+    {
+      "id": "mqgwoanhsv3wb6jlllj",
+      "inventarioId": "mqgwoanhsv3wb6jlllj",
+      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|s|negro",
+      "codigo": "C0009",
+      "nombre": "Chaqueta Miranda",
+      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
+      "talla": "S",
+      "color": "Negro",
+      "stock": 1,
+      "pvp": 26,
+      "imagen": "fotos_catalogo/c0009-negro.webp",
+      "updatedAt": "2026-06-16T12:18"
     },
     {
       "id": "moevpwafkcb3lzoheze",
@@ -1792,10 +1834,10 @@
       "detalle": "Enterizo de un solo hombro, con dije rectangular metálico en la cintura.",
       "talla": "EST (M/L)",
       "color": "Azul petroleo",
-      "stock": 2,
+      "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-azul-petroleo.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-06-16T11:36"
     },
     {
       "id": "mpu97ajhg6cztv4b9f6",
@@ -3612,10 +3654,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 47,
+      "stock": 46,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-06-16T06:31"
+      "updatedAt": "2026-06-16T11:38"
     },
     {
       "id": "mpk3cd0bz92on9yyqme",
@@ -4248,6 +4290,20 @@
       "updatedAt": "2026-05-24T12:57"
     },
     {
+      "id": "mq5nsc5mf0vky4j50p",
+      "inventarioId": "mq5nsc5mf0vky4j50p",
+      "variantKey": "v0037|vestido monaco|vestido largo en tela suplex, con manga asimetrica.|única|negro",
+      "codigo": "v0037",
+      "nombre": "Vestido Monaco",
+      "detalle": "Vestido largo en tela suplex, con manga asimetrica.",
+      "talla": "Única",
+      "color": "Negro",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0037-negro.webp",
+      "updatedAt": "2026-06-16T10:14"
+    },
+    {
       "id": "mq5nsc6jmc0yxjl5oy",
       "inventarioId": "mq5nsc6jmc0yxjl5oy",
       "variantKey": "v0037|vestido monaco|vestido largo en tela suplex, con manga asimetrica.|única|rojo",
@@ -4259,7 +4315,7 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0037-rojo.webp",
-      "updatedAt": "2026-06-08T15:23"
+      "updatedAt": "2026-06-16T10:14"
     },
     {
       "id": "mq5nsc6omwvg0rs7cvo",
@@ -4273,7 +4329,21 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0037-verde-jade.webp",
-      "updatedAt": "2026-06-08T15:23"
+      "updatedAt": "2026-06-16T10:14"
+    },
+    {
+      "id": "mq5nsc5z631l5xzm26k",
+      "inventarioId": "mq5nsc5z631l5xzm26k",
+      "variantKey": "v0037|vestido monaco|vestido largo en tela suplex, con manga asimetrica.|única|vino",
+      "codigo": "v0037",
+      "nombre": "Vestido Monaco",
+      "detalle": "Vestido largo en tela suplex, con manga asimetrica.",
+      "talla": "Única",
+      "color": "Vino",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0037-vino.webp",
+      "updatedAt": "2026-06-16T10:14"
     },
     {
       "id": "mpk2r71662gssw328nc",
@@ -4665,7 +4735,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-lila.webp",
-      "updatedAt": "2026-06-13T10:13"
+      "updatedAt": "2026-06-16T09:54"
     },
     {
       "id": "modjwlnv3gugzk2wc31",
@@ -4679,7 +4749,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-rojo.webp",
-      "updatedAt": "2026-06-13T10:13"
+      "updatedAt": "2026-06-16T09:54"
     },
     {
       "id": "modlzg4ffj6mhiqxm2v",
@@ -4735,7 +4805,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0007-rojo.webp",
-      "updatedAt": "2026-06-16T09:36"
+      "updatedAt": "2026-06-16T09:56"
     },
     {
       "id": "moee7l9o5svt9x6qdsr",
