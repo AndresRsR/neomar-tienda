@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-20T13:10:58.755Z",
-  "totalVariantes": 466,
-  "totalStock": 594,
+  "updatedAt": "2026-06-20T14:23:59.267Z",
+  "totalVariantes": 463,
+  "totalStock": 586,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -1879,21 +1879,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1021-azul-electrico.webp",
-      "updatedAt": "2026-05-31T17:59"
-    },
-    {
-      "id": "mpmto5q5uosl11te3k",
-      "inventarioId": "mpmto5q5uosl11te3k",
-      "variantKey": "e1021|enterizo glam|enterizo con capa de brillos en forma de diamante.|est (m/l)|negro",
-      "codigo": "E1021",
-      "nombre": "Enterizo Glam",
-      "detalle": "Enterizo con capa de brillos en forma de diamante.",
-      "talla": "EST (M/L)",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e1021-negro.webp",
-      "updatedAt": "2026-05-31T17:59"
+      "updatedAt": "2026-06-20T08:18"
     },
     {
       "id": "mpmto5q2p59x2sowgu",
@@ -1907,7 +1893,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1021-rojo.webp",
-      "updatedAt": "2026-05-31T17:59"
+      "updatedAt": "2026-06-20T08:18"
     },
     {
       "id": "mpmto5pyky8dhtc8lvr",
@@ -1921,7 +1907,7 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1021-verde-pino.webp",
-      "updatedAt": "2026-05-31T17:59"
+      "updatedAt": "2026-06-20T08:18"
     },
     {
       "id": "mpudf5ourrgxtnvtxh",
@@ -3514,10 +3500,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 43,
+      "stock": 42,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-06-20T07:28"
+      "updatedAt": "2026-06-20T09:06"
     },
     {
       "id": "mpsjmpvzn7fm3ts1f9b",
@@ -3588,34 +3574,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0024-beige.webp",
       "updatedAt": "2026-06-17T20:26"
-    },
-    {
-      "id": "mqiq4qz50xhk59uxx5cj",
-      "inventarioId": "mqiq4qz50xhk59uxx5cj",
-      "variantKey": "v0042|vestido amanda|vestido jumper floreado, con manga y escote circular|única|blanco/celeste",
-      "codigo": "v0042",
-      "nombre": "Vestido Amanda",
-      "detalle": "Vestido jumper floreado, con manga y escote circular",
-      "talla": "Única",
-      "color": "Blanco/celeste",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0042-blancoceleste.webp",
-      "updatedAt": "2026-06-17T18:50"
-    },
-    {
-      "id": "mqiq4qz8zfyh4pqy8g",
-      "inventarioId": "mqiq4qz8zfyh4pqy8g",
-      "variantKey": "v0042|vestido amanda|vestido jumper floreado, con manga y escote circular|única|blanco/rosa",
-      "codigo": "v0042",
-      "nombre": "Vestido Amanda",
-      "detalle": "Vestido jumper floreado, con manga y escote circular",
-      "talla": "Única",
-      "color": "blanco/rosa",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0042-blancorosa.webp",
-      "updatedAt": "2026-06-17T18:50"
     },
     {
       "id": "mpk3cd0bz92on9yyqme",
@@ -4284,10 +4242,10 @@
       "detalle": "Vestido elegante, escote en V, de tela suplex.",
       "talla": "Única",
       "color": "Verde jade",
-      "stock": 2,
+      "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-verde-jade.webp",
-      "updatedAt": "2026-06-17T20:08"
+      "updatedAt": "2026-06-20T08:49"
     },
     {
       "id": "mqisx5v10fjwkkuu6vbr",
@@ -4298,10 +4256,10 @@
       "detalle": "Vestido elegante, escote en V, de tela suplex.",
       "talla": "Única",
       "color": "Vino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-vino.webp",
-      "updatedAt": "2026-06-17T20:08"
+      "updatedAt": "2026-06-20T08:49"
     },
     {
       "id": "mqiosd3mrw7nr2cbl4b",
@@ -5068,10 +5026,10 @@
       "detalle": "Vestido largo en tela suplex, con fajin de lentejuelas.",
       "talla": "EST (M/L)",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0028-negro.webp",
-      "updatedAt": "2026-06-17T19:53"
+      "updatedAt": "2026-06-20T08:49"
     },
     {
       "id": "mq5k376beusro7lo9ws",
@@ -5110,10 +5068,10 @@
       "detalle": "Vestido largo en tela suplex, con fajin de lentejuelas.",
       "talla": "EST (M/L)",
       "color": "Verde pino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0028-verde-pino.webp",
-      "updatedAt": "2026-06-17T19:53"
+      "updatedAt": "2026-06-20T08:49"
     },
     {
       "id": "mq5k376hqfki33mgn2c",
