@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-20T14:23:59.267Z",
-  "totalVariantes": 463,
-  "totalStock": 586,
+  "updatedAt": "2026-06-20T18:57:42.144Z",
+  "totalVariantes": 446,
+  "totalStock": 551,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -126,10 +126,10 @@
       "detalle": "Blusa diagonal cuello en V, con botones laterales.",
       "talla": "EST (S/M)",
       "color": "PERLA",
-      "stock": 2,
+      "stock": 1,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0002-perla.webp",
-      "updatedAt": "2026-05-23T14:45"
+      "updatedAt": "2026-06-20T13:19"
     },
     {
       "id": "mo8pq6mp7vgor77cwdk",
@@ -420,10 +420,10 @@
       "detalle": "Bolero corto con botones dorados.",
       "talla": "M",
       "color": "Perla",
-      "stock": 2,
+      "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/c0008-perla.webp",
-      "updatedAt": "2026-06-16T12:16"
+      "updatedAt": "2026-06-20T12:49"
     },
     {
       "id": "mqgwlpx2silnqi481l",
@@ -2436,10 +2436,10 @@
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "S",
       "color": "VINO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 20,
       "imagen": "fotos_catalogo/f0004-vino.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-06-20T10:39"
     },
     {
       "id": "modqgc9eqqaozvlxorm",
@@ -3674,20 +3674,6 @@
       "updatedAt": "2026-06-20T05:17"
     },
     {
-      "id": "mqisqtetaqshrrtn63p",
-      "inventarioId": "mqisqtetaqshrrtn63p",
-      "variantKey": "v0036|vestido artemisa|vestido largo, en tela suplex, con nudo a un lado de la cintura.|única|azul",
-      "codigo": "v0036",
-      "nombre": "Vestido Artemisa",
-      "detalle": "Vestido largo, en tela suplex, con nudo a un lado de la cintura.",
-      "talla": "Única",
-      "color": "Azul",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0036-azul.webp",
-      "updatedAt": "2026-06-17T20:03"
-    },
-    {
       "id": "mq5n9rl1i0uss40iq3p",
       "inventarioId": "mq5n9rl1i0uss40iq3p",
       "variantKey": "v0036|vestido artemisa|vestido largo, en tela suplex, con nudo a un lado de la cintura.|única|barney",
@@ -3710,24 +3696,10 @@
       "detalle": "Vestido largo, en tela suplex, con nudo a un lado de la cintura.",
       "talla": "Única",
       "color": "Blanco",
-      "stock": 2,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0036-blanco.webp",
-      "updatedAt": "2026-06-17T20:03"
-    },
-    {
-      "id": "mqisqteq483no4tf0ec",
-      "inventarioId": "mqisqteq483no4tf0ec",
-      "variantKey": "v0036|vestido artemisa|vestido largo, en tela suplex, con nudo a un lado de la cintura.|única|cafe",
-      "codigo": "v0036",
-      "nombre": "Vestido Artemisa",
-      "detalle": "Vestido largo, en tela suplex, con nudo a un lado de la cintura.",
-      "talla": "Única",
-      "color": "Cafe",
       "stock": 1,
       "pvp": 40,
-      "imagen": "fotos_catalogo/v0036-cafe.webp",
-      "updatedAt": "2026-06-17T20:03"
+      "imagen": "fotos_catalogo/v0036-blanco.webp",
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mq5n9rkwxqyxqf4b4y9",
@@ -3738,24 +3710,10 @@
       "detalle": "Vestido largo, en tela suplex, con nudo a un lado de la cintura.",
       "talla": "Única",
       "color": "Negro",
-      "stock": 3,
+      "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0036-negro.webp",
-      "updatedAt": "2026-06-17T20:03"
-    },
-    {
-      "id": "mq5n9rlib54swuh22s",
-      "inventarioId": "mq5n9rlib54swuh22s",
-      "variantKey": "v0036|vestido artemisa|vestido largo, en tela suplex, con nudo a un lado de la cintura.|única|palo de rosa",
-      "codigo": "v0036",
-      "nombre": "Vestido Artemisa",
-      "detalle": "Vestido largo, en tela suplex, con nudo a un lado de la cintura.",
-      "talla": "Única",
-      "color": "Palo de rosa",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0036-palo-de-rosa.webp",
-      "updatedAt": "2026-06-17T20:03"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mq5n9rllwjw5h95007",
@@ -3786,48 +3744,6 @@
       "updatedAt": "2026-06-17T20:03"
     },
     {
-      "id": "mqitthx7uhf9yoxq6qn",
-      "inventarioId": "mqitthx7uhf9yoxq6qn",
-      "variantKey": "v0047|vestido australia|vestido en corte asimetrico, con lentejuelas lateral.|única|beish",
-      "codigo": "v0047",
-      "nombre": "Vestido Australia",
-      "detalle": "Vestido en corte asimetrico, con lentejuelas lateral.",
-      "talla": "Única",
-      "color": "Beish",
-      "stock": 2,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0047-beish.webp",
-      "updatedAt": "2026-06-17T20:33"
-    },
-    {
-      "id": "mqitthx0omsnq9b2zqj",
-      "inventarioId": "mqitthx0omsnq9b2zqj",
-      "variantKey": "v0047|vestido australia|vestido en corte asimetrico, con lentejuelas lateral.|única|negro",
-      "codigo": "v0047",
-      "nombre": "Vestido Australia",
-      "detalle": "Vestido en corte asimetrico, con lentejuelas lateral.",
-      "talla": "Única",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0047-negro.webp",
-      "updatedAt": "2026-06-20T06:55"
-    },
-    {
-      "id": "mqitthx2hzgtpwf1x5v",
-      "inventarioId": "mqitthx2hzgtpwf1x5v",
-      "variantKey": "v0047|vestido australia|vestido en corte asimetrico, con lentejuelas lateral.|única|vino",
-      "codigo": "v0047",
-      "nombre": "Vestido Australia",
-      "detalle": "Vestido en corte asimetrico, con lentejuelas lateral.",
-      "talla": "Única",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0047-vino.webp",
-      "updatedAt": "2026-06-20T06:55"
-    },
-    {
       "id": "mq5nywglu9y4xde4o6",
       "inventarioId": "mq5nywglu9y4xde4o6",
       "variantKey": "v0038|vestido barcelona|vestido largo strapless, con vuelo en el pecho.|única|beige",
@@ -3842,20 +3758,6 @@
       "updatedAt": "2026-06-17T20:04"
     },
     {
-      "id": "mq5nywg7z384fkyo7k8",
-      "inventarioId": "mq5nywg7z384fkyo7k8",
-      "variantKey": "v0038|vestido barcelona|vestido largo strapless, con vuelo en el pecho.|única|celeste",
-      "codigo": "V0038",
-      "nombre": "Vestido Barcelona",
-      "detalle": "Vestido largo strapless, con vuelo en el pecho.",
-      "talla": "Única",
-      "color": "Celeste",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0038-celeste.webp",
-      "updatedAt": "2026-06-17T20:04"
-    },
-    {
       "id": "mq5nywg31eya3wii4re",
       "inventarioId": "mq5nywg31eya3wii4re",
       "variantKey": "v0038|vestido barcelona|vestido largo strapless, con vuelo en el pecho.|única|negro",
@@ -3864,24 +3766,10 @@
       "detalle": "Vestido largo strapless, con vuelo en el pecho.",
       "talla": "Única",
       "color": "Negro",
-      "stock": 2,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0038-negro.webp",
-      "updatedAt": "2026-06-17T20:04"
-    },
-    {
-      "id": "mq5nywgchv43vpqedu",
-      "inventarioId": "mq5nywgchv43vpqedu",
-      "variantKey": "v0038|vestido barcelona|vestido largo strapless, con vuelo en el pecho.|única|rojo",
-      "codigo": "V0038",
-      "nombre": "Vestido Barcelona",
-      "detalle": "Vestido largo strapless, con vuelo en el pecho.",
-      "talla": "Única",
-      "color": "Rojo",
       "stock": 1,
       "pvp": 40,
-      "imagen": "fotos_catalogo/v0038-rojo.webp",
-      "updatedAt": "2026-06-08T15:29"
+      "imagen": "fotos_catalogo/v0038-negro.webp",
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mq5nywggu50au1qzglj",
@@ -3898,20 +3786,6 @@
       "updatedAt": "2026-06-17T20:04"
     },
     {
-      "id": "mq5nywgsj7qvzxar2bi",
-      "inventarioId": "mq5nywgsj7qvzxar2bi",
-      "variantKey": "v0038|vestido barcelona|vestido largo strapless, con vuelo en el pecho.|única|verde jade",
-      "codigo": "V0038",
-      "nombre": "Vestido Barcelona",
-      "detalle": "Vestido largo strapless, con vuelo en el pecho.",
-      "talla": "Única",
-      "color": "Verde jade",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0038-verde-jade.webp",
-      "updatedAt": "2026-06-17T20:04"
-    },
-    {
       "id": "mq5nywgpkfedkm5872h",
       "inventarioId": "mq5nywgpkfedkm5872h",
       "variantKey": "v0038|vestido barcelona|vestido largo strapless, con vuelo en el pecho.|única|vino",
@@ -3920,10 +3794,10 @@
       "detalle": "Vestido largo strapless, con vuelo en el pecho.",
       "talla": "Única",
       "color": "Vino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0038-vino.webp",
-      "updatedAt": "2026-06-17T20:04"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mqis34bbhdmwke50opj",
@@ -4144,10 +4018,10 @@
       "detalle": "Vestido en manga asimetrica, tela premium brillosa.",
       "talla": "EST (S/M)",
       "color": "Rojo",
-      "stock": 2,
+      "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0026-rojo.webp",
-      "updatedAt": "2026-06-12T14:30"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mq5jmnavvukuhddgib",
@@ -4158,24 +4032,10 @@
       "detalle": "Vestido en manga asimetrica, tela premium brillosa.",
       "talla": "EST (S/M)",
       "color": "Vino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0026-vino.webp",
-      "updatedAt": "2026-06-12T14:30"
-    },
-    {
-      "id": "mqisx5v30phl5p1j1g0n",
-      "inventarioId": "mqisx5v30phl5p1j1g0n",
-      "variantKey": "v0044|vestido britney|vestido elegante, escote en v, de tela suplex.|única|azul",
-      "codigo": "v0044",
-      "nombre": "Vestido Britney",
-      "detalle": "Vestido elegante, escote en V, de tela suplex.",
-      "talla": "Única",
-      "color": "Azul",
-      "stock": 1,
-      "pvp": 42,
-      "imagen": "fotos_catalogo/v0044-azul.webp",
-      "updatedAt": "2026-06-17T20:08"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mqisx5uyqxkjbcb5eqi",
@@ -4186,10 +4046,10 @@
       "detalle": "Vestido elegante, escote en V, de tela suplex.",
       "talla": "Única",
       "color": "Azul noche",
-      "stock": 2,
+      "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-azul-noche.webp",
-      "updatedAt": "2026-06-17T20:08"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mqisx5uq2uix9eqnk5r",
@@ -4200,10 +4060,10 @@
       "detalle": "Vestido elegante, escote en V, de tela suplex.",
       "talla": "Única",
       "color": "Blanco",
-      "stock": 2,
+      "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-blanco.webp",
-      "updatedAt": "2026-06-17T20:08"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mqisx5uuwx0ac6lpt8",
@@ -4214,10 +4074,10 @@
       "detalle": "Vestido elegante, escote en V, de tela suplex.",
       "talla": "Única",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-negro.webp",
-      "updatedAt": "2026-06-17T20:08"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mqisx5uwqteq7ewaxy",
@@ -4232,34 +4092,6 @@
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-rojo.webp",
       "updatedAt": "2026-06-17T20:08"
-    },
-    {
-      "id": "mqisx5v0ujqoqx3ulz",
-      "inventarioId": "mqisx5v0ujqoqx3ulz",
-      "variantKey": "v0044|vestido britney|vestido elegante, escote en v, de tela suplex.|única|verde jade",
-      "codigo": "v0044",
-      "nombre": "Vestido Britney",
-      "detalle": "Vestido elegante, escote en V, de tela suplex.",
-      "talla": "Única",
-      "color": "Verde jade",
-      "stock": 1,
-      "pvp": 42,
-      "imagen": "fotos_catalogo/v0044-verde-jade.webp",
-      "updatedAt": "2026-06-20T08:49"
-    },
-    {
-      "id": "mqisx5v10fjwkkuu6vbr",
-      "inventarioId": "mqisx5v10fjwkkuu6vbr",
-      "variantKey": "v0044|vestido britney|vestido elegante, escote en v, de tela suplex.|única|vino",
-      "codigo": "v0044",
-      "nombre": "Vestido Britney",
-      "detalle": "Vestido elegante, escote en V, de tela suplex.",
-      "talla": "Única",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 42,
-      "imagen": "fotos_catalogo/v0044-vino.webp",
-      "updatedAt": "2026-06-20T08:49"
     },
     {
       "id": "mqiosd3mrw7nr2cbl4b",
@@ -4326,10 +4158,10 @@
       "detalle": "Vestido en tela lomas, con manga larga y abertura.",
       "talla": "EST (S/M)",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0027-negro.webp",
-      "updatedAt": "2026-06-17T19:00"
+      "updatedAt": "2026-06-20T09:54"
     },
     {
       "id": "mq5juzdrmsql0lvfhvc",
@@ -4690,10 +4522,10 @@
       "detalle": "Vestido en tela lomas, con tres lazos en la cadera.",
       "talla": "EST (S/M)",
       "color": "Blanco",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-blanco.webp",
-      "updatedAt": "2026-06-17T20:24"
+      "updatedAt": "2026-06-20T12:49"
     },
     {
       "id": "mpspnsoarxifavjshla",
@@ -4945,7 +4777,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0022-blanco.webp",
-      "updatedAt": "2026-06-19T17:28"
+      "updatedAt": "2026-06-20T11:47"
     },
     {
       "id": "mq5ky9s0smbbirircal",
@@ -4987,7 +4819,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0022-rosado.webp",
-      "updatedAt": "2026-06-19T17:28"
+      "updatedAt": "2026-06-20T11:47"
     },
     {
       "id": "mq5ky9s5wrnc60hkql",
@@ -5001,7 +4833,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0022-vino.webp",
-      "updatedAt": "2026-06-19T17:28"
+      "updatedAt": "2026-06-20T11:47"
     },
     {
       "id": "mq5k376ar4vr53pdt5",
@@ -5012,24 +4844,10 @@
       "detalle": "Vestido largo en tela suplex, con fajin de lentejuelas.",
       "talla": "EST (M/L)",
       "color": "Beish",
-      "stock": 2,
-      "pvp": 45,
-      "imagen": "fotos_catalogo/v0028-beish.webp",
-      "updatedAt": "2026-06-17T19:53"
-    },
-    {
-      "id": "mq5k3766kga89v4a27k",
-      "inventarioId": "mq5k3766kga89v4a27k",
-      "variantKey": "v0028|vestido londres|vestido largo en tela suplex, con fajin de lentejuelas.|est (m/l)|negro",
-      "codigo": "v0028",
-      "nombre": "Vestido Londres",
-      "detalle": "Vestido largo en tela suplex, con fajin de lentejuelas.",
-      "talla": "EST (M/L)",
-      "color": "Negro",
       "stock": 1,
       "pvp": 45,
-      "imagen": "fotos_catalogo/v0028-negro.webp",
-      "updatedAt": "2026-06-20T08:49"
+      "imagen": "fotos_catalogo/v0028-beish.webp",
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mq5k376beusro7lo9ws",
@@ -5044,20 +4862,6 @@
       "pvp": 45,
       "imagen": "fotos_catalogo/v0028-rojo.webp",
       "updatedAt": "2026-06-08T13:40"
-    },
-    {
-      "id": "mqiseahyaqdndc3rj7j",
-      "inventarioId": "mqiseahyaqdndc3rj7j",
-      "variantKey": "v0028|vestido londres|vestido largo en tela suplex, con fajin de lentejuelas.|est (m/l)|verde jade",
-      "codigo": "v0028",
-      "nombre": "Vestido Londres",
-      "detalle": "Vestido largo en tela suplex, con fajin de lentejuelas.",
-      "talla": "EST (M/L)",
-      "color": "Verde jade",
-      "stock": 1,
-      "pvp": 45,
-      "imagen": "fotos_catalogo/v0028-verde-jade.webp",
-      "updatedAt": "2026-06-17T19:53"
     },
     {
       "id": "mq5k376ed6pc1by45mr",
@@ -5082,10 +4886,10 @@
       "detalle": "Vestido largo en tela suplex, con fajin de lentejuelas.",
       "talla": "EST (M/L)",
       "color": "Vino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0028-vino.webp",
-      "updatedAt": "2026-06-17T19:53"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mqita250dcp2ofpbom",
@@ -5127,7 +4931,7 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-perla.webp",
-      "updatedAt": "2026-06-19T17:28"
+      "updatedAt": "2026-06-20T11:47"
     },
     {
       "id": "mqita252onygm0n74b9",
@@ -5144,34 +4948,6 @@
       "updatedAt": "2026-06-17T20:18"
     },
     {
-      "id": "mq5mu2xrtbdjnj93df",
-      "inventarioId": "mq5mu2xrtbdjnj93df",
-      "variantKey": "v0035|vestido maldivas|vestido en tela suplex, asimetrico con capa lateral.|única|azul electrico",
-      "codigo": "v0035",
-      "nombre": "Vestido Maldivas",
-      "detalle": "Vestido en tela suplex, asimetrico con capa lateral.",
-      "talla": "Única",
-      "color": "Azul electrico",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0035-azul-electrico.webp",
-      "updatedAt": "2026-06-08T14:57"
-    },
-    {
-      "id": "mq5mu2xzo7plvj2td5q",
-      "inventarioId": "mq5mu2xzo7plvj2td5q",
-      "variantKey": "v0035|vestido maldivas|vestido en tela suplex, asimetrico con capa lateral.|única|beish",
-      "codigo": "v0035",
-      "nombre": "Vestido Maldivas",
-      "detalle": "Vestido en tela suplex, asimetrico con capa lateral.",
-      "talla": "Única",
-      "color": "Beish",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0035-beish.webp",
-      "updatedAt": "2026-06-08T14:57"
-    },
-    {
       "id": "mq5mu2xmrl7p0idu9m",
       "inventarioId": "mq5mu2xmrl7p0idu9m",
       "variantKey": "v0035|vestido maldivas|vestido en tela suplex, asimetrico con capa lateral.|única|negro",
@@ -5180,10 +4956,10 @@
       "detalle": "Vestido en tela suplex, asimetrico con capa lateral.",
       "talla": "Única",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0035-negro.webp",
-      "updatedAt": "2026-06-08T14:57"
+      "updatedAt": "2026-06-20T12:25"
     },
     {
       "id": "mq5mu2xhtxjyq59rihl",
@@ -5211,20 +4987,6 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0035-rosado.webp",
-      "updatedAt": "2026-06-08T14:57"
-    },
-    {
-      "id": "mq5mu2y2rjyja69b2hc",
-      "inventarioId": "mq5mu2y2rjyja69b2hc",
-      "variantKey": "v0035|vestido maldivas|vestido en tela suplex, asimetrico con capa lateral.|única|uva",
-      "codigo": "v0035",
-      "nombre": "Vestido Maldivas",
-      "detalle": "Vestido en tela suplex, asimetrico con capa lateral.",
-      "talla": "Única",
-      "color": "Uva",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0035-uva.webp",
       "updatedAt": "2026-06-08T14:57"
     },
     {
