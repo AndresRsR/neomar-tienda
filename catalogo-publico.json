@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-23T19:23:47.786Z",
-  "totalVariantes": 436,
-  "totalStock": 529,
+  "updatedAt": "2026-06-26T18:35:08.539Z",
+  "totalVariantes": 428,
+  "totalStock": 516,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -396,20 +396,6 @@
       "pvp": 22,
       "imagen": "fotos_catalogo/b2920-negro.webp",
       "updatedAt": "2026-05-23T11:47"
-    },
-    {
-      "id": "moddj2njl6lb1ebycp",
-      "inventarioId": "moddj2njl6lb1ebycp",
-      "variantKey": "b2920|blusa zara|blusa tela lona en v con broche/dije|est (m/l)|vino",
-      "codigo": "B2920",
-      "nombre": "BLUSA ZARA",
-      "detalle": "BLUSA TELA LONA EN V CON BROCHE/DIJE",
-      "talla": "EST (M/L)",
-      "color": "VINO",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/b2920-vino.webp",
-      "updatedAt": "2026-05-29T11:08"
     },
     {
       "id": "mqgwlpx2silnqi481l",
@@ -1406,20 +1392,6 @@
       "updatedAt": "2026-05-24T11:32"
     },
     {
-      "id": "mpjzwwttrourp55sv",
-      "inventarioId": "mpjzwwttrourp55sv",
-      "variantKey": "b0007|corset sofia|blusa corset con manga larga gaza.|est (s/m)|cafe",
-      "codigo": "b0007",
-      "nombre": "Corset Sofia",
-      "detalle": "Blusa corset con manga larga gaza.",
-      "talla": "EST (S/M)",
-      "color": "Cafe",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/b0007-cafe.webp",
-      "updatedAt": "2026-05-24T11:32"
-    },
-    {
       "id": "mpjzwwtp7ye5cuyyv2",
       "inventarioId": "mpjzwwtp7ye5cuyyv2",
       "variantKey": "b0007|corset sofia|blusa corset con manga larga gaza.|est (s/m)|negro",
@@ -1823,20 +1795,6 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2056-azul-noche.webp",
-      "updatedAt": "2026-06-21T16:58"
-    },
-    {
-      "id": "mqobwomuu7fqap9ryxa",
-      "inventarioId": "mqobwomuu7fqap9ryxa",
-      "variantKey": "e2056|enterizo buttom|enterizo de tirantes, con boton frontal.|única|beish",
-      "codigo": "E2056",
-      "nombre": "Enterizo Buttom",
-      "detalle": "Enterizo de tirantes, con boton frontal.",
-      "talla": "Única",
-      "color": "Beish",
-      "stock": 2,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2056-beish.webp",
       "updatedAt": "2026-06-21T16:58"
     },
     {
@@ -2646,10 +2604,10 @@
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "CAPUCHINO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 20,
       "imagen": "fotos_catalogo/f0005-capuchino.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-06-26T11:13"
     },
     {
       "id": "modqgc9e3g15qi61foy",
@@ -3374,10 +3332,10 @@
       "detalle": "PANTALON CINTURON CHINO CINTURON",
       "talla": "L",
       "color": "NEGRO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 23,
       "imagen": "fotos_catalogo/p2266-negro.webp",
-      "updatedAt": "2026-05-23T10:30"
+      "updatedAt": "2026-06-26T10:53"
     },
     {
       "id": "mo99j7w6nf4mlecb5i",
@@ -3464,20 +3422,6 @@
       "updatedAt": "2026-06-06T11:20"
     },
     {
-      "id": "mpk1z2g408kwcoupml4t",
-      "inventarioId": "mpk1z2g408kwcoupml4t",
-      "variantKey": "c0005|pilot jacket|chaqueta con cierre y correa, croptop estilo rider croptop.|s|camel",
-      "codigo": "C0005",
-      "nombre": "Pilot Jacket",
-      "detalle": "Chaqueta con cierre y correa, croptop estilo rider croptop.",
-      "talla": "S",
-      "color": "camel",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/c0005-camel.webp",
-      "updatedAt": "2026-06-06T11:20"
-    },
-    {
       "id": "mpk1z2g5hxndgvgc84",
       "inventarioId": "mpk1z2g5hxndgvgc84",
       "variantKey": "c0005|pilot jacket|chaqueta con cierre y correa, croptop estilo rider croptop.|m|negro",
@@ -3556,10 +3500,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 37,
+      "stock": 35,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-06-23T05:46"
+      "updatedAt": "2026-06-26T13:33"
     },
     {
       "id": "mpsjmpvzn7fm3ts1f9b",
@@ -4822,20 +4766,6 @@
       "updatedAt": "2026-06-23T08:25"
     },
     {
-      "id": "mq5ky9s5wrnc60hkql",
-      "inventarioId": "mq5ky9s5wrnc60hkql",
-      "variantKey": "v0022|vestido lady|vestido en tela lomas dos piezas, con capa superior.|est (s/m)|vino",
-      "codigo": "v0022",
-      "nombre": "Vestido Lady",
-      "detalle": "Vestido en tela lomas dos piezas, con capa superior.",
-      "talla": "EST (S/M)",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0022-vino.webp",
-      "updatedAt": "2026-06-23T08:25"
-    },
-    {
       "id": "mq5k376ar4vr53pdt5",
       "inventarioId": "mq5k376ar4vr53pdt5",
       "variantKey": "v0028|vestido londres|vestido largo en tela suplex, con fajin de lentejuelas.|est (m/l)|beish",
@@ -5424,20 +5354,6 @@
       "updatedAt": "2026-06-17T18:22"
     },
     {
-      "id": "mpk41zitlsn8311duac",
-      "inventarioId": "mpk41zitlsn8311duac",
-      "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|perla",
-      "codigo": "v0018",
-      "nombre": "Vestido Rose",
-      "detalle": "Vestido jumper, estilo corset con flor en pecho.",
-      "talla": "EST (S/M)",
-      "color": "Perla",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0018-perla.webp",
-      "updatedAt": "2026-06-20T16:24"
-    },
-    {
       "id": "mpk41ziq5bs7or6iu4o",
       "inventarioId": "mpk41ziq5bs7or6iu4o",
       "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|rojo",
@@ -5716,34 +5632,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0012-palo-de-rosa.webp",
       "updatedAt": "2026-05-23T14:49"
-    },
-    {
-      "id": "mqob58otkr3wiau0yro",
-      "inventarioId": "mqob58otkr3wiau0yro",
-      "variantKey": "v0048|vestido solange|vestido largo en tela suplex con collar metalico en cuello|única|azul noche",
-      "codigo": "v0048",
-      "nombre": "Vestido Solange",
-      "detalle": "Vestido largo en tela suplex con collar metalico en cuello",
-      "talla": "Única",
-      "color": "Azul noche",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0048-azul-noche.webp",
-      "updatedAt": "2026-06-21T16:37"
-    },
-    {
-      "id": "mqob58p2yl35b30bgvm",
-      "inventarioId": "mqob58p2yl35b30bgvm",
-      "variantKey": "v0048|vestido solange|vestido largo en tela suplex con collar metalico en cuello|única|rojo",
-      "codigo": "v0048",
-      "nombre": "Vestido Solange",
-      "detalle": "Vestido largo en tela suplex con collar metalico en cuello",
-      "talla": "Única",
-      "color": "Rojo",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0048-rojo.webp",
-      "updatedAt": "2026-06-21T16:37"
     },
     {
       "id": "mq5mbsbk34a15898nns",
