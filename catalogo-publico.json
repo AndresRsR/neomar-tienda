@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-06-26T18:35:08.539Z",
-  "totalVariantes": 428,
-  "totalStock": 516,
+  "updatedAt": "2026-06-30T12:58:24.908Z",
+  "totalVariantes": 457,
+  "totalStock": 565,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -396,6 +396,90 @@
       "pvp": 22,
       "imagen": "fotos_catalogo/b2920-negro.webp",
       "updatedAt": "2026-05-23T11:47"
+    },
+    {
+      "id": "mr0lz5mfc3czedwfvom",
+      "inventarioId": "mr0lz5mfc3czedwfvom",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|m|beish claro",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "M",
+      "color": "Beish claro",
+      "stock": 2,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/c0008-beish-claro.webp",
+      "updatedAt": "2026-06-30T07:14"
+    },
+    {
+      "id": "mr0lz5lzwzcxunh8ag",
+      "inventarioId": "mr0lz5lzwzcxunh8ag",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|s|beish claro",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "S",
+      "color": "Beish claro",
+      "stock": 2,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/c0008-beish-claro.webp",
+      "updatedAt": "2026-06-30T07:14"
+    },
+    {
+      "id": "mr0lz5mnrptw8a20v8j",
+      "inventarioId": "mr0lz5mnrptw8a20v8j",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|m|beish oscuro",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "M",
+      "color": "Beish oscuro",
+      "stock": 1,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/c0008-beish-oscuro.webp",
+      "updatedAt": "2026-06-30T07:14"
+    },
+    {
+      "id": "mr0lz5m6v0jknpnq5x",
+      "inventarioId": "mr0lz5m6v0jknpnq5x",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|s|beish oscuro",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "S",
+      "color": "Beish oscuro",
+      "stock": 1,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/c0008-beish-oscuro.webp",
+      "updatedAt": "2026-06-30T07:14"
+    },
+    {
+      "id": "mr0lz5mb52a2xabcpb3",
+      "inventarioId": "mr0lz5mb52a2xabcpb3",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|m|negro",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "M",
+      "color": "negro",
+      "stock": 2,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/c0008-negro.webp",
+      "updatedAt": "2026-06-30T07:14"
+    },
+    {
+      "id": "mr0lz5ltyiumdfyebae",
+      "inventarioId": "mr0lz5ltyiumdfyebae",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|s|negro",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "S",
+      "color": "Negro",
+      "stock": 2,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/c0008-negro.webp",
+      "updatedAt": "2026-06-30T07:14"
     },
     {
       "id": "mqgwlpx2silnqi481l",
@@ -916,6 +1000,76 @@
       "updatedAt": "2026-05-23T05:54"
     },
     {
+      "id": "mqwshrxnybgprj5qzh",
+      "inventarioId": "mqwshrxnybgprj5qzh",
+      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|l|blanco",
+      "codigo": "C0009",
+      "nombre": "Chaqueta Miranda",
+      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
+      "talla": "L",
+      "color": "Blanco",
+      "stock": 1,
+      "pvp": 26,
+      "imagen": "fotos_catalogo/c0009-blanco.webp",
+      "updatedAt": "2026-06-27T15:05"
+    },
+    {
+      "id": "mqwshrxbj108a8oq5v9",
+      "inventarioId": "mqwshrxbj108a8oq5v9",
+      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|s|blanco",
+      "codigo": "C0009",
+      "nombre": "Chaqueta Miranda",
+      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
+      "talla": "S",
+      "color": "Blanco",
+      "stock": 1,
+      "pvp": 26,
+      "imagen": "fotos_catalogo/c0009-blanco.webp",
+      "updatedAt": "2026-06-27T15:05"
+    },
+    {
+      "id": "mqwshrxibbge425cnrr",
+      "inventarioId": "mqwshrxibbge425cnrr",
+      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|l|negro",
+      "codigo": "C0009",
+      "nombre": "Chaqueta Miranda",
+      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
+      "talla": "L",
+      "color": "Negro",
+      "stock": 1,
+      "pvp": 26,
+      "imagen": "fotos_catalogo/c0009-negro.webp",
+      "updatedAt": "2026-06-27T15:05"
+    },
+    {
+      "id": "mqwshrxt8c5b49e2x17",
+      "inventarioId": "mqwshrxt8c5b49e2x17",
+      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|m|negro",
+      "codigo": "C0009",
+      "nombre": "Chaqueta Miranda",
+      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
+      "talla": "M",
+      "color": "Negro",
+      "stock": 1,
+      "pvp": 26,
+      "imagen": "fotos_catalogo/c0009-negro.webp",
+      "updatedAt": "2026-06-27T15:05"
+    },
+    {
+      "id": "mqgwoanhsv3wb6jlllj",
+      "inventarioId": "mqgwoanhsv3wb6jlllj",
+      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|s|negro",
+      "codigo": "C0009",
+      "nombre": "Chaqueta Miranda",
+      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
+      "talla": "S",
+      "color": "Negro",
+      "stock": 1,
+      "pvp": 26,
+      "imagen": "fotos_catalogo/c0009-negro.webp",
+      "updatedAt": "2026-06-27T15:05"
+    },
+    {
       "id": "moevpwafkcb3lzoheze",
       "inventarioId": "moevpwafkcb3lzoheze",
       "variantKey": "c0003|chaqueta rider|chaqueta clasica estilo rider, cuerina estilo cocodrilo.|única|negro",
@@ -1362,20 +1516,6 @@
       "pvp": 16,
       "imagen": "fotos_catalogo/b0003-blancoverde-oliva.webp",
       "updatedAt": "2026-05-14T19:25"
-    },
-    {
-      "id": "mpjzwwtsq41atdznban",
-      "inventarioId": "mpjzwwtsq41atdznban",
-      "variantKey": "b0007|corset sofia|blusa corset con manga larga gaza.|est (s/m)|beige",
-      "codigo": "b0007",
-      "nombre": "Corset Sofia",
-      "detalle": "Blusa corset con manga larga gaza.",
-      "talla": "EST (S/M)",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/b0007-beige.webp",
-      "updatedAt": "2026-05-24T11:32"
     },
     {
       "id": "mpjzwwtupuxpync5vj",
@@ -1868,20 +2008,6 @@
       "updatedAt": "2026-06-21T16:58"
     },
     {
-      "id": "mqobwomwpwn849c1nho",
-      "inventarioId": "mqobwomwpwn849c1nho",
-      "variantKey": "e2056|enterizo buttom|enterizo de tirantes, con boton frontal.|única|vino",
-      "codigo": "E2056",
-      "nombre": "Enterizo Buttom",
-      "detalle": "Enterizo de tirantes, con boton frontal.",
-      "talla": "Única",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/e2056-vino.webp",
-      "updatedAt": "2026-06-23T13:33"
-    },
-    {
       "id": "mpmto5pw901ikq9wgit",
       "inventarioId": "mpmto5pw901ikq9wgit",
       "variantKey": "e1021|enterizo glam|enterizo con capa de brillos en forma de diamante.|est (m/l)|azul electrico",
@@ -2341,20 +2467,6 @@
       "stock": 1,
       "pvp": 20,
       "imagen": "fotos_catalogo/f0004-mostaza.webp",
-      "updatedAt": "2026-05-16T16:58"
-    },
-    {
-      "id": "modprjtg9luhxlc61u",
-      "inventarioId": "modprjtg9luhxlc61u",
-      "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|l|negro",
-      "codigo": "F0004",
-      "nombre": "FALDA KAROL",
-      "detalle": "Falda short recta en tela loma, con abertura.",
-      "talla": "L",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0004-negro.webp",
       "updatedAt": "2026-05-16T16:58"
     },
     {
@@ -3248,10 +3360,10 @@
       "detalle": "Bolero manga larga estilo coreana de lana.",
       "talla": "Única",
       "color": "Perla",
-      "stock": 2,
+      "stock": 1,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0010-perla.webp",
-      "updatedAt": "2026-06-19T16:29"
+      "updatedAt": "2026-06-28T14:14"
     },
     {
       "id": "mo9a1cppl43m25nbg6",
@@ -3364,20 +3476,6 @@
       "pvp": 23,
       "imagen": "fotos_catalogo/m030-blanco.webp",
       "updatedAt": ""
-    },
-    {
-      "id": "mo99j7w6mlmzliafcwi",
-      "inventarioId": "mo99j7w6mlmzliafcwi",
-      "variantKey": "m030|pantalon jessie|pantalon con cinturon doble evilla|s|negro",
-      "codigo": "M030",
-      "nombre": "PANTALON JESSIE",
-      "detalle": "Pantalon con cinturon doble evilla",
-      "talla": "S",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 23,
-      "imagen": "fotos_catalogo/m030-negro.webp",
-      "updatedAt": "2026-05-16T13:50"
     },
     {
       "id": "mo92ilkaisi11h70rio",
@@ -3500,10 +3598,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 35,
+      "stock": 31,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-06-26T13:33"
+      "updatedAt": "2026-06-28T17:44"
     },
     {
       "id": "mpsjmpvzn7fm3ts1f9b",
@@ -3646,6 +3744,34 @@
       "updatedAt": "2026-06-13T08:12"
     },
     {
+      "id": "mq5ksgq8hwvlahac2qh",
+      "inventarioId": "mq5ksgq8hwvlahac2qh",
+      "variantKey": "v0030|vestido arleth manga|vestido en tela lomas, con manga y lazos en la cadera|est (s/m)|beish",
+      "codigo": "v0030",
+      "nombre": "Vestido Arleth Manga",
+      "detalle": "Vestido en tela lomas, con manga y lazos en la cadera",
+      "talla": "EST (S/M)",
+      "color": "Beish",
+      "stock": 3,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0030-beish.webp",
+      "updatedAt": "2026-06-29T22:39"
+    },
+    {
+      "id": "mq5ksgpvx4ofiyt2ya9",
+      "inventarioId": "mq5ksgpvx4ofiyt2ya9",
+      "variantKey": "v0030|vestido arleth manga|vestido en tela lomas, con manga y lazos en la cadera|est (s/m)|blanco",
+      "codigo": "v0030",
+      "nombre": "Vestido Arleth Manga",
+      "detalle": "Vestido en tela lomas, con manga y lazos en la cadera",
+      "talla": "EST (S/M)",
+      "color": "Blanco",
+      "stock": 2,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0030-blanco.webp",
+      "updatedAt": "2026-06-29T22:39"
+    },
+    {
       "id": "mqitf51ijcjx9mte5",
       "inventarioId": "mqitf51ijcjx9mte5",
       "variantKey": "v0030|vestido arleth manga|vestido en tela lomas, con manga y lazos en la cadera|est (s/m)|celeste",
@@ -3668,10 +3794,38 @@
       "detalle": "Vestido en tela lomas, con manga y lazos en la cadera",
       "talla": "EST (S/M)",
       "color": "Negro",
-      "stock": 1,
+      "stock": 3,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0030-negro.webp",
-      "updatedAt": "2026-06-20T05:17"
+      "updatedAt": "2026-06-29T22:39"
+    },
+    {
+      "id": "mr03lbi4nj8u1a83zdj",
+      "inventarioId": "mr03lbi4nj8u1a83zdj",
+      "variantKey": "v0030|vestido arleth manga|vestido en tela lomas, con manga y lazos en la cadera|est (s/m)|rosado",
+      "codigo": "v0030",
+      "nombre": "Vestido Arleth Manga",
+      "detalle": "Vestido en tela lomas, con manga y lazos en la cadera",
+      "talla": "EST (S/M)",
+      "color": "Rosado",
+      "stock": 2,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0030-rosado.webp",
+      "updatedAt": "2026-06-29T22:39"
+    },
+    {
+      "id": "mq5ksgq0fde35plmu84",
+      "inventarioId": "mq5ksgq0fde35plmu84",
+      "variantKey": "v0030|vestido arleth manga|vestido en tela lomas, con manga y lazos en la cadera|est (s/m)|vino",
+      "codigo": "v0030",
+      "nombre": "Vestido Arleth Manga",
+      "detalle": "Vestido en tela lomas, con manga y lazos en la cadera",
+      "talla": "EST (S/M)",
+      "color": "Vino",
+      "stock": 2,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0030-vino.webp",
+      "updatedAt": "2026-06-29T22:39"
     },
     {
       "id": "mq5n9rkwxqyxqf4b4y9",
@@ -3710,10 +3864,80 @@
       "detalle": "Vestido largo, en tela suplex, con nudo a un lado de la cintura.",
       "talla": "Única",
       "color": "Rosado",
-      "stock": 2,
+      "stock": 3,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0036-rosado.webp",
-      "updatedAt": "2026-06-17T20:03"
+      "updatedAt": "2026-06-29T22:41"
+    },
+    {
+      "id": "mr03p39mnkoyq0rer8n",
+      "inventarioId": "mr03p39mnkoyq0rer8n",
+      "variantKey": "v0047|vestido australia|vestido en corte asimetrico, con lentejuelas lateral.|única|cafe",
+      "codigo": "v0047",
+      "nombre": "Vestido Australia",
+      "detalle": "Vestido en corte asimetrico, con lentejuelas lateral.",
+      "talla": "Única",
+      "color": "Cafe",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0047-cafe.webp",
+      "updatedAt": "2026-06-29T22:42"
+    },
+    {
+      "id": "mqitthx0omsnq9b2zqj",
+      "inventarioId": "mqitthx0omsnq9b2zqj",
+      "variantKey": "v0047|vestido australia|vestido en corte asimetrico, con lentejuelas lateral.|única|negro",
+      "codigo": "v0047",
+      "nombre": "Vestido Australia",
+      "detalle": "Vestido en corte asimetrico, con lentejuelas lateral.",
+      "talla": "Única",
+      "color": "Negro",
+      "stock": 2,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0047-negro.webp",
+      "updatedAt": "2026-06-29T22:42"
+    },
+    {
+      "id": "mqiu1t04be61zwrdpo",
+      "inventarioId": "mqiu1t04be61zwrdpo",
+      "variantKey": "v0047|vestido australia|vestido en corte asimetrico, con lentejuelas lateral.|única|rojo",
+      "codigo": "v0047",
+      "nombre": "Vestido Australia",
+      "detalle": "Vestido en corte asimetrico, con lentejuelas lateral.",
+      "talla": "Única",
+      "color": "Rojo",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0047-rojo.webp",
+      "updatedAt": "2026-06-29T22:42"
+    },
+    {
+      "id": "mqitthx5t6sf68r5jzc",
+      "inventarioId": "mqitthx5t6sf68r5jzc",
+      "variantKey": "v0047|vestido australia|vestido en corte asimetrico, con lentejuelas lateral.|única|verde pino",
+      "codigo": "v0047",
+      "nombre": "Vestido Australia",
+      "detalle": "Vestido en corte asimetrico, con lentejuelas lateral.",
+      "talla": "Única",
+      "color": "Verde pino",
+      "stock": 2,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0047-verde-pino.webp",
+      "updatedAt": "2026-06-29T22:42"
+    },
+    {
+      "id": "mqitthx2hzgtpwf1x5v",
+      "inventarioId": "mqitthx2hzgtpwf1x5v",
+      "variantKey": "v0047|vestido australia|vestido en corte asimetrico, con lentejuelas lateral.|única|vino",
+      "codigo": "v0047",
+      "nombre": "Vestido Australia",
+      "detalle": "Vestido en corte asimetrico, con lentejuelas lateral.",
+      "talla": "Única",
+      "color": "Vino",
+      "stock": 2,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0047-vino.webp",
+      "updatedAt": "2026-06-29T22:42"
     },
     {
       "id": "mq5nywglu9y4xde4o6",
@@ -3898,6 +4122,104 @@
       "updatedAt": "2026-06-17T19:45"
     },
     {
+      "id": "mr0j8n0zow8f1loztxc",
+      "inventarioId": "mr0j8n0zow8f1loztxc",
+      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|azul noche",
+      "codigo": "v0051",
+      "nombre": "Vestido Berlin",
+      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
+      "talla": "Única",
+      "color": "Azul noche",
+      "stock": 2,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0051-azul-noche.webp",
+      "updatedAt": "2026-06-30T05:57"
+    },
+    {
+      "id": "mr0j8n0mu1vdsmety2d",
+      "inventarioId": "mr0j8n0mu1vdsmety2d",
+      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|azul rey",
+      "codigo": "v0051",
+      "nombre": "Vestido Berlin",
+      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
+      "talla": "Única",
+      "color": "Azul rey",
+      "stock": 2,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0051-azul-rey.webp",
+      "updatedAt": "2026-06-30T05:57"
+    },
+    {
+      "id": "mr0j8n0trorqkav7rn",
+      "inventarioId": "mr0j8n0trorqkav7rn",
+      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|celeste",
+      "codigo": "v0051",
+      "nombre": "Vestido Berlin",
+      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
+      "talla": "Única",
+      "color": "celeste",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0051-celeste.webp",
+      "updatedAt": "2026-06-30T05:57"
+    },
+    {
+      "id": "mr0j8n1maxfqpkbcxzv",
+      "inventarioId": "mr0j8n1maxfqpkbcxzv",
+      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|ladrillo",
+      "codigo": "v0051",
+      "nombre": "Vestido Berlin",
+      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
+      "talla": "Única",
+      "color": "Ladrillo",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0051-ladrillo.webp",
+      "updatedAt": "2026-06-30T05:57"
+    },
+    {
+      "id": "mr0j8n16q8e7n6m13e",
+      "inventarioId": "mr0j8n16q8e7n6m13e",
+      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|negro",
+      "codigo": "v0051",
+      "nombre": "Vestido Berlin",
+      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
+      "talla": "Única",
+      "color": "Negro",
+      "stock": 2,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0051-negro.webp",
+      "updatedAt": "2026-06-30T05:57"
+    },
+    {
+      "id": "mr0j8n1cqoi8f2ujmsp",
+      "inventarioId": "mr0j8n1cqoi8f2ujmsp",
+      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|rosado",
+      "codigo": "v0051",
+      "nombre": "Vestido Berlin",
+      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
+      "talla": "Única",
+      "color": "Rosado",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0051-rosado.webp",
+      "updatedAt": "2026-06-30T05:57"
+    },
+    {
+      "id": "mr0j8n1h261spw1vkubk",
+      "inventarioId": "mr0j8n1h261spw1vkubk",
+      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|verde jade",
+      "codigo": "v0051",
+      "nombre": "Vestido Berlin",
+      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
+      "talla": "Única",
+      "color": "Verde Jade",
+      "stock": 2,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0051-verde-jade.webp",
+      "updatedAt": "2026-06-30T05:57"
+    },
+    {
       "id": "moeilb7q6qc8hbu79n2",
       "inventarioId": "moeilb7q6qc8hbu79n2",
       "variantKey": "v0014|vestido bethi|vestido en a llano tira ancha|m|crema",
@@ -3923,20 +4245,6 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0031-beish.webp",
-      "updatedAt": "2026-06-08T14:18"
-    },
-    {
-      "id": "mq5lfm1j75wnx2hapv",
-      "inventarioId": "mq5lfm1j75wnx2hapv",
-      "variantKey": "v0031|vestido briela|vestido largo, en tela tul con pañuelo de cuello.|est (m/l)|blanco",
-      "codigo": "v0031",
-      "nombre": "Vestido Briela",
-      "detalle": "Vestido largo, en tela tul con pañuelo de cuello.",
-      "talla": "EST (M/L)",
-      "color": "Blanco",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0031-blanco.webp",
       "updatedAt": "2026-06-08T14:18"
     },
     {
@@ -3982,20 +4290,6 @@
       "updatedAt": "2026-06-20T15:25"
     },
     {
-      "id": "mqisx5uyqxkjbcb5eqi",
-      "inventarioId": "mqisx5uyqxkjbcb5eqi",
-      "variantKey": "v0044|vestido britney|vestido elegante, escote en v, de tela suplex.|única|azul noche",
-      "codigo": "v0044",
-      "nombre": "Vestido Britney",
-      "detalle": "Vestido elegante, escote en V, de tela suplex.",
-      "talla": "Única",
-      "color": "Azul noche",
-      "stock": 1,
-      "pvp": 42,
-      "imagen": "fotos_catalogo/v0044-azul-noche.webp",
-      "updatedAt": "2026-06-20T15:25"
-    },
-    {
       "id": "mqisx5uq2uix9eqnk5r",
       "inventarioId": "mqisx5uq2uix9eqnk5r",
       "variantKey": "v0044|vestido britney|vestido elegante, escote en v, de tela suplex.|única|blanco",
@@ -4036,6 +4330,34 @@
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-rojo.webp",
       "updatedAt": "2026-06-17T20:08"
+    },
+    {
+      "id": "mqisx5v0ujqoqx3ulz",
+      "inventarioId": "mqisx5v0ujqoqx3ulz",
+      "variantKey": "v0044|vestido britney|vestido elegante, escote en v, de tela suplex.|única|verde jade",
+      "codigo": "v0044",
+      "nombre": "Vestido Britney",
+      "detalle": "Vestido elegante, escote en V, de tela suplex.",
+      "talla": "Única",
+      "color": "Verde jade",
+      "stock": 1,
+      "pvp": 42,
+      "imagen": "fotos_catalogo/v0044-verde-jade.webp",
+      "updatedAt": "2026-06-29T22:43"
+    },
+    {
+      "id": "mqisx5v10fjwkkuu6vbr",
+      "inventarioId": "mqisx5v10fjwkkuu6vbr",
+      "variantKey": "v0044|vestido britney|vestido elegante, escote en v, de tela suplex.|única|vino",
+      "codigo": "v0044",
+      "nombre": "Vestido Britney",
+      "detalle": "Vestido elegante, escote en V, de tela suplex.",
+      "talla": "Única",
+      "color": "Vino",
+      "stock": 1,
+      "pvp": 42,
+      "imagen": "fotos_catalogo/v0044-vino.webp",
+      "updatedAt": "2026-06-29T22:43"
     },
     {
       "id": "mqiosd3mrw7nr2cbl4b",
@@ -4570,20 +4892,6 @@
       "updatedAt": "2026-05-30T21:34"
     },
     {
-      "id": "mpspnsom099pom1gbh4e",
-      "inventarioId": "mpspnsom099pom1gbh4e",
-      "variantKey": "v0025|vestido kathe|vestido en tela lomas, con tres lazos en la cadera.|est (s/m)|rosa",
-      "codigo": "v0025",
-      "nombre": "Vestido Kathe",
-      "detalle": "Vestido en tela lomas, con tres lazos en la cadera.",
-      "talla": "EST (S/M)",
-      "color": "Rosa",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0025-rosa.webp",
-      "updatedAt": "2026-06-17T20:24"
-    },
-    {
       "id": "mpspnso1gwxx7n3di7k",
       "inventarioId": "mpspnso1gwxx7n3di7k",
       "variantKey": "v0025|vestido kathe|vestido en tela lomas, con tres lazos en la cadera.|est (s/m)|vino",
@@ -4662,10 +4970,10 @@
       "detalle": "Vestido en tela lomas, corte en A con maga corta",
       "talla": "Única",
       "color": "Beish",
-      "stock": 1,
+      "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-beish.webp",
-      "updatedAt": "2026-06-21T17:26"
+      "updatedAt": "2026-06-29T22:38"
     },
     {
       "id": "mqitpmue7hplo6gb96d",
@@ -4690,10 +4998,24 @@
       "detalle": "Vestido en tela lomas, corte en A con maga corta",
       "talla": "Única",
       "color": "Negro",
-      "stock": 1,
+      "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-negro.webp",
-      "updatedAt": "2026-06-21T17:26"
+      "updatedAt": "2026-06-29T22:38"
+    },
+    {
+      "id": "mqitpmumlkkkxrwb02j",
+      "inventarioId": "mqitpmumlkkkxrwb02j",
+      "variantKey": "v0046|vestido kendra|vestido en tela lomas, corte en a con maga corta|única|perla",
+      "codigo": "v0046",
+      "nombre": "Vestido Kendra",
+      "detalle": "Vestido en tela lomas, corte en A con maga corta",
+      "talla": "Única",
+      "color": "Perla",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0046-perla.webp",
+      "updatedAt": "2026-06-29T22:38"
     },
     {
       "id": "mqitpmuhv7vkth4kzi",
@@ -4718,10 +5040,10 @@
       "detalle": "Vestido en tela lomas, corte en A con maga corta",
       "talla": "Única",
       "color": "Verde pino",
-      "stock": 1,
+      "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-verde-pino.webp",
-      "updatedAt": "2026-06-17T20:30"
+      "updatedAt": "2026-06-29T22:38"
     },
     {
       "id": "mpsjgs9na7ecs1q0zqs",
@@ -4802,10 +5124,10 @@
       "detalle": "Vestido largo en tela suplex, con fajin de lentejuelas.",
       "talla": "EST (M/L)",
       "color": "Verde pino",
-      "stock": 1,
+      "stock": 2,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0028-verde-pino.webp",
-      "updatedAt": "2026-06-20T08:49"
+      "updatedAt": "2026-06-29T22:43"
     },
     {
       "id": "mq5k376hqfki33mgn2c",
@@ -4850,6 +5172,20 @@
       "updatedAt": "2026-06-17T20:18"
     },
     {
+      "id": "mqita25ghur200trdz",
+      "inventarioId": "mqita25ghur200trdz",
+      "variantKey": "v0045|vestido mabel|vestido en tela lomas, strapless con lazo en pecho.|única|negro",
+      "codigo": "V0045",
+      "nombre": "Vestido Mabel",
+      "detalle": "Vestido en tela lomas, strapless con lazo en pecho.",
+      "talla": "Única",
+      "color": "Negro",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0045-negro.webp",
+      "updatedAt": "2026-06-29T22:41"
+    },
+    {
       "id": "mqita25436iybsf4xy3",
       "inventarioId": "mqita25436iybsf4xy3",
       "variantKey": "v0045|vestido mabel|vestido en tela lomas, strapless con lazo en pecho.|única|perla",
@@ -4876,6 +5212,76 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-rojo.webp",
       "updatedAt": "2026-06-17T20:18"
+    },
+    {
+      "id": "mqita25797amjc5v2e",
+      "inventarioId": "mqita25797amjc5v2e",
+      "variantKey": "v0045|vestido mabel|vestido en tela lomas, strapless con lazo en pecho.|única|rosado",
+      "codigo": "V0045",
+      "nombre": "Vestido Mabel",
+      "detalle": "Vestido en tela lomas, strapless con lazo en pecho.",
+      "talla": "Única",
+      "color": "Rosado",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0045-rosado.webp",
+      "updatedAt": "2026-06-29T22:41"
+    },
+    {
+      "id": "mqita25c97gv5ovsaf8",
+      "inventarioId": "mqita25c97gv5ovsaf8",
+      "variantKey": "v0045|vestido mabel|vestido en tela lomas, strapless con lazo en pecho.|única|verde pino",
+      "codigo": "V0045",
+      "nombre": "Vestido Mabel",
+      "detalle": "Vestido en tela lomas, strapless con lazo en pecho.",
+      "talla": "Única",
+      "color": "Verde pino",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0045-verde-pino.webp",
+      "updatedAt": "2026-06-29T22:41"
+    },
+    {
+      "id": "mq5mu2xrtbdjnj93df",
+      "inventarioId": "mq5mu2xrtbdjnj93df",
+      "variantKey": "v0035|vestido maldivas|vestido en tela suplex, asimetrico con capa lateral.|única|azul electrico",
+      "codigo": "v0035",
+      "nombre": "Vestido Maldivas",
+      "detalle": "Vestido en tela suplex, asimetrico con capa lateral.",
+      "talla": "Única",
+      "color": "Azul electrico",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0035-azul-electrico.webp",
+      "updatedAt": "2026-06-29T22:42"
+    },
+    {
+      "id": "mq5mu2xzo7plvj2td5q",
+      "inventarioId": "mq5mu2xzo7plvj2td5q",
+      "variantKey": "v0035|vestido maldivas|vestido en tela suplex, asimetrico con capa lateral.|única|beish",
+      "codigo": "v0035",
+      "nombre": "Vestido Maldivas",
+      "detalle": "Vestido en tela suplex, asimetrico con capa lateral.",
+      "talla": "Única",
+      "color": "Beish",
+      "stock": 2,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0035-beish.webp",
+      "updatedAt": "2026-06-29T22:42"
+    },
+    {
+      "id": "mq5mu2x5py6co9h4qsa",
+      "inventarioId": "mq5mu2x5py6co9h4qsa",
+      "variantKey": "v0035|vestido maldivas|vestido en tela suplex, asimetrico con capa lateral.|única|celeste",
+      "codigo": "v0035",
+      "nombre": "Vestido Maldivas",
+      "detalle": "Vestido en tela suplex, asimetrico con capa lateral.",
+      "talla": "Única",
+      "color": "Celeste",
+      "stock": 1,
+      "pvp": 40,
+      "imagen": "fotos_catalogo/v0035-celeste.webp",
+      "updatedAt": "2026-06-29T22:42"
     },
     {
       "id": "mq5mu2xhtxjyq59rihl",
@@ -5130,20 +5536,6 @@
       "updatedAt": "2026-06-17T18:46"
     },
     {
-      "id": "mqipztcpxtesdk0jbq",
-      "inventarioId": "mqipztcpxtesdk0jbq",
-      "variantKey": "v0041|vestido micaela|vestido jumper de tiras, floreado.|única|rosa/verde",
-      "codigo": "v0041",
-      "nombre": "Vestido Micaela",
-      "detalle": "Vestido Jumper de tiras, floreado.",
-      "talla": "Única",
-      "color": "Rosa/verde",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0041-rosaverde.webp",
-      "updatedAt": "2026-06-17T18:46"
-    },
-    {
       "id": "mqipztcsr3ffr4mc20r",
       "inventarioId": "mqipztcsr3ffr4mc20r",
       "variantKey": "v0041|vestido micaela|vestido jumper de tiras, floreado.|única|verde agua",
@@ -5156,34 +5548,6 @@
       "pvp": 28,
       "imagen": "fotos_catalogo/v0041-verde-agua.webp",
       "updatedAt": "2026-06-17T18:46"
-    },
-    {
-      "id": "mq5nsc6acti473chu3g",
-      "inventarioId": "mq5nsc6acti473chu3g",
-      "variantKey": "v0037|vestido monaco|vestido largo en tela suplex, con manga asimetrica.|única|azul petroleo",
-      "codigo": "v0037",
-      "nombre": "Vestido Monaco",
-      "detalle": "Vestido largo en tela suplex, con manga asimetrica.",
-      "talla": "Única",
-      "color": "Azul petroleo",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0037-azul-petroleo.webp",
-      "updatedAt": "2026-06-23T08:46"
-    },
-    {
-      "id": "mq5nsc5mf0vky4j50p",
-      "inventarioId": "mq5nsc5mf0vky4j50p",
-      "variantKey": "v0037|vestido monaco|vestido largo en tela suplex, con manga asimetrica.|única|negro",
-      "codigo": "v0037",
-      "nombre": "Vestido Monaco",
-      "detalle": "Vestido largo en tela suplex, con manga asimetrica.",
-      "talla": "Única",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0037-negro.webp",
-      "updatedAt": "2026-06-23T07:52"
     },
     {
       "id": "mq5nsc6jmc0yxjl5oy",
@@ -5214,20 +5578,6 @@
       "updatedAt": "2026-06-23T08:46"
     },
     {
-      "id": "mq5nsc5z631l5xzm26k",
-      "inventarioId": "mq5nsc5z631l5xzm26k",
-      "variantKey": "v0037|vestido monaco|vestido largo en tela suplex, con manga asimetrica.|única|vino",
-      "codigo": "v0037",
-      "nombre": "Vestido Monaco",
-      "detalle": "Vestido largo en tela suplex, con manga asimetrica.",
-      "talla": "Única",
-      "color": "Vino",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0037-vino.webp",
-      "updatedAt": "2026-06-23T06:34"
-    },
-    {
       "id": "mpk30smcttrhjpgata",
       "inventarioId": "mpk30smcttrhjpgata",
       "variantKey": "v0016|vestido nataly|vestido 3/4, en tela gaza con abertura en una pierna.|est (m/l)|verde jade",
@@ -5240,6 +5590,90 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0016-verde-jade.webp",
       "updatedAt": "2026-06-08T13:13"
+    },
+    {
+      "id": "mr03iv8w6khhvea3qe2",
+      "inventarioId": "mr03iv8w6khhvea3qe2",
+      "variantKey": "v0050|vestido rachel|vestido tela lomas, corte en a con lazo en la espalda.|única|beige",
+      "codigo": "V0050",
+      "nombre": "Vestido Rachel",
+      "detalle": "Vestido tela lomas, corte en A con lazo en la espalda.",
+      "talla": "Única",
+      "color": "beige",
+      "stock": 2,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0050-beige.webp",
+      "updatedAt": "2026-06-30T05:59"
+    },
+    {
+      "id": "mr03iv8r20kndmty20x",
+      "inventarioId": "mr03iv8r20kndmty20x",
+      "variantKey": "v0050|vestido rachel|vestido tela lomas, corte en a con lazo en la espalda.|única|negro",
+      "codigo": "V0050",
+      "nombre": "Vestido Rachel",
+      "detalle": "Vestido tela lomas, corte en A con lazo en la espalda.",
+      "talla": "Única",
+      "color": "negro",
+      "stock": 2,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0050-negro.webp",
+      "updatedAt": "2026-06-30T05:59"
+    },
+    {
+      "id": "mr03iv87ejm1psm243k",
+      "inventarioId": "mr03iv87ejm1psm243k",
+      "variantKey": "v0050|vestido rachel|vestido tela lomas, corte en a con lazo en la espalda.|única|perla",
+      "codigo": "V0050",
+      "nombre": "Vestido Rachel",
+      "detalle": "Vestido tela lomas, corte en A con lazo en la espalda.",
+      "talla": "Única",
+      "color": "perla",
+      "stock": 2,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0050-perla.webp",
+      "updatedAt": "2026-06-30T05:59"
+    },
+    {
+      "id": "mr03iv8i5xa34r2jmwm",
+      "inventarioId": "mr03iv8i5xa34r2jmwm",
+      "variantKey": "v0050|vestido rachel|vestido tela lomas, corte en a con lazo en la espalda.|única|rosa",
+      "codigo": "V0050",
+      "nombre": "Vestido Rachel",
+      "detalle": "Vestido tela lomas, corte en A con lazo en la espalda.",
+      "talla": "Única",
+      "color": "rosa",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0050-rosa.webp",
+      "updatedAt": "2026-06-30T05:59"
+    },
+    {
+      "id": "mr03iv8be03c2ycboqq",
+      "inventarioId": "mr03iv8be03c2ycboqq",
+      "variantKey": "v0050|vestido rachel|vestido tela lomas, corte en a con lazo en la espalda.|única|verde",
+      "codigo": "V0050",
+      "nombre": "Vestido Rachel",
+      "detalle": "Vestido tela lomas, corte en A con lazo en la espalda.",
+      "talla": "Única",
+      "color": "verde",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0050-verde.webp",
+      "updatedAt": "2026-06-30T05:59"
+    },
+    {
+      "id": "mr03iv91evozr16926m",
+      "inventarioId": "mr03iv91evozr16926m",
+      "variantKey": "v0050|vestido rachel|vestido tela lomas, corte en a con lazo en la espalda.|única|vino",
+      "codigo": "V0050",
+      "nombre": "Vestido Rachel",
+      "detalle": "Vestido tela lomas, corte en A con lazo en la espalda.",
+      "talla": "Única",
+      "color": "vino",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0050-vino.webp",
+      "updatedAt": "2026-06-30T05:59"
     },
     {
       "id": "mqip4wvbay2ooyd2iqn",
@@ -5264,24 +5698,10 @@
       "detalle": "Vestido jumper, estilo corset con flor en pecho.",
       "talla": "EST (S/M)",
       "color": "Beige",
-      "stock": 2,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0018-beige.webp",
-      "updatedAt": "2026-06-17T18:22"
-    },
-    {
-      "id": "mqip4wves1be385p8yj",
-      "inventarioId": "mqip4wves1be385p8yj",
-      "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|celeste",
-      "codigo": "v0018",
-      "nombre": "Vestido Rose",
-      "detalle": "Vestido jumper, estilo corset con flor en pecho.",
-      "talla": "EST (S/M)",
-      "color": "Celeste",
       "stock": 1,
       "pvp": 28,
-      "imagen": "fotos_catalogo/v0018-celeste.webp",
-      "updatedAt": "2026-06-17T18:22"
+      "imagen": "fotos_catalogo/v0018-beige.webp",
+      "updatedAt": "2026-06-27T12:31"
     },
     {
       "id": "mqip4wvhtbuw72mf96e",
@@ -5309,20 +5729,6 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-lila.webp",
-      "updatedAt": "2026-06-17T18:22"
-    },
-    {
-      "id": "mqip4wvmb7e5tdkx927",
-      "inventarioId": "mqip4wvmb7e5tdkx927",
-      "variantKey": "v0018|vestido rose|vestido jumper, estilo corset con flor en pecho.|est (s/m)|melon",
-      "codigo": "v0018",
-      "nombre": "Vestido Rose",
-      "detalle": "Vestido jumper, estilo corset con flor en pecho.",
-      "talla": "EST (S/M)",
-      "color": "Melon",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0018-melon.webp",
       "updatedAt": "2026-06-17T18:22"
     },
     {
@@ -5502,10 +5908,10 @@
       "detalle": "Vesitdo jumper, con manga corta floreado.",
       "talla": "EST (S/M)",
       "color": "negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0019-negro.webp",
-      "updatedAt": "2026-06-17T18:37"
+      "updatedAt": "2026-06-27T11:46"
     },
     {
       "id": "mqipo9dygdudb1pu4o6",
@@ -5858,34 +6264,6 @@
       "updatedAt": "2026-06-08T13:43"
     },
     {
-      "id": "mq5k7qp0puo49bf8lb",
-      "inventarioId": "mq5k7qp0puo49bf8lb",
-      "variantKey": "v0029|vestido turkey|vestido largo tipo corset de tira, floreado.|est (m/l)|rosado",
-      "codigo": "V0029",
-      "nombre": "Vestido Turkey",
-      "detalle": "Vestido largo tipo corset de tira, floreado.",
-      "talla": "EST (M/L)",
-      "color": "Rosado",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0029-rosado.webp",
-      "updatedAt": "2026-06-09T11:57"
-    },
-    {
-      "id": "modjwlnvn4jpmx2tfh",
-      "inventarioId": "modjwlnvn4jpmx2tfh",
-      "variantKey": "v0005|vestido veronica|vestido con un tirante en el cuello boton atrás|est (s/m)|blanco",
-      "codigo": "V0005",
-      "nombre": "VESTIDO VERONICA",
-      "detalle": "Vestido con un tirante en el cuello boton atrás",
-      "talla": "EST (S/M)",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0005-blanco.webp",
-      "updatedAt": "2026-06-17T20:20"
-    },
-    {
       "id": "modjwlnvixe4agvne5r",
       "inventarioId": "modjwlnvixe4agvne5r",
       "variantKey": "v0005|vestido veronica|vestido con un tirante en el cuello boton atrás|est (s/m)|lila",
@@ -5912,6 +6290,34 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0005-rojo.webp",
       "updatedAt": "2026-06-16T09:54"
+    },
+    {
+      "id": "modlzg4fa3n3yzn91a",
+      "inventarioId": "modlzg4fa3n3yzn91a",
+      "variantKey": "v0007|vestido ximena|vestido recto tirantes con lazos en hombros|est (s/m)|beige",
+      "codigo": "V0007",
+      "nombre": "VESTIDO XIMENA",
+      "detalle": "VESTIDO RECTO TIRANTES CON LAZOS EN HOMBROS",
+      "talla": "EST (S/M)",
+      "color": "BEIGE",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0007-beige.webp",
+      "updatedAt": "2026-06-29T22:40"
+    },
+    {
+      "id": "modlzg4ffvxts9p2vui",
+      "inventarioId": "modlzg4ffvxts9p2vui",
+      "variantKey": "v0007|vestido ximena|vestido recto tirantes con lazos en hombros|est (s/m)|blanco",
+      "codigo": "V0007",
+      "nombre": "VESTIDO XIMENA",
+      "detalle": "VESTIDO RECTO TIRANTES CON LAZOS EN HOMBROS",
+      "talla": "EST (S/M)",
+      "color": "BLANCO",
+      "stock": 1,
+      "pvp": 30,
+      "imagen": "fotos_catalogo/v0007-blanco.webp",
+      "updatedAt": "2026-06-29T22:40"
     },
     {
       "id": "modlzg4ffj6mhiqxm2v",
