@@ -178,8 +178,10 @@ header.scrolled {
   background: var(--rose);
   transition: width .3s ease;
 }
-.nav-links a:hover { color: var(--text); }
-.nav-links a:hover::after { width: 100%; }
+.nav-links a:hover,
+.nav-links a.active { color: var(--text); }
+.nav-links a:hover::after,
+.nav-links a.active::after { width: 100%; }
 .header-actions {
   display: flex;
   align-items: center;
@@ -391,7 +393,8 @@ header.scrolled {
   letter-spacing: 3px;
   transition: color .2s;
 }
-.mobile-nav a:hover { color: var(--rose); }
+.mobile-nav a:hover,
+.mobile-nav a.active { color: var(--rose); }
 
 /* ── HERO ── */
 .hero {
@@ -1722,6 +1725,34 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   color: var(--charcoal);
 }
 .product-price span { font-size: 16px; color: var(--text-muted); font-weight: 300; }
+.product-price.sale {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1;
+}
+.product-price .price-old {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-decoration: line-through;
+  font-weight: 400;
+}
+.product-price .price-sale {
+  color: var(--rose-deep);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+.product-price .price-sale span { font-size: 15px; color: var(--rose-deep); }
+.product-price .price-discount {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+}
 .product-actions {
   display: flex;
   align-items: center;
@@ -1923,12 +1954,54 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   font-weight: 500;
 }
 .modal-colors { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+.modal-size-color-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.modal-size-color-group {
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,.72);
+  border-radius: 8px;
+  padding: 12px;
+}
+.modal-size-color-group.active {
+  border-color: var(--rose);
+  box-shadow: 0 10px 26px rgba(200,86,110,.08);
+}
+.modal-size-color-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.modal-size-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  color: var(--charcoal);
+  line-height: 1;
+}
+.modal-size-stock {
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.modal-size-color-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
 .modal-color-chip {
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 7px 14px;
   border: 1.5px solid var(--border-strong);
+  background: rgba(255,255,255,.68);
+  font-family: inherit;
   cursor: pointer;
   transition: all .2s;
   font-size: 12px;
@@ -1937,6 +2010,12 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 }
 .modal-color-chip:hover { border-color: var(--rose); color: var(--rose); }
 .modal-color-chip.active { border-color: var(--charcoal); background: var(--charcoal); color: #fff; }
+.modal-color-chip.active .modal-color-swatch { border-color: rgba(255,255,255,.72); }
+.modal-color-chip.low { border-color: var(--gold); }
+.modal-color-stock {
+  font-size: 10px;
+  opacity: .72;
+}
 .modal-color-swatch {
   width: 14px; height: 14px;
   border-radius: 50%;
@@ -1965,6 +2044,35 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   font-weight: 600;
   color: var(--charcoal);
   margin-bottom: 8px;
+}
+.modal-price.sale {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  line-height: 1;
+}
+.modal-price .price-old {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  color: var(--text-muted);
+  text-decoration: line-through;
+  font-weight: 400;
+}
+.modal-price .price-sale { color: var(--rose-deep); }
+.modal-price .price-sale {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.modal-price .price-sale span { font-size: 20px; color: var(--rose-deep); }
+.modal-price .price-discount {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
 }
 .modal-price-note { font-size: 12px; color: var(--text-muted); margin-bottom: 28px; }
 
@@ -3623,9 +3731,10 @@ footer {
 
 <!-- HEADER -->
 <header id="header">
-  <a href="#" class="brand">NEO<em>MAR</em></a>
+  <a href="https://www.tiendaneomar.com/" class="brand" aria-label="Ir al inicio de NEOMAR">NEO<em>MAR</em></a>
   <ul class="nav-links">
-    <li><a href="#coleccion">Colección</a></li>
+    <li><a href="#coleccion" data-nav="coleccion" onclick="showCatalogo(event)">Colección</a></li>
+    <li><a href="?liquidaciones=1" data-nav="liquidaciones" onclick="showLiquidaciones(event)">Liquidaciones</a></li>
     <li><a href="#nosotras">Nosotras</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ul>
@@ -3661,7 +3770,8 @@ footer {
 
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobileNav">
-  <a href="#coleccion" onclick="toggleMenu()">Colección</a>
+  <a href="#coleccion" data-nav="coleccion" onclick="showCatalogo(event);toggleMenu()">Colección</a>
+  <a href="?liquidaciones=1" data-nav="liquidaciones" onclick="showLiquidaciones(event);toggleMenu()">Liquidaciones</a>
   <a href="#nosotras" onclick="toggleMenu()">Nosotras</a>
   <a href="#contacto" onclick="toggleMenu()">Contacto</a>
   <a href="https://wa.me/593978713623" target="_blank">WhatsApp</a>
@@ -3847,12 +3957,10 @@ footer {
       <h2 class="modal-title" id="modalTitle"></h2>
       <div class="modal-code" id="modalCode"></div>
       <p class="modal-desc" id="modalDesc"></p>
-      <!-- Colores -->
-      <div class="modal-section-label">Color disponible</div>
-      <div class="modal-colors" id="modalColors"></div>
-      <!-- Tallas -->
-      <div class="modal-section-label">Talla</div>
-      <div class="modal-sizes" id="modalSizes"></div>
+      <!-- Tallas y colores -->
+      <div class="modal-section-label">Talla y color disponible</div>
+      <div class="modal-colors modal-size-color-groups" id="modalColors"></div>
+      <div class="modal-sizes" id="modalSizes" style="display:none"></div>
       <!-- Precio -->
       <div class="modal-price" id="modalPrice"></div>
       <div class="modal-price-note">Precio final · Pago al recibir</div>
@@ -3963,6 +4071,7 @@ var heroCarouselTimer = null;
 var heroSlideIndex = 0;
 var heroCarouselRunId = 0;
 var CART_KEY = 'neomar_cart_v1';
+var LIQUIDATION_DISCOUNT = 0.15;
 
 function textValue(v) {
   return (v === undefined || v === null) ? '' : String(v).trim();
@@ -4029,7 +4138,12 @@ function normalizarProductoPublico(p) {
     stock: stock,
     pvp: pvp,
     imagen: safeImagePath(p.imagen || p.image || p.foto),
-    updatedAt: textValue(p.updatedAt || p.actualizado)
+    updatedAt: textValue(p.updatedAt || p.actualizado),
+    fechaAdquisicion: textValue(p.fechaAdquisicion || p.fechaCompraNueva || p.acquiredAt),
+    fechaCompra: textValue(p.fechaCompra || p.purchaseDate),
+    tipoAdquisicion: textValue(p.tipoAdquisicion || p.tipoIngresoCatalogo || p.tipoIngreso),
+    compraId: textValue(p.compraId || p.purchaseId),
+    cantidadAdquirida: stockValue(p.cantidadAdquirida || p.cantidadCompra || 0)
   };
 }
 function productoOcultoCatalogo(p) {
@@ -4119,26 +4233,50 @@ function agruparProductos(items) {
   });
 }
 
-function precioVariantes(variantes) {
-  var vals = (variantes || []).map(function(v){ return numberValue(v.pvp); }).filter(function(v){ return v > 0; });
+function precioLiquidacion(valor) {
+  return Math.round(numberValue(valor) * (1 - LIQUIDATION_DISCOUNT) * 100) / 100;
+}
+function precioEtiqueta(valor) {
+  var n = Math.round(numberValue(valor) * 100) / 100;
+  return Math.abs(n - Math.round(n)) < 0.001 ? String(Math.round(n)) : n.toFixed(2);
+}
+function precioVariantes(variantes, liquidacion) {
+  var vals = (variantes || []).map(function(v){
+    var p = numberValue(v.pvp);
+    return liquidacion ? precioLiquidacion(p) : p;
+  }).filter(function(v){ return v > 0; });
   if (!vals.length) return { min: 0, max: 0, multiple: false };
   var min = Math.min.apply(null, vals);
   var max = Math.max.apply(null, vals);
-  return { min: min, max: max, multiple: Math.round(min) !== Math.round(max) };
+  return { min: min, max: max, multiple: Math.round(min * 100) !== Math.round(max * 100) };
 }
 function precioGrupo(g) {
   return precioVariantes(g && g.variantes ? g.variantes : []);
 }
-function precioProductoHtml(g) {
-  var p = precioGrupo(g);
+function precioRangoTexto(p) {
   if (!p.min) return '<span>$</span>0';
-  return (p.multiple ? '<span>Desde $</span>' : '<span>$</span>') + Math.round(p.min);
+  return (p.multiple ? '<span>Desde $</span>' : '<span>$</span>') + precioEtiqueta(p.min);
 }
-function precioModalTexto(vars) {
-  var p = precioVariantes(vars || []);
+function precioProductoHtml(g, liquidacion) {
+  var normal = precioGrupo(g);
+  if (!liquidacion) return precioRangoTexto(normal);
+  var sale = precioVariantes(g && g.variantes ? g.variantes : [], true);
+  if (!sale.min) return '<span>$</span>0';
+  return '<span class="price-old">'+precioModalTexto(g && g.variantes ? g.variantes : [], false)+'</span>'+
+    '<span class="price-sale">'+precioRangoTexto(sale)+'</span>'+
+    '<span class="price-discount">-15% liquidación</span>';
+}
+function precioModalTexto(vars, liquidacion) {
+  var p = precioVariantes(vars || [], !!liquidacion);
   if (!p.min) return '$0';
-  if (p.multiple) return '$' + Math.round(p.min) + ' - $' + Math.round(p.max);
-  return '$' + Math.round(p.min);
+  if (p.multiple) return '$' + precioEtiqueta(p.min) + ' - $' + precioEtiqueta(p.max);
+  return '$' + precioEtiqueta(p.min);
+}
+function precioModalHtml(vars, liquidacion) {
+  if (!liquidacion) return escapeHtml(precioModalTexto(vars, false));
+  return '<span class="price-old">'+escapeHtml(precioModalTexto(vars, false))+'</span>'+
+    '<span class="price-sale">'+escapeHtml(precioModalTexto(vars, true))+'</span>'+
+    '<span class="price-discount">-15% liquidación</span>';
 }
 function colorCoincide(v, color) {
   if (!color) return true;
@@ -4176,6 +4314,35 @@ function stockHtml(cantidad, exacto) {
   var stockColor = cantidad > 5 ? 'var(--green)' : (cantidad > 0 ? 'var(--gold)' : 'var(--red)');
   var stockText = cantidad > 5 ? 'Disponible' : (cantidad > 0 ? (exacto ? 'Solo '+cantidad+' unidades' : 'Stock disponible: '+cantidad+' unidades') : 'Sin stock en esta seleccion');
   return '<div class="stock-dot '+stockClass+'"></div><span style="color:'+stockColor+'">'+stockText+'</span>';
+}
+
+function grupoEnLiquidacion(g) {
+  var total = grupoStockTotal(g);
+  return total > 0 && total <= 2;
+}
+function liquidacionActivaParaGrupo(g) {
+  return saleActive && grupoEnLiquidacion(g);
+}
+function renderNavState() {
+  document.querySelectorAll('[data-nav="liquidaciones"]').forEach(function(el) {
+    el.classList.toggle('active', saleActive);
+  });
+  document.querySelectorAll('[data-nav="coleccion"]').forEach(function(el) {
+    el.classList.toggle('active', !saleActive && !currentCategoryParam());
+  });
+}
+function resetCatalogFilterUi() {
+  document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) {
+    b.classList.toggle('active', b.textContent === 'Todas');
+  });
+  document.querySelectorAll('#sizeFilters .filter-pill').forEach(function(b) {
+    b.classList.toggle('active', b.textContent === 'Todas');
+  });
+  var input = document.getElementById('searchInput');
+  if (input) input.value = '';
+  closeColorTonePopup();
+  updateSearchClear();
+  actualizarColorFilterSummary();
 }
 
 // ══ CATEGORÍAS ══
@@ -4283,6 +4450,7 @@ var allGroups = [];
 var catActive = 'Todas';
 var sizeActive = 'Todas';
 var colorActive = 'Todos';
+var saleActive = false;
 var colorToneTolerance = 28;
 var searchQ = '';
 var currentModal = null;
@@ -4310,7 +4478,8 @@ function loadCart() {
         talla: textValue(item.talla),
         qty: Math.max(1, stockValue(item.qty)),
         price: numberValue(item.price),
-        stockLimit: stockValue(item.stockLimit)
+        stockLimit: stockValue(item.stockLimit),
+        liquidacion: !!item.liquidacion
       };
     }).filter(function(item) { return item.nombre && item.price > 0; }) : [];
   } catch(e) {
@@ -4478,6 +4647,7 @@ function addSelectedToCart() {
   var stockLimit = modalStockLimit();
   var price = numberValue(variant && variant.pvp);
   if (!price && vars.length) price = precioVariantes(vars).min;
+  if (liquidacionActivaParaGrupo(mGroup)) price = precioLiquidacion(price);
   if (!stockLimit || stockLimit <= 0) {
     showToast('No hay stock disponible para esa seleccion');
     return;
@@ -4503,7 +4673,8 @@ function addSelectedToCart() {
       talla: tallaTxt,
       qty: qty,
       price: price,
-      stockLimit: stockLimit
+      stockLimit: stockLimit,
+      liquidacion: liquidacionActivaParaGrupo(mGroup)
     });
   }
   saveCart();
@@ -4529,9 +4700,10 @@ function updateHeroAvailability() {
 function productCodeValue(g) {
   return textValue(g && g.base && g.base.codigo) || grupoCatalogKey(g);
 }
-function productUrlForGroup(g) {
+function productUrlForGroup(g, liquidacion) {
   var code = productCodeValue(g);
-  return productBaseUrl() + '?producto=' + encodeURIComponent(String(code || '').toLowerCase());
+  var url = productBaseUrl() + '?producto=' + encodeURIComponent(String(code || '').toLowerCase());
+  return liquidacion ? url + '&liquidaciones=1' : url;
 }
 function productBaseUrl() {
   if (window.location.origin && window.location.origin !== 'null') return window.location.origin + window.location.pathname;
@@ -4548,6 +4720,17 @@ function categoryUrlForName(cat) {
   cat = textValue(cat || 'Todas');
   if (!cat || cat === 'Todas') return productBaseUrl();
   return productBaseUrl() + '?categoria=' + encodeURIComponent(slugValue(cat));
+}
+function liquidationUrl() {
+  return productBaseUrl() + '?liquidaciones=1';
+}
+function currentLiquidationParam() {
+  try {
+    var params = new URLSearchParams(window.location.search);
+    return params.has('liquidaciones') || params.get('seccion') === 'liquidaciones';
+  } catch(e) {
+    return false;
+  }
 }
 function currentCategoryParam() {
   try {
@@ -4568,9 +4751,17 @@ function setCategoryUrl(cat, replace) {
   if (replace) history.replaceState({ categoria: cat }, '', url);
   else history.pushState({ categoria: cat }, '', url);
 }
+function setLiquidationUrl(replace) {
+  if (!history || !history.pushState || currentProductParam()) return;
+  var url = liquidationUrl();
+  if (window.location.href === url) return;
+  if (replace) history.replaceState({ liquidaciones: true }, '', url);
+  else history.pushState({ liquidaciones: true }, '', url);
+}
 function applyCategoryFromUrl() {
   var param = currentCategoryParam();
   if (!param) return false;
+  saleActive = false;
   var cat = findCategoryByParam(param);
   if (!cat) {
     showToast('Categoria no encontrada o no disponible actualmente.');
@@ -4589,14 +4780,14 @@ function findGroupByProductCode(code) {
 }
 function setProductUrl(g, replace) {
   if (!g || !history || !history.pushState) return;
-  var url = productUrlForGroup(g);
+  var url = productUrlForGroup(g, liquidacionActivaParaGrupo(g));
   if (window.location.href === url) return;
   if (replace) history.replaceState({ producto: productCodeValue(g) }, '', url);
   else history.pushState({ producto: productCodeValue(g) }, '', url);
 }
 function clearProductUrl(replace) {
   if (!history || !history.pushState) return;
-  var url = categoryUrlForName(catActive);
+  var url = saleActive ? liquidationUrl() : categoryUrlForName(catActive);
   if (window.location.href === url) return;
   if (replace) history.replaceState({}, '', url);
   else history.pushState({}, '', url);
@@ -4613,6 +4804,8 @@ function showProductNotFoundMessage() {
 function openProductFromUrl(replaceUrl) {
   var code = currentProductParam();
   if (!code) return false;
+  saleActive = currentLiquidationParam();
+  renderNavState();
   var g = findGroupByProductCode(code);
   if (!g) {
     showProductNotFoundMessage();
@@ -4627,12 +4820,12 @@ function shareTextForCurrentProduct() {
   var varsPrecio = variantesPorSeleccion().length ? variantesPorSeleccion() : mGroup.variantes;
   return 'Mira esta prenda de NEOMAR 💗\n' +
     textValue(mGroup.base.nombre) + '\n' +
-    'Precio: ' + precioModalTexto(varsPrecio) + '\n' +
-    'Link: ' + productUrlForGroup(mGroup);
+    'Precio: ' + precioModalTexto(varsPrecio, liquidacionActivaParaGrupo(mGroup)) + '\n' +
+    'Link: ' + productUrlForGroup(mGroup, liquidacionActivaParaGrupo(mGroup));
 }
 async function shareCurrentProduct() {
   if (!mGroup) return;
-  var url = productUrlForGroup(mGroup);
+  var url = productUrlForGroup(mGroup, liquidacionActivaParaGrupo(mGroup));
   var title = textValue(mGroup.base.nombre) || 'Prenda NEOMAR';
   var text = shareTextForCurrentProduct();
   setProductUrl(mGroup, true);
@@ -4686,7 +4879,8 @@ window.addEventListener('DOMContentLoaded', function() {
     if (currentProductParam()) openProductFromUrl(false);
     else {
       closeModal(false);
-      if (currentCategoryParam()) applyCategoryFromUrl();
+      if (currentLiquidationParam()) applyLiquidationFromUrl();
+      else if (currentCategoryParam()) applyCategoryFromUrl();
       else setCatByName('Todas', { updateUrl: false, scroll: false });
     }
   });
@@ -4698,7 +4892,7 @@ async function iniciarCatalogo() {
   updateHeroAvailability();
   buildFilters();
   buildFooterCats();
-  applyCategoryFromUrl();
+  if (!applyLiquidationFromUrl()) applyCategoryFromUrl();
   renderProducts();
   updateCatalogStatus();
   initHeroCarousel();
@@ -5426,7 +5620,41 @@ function buildFilters() {
   renderCategoryAccordion();
 }
 
+function showCatalogo(e) {
+  if (e && e.preventDefault) e.preventDefault();
+  saleActive = false;
+  catActive = 'Todas';
+  sizeActive = 'Todas';
+  colorActive = 'Todos';
+  searchQ = '';
+  resetCatalogFilterUi();
+  setCategoryUrl('Todas', false);
+  renderCategoryAccordion();
+  renderProducts();
+  setTimeout(scrollToCatalogProducts, 120);
+}
+function showLiquidaciones(e, replaceUrl) {
+  if (e && e.preventDefault) e.preventDefault();
+  saleActive = true;
+  catActive = 'Todas';
+  sizeActive = 'Todas';
+  colorActive = 'Todos';
+  searchQ = '';
+  resetCatalogFilterUi();
+  if (replaceUrl) setLiquidationUrl(true);
+  else setLiquidationUrl(false);
+  renderCategoryAccordion();
+  renderProducts();
+  setTimeout(scrollToCatalogProducts, 120);
+}
+function applyLiquidationFromUrl() {
+  if (!currentLiquidationParam()) return false;
+  showLiquidaciones(null, true);
+  return true;
+}
+
 function setCat(cat, btn) {
+  saleActive = false;
   catActive = cat;
   document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) { b.classList.remove('active'); });
   if (btn) btn.classList.add('active');
@@ -5489,6 +5717,7 @@ function buildFooterCats() {
 }
 function setCatByName(cat, options) {
   options = options || {};
+  saleActive = false;
   catActive = cat;
   document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) {
     b.classList.toggle('active', b.textContent === cat);
@@ -5504,7 +5733,9 @@ function setCatByName(cat, options) {
 function renderProducts() {
   var filtered = allGroups.filter(function(g) {
     var cat = categoriaDe(g.base.nombre, g.base.detalle);
-    if (catActive !== 'Todas' && cat !== catActive) return false;
+    if (saleActive) {
+      if (!grupoEnLiquidacion(g)) return false;
+    } else if (catActive !== 'Todas' && cat !== catActive) return false;
     if (!grupoCoincideTallaColor(g)) return false;
     if (searchQ) {
       var hay = g.base.nombre.toLowerCase().indexOf(searchQ) >= 0 ||
@@ -5516,10 +5747,13 @@ function renderProducts() {
   });
 
   var grid = document.getElementById('productsGrid');
-  renderCatalogShowcase(catActive === 'Todas' ? filtered : []);
+  renderNavState();
+  renderCatalogShowcase(!saleActive && catActive === 'Todas' ? filtered : []);
   if (!filtered.length) {
     if (!allGroups.length) {
       grid.innerHTML = '<div class="no-results"><div class="no-results-icon">⌛</div><div class="no-results-text">Catálogo en actualización</div><p style="font-size:13px;margin-top:12px;color:var(--text-muted)">Sube catalogo-publico.json para mostrar las prendas disponibles.</p></div>';
+    } else if (saleActive) {
+      grid.innerHTML = '<div class="no-results"><div class="no-results-icon">%</div><div class="no-results-text">No hay liquidaciones disponibles</div><p style="font-size:13px;margin-top:12px;color:var(--text-muted)">Cuando un modelo quede en 1 o 2 unidades aparecerá aquí con 15% de descuento.</p></div>';
     } else {
       grid.innerHTML = '<div class="no-results"><div class="no-results-icon">🔍</div><div class="no-results-text">No encontramos esa prenda</div><p style="font-size:13px;margin-top:12px;color:var(--text-muted)">Escríbenos por WhatsApp, quizás la podemos conseguir</p></div>';
     }
@@ -5852,6 +6086,26 @@ function grupoFechaValor(g) {
   return max;
 }
 
+function varianteFechaAdquisicionValor(v) {
+  if (!v) return 0;
+  return fechaValorCatalogo(v.fechaAdquisicion || v.fechaCompra);
+}
+
+function grupoFechaAdquisicionValor(g) {
+  var max = varianteFechaAdquisicionValor(g && g.base);
+  (g && g.variantes ? g.variantes : []).forEach(function(v) {
+    max = Math.max(max, varianteFechaAdquisicionValor(v));
+  });
+  return max;
+}
+
+function grupoTieneAdquisicionNueva(g) {
+  return (g && g.variantes ? g.variantes : []).some(function(v) {
+    var tipo = slugValue(v.tipoAdquisicion || '');
+    return varianteFechaAdquisicionValor(v) > 0 && (!tipo || tipo === 'nuevo' || tipo === 'compra-nueva');
+  });
+}
+
 function grupoCodigoNumero(g) {
   var cod = textValue(g && g.base && g.base.codigo);
   var matches = cod.match(/\d+/g);
@@ -5865,7 +6119,7 @@ function varianteDestacadaGrupo(g, recientes) {
   if (!vars.length) vars = (g && g.variantes ? g.variantes : []).slice();
   vars.sort(function(a, b) {
     if (recientes) {
-      return fechaValorCatalogo(b.updatedAt) - fechaValorCatalogo(a.updatedAt) ||
+      return (varianteFechaAdquisicionValor(b) || fechaValorCatalogo(b.updatedAt)) - (varianteFechaAdquisicionValor(a) || fechaValorCatalogo(a.updatedAt)) ||
         (b.imagen ? 1 : 0) - (a.imagen ? 1 : 0);
     }
     return (b.imagen ? 1 : 0) - (a.imagen ? 1 : 0) ||
@@ -5910,7 +6164,7 @@ function buildCatalogMiniCard(g, idx, kind) {
     : 'Ingreso reciente';
   var detail = kind === 'low'
     ? [color, 'stock bajo'].filter(Boolean).join(' - ')
-    : [fechaCortaCatalogo(grupoFechaValor(g)), color].filter(Boolean).join(' - ');
+    : [fechaCortaCatalogo(grupoFechaAdquisicionValor(g) || grupoFechaValor(g)), color].filter(Boolean).join(' - ');
   return '<button type="button" class="catalog-mini-card" onclick="openModalByKey('+jsArg(key)+','+jsArg(color)+')">'+
     '<span class="catalog-mini-img">'+
       '<span class="catalog-mini-fallback">'+catIcon(categoriaDe(p.nombre, p.detalle))+'</span>'+
@@ -5944,8 +6198,10 @@ function renderCatalogShowcase(groups) {
   var el = document.getElementById('catalogShowcase');
   if (!el) return;
   var base = (groups || []).filter(function(g) { return grupoStockTotal(g) > 0; });
-  var recientes = base.slice().sort(function(a, b) {
-    return grupoFechaValor(b) - grupoFechaValor(a) ||
+  var baseNuevas = base.filter(grupoTieneAdquisicionNueva);
+  var recientesBase = baseNuevas.length ? baseNuevas : base;
+  var recientes = recientesBase.slice().sort(function(a, b) {
+    return (grupoFechaAdquisicionValor(b) || grupoFechaValor(b)) - (grupoFechaAdquisicionValor(a) || grupoFechaValor(a)) ||
       grupoCodigoNumero(b) - grupoCodigoNumero(a) ||
       textValue(a.base && a.base.nombre).localeCompare(textValue(b.base && b.base.nombre));
   }).slice(0, 4);
@@ -5984,7 +6240,9 @@ function buildCardData(g, idx, previousInitialColor) {
   });
 
   var badgeHtml = '';
-  if (totalStock <= 3) badgeHtml = '<div class="product-badge low">Últimas</div>';
+  var liquidacion = liquidacionActivaParaGrupo(g);
+  if (liquidacion) badgeHtml = '<div class="product-badge low">Liquidación -15%</div>';
+  else if (totalStock <= 3) badgeHtml = '<div class="product-badge low">Últimas</div>';
 
   var colorOptions = colors.map(function(c) {
     var variant = g.variantes.find(function(v){ return v.color===c; }) || g.base;
@@ -6041,7 +6299,7 @@ function buildCardData(g, idx, previousInitialColor) {
       '<div class="product-variants">'+sizesHtml+'</div>'+
     '</div>'+
     '<div class="product-footer">'+
-      '<div class="product-price">'+precioProductoHtml(g)+'</div>'+
+      '<div class="product-price'+(liquidacion?' sale':'')+'">'+precioProductoHtml(g, liquidacion)+'</div>'+
       '<div class="product-actions">'+
       '<button class="btn-cart-card" onclick="openModalForCart(event,'+safeIdx+')">Agregar al carrito</button>'+
       '<button class="btn-wha-card" onclick="quickWha(event,'+safeIdx+')">'+
@@ -6080,14 +6338,16 @@ function quickWha(e, idx) {
   e.stopPropagation();
   var g = getFilteredGroups()[idx];
   if (!g) return;
-  var msg = 'Hola NEOMAR! Me interesa:\nModelo: '+g.base.nombre+'\nPrecio: '+precioModalTexto(g.variantes)+'\n¿Está disponible?';
+  var msg = 'Hola NEOMAR! Me interesa:\nModelo: '+g.base.nombre+'\nPrecio: '+precioModalTexto(g.variantes, liquidacionActivaParaGrupo(g))+'\n¿Está disponible?';
   window.open('https://wa.me/'+WHA_NUMBER+'?text='+encodeURIComponent(msg), '_blank');
 }
 
 function getFilteredGroups() {
   return allGroups.filter(function(g) {
     var cat = categoriaDe(g.base.nombre, g.base.detalle);
-    if (catActive !== 'Todas' && cat !== catActive) return false;
+    if (saleActive) {
+      if (!grupoEnLiquidacion(g)) return false;
+    } else if (catActive !== 'Todas' && cat !== catActive) return false;
     if (!grupoCoincideTallaColor(g)) return false;
     if (searchQ) {
       var hay = g.base.nombre.toLowerCase().indexOf(searchQ) >= 0 ||
@@ -6139,43 +6399,18 @@ function openGroupModal(g, preferredColor, options) {
   document.getElementById('modalTitle').textContent = p.nombre;
   document.getElementById('modalCode').textContent = p.codigo ? 'Código: ' + p.codigo : '';
   document.getElementById('modalDesc').textContent = p.detalle || 'Prenda de alta calidad, seleccionada especialmente para nuestra colección.';
-  document.getElementById('modalPrice').textContent = precioModalTexto(g.variantes);
+  var modalPriceEl = document.getElementById('modalPrice');
+  if (modalPriceEl) {
+    modalPriceEl.classList.toggle('sale', liquidacionActivaParaGrupo(g));
+    modalPriceEl.innerHTML = precioModalHtml(g.variantes, liquidacionActivaParaGrupo(g));
+  }
   document.getElementById('modalImgCode').textContent = p.codigo || cat;
   document.getElementById('modalImgBadge').textContent = cat;
   document.getElementById('modalImgPlaceholder').querySelector('.modal-img-big').textContent = catIcon(cat);
 
-  // Colors
-  var colors = [];
-  var colorsSeen = {};
-  g.variantes.forEach(function(v) {
-    if (v.color && v.color !== 'POR INGRESAR' && !colorsSeen[v.color]) {
-      colorsSeen[v.color] = true;
-      colors.push(v.color);
-    }
-  });
-  if (!colors.length) colors = ['Por confirmar'];
-  var initialModalColorIndex = 0;
-  var preferredKey = colorKey(preferredColor);
-  if (preferredKey) {
-    for (var ci = 0; ci < colors.length; ci++) {
-      if (colorKey(colors[ci]) === preferredKey) {
-        initialModalColorIndex = ci;
-        break;
-      }
-    }
-  }
-  mSelectedColor = colors[initialModalColorIndex] || colors[0] || null;
-  var initialVariant = g.variantes.find(function(v){ return colorCoincide(v, mSelectedColor); }) || g.variantes[0] || g.base;
-  renderModalImg(initialVariant, g);
-
-  document.getElementById('modalColors').innerHTML = colors.map(function(c, i) {
-    return '<div class="modal-color-chip'+(i===initialModalColorIndex?' active':'')+'" onclick="selectColor(this,'+jsArg(c)+')">'+
-      '<div class="modal-color-swatch" style="background:'+colorHex(c)+'"></div>'+
-      escapeHtml(c) +
-    '</div>';
-  }).join('');
-
+  mSelectedColor = textValue(preferredColor) || null;
   renderModalSizes();
+  updateModalImageForSelection();
 
   updateStockForSelection();
 
@@ -6219,56 +6454,118 @@ function renderModalImg(variant, grupo){
   }
 }
 
+function colorModalTexto(v) {
+  var c = textValue(v && v.color);
+  return (c && c !== 'POR INGRESAR') ? c : 'Por confirmar';
+}
+
+function modalTallasColorGroups() {
+  var map = {};
+  var grupos = [];
+  if (!mGroup) return grupos;
+  mGroup.variantes.forEach(function(v) {
+    var stock = stockValue(v.stock);
+    if (stock <= 0) return;
+    var talla = tallaCatalogo(v);
+    if (!map[talla]) {
+      map[talla] = { talla: talla, stock: 0, colors: [], colorMap: {} };
+      grupos.push(map[talla]);
+    }
+    var group = map[talla];
+    var color = colorModalTexto(v);
+    var key = colorKey(color) || slugValue(color);
+    group.stock += stock;
+    if (!group.colorMap[key]) {
+      group.colorMap[key] = { color: color, stock: 0 };
+      group.colors.push(group.colorMap[key]);
+    }
+    group.colorMap[key].stock += stock;
+  });
+  grupos.forEach(function(g) {
+    g.colors.sort(function(a, b) {
+      return colorKey(a.color).localeCompare(colorKey(b.color)) || a.color.localeCompare(b.color);
+    });
+  });
+  return grupos;
+}
+
+function updateModalImageForSelection() {
+  if (!mGroup) return;
+  var exact = varianteSeleccionadaExacta();
+  var byColor = mGroup.variantes.find(function(v) {
+    return mSelectedColor && colorCoincide(v, mSelectedColor) && stockValue(v.stock) > 0;
+  });
+  renderModalImg(exact || byColor || mGroup.base, mGroup);
+}
+
 function renderModalSizes() {
   if (!mGroup) return;
-  var tallasMap = {};
-  var tallas = [];
-  mGroup.variantes.forEach(function(v) {
-    if (mSelectedColor && !colorCoincide(v, mSelectedColor)) return;
-    var talla = tallaCatalogo(v);
-    if (!tallasMap[talla]) {
-      tallasMap[talla] = { talla: talla, stock: 0 };
-      tallas.push(tallasMap[talla]);
-    }
-    tallasMap[talla].stock += stockValue(v.stock);
-  });
-  tallas = tallas.filter(function(t){ return t.stock > 0; });
-  if (mSelectedSize && !tallasMap[mSelectedSize]) mSelectedSize = null;
-  if (!tallas.length) {
-    document.getElementById('modalSizes').innerHTML = '<div class="modal-note" style="margin:0">Sin tallas disponibles para este color.</div>';
+  var grupos = modalTallasColorGroups();
+  var colorKeySelected = colorKey(mSelectedColor);
+  if (!grupos.length) {
+    document.getElementById('modalColors').innerHTML = '<div class="modal-note" style="margin:0">Sin tallas disponibles por el momento.</div>';
+    document.getElementById('modalSizes').innerHTML = '';
     mSelectedSize = null;
+    mSelectedColor = null;
     updateModalQtyLimit();
     return;
   }
-  if (!mSelectedSize && tallas.length) mSelectedSize = tallas[0].talla;
-  document.getElementById('modalSizes').innerHTML = tallas.map(function(t) {
-    var cls = t.stock <= 2 ? ' low' : '';
-    var active = mSelectedSize === t.talla ? ' active' : '';
-    return '<div class="modal-size-chip'+cls+active+'" onclick="selectSize(this,'+jsArg(t.talla)+')">'+escapeHtml(t.talla)+' ('+t.stock+')</div>';
+  var grupoSeleccionado = grupos.find(function(g) { return g.talla === mSelectedSize; });
+  if (!grupoSeleccionado && colorKeySelected) {
+    grupoSeleccionado = grupos.find(function(g) {
+      return g.colors.some(function(c) { return colorKey(c.color) === colorKeySelected; });
+    });
+  }
+  if (!grupoSeleccionado) grupoSeleccionado = grupos[0];
+  mSelectedSize = grupoSeleccionado.talla;
+  var colorDisponible = grupoSeleccionado.colors.find(function(c) {
+    return colorKey(c.color) === colorKeySelected;
+  });
+  if (!colorDisponible) colorDisponible = grupoSeleccionado.colors[0];
+  mSelectedColor = colorDisponible ? colorDisponible.color : null;
+
+  document.getElementById('modalColors').innerHTML = grupos.map(function(grupo) {
+    var activeGroup = grupo.talla === mSelectedSize ? ' active' : '';
+    var stockTxt = grupo.stock + (grupo.stock === 1 ? ' unidad' : ' unidades');
+    var chips = grupo.colors.map(function(c) {
+      var active = grupo.talla === mSelectedSize && colorKey(c.color) === colorKey(mSelectedColor) ? ' active' : '';
+      var low = c.stock <= 2 ? ' low' : '';
+      return '<button type="button" class="modal-color-chip'+active+low+'" onclick="selectSizeColor(this,'+jsArg(grupo.talla)+','+jsArg(c.color)+')">'+
+        '<span class="modal-color-swatch" style="background:'+colorHex(c.color)+'"></span>'+
+        '<span>'+escapeHtml(c.color)+'</span>'+
+        '<span class="modal-color-stock">'+c.stock+'</span>'+
+      '</button>';
+    }).join('');
+    return '<div class="modal-size-color-group'+activeGroup+'">'+
+      '<div class="modal-size-color-head">'+
+        '<span class="modal-size-name">'+escapeHtml(grupo.talla)+'</span>'+
+        '<span class="modal-size-stock">'+escapeHtml(stockTxt)+'</span>'+
+      '</div>'+
+      '<div class="modal-size-color-options">'+chips+'</div>'+
+    '</div>';
   }).join('');
+  document.getElementById('modalSizes').innerHTML = '';
 }
 
 function selectColor(el, color) {
-  document.querySelectorAll('.modal-color-chip').forEach(function(c) { c.classList.remove('active'); });
-  el.classList.add('active');
-  mSelectedColor = color;
-  mSelectedSize = null;
+  selectSizeColor(el, mSelectedSize, color);
+}
+
+function selectSize(el, size) {
+  mSelectedSize = size;
   mCartQty = 1;
-  // Imagen: cualquier variante de ese color (la talla no importa para la foto)
-  if(mGroup){
-    var match=mGroup.variantes.find(function(v){return colorCoincide(v,color);});
-    renderModalImg(match||mGroup.base, mGroup);
-  }
   renderModalSizes();
+  updateModalImageForSelection();
   updateStockForSelection();
   updateWhaBtn();
 }
 
-function selectSize(el, size) {
-  document.querySelectorAll('.modal-size-chip').forEach(function(c) { c.classList.remove('active'); });
-  el.classList.add('active');
+function selectSizeColor(el, size, color) {
   mSelectedSize = size;
+  mSelectedColor = color;
   mCartQty = 1;
+  renderModalSizes();
+  updateModalImageForSelection();
   updateStockForSelection();
   updateWhaBtn();
 }
@@ -6278,7 +6575,12 @@ function updateStockForSelection() {
   var exactVars = variantesSeleccionadasExactas();
   var vars = exactVars.length ? exactVars : variantesPorSeleccion();
   if (!vars.length) vars = mGroup.variantes;
-  document.getElementById('modalPrice').textContent = precioModalTexto(vars);
+  var modalPriceEl = document.getElementById('modalPrice');
+  var liquidacion = liquidacionActivaParaGrupo(mGroup);
+  if (modalPriceEl) {
+    modalPriceEl.classList.toggle('sale', liquidacion);
+    modalPriceEl.innerHTML = precioModalHtml(vars, liquidacion);
+  }
   document.getElementById('modalStock').innerHTML = stockHtml(stockTotalVariantes(vars), !!exactVars.length);
   updateModalQtyLimit();
 }
@@ -6290,7 +6592,7 @@ function updateWhaBtn() {
   var colorTxt = mSelectedColor || '(sin especificar)';
   var tallaTxt = mSelectedSize || '(sin especificar)';
   var varsPrecio = exactVars.length ? exactVars : (variantesPorSeleccion().length ? variantesPorSeleccion() : mGroup.variantes);
-  var precioTxt = precioModalTexto(varsPrecio);
+  var precioTxt = precioModalTexto(varsPrecio, liquidacionActivaParaGrupo(mGroup));
   var msg = 'Hola! Estoy interesada en una prenda de NEOMAR:\n\n'+
     '👗 Modelo: '+mGroup.base.nombre+'\n'+
     '🎨 Color: '+colorTxt+'\n'+

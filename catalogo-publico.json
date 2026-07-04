@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-07-04T16:26:38.898Z",
-  "totalVariantes": 417,
-  "totalStock": 499,
+  "updatedAt": "2026-07-04T17:28:08.047Z",
+  "totalVariantes": 414,
+  "totalStock": 496,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -451,20 +451,6 @@
       "stock": 2,
       "pvp": 24,
       "imagen": "fotos_catalogo/c0008-negro.webp",
-      "updatedAt": "2026-06-30T14:32"
-    },
-    {
-      "id": "mqgwlpx2silnqi481l",
-      "inventarioId": "mqgwlpx2silnqi481l",
-      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|s|perla",
-      "codigo": "C0008",
-      "nombre": "Bolero Sofia",
-      "detalle": "Bolero corto con botones dorados.",
-      "talla": "S",
-      "color": "Perla",
-      "stock": 1,
-      "pvp": 24,
-      "imagen": "fotos_catalogo/c0008-perla.webp",
       "updatedAt": "2026-06-30T14:32"
     },
     {
@@ -1025,7 +1011,12 @@
       "stock": 1,
       "pvp": 26,
       "imagen": "fotos_catalogo/c0009-negro.webp",
-      "updatedAt": "2026-06-27T15:05"
+      "updatedAt": "2026-06-27T15:05",
+      "fechaAdquisicion": "2026-06-16",
+      "fechaCompra": "2026-06-16",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqgwoanhsyim5x6g5en",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mo6mmkq9kug2y8paxt",
@@ -1249,7 +1240,12 @@
       "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/c0007-negroblanco.webp",
-      "updatedAt": "2026-05-24T11:11"
+      "updatedAt": "2026-05-24T11:11",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpjz1d3569s8apy61",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpjz1d2xmv1tasnlt0k",
@@ -1263,7 +1259,12 @@
       "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/c0007-negroblanco.webp",
-      "updatedAt": "2026-05-30T05:58"
+      "updatedAt": "2026-05-30T05:58",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpjz1d3569s8apy61",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpjz1d35ffmz83w25ni",
@@ -1277,7 +1278,12 @@
       "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/c0007-negrovino.webp",
-      "updatedAt": "2026-05-24T11:11"
+      "updatedAt": "2026-05-24T11:11",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpjz1d3569s8apy61",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mo6mmkq9pyw4ltp0nws",
@@ -1333,7 +1339,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0008-celeste.webp",
-      "updatedAt": "2026-05-24T11:44"
+      "updatedAt": "2026-05-24T11:44",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk0cmi3ibaedjoxhmr",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk0cmi24f8w8om4rea",
@@ -1347,7 +1358,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0008-lila.webp",
-      "updatedAt": "2026-05-24T11:44"
+      "updatedAt": "2026-05-24T11:44",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk0cmi3ibaedjoxhmr",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk0cmhwoabhzbspik",
@@ -1361,7 +1377,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0008-negro.webp",
-      "updatedAt": "2026-05-24T11:44"
+      "updatedAt": "2026-05-24T11:44",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk0cmi3ibaedjoxhmr",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk0cmhyizd3d7xrci",
@@ -1375,7 +1396,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0008-rojo.webp",
-      "updatedAt": "2026-05-24T11:44"
+      "updatedAt": "2026-05-24T11:44",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk0cmi3ibaedjoxhmr",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk0cmi1xotb46t0ps9",
@@ -1389,7 +1415,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0008-rosado.webp",
-      "updatedAt": "2026-05-24T11:44"
+      "updatedAt": "2026-05-24T11:44",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk0cmi3ibaedjoxhmr",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mo8px8trrzcx5cnuc4",
@@ -1473,7 +1504,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0007-blanco.webp",
-      "updatedAt": "2026-05-24T11:32"
+      "updatedAt": "2026-05-24T11:32",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpjzwwtw43ybx8l1qbf",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpjzwwtp7ye5cuyyv2",
@@ -1487,7 +1523,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0007-negro.webp",
-      "updatedAt": "2026-05-24T11:32"
+      "updatedAt": "2026-05-24T11:32",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpjzwwtw43ybx8l1qbf",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpjzwwtop51vlzmpufr",
@@ -1501,7 +1542,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0007-rojo.webp",
-      "updatedAt": "2026-05-24T11:32"
+      "updatedAt": "2026-05-24T11:32",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpjzwwtw43ybx8l1qbf",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpjzwwtr4einh4wug1w",
@@ -1515,7 +1561,12 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0007-rosado.webp",
-      "updatedAt": "2026-05-24T11:32"
+      "updatedAt": "2026-05-24T11:32",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpjzwwtw43ybx8l1qbf",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mo8q1xjp237u51tzyfgj",
@@ -1683,7 +1734,12 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2057-azul-electrico.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-05-31T17:58",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpucudgsjwusvi2ijjl",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpucudgr2jzgynognqk",
@@ -1697,7 +1753,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2057-blanco.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-05-31T17:58",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpucudgsjwusvi2ijjl",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpucudgsw4iqf4l8g1s",
@@ -1711,7 +1772,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2057-camel.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-05-31T17:58",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpucudgsjwusvi2ijjl",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpucudgqg3yq30futbi",
@@ -1725,7 +1791,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2057-capuchino.webp",
-      "updatedAt": "2026-06-13T08:40"
+      "updatedAt": "2026-06-13T08:40",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpucudgsjwusvi2ijjl",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpu97ajeezltwoudl",
@@ -1739,7 +1810,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-azul-electrico.webp",
-      "updatedAt": "2026-06-14T13:38"
+      "updatedAt": "2026-06-14T13:38",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpu97ajonpj0zyv6rs9",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpu97ajhg6cztv4b9f6",
@@ -1753,7 +1829,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-beige.webp",
-      "updatedAt": "2026-06-13T17:28"
+      "updatedAt": "2026-06-13T17:28",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpu97ajonpj0zyv6rs9",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpu97ajn9pfvigl1drg",
@@ -1767,7 +1848,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-camel.webp",
-      "updatedAt": "2026-05-31T17:58"
+      "updatedAt": "2026-05-31T17:58",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpu97ajonpj0zyv6rs9",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpu97ajbrax09ekbym9",
@@ -1781,7 +1867,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-verde-pino.webp",
-      "updatedAt": "2026-06-06T13:43"
+      "updatedAt": "2026-06-06T13:43",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpu97ajonpj0zyv6rs9",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpu97ajgev1i37tjeon",
@@ -1795,7 +1886,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2058-vino.webp",
-      "updatedAt": "2026-06-02T09:56"
+      "updatedAt": "2026-06-02T09:56",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpu97ajonpj0zyv6rs9",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mp5uxw1edo2sz8qvtgs",
@@ -1809,7 +1905,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2007-rojo.webp",
-      "updatedAt": "2026-06-02T09:01"
+      "updatedAt": "2026-06-02T09:01",
+      "fechaAdquisicion": "2026-05-14",
+      "fechaCompra": "2026-05-14",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mp5uxw1fgq1n0983y7",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqobrrsxpjux09kf7oi",
@@ -1823,7 +1924,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2047-azul-electrico.webp",
-      "updatedAt": "2026-06-21T16:55"
+      "updatedAt": "2026-06-21T16:55",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqobrrt5hv9hwlihwce",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqobrrt2zwxrvijzzs",
@@ -1837,7 +1943,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2047-blanco.webp",
-      "updatedAt": "2026-06-21T16:55"
+      "updatedAt": "2026-06-21T16:55",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqobrrt5hv9hwlihwce",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqobwon631l654pmqzr",
@@ -1851,7 +1962,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2056-azul-noche.webp",
-      "updatedAt": "2026-07-04T08:27"
+      "updatedAt": "2026-07-04T08:27",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqobwondud5alobfl9s",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqobwon9911tjzq2nfo",
@@ -1865,7 +1981,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2056-blanco.webp",
-      "updatedAt": "2026-06-21T16:58"
+      "updatedAt": "2026-06-21T16:58",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqobwondud5alobfl9s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqobwon21o8hxchi7ff",
@@ -1879,7 +2000,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2056-rojo.webp",
-      "updatedAt": "2026-07-04T08:27"
+      "updatedAt": "2026-07-04T08:27",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqobwondud5alobfl9s",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqobwon45mkczyqlpgx",
@@ -1893,7 +2019,12 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/e2056-verde-pino.webp",
-      "updatedAt": "2026-06-21T16:58"
+      "updatedAt": "2026-06-21T16:58",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqobwondud5alobfl9s",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpmto5pw901ikq9wgit",
@@ -1907,7 +2038,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1021-azul-electrico.webp",
-      "updatedAt": "2026-06-20T08:18"
+      "updatedAt": "2026-06-20T08:18",
+      "fechaAdquisicion": "2026-05-26",
+      "fechaCompra": "2026-05-26",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpmto5q5csm8pnmgw0f",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpmto5q2p59x2sowgu",
@@ -1921,7 +2057,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1021-rojo.webp",
-      "updatedAt": "2026-06-20T08:18"
+      "updatedAt": "2026-06-20T08:18",
+      "fechaAdquisicion": "2026-05-26",
+      "fechaCompra": "2026-05-26",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpmto5q5csm8pnmgw0f",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpudf5ourrgxtnvtxh",
@@ -1935,7 +2076,12 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1862-azul-electrico.webp",
-      "updatedAt": "2026-05-31T17:59"
+      "updatedAt": "2026-05-31T17:59",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpudf5p5do1arvv84f",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpudf5opfjur9l2nlc",
@@ -1949,7 +2095,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/e1862-ladrillo.webp",
-      "updatedAt": "2026-06-02T09:56"
+      "updatedAt": "2026-06-02T09:56",
+      "fechaAdquisicion": "2026-05-31",
+      "fechaCompra": "2026-05-31",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpudf5p5do1arvv84f",
+      "cantidadAdquirida": 2
     },
     {
       "id": "modoksyz37rg3aznjes",
@@ -3139,7 +3290,12 @@
       "stock": 1,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0010-capuchino.webp",
-      "updatedAt": "2026-06-17T18:54"
+      "updatedAt": "2026-06-17T18:54",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqiq9hfoz10q7epsgz",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqiq9hfkxcfajy3cinn",
@@ -3153,7 +3309,12 @@
       "stock": 2,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0010-negro.webp",
-      "updatedAt": "2026-06-17T18:54"
+      "updatedAt": "2026-06-17T18:54",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqiq9hfoz10q7epsgz",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mo9a1cppl43m25nbg6",
@@ -3391,7 +3552,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0023-celeste.webp",
-      "updatedAt": "2026-06-17T20:14"
+      "updatedAt": "2026-06-17T20:14",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpsjmpw2x25xv4latu",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqit547njajpsf869sl",
@@ -3419,7 +3585,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0023-perla.webp",
-      "updatedAt": "2026-06-17T20:14"
+      "updatedAt": "2026-06-17T20:14",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpsjmpw2x25xv4latu",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpsjmpvw14fsmjg84did",
@@ -3433,7 +3604,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0023-rosado.webp",
-      "updatedAt": "2026-06-17T20:14"
+      "updatedAt": "2026-06-17T20:14",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpsjmpw2x25xv4latu",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpsphuae9w4nxf7aty8",
@@ -3447,7 +3623,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0024-beige.webp",
-      "updatedAt": "2026-06-17T20:26"
+      "updatedAt": "2026-06-17T20:26",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpsphuaj1sh6t9t0ari",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk3cd0bz92on9yyqme",
@@ -3461,7 +3642,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0017-rojo.webp",
-      "updatedAt": "2026-05-26T07:45"
+      "updatedAt": "2026-05-26T07:45",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk3cd0cisngkqhm77p",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk3cd05j8xefv72xdr",
@@ -3475,7 +3661,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0017-rosado.webp",
-      "updatedAt": "2026-05-26T07:45"
+      "updatedAt": "2026-05-26T07:45",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk3cd0cisngkqhm77p",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk3cd0cwvl9pqdq4m",
@@ -3489,7 +3680,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0017-verde-jade.webp",
-      "updatedAt": "2026-05-26T07:45"
+      "updatedAt": "2026-05-26T07:45",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk3cd0cisngkqhm77p",
+      "cantidadAdquirida": 1
     },
     {
       "id": "modmfjoo4wrbg2krlu9",
@@ -3531,7 +3727,12 @@
       "stock": 3,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0030-beish.webp",
-      "updatedAt": "2026-06-29T22:39"
+      "updatedAt": "2026-06-29T22:39",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5ksgq8y3drucw93xa",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5ksgpvx4ofiyt2ya9",
@@ -3545,7 +3746,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0030-blanco.webp",
-      "updatedAt": "2026-06-29T22:39"
+      "updatedAt": "2026-06-29T22:39",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5ksgq8y3drucw93xa",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqitf51ijcjx9mte5",
@@ -3573,7 +3779,12 @@
       "stock": 3,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0030-negro.webp",
-      "updatedAt": "2026-06-29T22:39"
+      "updatedAt": "2026-06-29T22:39",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5ksgq8y3drucw93xa",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mr03lbi4nj8u1a83zdj",
@@ -3601,7 +3812,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0030-vino.webp",
-      "updatedAt": "2026-06-29T22:39"
+      "updatedAt": "2026-06-29T22:39",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5ksgq8y3drucw93xa",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5n9rllwjw5h95007",
@@ -3615,7 +3831,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0036-rojo.webp",
-      "updatedAt": "2026-06-08T15:09"
+      "updatedAt": "2026-06-08T15:09",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5n9rlllukitx8x68s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5n9rlelcqx4v0wph",
@@ -3629,7 +3850,12 @@
       "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0036-rosado.webp",
-      "updatedAt": "2026-07-04T08:27"
+      "updatedAt": "2026-07-04T08:27",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5n9rlllukitx8x68s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqitthx0omsnq9b2zqj",
@@ -3643,7 +3869,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0047-negro.webp",
-      "updatedAt": "2026-06-30T09:00"
+      "updatedAt": "2026-06-30T09:00",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitthx7s9eferw9oh",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqiu1t04be61zwrdpo",
@@ -3671,7 +3902,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0047-verde-pino.webp",
-      "updatedAt": "2026-06-30T09:00"
+      "updatedAt": "2026-06-30T09:00",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitthx7s9eferw9oh",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqitthx2hzgtpwf1x5v",
@@ -3685,7 +3921,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0047-vino.webp",
-      "updatedAt": "2026-06-30T09:00"
+      "updatedAt": "2026-06-30T09:00",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitthx7s9eferw9oh",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mq5nywglu9y4xde4o6",
@@ -3699,7 +3940,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0038-beige.webp",
-      "updatedAt": "2026-06-20T15:25"
+      "updatedAt": "2026-06-20T15:25",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5nywgshtxxqdt1kij",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5nywg31eya3wii4re",
@@ -3713,7 +3959,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0038-negro.webp",
-      "updatedAt": "2026-06-20T15:25"
+      "updatedAt": "2026-06-20T15:25",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5nywgshtxxqdt1kij",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mq5nywgchv43vpqedu",
@@ -3727,7 +3978,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0038-rojo.webp",
-      "updatedAt": "2026-06-20T12:25"
+      "updatedAt": "2026-06-20T12:25",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5nywgshtxxqdt1kij",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5nywggu50au1qzglj",
@@ -3741,7 +3997,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0038-rosado.webp",
-      "updatedAt": "2026-06-17T20:04"
+      "updatedAt": "2026-06-17T20:04",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5nywgshtxxqdt1kij",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5nywgpkfedkm5872h",
@@ -3755,7 +4016,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0038-vino.webp",
-      "updatedAt": "2026-06-20T15:25"
+      "updatedAt": "2026-06-20T15:25",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5nywgshtxxqdt1kij",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqis34bbhdmwke50opj",
@@ -3769,7 +4035,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-azul-noche.webp",
-      "updatedAt": "2026-06-17T19:45"
+      "updatedAt": "2026-06-17T19:45",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqis34blxd16bk2vtll",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqis34bfbt3zs3l8tv",
@@ -3783,7 +4054,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-beish.webp",
-      "updatedAt": "2026-06-23T08:43"
+      "updatedAt": "2026-06-23T08:43",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqis34blxd16bk2vtll",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqis34b9odzjujboinc",
@@ -3797,7 +4073,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-negro.webp",
-      "updatedAt": "2026-06-23T08:43"
+      "updatedAt": "2026-06-23T08:43",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqis34blxd16bk2vtll",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqis34bce98hr75g9ed",
@@ -3811,7 +4092,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-perla.webp",
-      "updatedAt": "2026-06-17T19:45"
+      "updatedAt": "2026-06-17T19:45",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqis34blxd16bk2vtll",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqis34bguqrssposggr",
@@ -3825,7 +4111,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-rojo.webp",
-      "updatedAt": "2026-06-17T19:45"
+      "updatedAt": "2026-06-17T19:45",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqis34blxd16bk2vtll",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqis34bj87jwnwektj",
@@ -3839,7 +4130,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-rosado.webp",
-      "updatedAt": "2026-06-17T19:45"
+      "updatedAt": "2026-06-17T19:45",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqis34blxd16bk2vtll",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqis34blxig8u1wibw",
@@ -3853,7 +4149,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-verde-pino.webp",
-      "updatedAt": "2026-06-17T19:45"
+      "updatedAt": "2026-06-17T19:45",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqis34blxd16bk2vtll",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqis34bib7mvlb779mq",
@@ -3867,21 +4168,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-vino.webp",
-      "updatedAt": "2026-06-17T19:45"
-    },
-    {
-      "id": "mr0j8n0zow8f1loztxc",
-      "inventarioId": "mr0j8n0zow8f1loztxc",
-      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|azul noche",
-      "codigo": "v0051",
-      "nombre": "Vestido Berlin",
-      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
-      "talla": "Única",
-      "color": "Azul noche",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0051-azul-noche.webp",
-      "updatedAt": "2026-06-30T08:23"
+      "updatedAt": "2026-06-17T19:45",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqis34blxd16bk2vtll",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mr0j8n0mu1vdsmety2d",
@@ -3895,7 +4187,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0051-azul-rey.webp",
-      "updatedAt": "2026-06-30T08:23"
+      "updatedAt": "2026-06-30T08:23",
+      "fechaAdquisicion": "2026-06-30",
+      "fechaCompra": "2026-06-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mr0j8n1mm0gfxak726r",
+      "cantidadAdquirida": 2
     },
     {
       "id": "moeilb7q6qc8hbu79n2",
@@ -3923,7 +4220,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0031-beish.webp",
-      "updatedAt": "2026-06-08T14:18"
+      "updatedAt": "2026-06-08T14:18",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5lfm236ijc22exr9g",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5lfm1ujpc7w4t6dh7",
@@ -3937,7 +4239,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0031-celeste.webp",
-      "updatedAt": "2026-06-08T14:18"
+      "updatedAt": "2026-06-08T14:18",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5lfm236ijc22exr9g",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5lfm1ezgx4vvan1rk",
@@ -3951,7 +4258,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0031-rojo.webp",
-      "updatedAt": "2026-06-08T14:18"
+      "updatedAt": "2026-06-08T14:18",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5lfm236ijc22exr9g",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5jmnb03lnspgg3krs",
@@ -3965,7 +4277,12 @@
       "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0026-rojo.webp",
-      "updatedAt": "2026-06-20T15:25"
+      "updatedAt": "2026-06-20T15:25",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5jmnbcvxrptlwgkji",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqisx5uq2uix9eqnk5r",
@@ -3979,7 +4296,12 @@
       "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-blanco.webp",
-      "updatedAt": "2026-06-20T15:25"
+      "updatedAt": "2026-06-20T15:25",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqisx5v3q6ylpc46plb",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqisx5uuwx0ac6lpt8",
@@ -3993,7 +4315,12 @@
       "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-negro.webp",
-      "updatedAt": "2026-06-20T15:25"
+      "updatedAt": "2026-06-20T15:25",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqisx5v3q6ylpc46plb",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqisx5uwqteq7ewaxy",
@@ -4007,7 +4334,12 @@
       "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-rojo.webp",
-      "updatedAt": "2026-06-17T20:08"
+      "updatedAt": "2026-06-17T20:08",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqisx5v3q6ylpc46plb",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqisx5v0ujqoqx3ulz",
@@ -4021,7 +4353,12 @@
       "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-verde-jade.webp",
-      "updatedAt": "2026-06-29T22:43"
+      "updatedAt": "2026-06-29T22:43",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqisx5v3q6ylpc46plb",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqisx5v10fjwkkuu6vbr",
@@ -4035,7 +4372,12 @@
       "stock": 1,
       "pvp": 42,
       "imagen": "fotos_catalogo/v0044-vino.webp",
-      "updatedAt": "2026-06-29T22:43"
+      "updatedAt": "2026-06-29T22:43",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqisx5v3q6ylpc46plb",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqiosd3lvn7yw8aqb9k",
@@ -4049,7 +4391,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0040-rojo.webp",
-      "updatedAt": "2026-06-17T18:13"
+      "updatedAt": "2026-06-17T18:13",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqiosd3oawaja3xjcff",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqiosd3gn5ebb2nnjdq",
@@ -4063,7 +4410,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0040-verde-pino.webp",
-      "updatedAt": "2026-06-17T18:13"
+      "updatedAt": "2026-06-17T18:13",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqiosd3oawaja3xjcff",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqiqgy8dkjdzmref52k",
@@ -4091,7 +4443,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0027-rojo.webp",
-      "updatedAt": "2026-06-17T19:00"
+      "updatedAt": "2026-06-17T19:00",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5juzdzc40c1uy3uk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5juzd6vk4to2w5vz",
@@ -4105,7 +4462,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0027-verde-pino.webp",
-      "updatedAt": "2026-06-17T19:00"
+      "updatedAt": "2026-06-17T19:00",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5juzdzc40c1uy3uk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqiprmqb22of5uxrde7",
@@ -4133,7 +4495,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0020-azul.webp",
-      "updatedAt": "2026-06-17T18:40"
+      "updatedAt": "2026-06-17T18:40",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk70e9px8c9hidjvmo",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk70e9ha1pa2mm578j",
@@ -4147,7 +4514,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0020-blanco.webp",
-      "updatedAt": "2026-06-19T15:13"
+      "updatedAt": "2026-06-19T15:13",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk70e9px8c9hidjvmo",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk70e9lwmi4sqkjth",
@@ -4161,7 +4533,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0020-lila.webp",
-      "updatedAt": "2026-06-06T16:32"
+      "updatedAt": "2026-06-06T16:32",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk70e9px8c9hidjvmo",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk70e9p2f8um5z6rh9",
@@ -4175,7 +4552,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0020-palo-de-rosa.webp",
-      "updatedAt": "2026-06-17T18:40"
+      "updatedAt": "2026-06-17T18:40",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk70e9px8c9hidjvmo",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk70e9mwg06lersdsk",
@@ -4189,7 +4571,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0020-rosado.webp",
-      "updatedAt": "2026-06-17T18:40"
+      "updatedAt": "2026-06-17T18:40",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk70e9px8c9hidjvmo",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk70e9jlo0ynderxzb",
@@ -4203,7 +4590,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0020-verde.webp",
-      "updatedAt": "2026-06-17T18:40"
+      "updatedAt": "2026-06-17T18:40",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk70e9px8c9hidjvmo",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mo909jzis874bq3mr2a",
@@ -4245,7 +4637,12 @@
       "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0049-azul-electrico.webp",
-      "updatedAt": "2026-06-21T16:41"
+      "updatedAt": "2026-06-21T16:41",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqob9ozypakheq6xpaj",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqob9oznosa3qptu3xk",
@@ -4259,7 +4656,12 @@
       "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0049-celeste.webp",
-      "updatedAt": "2026-06-21T16:41"
+      "updatedAt": "2026-06-21T16:41",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqob9ozypakheq6xpaj",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqob9ozqcwoh4oisfh8",
@@ -4273,7 +4675,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0049-plateado.webp",
-      "updatedAt": "2026-06-30T08:39"
+      "updatedAt": "2026-06-30T08:39",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqob9ozypakheq6xpaj",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqob9ozkn3ynpjm67y",
@@ -4287,7 +4694,12 @@
       "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0049-rojo.webp",
-      "updatedAt": "2026-06-21T16:41"
+      "updatedAt": "2026-06-21T16:41",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqob9ozypakheq6xpaj",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqob9ozxmqeoqdbsvb",
@@ -4301,7 +4713,12 @@
       "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0049-verde.webp",
-      "updatedAt": "2026-06-21T16:41"
+      "updatedAt": "2026-06-21T16:41",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqob9ozypakheq6xpaj",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqob9ozsao9sm6x6bjw",
@@ -4315,7 +4732,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0049-vino.webp",
-      "updatedAt": "2026-06-30T08:39"
+      "updatedAt": "2026-06-30T08:39",
+      "fechaAdquisicion": "2026-06-21",
+      "fechaCompra": "2026-06-21",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqob9ozypakheq6xpaj",
+      "cantidadAdquirida": 2
     },
     {
       "id": "modjbsva9zmjlhnf3sv",
@@ -4344,20 +4766,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0004-celeste.webp",
       "updatedAt": "2026-06-19T13:06"
-    },
-    {
-      "id": "modjbsvai23gb53ifhe",
-      "inventarioId": "modjbsvai23gb53ifhe",
-      "variantKey": "v0004|vestido jossie|vestido tablones con borde blanco en a|est (s/m)|lila",
-      "codigo": "V0004",
-      "nombre": "VESTIDO JOSSIE",
-      "detalle": "Vestido tablones con borde blanco en A",
-      "talla": "EST (S/M)",
-      "color": "LILA",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0004-lila.webp",
-      "updatedAt": "2026-07-04T09:26"
     },
     {
       "id": "modjbsvalap4szeu6cr",
@@ -4427,7 +4835,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-azul-petroleo.webp",
-      "updatedAt": "2026-05-30T21:34"
+      "updatedAt": "2026-05-30T21:34",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpspnsomgskffrpkfk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpspnsojbkz720y8ajn",
@@ -4441,7 +4854,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-beige.webp",
-      "updatedAt": "2026-06-21T15:28"
+      "updatedAt": "2026-06-21T15:28",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpspnsomgskffrpkfk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqith32xruod21ci2dj",
@@ -4469,7 +4887,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-celeste.webp",
-      "updatedAt": "2026-06-17T20:24"
+      "updatedAt": "2026-06-17T20:24",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpspnsomgskffrpkfk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpspnsntwvxvjhtr83i",
@@ -4483,7 +4906,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-negro.webp",
-      "updatedAt": "2026-06-17T20:24"
+      "updatedAt": "2026-06-17T20:24",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpspnsomgskffrpkfk",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpspnso1gwxx7n3di7k",
@@ -4497,7 +4925,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0025-vino.webp",
-      "updatedAt": "2026-06-17T20:24"
+      "updatedAt": "2026-06-17T20:24",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpspnsomgskffrpkfk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mo90fo3i2iirk9jlug",
@@ -4567,7 +5000,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-beish.webp",
-      "updatedAt": "2026-06-29T22:38"
+      "updatedAt": "2026-06-29T22:38",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitpmum0axnh46j643",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqitpmue7hplo6gb96d",
@@ -4581,7 +5019,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-beish-oscuro.webp",
-      "updatedAt": "2026-06-17T20:30"
+      "updatedAt": "2026-06-17T20:30",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitpmum0axnh46j643",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqitpmu7pfwrk45elrm",
@@ -4595,7 +5038,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-negro.webp",
-      "updatedAt": "2026-06-29T22:38"
+      "updatedAt": "2026-06-29T22:38",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitpmum0axnh46j643",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqitpmumlkkkxrwb02j",
@@ -4609,7 +5057,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-perla.webp",
-      "updatedAt": "2026-06-29T22:38"
+      "updatedAt": "2026-06-29T22:38",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitpmum0axnh46j643",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqitpmuhv7vkth4kzi",
@@ -4623,7 +5076,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-rosado.webp",
-      "updatedAt": "2026-06-17T20:30"
+      "updatedAt": "2026-06-17T20:30",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitpmum0axnh46j643",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqitpmubb1f8peqp0u",
@@ -4637,7 +5095,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0046-verde-pino.webp",
-      "updatedAt": "2026-06-29T22:38"
+      "updatedAt": "2026-06-29T22:38",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqitpmum0axnh46j643",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpsjgs9na7ecs1q0zqs",
@@ -4651,7 +5114,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0022-blanco.webp",
-      "updatedAt": "2026-06-23T08:25"
+      "updatedAt": "2026-06-23T08:25",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpsjgs9nerm231iabm",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mpsjgs9jrs9lipn18wg",
@@ -4665,7 +5133,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0022-rosado.webp",
-      "updatedAt": "2026-06-23T08:25"
+      "updatedAt": "2026-06-23T08:25",
+      "fechaAdquisicion": "2026-05-30",
+      "fechaCompra": "2026-05-30",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpsjgs9nerm231iabm",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mq5k376beusro7lo9ws",
@@ -4679,7 +5152,12 @@
       "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0028-rojo.webp",
-      "updatedAt": "2026-06-20T15:29"
+      "updatedAt": "2026-06-20T15:29",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5k376hskkwx902avr",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5k376ed6pc1by45mr",
@@ -4693,7 +5171,12 @@
       "stock": 2,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0028-verde-pino.webp",
-      "updatedAt": "2026-06-29T22:43"
+      "updatedAt": "2026-06-29T22:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5k376hskkwx902avr",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqita250dcp2ofpbom",
@@ -4707,7 +5190,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-beish.webp",
-      "updatedAt": "2026-06-17T20:18"
+      "updatedAt": "2026-06-17T20:18",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqita25g0ewmnvy3vpk",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqita25a2mj94f5ezrf",
@@ -4721,7 +5209,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-celeste.webp",
-      "updatedAt": "2026-06-17T20:18"
+      "updatedAt": "2026-06-17T20:18",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqita25g0ewmnvy3vpk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqita25ghur200trdz",
@@ -4735,7 +5228,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-negro.webp",
-      "updatedAt": "2026-06-29T22:41"
+      "updatedAt": "2026-06-29T22:41",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqita25g0ewmnvy3vpk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqita25436iybsf4xy3",
@@ -4749,7 +5247,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-perla.webp",
-      "updatedAt": "2026-06-20T11:47"
+      "updatedAt": "2026-06-20T11:47",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqita25g0ewmnvy3vpk",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqita252onygm0n74b9",
@@ -4763,7 +5266,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-rojo.webp",
-      "updatedAt": "2026-06-17T20:18"
+      "updatedAt": "2026-06-17T20:18",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqita25g0ewmnvy3vpk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqita25797amjc5v2e",
@@ -4777,7 +5285,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-rosado.webp",
-      "updatedAt": "2026-06-29T22:41"
+      "updatedAt": "2026-06-29T22:41",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqita25g0ewmnvy3vpk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqita25c97gv5ovsaf8",
@@ -4791,7 +5304,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0045-verde-pino.webp",
-      "updatedAt": "2026-06-29T22:41"
+      "updatedAt": "2026-06-29T22:41",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqita25g0ewmnvy3vpk",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mu2xrtbdjnj93df",
@@ -4805,7 +5323,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0035-azul-electrico.webp",
-      "updatedAt": "2026-06-29T22:42"
+      "updatedAt": "2026-06-29T22:42",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mu2y20abl61pdc9m",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mu2xzo7plvj2td5q",
@@ -4819,7 +5342,12 @@
       "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0035-beish.webp",
-      "updatedAt": "2026-06-29T22:42"
+      "updatedAt": "2026-06-29T22:42",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mu2y20abl61pdc9m",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mu2x5py6co9h4qsa",
@@ -4833,7 +5361,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0035-celeste.webp",
-      "updatedAt": "2026-06-29T22:42"
+      "updatedAt": "2026-06-29T22:42",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mu2y20abl61pdc9m",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mu2xhtxjyq59rihl",
@@ -4847,7 +5380,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0035-rojo.webp",
-      "updatedAt": "2026-06-23T09:47"
+      "updatedAt": "2026-06-23T09:47",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mu2y20abl61pdc9m",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mu2xw4kj2v0gp4kx",
@@ -4861,7 +5399,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0035-vino.webp",
-      "updatedAt": "2026-06-23T09:47"
+      "updatedAt": "2026-06-23T09:47",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mu2y20abl61pdc9m",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqioi0fwvlsqorxyrj",
@@ -4875,7 +5418,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0039-beige.webp",
-      "updatedAt": "2026-06-23T08:43"
+      "updatedAt": "2026-06-23T08:43",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqioi0g64dm9lqbwhpn",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mqioi0g28rlqt5rtpsn",
@@ -4889,7 +5437,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0039-blanco.webp",
-      "updatedAt": "2026-06-17T18:04"
+      "updatedAt": "2026-06-17T18:04",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqioi0g64dm9lqbwhpn",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqioi0fyfp2mintegju",
@@ -4903,7 +5456,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0039-rojo.webp",
-      "updatedAt": "2026-06-17T18:04"
+      "updatedAt": "2026-06-17T18:04",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqioi0g64dm9lqbwhpn",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqioi0g0txc5k18slek",
@@ -4917,7 +5475,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0039-rosado.webp",
-      "updatedAt": "2026-06-17T18:04"
+      "updatedAt": "2026-06-17T18:04",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqioi0g64dm9lqbwhpn",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqioi0g56f6wfwqe4k5",
@@ -4931,7 +5494,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0039-verde-pino.webp",
-      "updatedAt": "2026-06-17T18:04"
+      "updatedAt": "2026-06-17T18:04",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqioi0g64dm9lqbwhpn",
+      "cantidadAdquirida": 1
     },
     {
       "id": "modk7dlj21ylo5hr6mx",
@@ -4959,7 +5527,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0041-blancomostaza.webp",
-      "updatedAt": "2026-06-17T18:46"
+      "updatedAt": "2026-06-17T18:46",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqipztd81bmeukd20p5",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipztd2bl29hs0asil",
@@ -4973,7 +5546,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0041-celeste.webp",
-      "updatedAt": "2026-06-17T18:46"
+      "updatedAt": "2026-06-17T18:46",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqipztd81bmeukd20p5",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipztd5665smi15lwd",
@@ -4987,7 +5565,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0041-negroazul.webp",
-      "updatedAt": "2026-06-17T18:46"
+      "updatedAt": "2026-06-17T18:46",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqipztd81bmeukd20p5",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipztd47n37k43qsb2",
@@ -5001,7 +5584,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0041-negrorosa.webp",
-      "updatedAt": "2026-06-17T18:46"
+      "updatedAt": "2026-06-17T18:46",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqipztd81bmeukd20p5",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipztczcrsugay3lcr",
@@ -5015,7 +5603,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0041-perlaazul.webp",
-      "updatedAt": "2026-06-17T18:46"
+      "updatedAt": "2026-06-17T18:46",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqipztd81bmeukd20p5",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipztcsr3ffr4mc20r",
@@ -5029,7 +5622,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0041-verde-agua.webp",
-      "updatedAt": "2026-06-17T18:46"
+      "updatedAt": "2026-06-17T18:46",
+      "fechaAdquisicion": "2026-06-17",
+      "fechaCompra": "2026-06-17",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mqipztd81bmeukd20p5",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5nsc6jmc0yxjl5oy",
@@ -5043,7 +5641,12 @@
       "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0037-rojo.webp",
-      "updatedAt": "2026-06-17T19:59"
+      "updatedAt": "2026-06-17T19:59",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5nsc6ts5ylyrwzfd8",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5nsc6omwvg0rs7cvo",
@@ -5057,7 +5660,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0037-verde-jade.webp",
-      "updatedAt": "2026-06-23T08:46"
+      "updatedAt": "2026-06-23T08:46",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5nsc6ts5ylyrwzfd8",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk30smcttrhjpgata",
@@ -5085,7 +5693,12 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/v0050-beige.webp",
-      "updatedAt": "2026-06-30T14:32"
+      "updatedAt": "2026-06-30T14:32",
+      "fechaAdquisicion": "2026-06-29",
+      "fechaCompra": "2026-06-29",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mr03iv91mg20lq1yrsa",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mr03iv87ejm1psm243k",
@@ -5099,7 +5712,12 @@
       "stock": 2,
       "pvp": 35,
       "imagen": "fotos_catalogo/v0050-perla.webp",
-      "updatedAt": "2026-06-30T14:32"
+      "updatedAt": "2026-06-30T14:32",
+      "fechaAdquisicion": "2026-06-29",
+      "fechaCompra": "2026-06-29",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mr03iv91mg20lq1yrsa",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mr03iv8i5xa34r2jmwm",
@@ -5113,7 +5731,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/v0050-rosa.webp",
-      "updatedAt": "2026-06-30T14:32"
+      "updatedAt": "2026-06-30T14:32",
+      "fechaAdquisicion": "2026-06-29",
+      "fechaCompra": "2026-06-29",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mr03iv91mg20lq1yrsa",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mr03iv8be03c2ycboqq",
@@ -5127,7 +5750,12 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/v0050-verde.webp",
-      "updatedAt": "2026-06-30T14:32"
+      "updatedAt": "2026-06-30T14:32",
+      "fechaAdquisicion": "2026-06-29",
+      "fechaCompra": "2026-06-29",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mr03iv91mg20lq1yrsa",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqip4wvbay2ooyd2iqn",
@@ -5155,7 +5783,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-beige.webp",
-      "updatedAt": "2026-06-27T12:31"
+      "updatedAt": "2026-06-27T12:31",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk41zixurgsr714l3s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqip4wvhtbuw72mf96e",
@@ -5183,7 +5816,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-lila.webp",
-      "updatedAt": "2026-06-17T18:22"
+      "updatedAt": "2026-06-17T18:22",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk41zixurgsr714l3s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk41ziu101vjqkqsfv",
@@ -5197,7 +5835,12 @@
       "stock": 2,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-negro.webp",
-      "updatedAt": "2026-06-17T18:22"
+      "updatedAt": "2026-06-17T18:22",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk41zixurgsr714l3s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqip4wvfa901zcxenvt",
@@ -5225,7 +5868,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-rojo.webp",
-      "updatedAt": "2026-05-24T13:28"
+      "updatedAt": "2026-05-24T13:28",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk41zixurgsr714l3s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk41ziw5ppstcqmerm",
@@ -5239,7 +5887,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-rosado.webp",
-      "updatedAt": "2026-06-17T18:22"
+      "updatedAt": "2026-06-17T18:22",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk41zixurgsr714l3s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mpk41zixo2bbwdd1qr",
@@ -5253,7 +5906,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0018-verde-pino.webp",
-      "updatedAt": "2026-06-17T18:22"
+      "updatedAt": "2026-06-17T18:22",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk41zixurgsr714l3s",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqip4wvjr5iasji7jcq",
@@ -5281,7 +5939,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0019-beige.webp",
-      "updatedAt": "2026-06-17T18:37"
+      "updatedAt": "2026-06-17T18:37",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk64bqt4e1ff7qrlrd",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipo9e6vpqc09tahj",
@@ -5309,7 +5972,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0019-blanco.webp",
-      "updatedAt": "2026-07-04T10:31"
+      "updatedAt": "2026-07-04T10:31",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk64bqt4e1ff7qrlrd",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipo9e02pu8j16qxr4",
@@ -5365,7 +6033,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0019-negro.webp",
-      "updatedAt": "2026-06-27T11:46"
+      "updatedAt": "2026-06-27T11:46",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk64bqt4e1ff7qrlrd",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipo9dygdudb1pu4o6",
@@ -5393,7 +6066,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0019-perlaazul.webp",
-      "updatedAt": "2026-06-17T18:37"
+      "updatedAt": "2026-06-17T18:37",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk64bqt4e1ff7qrlrd",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mqipo9e2z90vy1ayroe",
@@ -5421,7 +6099,12 @@
       "stock": 1,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0019-rosado.webp",
-      "updatedAt": "2026-06-17T18:37"
+      "updatedAt": "2026-06-17T18:37",
+      "fechaAdquisicion": "2026-05-24",
+      "fechaCompra": "2026-05-24",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mpk64bqt4e1ff7qrlrd",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5m8ml76fx4i8gh0uv",
@@ -5435,7 +6118,12 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0033-turquesa.webp",
-      "updatedAt": "2026-06-08T14:40"
+      "updatedAt": "2026-06-08T14:40",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5m8mloqnlpx8btm8",
+      "cantidadAdquirida": 1
     },
     {
       "id": "moegsunlovlql31shf",
@@ -5505,7 +6193,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-azul-noche.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mbscbb80b70ih0tl",
@@ -5519,7 +6212,12 @@
       "stock": 2,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-beish.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mq5mbscvt701bwzc8j",
@@ -5533,7 +6231,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-blanco.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mbscjnyqgxvgcx98",
@@ -5547,7 +6250,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-cafe.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mbsbx8ga8m4vzy6",
@@ -5561,7 +6269,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-celeste.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mbsbe8x7gixz38xo",
@@ -5575,7 +6288,12 @@
       "stock": 2,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-negro.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mq5mbsc6xxy4lrzin2",
@@ -5589,7 +6307,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-rojo.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mbsc1lu3fg1qqebi",
@@ -5603,7 +6326,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-rosado.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mbsbq98v3agxi3jp",
@@ -5617,7 +6345,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-verde-pino.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5mbscnkoyry0658t",
@@ -5631,7 +6364,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0034-vino.webp",
-      "updatedAt": "2026-06-08T14:43"
+      "updatedAt": "2026-06-08T14:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5mbscvnd05at1pmxp",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5ls2lmsx9mlcnlaq",
@@ -5645,7 +6383,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0032-beish.webp",
-      "updatedAt": "2026-06-08T14:27"
+      "updatedAt": "2026-06-08T14:27",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5ls2lxlm42ts0sh1",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5ls2l9yv48m5ahkwl",
@@ -5659,7 +6402,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0032-blanco.webp",
-      "updatedAt": "2026-06-08T14:27"
+      "updatedAt": "2026-06-08T14:27",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5ls2lxlm42ts0sh1",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5ls2lhb7u6ewie0ve",
@@ -5673,7 +6421,12 @@
       "stock": 1,
       "pvp": 25,
       "imagen": "fotos_catalogo/v0032-verde-pino.webp",
-      "updatedAt": "2026-06-08T14:27"
+      "updatedAt": "2026-06-08T14:27",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5ls2lxlm42ts0sh1",
+      "cantidadAdquirida": 1
     },
     {
       "id": "mq5k7qpda5f0uc7u44",
@@ -5687,7 +6440,12 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0029-blanco.webp",
-      "updatedAt": "2026-06-14T13:38"
+      "updatedAt": "2026-06-14T13:38",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5k7qpdfu6z7ju0bm",
+      "cantidadAdquirida": 2
     },
     {
       "id": "mq5k7qp7ok4mc3pfk5",
@@ -5701,7 +6459,12 @@
       "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0029-negro-fuxia.webp",
-      "updatedAt": "2026-06-08T13:43"
+      "updatedAt": "2026-06-08T13:43",
+      "fechaAdquisicion": "2026-06-08",
+      "fechaCompra": "2026-06-08",
+      "tipoAdquisicion": "nuevo",
+      "compraId": "mq5k7qpdfu6z7ju0bm",
+      "cantidadAdquirida": 2
     },
     {
       "id": "modjwlnvixe4agvne5r",
