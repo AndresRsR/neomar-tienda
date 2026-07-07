@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-07-05T18:42:16.093Z",
-  "totalVariantes": 395,
-  "totalStock": 472,
+  "updatedAt": "2026-07-07T12:54:18.312Z",
+  "totalVariantes": 396,
+  "totalStock": 475,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -384,6 +384,34 @@
       "updatedAt": "2026-05-23T11:47"
     },
     {
+      "id": "mr0lz5mfc3czedwfvom",
+      "inventarioId": "mr0lz5mfc3czedwfvom",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|m|beish claro",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "M",
+      "color": "Beish claro",
+      "stock": 1,
+      "pvp": 24,
+      "imagen": "fotos_catalogo/c0008-beish-claro.webp",
+      "updatedAt": "2026-07-07T05:56"
+    },
+    {
+      "id": "mr0lz5lzwzcxunh8ag",
+      "inventarioId": "mr0lz5lzwzcxunh8ag",
+      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|s|beish claro",
+      "codigo": "C0008",
+      "nombre": "Bolero Sofia",
+      "detalle": "Bolero corto con botones dorados.",
+      "talla": "S",
+      "color": "Beish claro",
+      "stock": 2,
+      "pvp": 24,
+      "imagen": "fotos_catalogo/c0008-beish-claro.webp",
+      "updatedAt": "2026-07-07T05:56"
+    },
+    {
       "id": "mr0lz5m6v0jknpnq5x",
       "inventarioId": "mr0lz5m6v0jknpnq5x",
       "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|s|beish oscuro",
@@ -392,10 +420,10 @@
       "detalle": "Bolero corto con botones dorados.",
       "talla": "S",
       "color": "Beish oscuro",
-      "stock": 1,
+      "stock": 4,
       "pvp": 24,
       "imagen": "fotos_catalogo/c0008-beish-oscuro.webp",
-      "updatedAt": "2026-06-30T14:32"
+      "updatedAt": "2026-07-07T05:56"
     },
     {
       "id": "mr0lz5mb52a2xabcpb3",
@@ -406,10 +434,10 @@
       "detalle": "Bolero corto con botones dorados.",
       "talla": "M",
       "color": "negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 24,
       "imagen": "fotos_catalogo/c0008-negro.webp",
-      "updatedAt": "2026-06-30T14:32"
+      "updatedAt": "2026-07-07T05:56"
     },
     {
       "id": "mpibcmpz48tn66xbhs3",
@@ -916,6 +944,20 @@
       "updatedAt": "2026-05-23T05:54"
     },
     {
+      "id": "mraj8fi7li1e4far23e",
+      "inventarioId": "mraj8fi7li1e4far23e",
+      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|m|beige",
+      "codigo": "C0009",
+      "nombre": "Chaqueta Miranda",
+      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
+      "talla": "M",
+      "color": "BEIGE",
+      "stock": 1,
+      "pvp": 26,
+      "imagen": "fotos_catalogo/c0009-beige.webp",
+      "updatedAt": "2026-07-07T05:55"
+    },
+    {
       "id": "mqwshrxnybgprj5qzh",
       "inventarioId": "mqwshrxnybgprj5qzh",
       "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|l|blanco",
@@ -956,6 +998,20 @@
       "pvp": 26,
       "imagen": "fotos_catalogo/c0009-negro.webp",
       "updatedAt": "2026-06-27T15:05"
+    },
+    {
+      "id": "mqwshrxt8c5b49e2x17",
+      "inventarioId": "mqwshrxt8c5b49e2x17",
+      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|m|negro",
+      "codigo": "C0009",
+      "nombre": "Chaqueta Miranda",
+      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
+      "talla": "M",
+      "color": "Negro",
+      "stock": 1,
+      "pvp": 26,
+      "imagen": "fotos_catalogo/c0009-negro.webp",
+      "updatedAt": "2026-07-07T05:55"
     },
     {
       "id": "mqgwoanhsv3wb6jlllj",
@@ -1415,20 +1471,6 @@
       "stock": 1,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0003-blancoverde-claro.webp",
-      "updatedAt": "2026-05-14T19:25"
-    },
-    {
-      "id": "mo8px8trc8baigbbvb",
-      "inventarioId": "mo8px8trc8baigbbvb",
-      "variantKey": "b0003|corset mía|blusa corset de rayas con lazo adelante.|est (s/m)|blanco/verde oliva",
-      "codigo": "B0003",
-      "nombre": "CORSET MÍA",
-      "detalle": "Blusa corset de rayas con lazo adelante.",
-      "talla": "EST (S/M)",
-      "color": "BLANCO/VERDE OLIVA",
-      "stock": 1,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/b0003-blancoverde-oliva.webp",
       "updatedAt": "2026-05-14T19:25"
     },
     {
@@ -3403,10 +3445,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 24,
+      "stock": 23,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-07-04T06:03"
+      "updatedAt": "2026-07-05T16:23"
     },
     {
       "id": "mpsjmpvzn7fm3ts1f9b",
@@ -5337,25 +5379,6 @@
       "cantidadAdquirida": 1
     },
     {
-      "id": "mqipztcsr3ffr4mc20r",
-      "inventarioId": "mqipztcsr3ffr4mc20r",
-      "variantKey": "v0041|vestido micaela|vestido jumper de tiras, floreado.|única|verde agua",
-      "codigo": "v0041",
-      "nombre": "Vestido Micaela",
-      "detalle": "Vestido Jumper de tiras, floreado.",
-      "talla": "Única",
-      "color": "verde agua",
-      "stock": 1,
-      "pvp": 28,
-      "imagen": "fotos_catalogo/v0041-verde-agua.webp",
-      "updatedAt": "2026-06-17T18:46",
-      "fechaAdquisicion": "2026-06-17",
-      "fechaCompra": "2026-06-17",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mqipztd81bmeukd20p5",
-      "cantidadAdquirida": 1
-    },
-    {
       "id": "mq5nsc6jmc0yxjl5oy",
       "inventarioId": "mq5nsc6jmc0yxjl5oy",
       "variantKey": "v0037|vestido monaco|vestido largo en tela suplex, con manga asimetrica.|única|rojo",
@@ -5457,25 +5480,6 @@
       "stock": 1,
       "pvp": 35,
       "imagen": "fotos_catalogo/v0050-rosa.webp",
-      "updatedAt": "2026-06-30T14:32",
-      "fechaAdquisicion": "2026-06-29",
-      "fechaCompra": "2026-06-29",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mr03iv91mg20lq1yrsa",
-      "cantidadAdquirida": 1
-    },
-    {
-      "id": "mr03iv8be03c2ycboqq",
-      "inventarioId": "mr03iv8be03c2ycboqq",
-      "variantKey": "v0050|vestido rachel|vestido tela lomas, corte en a con lazo en la espalda.|única|verde",
-      "codigo": "V0050",
-      "nombre": "Vestido Rachel",
-      "detalle": "Vestido tela lomas, corte en A con lazo en la espalda.",
-      "talla": "Única",
-      "color": "verde",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v0050-verde.webp",
       "updatedAt": "2026-06-30T14:32",
       "fechaAdquisicion": "2026-06-29",
       "fechaCompra": "2026-06-29",
