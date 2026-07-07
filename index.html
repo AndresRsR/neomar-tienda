@@ -4067,6 +4067,7 @@ var INV_KEY = 'nm4_inv';
 var CATALOG_URL = 'catalogo-publico.json';
 var catalogSource = 'pending';
 var catalogError = '';
+var catalogOnlineLoaded = false;
 var heroCarouselTimer = null;
 var heroSlideIndex = 0;
 var heroCarouselRunId = 0;
@@ -4160,11 +4161,25 @@ function payloadItems(data) {
   if (!data || typeof data !== 'object') return [];
   return data.items || data.productos || data.catalogo || [];
 }
+function isLocalPreviewMode() {
+  var h = window.location.hostname;
+  return window.location.protocol === 'file:' || h === 'localhost' || h === '127.0.0.1' || h === '::1';
+}
+function catalogFetchUrl() {
+  var sep = CATALOG_URL.indexOf('?') >= 0 ? '&' : '?';
+  return CATALOG_URL + sep + 'v=' + Date.now();
+}
 async function fetchCatalogoPublico() {
+  catalogOnlineLoaded = false;
   if (window.location.protocol === 'file:') return [];
   try {
-    var res = await fetch(CATALOG_URL, { cache: 'no-store' });
+    var res = await fetch(catalogFetchUrl(), {
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache' }
+    });
     if (!res.ok) throw new Error('HTTP ' + res.status);
+    catalogOnlineLoaded = true;
+    catalogError = '';
     return normalizarInventario(payloadItems(await res.json()));
   } catch (e) {
     catalogError = e && e.message ? e.message : 'No se pudo cargar el catálogo online';
@@ -4177,9 +4192,16 @@ function loadInventarioLocal() {
 }
 async function loadInventario() {
   var online = await fetchCatalogoPublico();
-  if (online.length) {
+  if (catalogOnlineLoaded) {
     catalogSource = 'online';
+    if (!isLocalPreviewMode()) {
+      try { localStorage.removeItem(INV_KEY); } catch(e) {}
+    }
     return online;
+  }
+  if (!isLocalPreviewMode()) {
+    catalogSource = catalogError ? 'error' : 'empty';
+    return [];
   }
   var local = normalizarInventario(loadInventarioLocal());
   if (local.length) {
