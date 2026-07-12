@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-07-11T21:59:04.953Z",
-  "totalVariantes": 373,
-  "totalStock": 435,
+  "updatedAt": "2026-07-12T18:43:11.411Z",
+  "totalVariantes": 367,
+  "totalStock": 427,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -382,20 +382,6 @@
       "pvp": 22,
       "imagen": "fotos_catalogo/b2920-azul-marino.webp",
       "updatedAt": "2026-05-23T11:47"
-    },
-    {
-      "id": "mr0lz5mfc3czedwfvom",
-      "inventarioId": "mr0lz5mfc3czedwfvom",
-      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|m|beish claro",
-      "codigo": "C0008",
-      "nombre": "Bolero Sofia",
-      "detalle": "Bolero corto con botones dorados.",
-      "talla": "M",
-      "color": "Beish claro",
-      "stock": 1,
-      "pvp": 24,
-      "imagen": "fotos_catalogo/c0008-beish-claro.webp",
-      "updatedAt": "2026-07-07T05:56"
     },
     {
       "id": "mr0lz5lzwzcxunh8ag",
@@ -1501,20 +1487,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "mpjzwwtw43ybx8l1qbf",
       "cantidadAdquirida": 1
-    },
-    {
-      "id": "mo8q1xjp237u51tzyfgj",
-      "inventarioId": "mo8q1xjp237u51tzyfgj",
-      "variantKey": "b0004|corset zena|blusa corset llana, manga larga con hombrera bombacha.|est (m/l)|beige",
-      "codigo": "B0004",
-      "nombre": "CORSET ZENA",
-      "detalle": "Blusa corset llana, manga larga con hombrera bombacha.",
-      "talla": "EST (M/L)",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/b0004-beige.webp",
-      "updatedAt": "2026-05-14T19:22"
     },
     {
       "id": "mo8q1xjpn0lcs5spvk",
@@ -2750,20 +2722,6 @@
       "updatedAt": "2026-05-16T11:19"
     },
     {
-      "id": "modq61x29oqdij99bjo",
-      "inventarioId": "modq61x29oqdij99bjo",
-      "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|l|cafe",
-      "codigo": "F0003",
-      "nombre": "FALDA SOFIA",
-      "detalle": "Falda plisada en tela lomas, con cinturon.",
-      "talla": "L",
-      "color": "CAFE",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0003-cafe.webp",
-      "updatedAt": "2026-05-16T11:19"
-    },
-    {
       "id": "modq61x2b0al2umj3qa",
       "inventarioId": "modq61x2b0al2umj3qa",
       "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|m|cafe",
@@ -3332,10 +3290,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 17,
+      "stock": 15,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-07-11T08:16"
+      "updatedAt": "2026-07-12T13:01"
     },
     {
       "id": "mpsjmpvzn7fm3ts1f9b",
@@ -3717,25 +3675,6 @@
       "cantidadAdquirida": 1
     },
     {
-      "id": "mqis34bbhdmwke50opj",
-      "inventarioId": "mqis34bbhdmwke50opj",
-      "variantKey": "v0043|vestido bella|vestido en tela lomas con manga larga y solapas delanteras|única|azul noche",
-      "codigo": "v0043",
-      "nombre": "Vestido Bella",
-      "detalle": "Vestido en tela lomas con manga larga y solapas delanteras",
-      "talla": "Única",
-      "color": "Azul noche",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0043-azul-noche.webp",
-      "updatedAt": "2026-06-17T19:45",
-      "fechaAdquisicion": "2026-06-17",
-      "fechaCompra": "2026-06-17",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mqis34blxd16bk2vtll",
-      "cantidadAdquirida": 1
-    },
-    {
       "id": "mqis34bfbt3zs3l8tv",
       "inventarioId": "mqis34bfbt3zs3l8tv",
       "variantKey": "v0043|vestido bella|vestido en tela lomas con manga larga y solapas delanteras|única|beish",
@@ -3804,25 +3743,6 @@
       "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0043-rojo.webp",
-      "updatedAt": "2026-06-17T19:45",
-      "fechaAdquisicion": "2026-06-17",
-      "fechaCompra": "2026-06-17",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mqis34blxd16bk2vtll",
-      "cantidadAdquirida": 1
-    },
-    {
-      "id": "mqis34bj87jwnwektj",
-      "inventarioId": "mqis34bj87jwnwektj",
-      "variantKey": "v0043|vestido bella|vestido en tela lomas con manga larga y solapas delanteras|única|rosado",
-      "codigo": "v0043",
-      "nombre": "Vestido Bella",
-      "detalle": "Vestido en tela lomas con manga larga y solapas delanteras",
-      "talla": "Única",
-      "color": "Rosado",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0043-rosado.webp",
       "updatedAt": "2026-06-17T19:45",
       "fechaAdquisicion": "2026-06-17",
       "fechaCompra": "2026-06-17",
@@ -5150,25 +5070,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0016-verde-jade.webp",
       "updatedAt": "2026-06-08T13:13"
-    },
-    {
-      "id": "mr03iv8w6khhvea3qe2",
-      "inventarioId": "mr03iv8w6khhvea3qe2",
-      "variantKey": "v0050|vestido rachel|vestido tela lomas, corte en a con lazo en la espalda.|única|beige",
-      "codigo": "V0050",
-      "nombre": "Vestido Rachel",
-      "detalle": "Vestido tela lomas, corte en A con lazo en la espalda.",
-      "talla": "Única",
-      "color": "beige",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v0050-beige.webp",
-      "updatedAt": "2026-07-04T18:51",
-      "fechaAdquisicion": "2026-06-29",
-      "fechaCompra": "2026-06-29",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mr03iv91mg20lq1yrsa",
-      "cantidadAdquirida": 2
     },
     {
       "id": "mr03iv87ejm1psm243k",
