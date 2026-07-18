@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-07-17T22:32:08.974Z",
+  "updatedAt": "2026-07-18T10:42:07.394Z",
   "totalVariantes": 456,
-  "totalStock": 549,
+  "totalStock": 545,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -61,10 +61,10 @@
       "detalle": "Blusa llana corset",
       "talla": "Única",
       "color": "blanco",
-      "stock": 2,
+      "stock": 1,
       "pvp": 18,
       "imagen": "fotos_catalogo/b0013-blanco.webp",
-      "updatedAt": "2026-07-17T16:11",
+      "updatedAt": "2026-07-17T17:55",
       "fechaAdquisicion": "2026-07-17T16:11",
       "fechaCompra": "2026-07-17",
       "tipoAdquisicion": "nuevo",
@@ -2374,10 +2374,10 @@
       "detalle": "Blusa corset llana, manga larga con hombrera bombacha.",
       "talla": "EST (M/L)",
       "color": "PERLA",
-      "stock": 2,
+      "stock": 1,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0004-perla.webp",
-      "updatedAt": "2026-05-14T19:22"
+      "updatedAt": "2026-07-17T17:35"
     },
     {
       "id": "mo8q1xjpc2n7dqjemct",
@@ -3971,10 +3971,10 @@
       "detalle": "Pantalon con cinturon suelto en otra funda",
       "talla": "L",
       "color": "NEGRO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 23,
       "imagen": "fotos_catalogo/g202-negro.webp",
-      "updatedAt": "2026-05-23T10:37"
+      "updatedAt": "2026-07-17T17:35"
     },
     {
       "id": "mpk1z2g4wb1393uwjm",
@@ -4083,10 +4083,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 10,
+      "stock": 9,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-07-17T15:08"
+      "updatedAt": "2026-07-17T17:57"
     },
     {
       "id": "mpsjmpvzn7fm3ts1f9b",
