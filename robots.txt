@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /*?categoria=
+Disallow: /*?liquidaciones=
+Disallow: /*?color=
+Disallow: /*?talla=
 
 Sitemap: https://www.tiendaneomar.com/sitemap.xml
