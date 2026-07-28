@@ -395,6 +395,47 @@ header.scrolled {
 }
 .mobile-nav a:hover,
 .mobile-nav a.active { color: var(--rose); }
+.mobile-sale-access {
+  display: none;
+}
+.mobile-sale-access strong,
+.mobile-sale-access span {
+  position: relative;
+  z-index: 1;
+}
+.mobile-sale-access .sale-access-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--rose);
+  box-shadow: 0 0 0 5px rgba(200,86,110,.1);
+}
+.mobile-sale-access .sale-access-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.mobile-sale-access strong {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: .8px;
+  color: var(--charcoal);
+}
+.mobile-sale-access small {
+  font-size: 10px;
+  line-height: 1.15;
+  color: var(--text-muted);
+  letter-spacing: .6px;
+  text-transform: uppercase;
+}
+.mobile-sale-access .sale-access-arrow {
+  margin-left: auto;
+  color: var(--rose-deep);
+  font-size: 18px;
+  line-height: 1;
+}
 
 /* ── HERO ── */
 .hero {
@@ -2950,6 +2991,50 @@ footer {
     align-items: center;
   }
 
+  .mobile-sale-access {
+    position: fixed;
+    top: 74px;
+    left: max(14px, env(safe-area-inset-left));
+    right: max(14px, env(safe-area-inset-right));
+    z-index: 98;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 48px;
+    padding: 9px 14px;
+    border: 1px solid rgba(200,86,110,.2);
+    border-radius: 999px;
+    background: rgba(255,253,249,.9);
+    color: var(--text);
+    box-shadow: 0 12px 34px rgba(120,40,60,.12);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    cursor: pointer;
+    transition: transform .22s ease, opacity .22s ease, box-shadow .22s ease, border-color .22s ease;
+  }
+
+  .mobile-sale-access::before {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border-radius: inherit;
+    background: linear-gradient(100deg, rgba(245,232,237,.78), rgba(255,253,249,.88) 52%, rgba(232,213,190,.36));
+    z-index: 0;
+  }
+
+  .mobile-sale-access.is-hidden {
+    display: none;
+  }
+
+  .mobile-sale-access.active {
+    border-color: rgba(158,58,82,.36);
+    box-shadow: 0 14px 38px rgba(158,58,82,.16);
+  }
+
+  .mobile-sale-access:active {
+    transform: scale(.985);
+  }
+
   .hero {
     grid-template-columns: 1fr;
     min-height: auto;
@@ -3502,6 +3587,23 @@ footer {
     width: 22px;
   }
 
+  .mobile-sale-access {
+    left: max(10px, env(safe-area-inset-left));
+    right: max(10px, env(safe-area-inset-right));
+    min-height: 44px;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+
+  .mobile-sale-access strong {
+    font-size: 17px;
+  }
+
+  .mobile-sale-access small {
+    font-size: 9px;
+    letter-spacing: .45px;
+  }
+
   .floating-socials,
   .floating-social-menu {
     gap: 8px;
@@ -3767,6 +3869,15 @@ footer {
     </div>
   </div>
 </header>
+
+<button class="mobile-sale-access is-hidden" id="mobileSaleAccess" type="button" onclick="showLiquidaciones(event)" aria-label="Ver liquidaciones NEOMAR">
+  <span class="sale-access-dot" aria-hidden="true"></span>
+  <span class="sale-access-copy">
+    <strong>Liquidacion -15%</strong>
+    <small id="mobileSaleMeta">Ultimos modelos disponibles</small>
+  </span>
+  <span class="sale-access-arrow" aria-hidden="true">-></span>
+</button>
 
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobileNav">
@@ -4352,6 +4463,18 @@ function renderNavState() {
   document.querySelectorAll('[data-nav="coleccion"]').forEach(function(el) {
     el.classList.toggle('active', !saleActive && !currentCategoryParam());
   });
+  updateMobileSaleAccess();
+}
+function updateMobileSaleAccess() {
+  var btn = document.getElementById('mobileSaleAccess');
+  if (!btn) return;
+  var count = allGroups.filter(function(g) { return grupoEnLiquidacion(g); }).length;
+  btn.classList.toggle('is-hidden', count <= 0);
+  btn.classList.toggle('active', saleActive);
+  var meta = document.getElementById('mobileSaleMeta');
+  if (meta) meta.textContent = count === 1 ? '1 modelo con stock bajo' : count + ' modelos con stock bajo';
+  var header = document.getElementById('header');
+  if (header) btn.style.top = (header.getBoundingClientRect().height + 8) + 'px';
 }
 function resetCatalogFilterUi() {
   document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) {
@@ -4884,6 +5007,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   // Scroll events
   window.addEventListener('scroll', onScroll);
+  window.addEventListener('resize', updateMobileSaleAccess);
   onScroll();
 
   // Reveal observer
@@ -5106,6 +5230,7 @@ function onScroll() {
   else h.classList.remove('scrolled');
 
   var topBtn = document.getElementById('scrollTopBtn');
+  updateMobileSaleAccess();
   if (!topBtn) return;
   if (window.scrollY > 420) topBtn.classList.add('show');
   else topBtn.classList.remove('show');
@@ -5726,6 +5851,10 @@ function scrollToCatalogProducts() {
   if (!target) return;
   var header = document.getElementById('header');
   var offset = (header ? header.offsetHeight : 0) + 18;
+  var saleAccess = document.getElementById('mobileSaleAccess');
+  if (saleAccess && !saleAccess.classList.contains('is-hidden') && window.matchMedia('(max-width: 900px)').matches) {
+    offset += saleAccess.offsetHeight + 8;
+  }
   var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
   window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
 }
