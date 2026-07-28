@@ -3010,7 +3010,7 @@ footer {
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
     cursor: pointer;
-    transition: transform .22s ease, opacity .22s ease, box-shadow .22s ease, border-color .22s ease;
+    transition: transform .24s ease, opacity .24s ease, box-shadow .22s ease, border-color .22s ease;
   }
 
   .mobile-sale-access::before {
@@ -3024,6 +3024,12 @@ footer {
 
   .mobile-sale-access.is-hidden {
     display: none;
+  }
+
+  .mobile-sale-access.is-collapsed {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-16px) scale(.98);
   }
 
   .mobile-sale-access.active {
@@ -3870,7 +3876,7 @@ footer {
   </div>
 </header>
 
-<button class="mobile-sale-access is-hidden" id="mobileSaleAccess" type="button" onclick="showLiquidaciones(event)" aria-label="Ver liquidaciones NEOMAR">
+<button class="mobile-sale-access is-hidden is-collapsed" id="mobileSaleAccess" type="button" onclick="showLiquidaciones(event)" aria-label="Ver liquidaciones NEOMAR">
   <span class="sale-access-dot" aria-hidden="true"></span>
   <span class="sale-access-copy">
     <strong>Liquidacion -15%</strong>
@@ -4469,12 +4475,27 @@ function updateMobileSaleAccess() {
   var btn = document.getElementById('mobileSaleAccess');
   if (!btn) return;
   var count = allGroups.filter(function(g) { return grupoEnLiquidacion(g); }).length;
-  btn.classList.toggle('is-hidden', count <= 0);
+  var isMobile = window.matchMedia && window.matchMedia('(max-width: 900px)').matches;
+  var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+  var goingUp = y < lastMobileSaleScrollY - 8;
+  var goingDown = y > lastMobileSaleScrollY + 8;
+  if (!isMobile || count <= 0) {
+    btn.classList.add('is-hidden');
+    lastMobileSaleScrollY = y;
+    mobileSaleReveal = false;
+    return;
+  }
+  btn.classList.remove('is-hidden');
+  if (y < 150 || saleActive) mobileSaleReveal = false;
+  else if (goingUp) mobileSaleReveal = true;
+  else if (goingDown) mobileSaleReveal = false;
+  btn.classList.toggle('is-collapsed', !mobileSaleReveal);
   btn.classList.toggle('active', saleActive);
   var meta = document.getElementById('mobileSaleMeta');
   if (meta) meta.textContent = count === 1 ? '1 modelo con stock bajo' : count + ' modelos con stock bajo';
   var header = document.getElementById('header');
   if (header) btn.style.top = (header.getBoundingClientRect().height + 8) + 'px';
+  lastMobileSaleScrollY = y;
 }
 function resetCatalogFilterUi() {
   document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) {
@@ -4596,6 +4617,8 @@ var catActive = 'Todas';
 var sizeActive = 'Todas';
 var colorActive = 'Todos';
 var saleActive = false;
+var lastMobileSaleScrollY = 0;
+var mobileSaleReveal = false;
 var colorToneTolerance = 28;
 var searchQ = '';
 var currentModal = null;
