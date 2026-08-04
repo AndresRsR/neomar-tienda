@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-08-04T20:12:54.719Z",
-  "totalVariantes": 522,
-  "totalStock": 637,
+  "updatedAt": "2026-08-04T23:04:38.454Z",
+  "totalVariantes": 517,
+  "totalStock": 629,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -479,21 +479,6 @@
       "pvp": 12,
       "imagen": "fotos_catalogo/b0006-rosado.webp",
       "updatedAt": "2026-05-23T13:26"
-    },
-    {
-      "id": "modeqyvr2s1h2tra1kw",
-      "inventarioId": "modeqyvr2s1h2tra1kw",
-      "variantKey": "b2292|blusa chaleco hilo prestige|blusa chaleco hilo con dije dorado|est (m/l)|blanco",
-      "codigo": "B2292",
-      "nombre": "BLUSA CHALECO HILO PRESTIGE",
-      "categoria": "",
-      "detalle": "BLUSA CHALECO HILO CON DIJE DORADO",
-      "talla": "EST (M/L)",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 18,
-      "imagen": "fotos_catalogo/b2292-blanco.webp",
-      "updatedAt": "2026-05-23T14:33"
     },
     {
       "id": "modeqyvrj66cl6a7za",
@@ -2508,21 +2493,6 @@
       "stock": 1,
       "pvp": 26,
       "imagen": "fotos_catalogo/c0009-blanco.webp",
-      "updatedAt": "2026-06-27T15:05"
-    },
-    {
-      "id": "mqwshrxibbge425cnrr",
-      "inventarioId": "mqwshrxibbge425cnrr",
-      "variantKey": "c0009|chaqueta miranda|chaqueta con botones dorados y bolsillos delanteros|l|negro",
-      "codigo": "C0009",
-      "nombre": "Chaqueta Miranda",
-      "categoria": "",
-      "detalle": "Chaqueta con botones dorados y bolsillos delanteros",
-      "talla": "L",
-      "color": "Negro",
-      "stock": 1,
-      "pvp": 26,
-      "imagen": "fotos_catalogo/c0009-negro.webp",
       "updatedAt": "2026-06-27T15:05"
     },
     {
@@ -5150,10 +5120,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 25,
+      "stock": 21,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-08-03T20:02"
+      "updatedAt": "2026-08-04T17:48"
     },
     {
       "id": "mrtpiuphm57co6jsb3q",
@@ -6706,26 +6676,6 @@
       "cantidadAdquirida": 1
     },
     {
-      "id": "ms9euabu5jcag3wngbr",
-      "inventarioId": "ms9euabu5jcag3wngbr",
-      "variantKey": "v0060|vestido karoline|vestido de tul con manga larga|única|lila",
-      "codigo": "v0060",
-      "nombre": "Vestido Karoline",
-      "categoria": "Vestidos",
-      "detalle": "Vestido de Tul con manga larga",
-      "talla": "Única",
-      "color": "Lila",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v0060-lila.webp",
-      "updatedAt": "2026-07-31T15:43",
-      "fechaAdquisicion": "2026-07-31T15:43",
-      "fechaCompra": "2026-07-31",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "ms9euabwjbztmp4xgf",
-      "cantidadAdquirida": 1
-    },
-    {
       "id": "ms9euabwhk3f1d4mc5",
       "inventarioId": "ms9euabwhk3f1d4mc5",
       "variantKey": "v0060|vestido karoline|vestido de tul con manga larga|única|negro",
@@ -7554,26 +7504,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "ms9gl25hmrpbzptyrrc",
       "cantidadAdquirida": 1
-    },
-    {
-      "id": "ms9gl2521ckg0cqqv2ei",
-      "inventarioId": "ms9gl2521ckg0cqqv2ei",
-      "variantKey": "v0062|vestido muss|vestido jumper de tira con manga larga.|est (s/m)|cereza",
-      "codigo": "v0062",
-      "nombre": "Vestido Muss",
-      "categoria": "Vestidos",
-      "detalle": "Vestido Jumper de tira con manga larga.",
-      "talla": "EST (S/M)",
-      "color": "cereza",
-      "stock": 1,
-      "pvp": 32,
-      "imagen": "fotos_catalogo/v0062-cereza.webp",
-      "updatedAt": "2026-08-01T07:12",
-      "fechaAdquisicion": "2026-07-31T16:32",
-      "fechaCompra": "2026-07-31",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "ms9gl25hmrpbzptyrrc",
-      "cantidadAdquirida": 2
     },
     {
       "id": "ms9gl256jg1rcrff8lf",
@@ -8563,7 +8493,7 @@
       "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0056-azul-electrico.webp",
-      "updatedAt": "2026-07-14T16:11",
+      "updatedAt": "2026-08-04T15:54",
       "fechaAdquisicion": "2026-07-14T06:15",
       "fechaCompra": "2026-07-14",
       "tipoAdquisicion": "nuevo",
@@ -8583,7 +8513,7 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0056-azul-noche.webp",
-      "updatedAt": "2026-07-25T15:47",
+      "updatedAt": "2026-08-04T15:54",
       "fechaAdquisicion": "2026-07-14T06:15",
       "fechaCompra": "2026-07-14",
       "tipoAdquisicion": "nuevo",
@@ -8603,27 +8533,7 @@
       "stock": 3,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0056-negro.webp",
-      "updatedAt": "2026-07-25T15:47",
-      "fechaAdquisicion": "2026-07-14T06:15",
-      "fechaCompra": "2026-07-14",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mrkk1xhrf61ju4kl904",
-      "cantidadAdquirida": 2
-    },
-    {
-      "id": "mrkk1xhgi3dulia23l",
-      "inventarioId": "mrkk1xhgi3dulia23l",
-      "variantKey": "v0056|vestido sky|vestido en tela suplex asimetrico, corrugado.|única|uva",
-      "codigo": "v0056",
-      "nombre": "Vestido Sky",
-      "categoria": "",
-      "detalle": "Vestido en tela suplex asimetrico, corrugado.",
-      "talla": "Única",
-      "color": "uva",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0056-uva.webp",
-      "updatedAt": "2026-08-04T14:45",
+      "updatedAt": "2026-08-04T15:54",
       "fechaAdquisicion": "2026-07-14T06:15",
       "fechaCompra": "2026-07-14",
       "tipoAdquisicion": "nuevo",
@@ -8643,7 +8553,7 @@
       "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0056-verde-jade.webp",
-      "updatedAt": "2026-07-21T17:40"
+      "updatedAt": "2026-08-04T15:54"
     },
     {
       "id": "mrkk1xgzuyfjgynoc9",
@@ -8655,10 +8565,10 @@
       "detalle": "Vestido en tela suplex asimetrico, corrugado.",
       "talla": "Única",
       "color": "vino",
-      "stock": 1,
+      "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0056-vino.webp",
-      "updatedAt": "2026-07-21T17:40",
+      "updatedAt": "2026-08-04T15:54",
       "fechaAdquisicion": "2026-07-14T06:15",
       "fechaCompra": "2026-07-14",
       "tipoAdquisicion": "nuevo",
