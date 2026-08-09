@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-08-09T15:52:09.697Z",
-  "totalVariantes": 479,
-  "totalStock": 575,
+  "updatedAt": "2026-08-09T21:58:58.840Z",
+  "totalVariantes": 471,
+  "totalStock": 560,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -1801,21 +1801,6 @@
       "updatedAt": "2026-05-23T11:47"
     },
     {
-      "id": "mr0lz5m6v0jknpnq5x",
-      "inventarioId": "mr0lz5m6v0jknpnq5x",
-      "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|s|beish oscuro",
-      "codigo": "C0008",
-      "nombre": "Bolero Sofia",
-      "categoria": "",
-      "detalle": "Bolero corto con botones dorados.",
-      "talla": "S",
-      "color": "Beish oscuro",
-      "stock": 2,
-      "pvp": 24,
-      "imagen": "fotos_catalogo/c0008-beish-oscuro.webp",
-      "updatedAt": "2026-08-08T11:44"
-    },
-    {
       "id": "mr0lz5mb52a2xabcpb3",
       "inventarioId": "mr0lz5mb52a2xabcpb3",
       "variantKey": "c0008|bolero sofia|bolero corto con botones dorados.|m|negro",
@@ -1840,10 +1825,10 @@
       "detalle": "Bolero corto con botones dorados.",
       "talla": "S",
       "color": "Negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 24,
       "imagen": "fotos_catalogo/c0008-negro.webp",
-      "updatedAt": "2026-07-14T10:40"
+      "updatedAt": "2026-08-09T11:14"
     },
     {
       "id": "mpibcmpz48tn66xbhs3",
@@ -4326,36 +4311,6 @@
       "updatedAt": "2026-05-16T11:19"
     },
     {
-      "id": "modq61x2gmhpwwznys5",
-      "inventarioId": "modq61x2gmhpwwznys5",
-      "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|l|miel",
-      "codigo": "F0003",
-      "nombre": "FALDA SOFIA",
-      "categoria": "",
-      "detalle": "Falda plisada en tela lomas, con cinturon.",
-      "talla": "L",
-      "color": "MIEL",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0003-miel.webp",
-      "updatedAt": "2026-07-24T13:00"
-    },
-    {
-      "id": "modq61x2g8sx29xt5uf",
-      "inventarioId": "modq61x2g8sx29xt5uf",
-      "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|m|miel",
-      "codigo": "F0003",
-      "nombre": "FALDA SOFIA",
-      "categoria": "",
-      "detalle": "Falda plisada en tela lomas, con cinturon.",
-      "talla": "M",
-      "color": "MIEL",
-      "stock": 1,
-      "pvp": 20,
-      "imagen": "fotos_catalogo/f0003-miel.webp",
-      "updatedAt": "2026-05-16T11:19"
-    },
-    {
       "id": "modq61x2iuwict7qlt9",
       "inventarioId": "modq61x2iuwict7qlt9",
       "variantKey": "f0003|falda sofia|falda plisada en tela lomas, con cinturon.|s|miel",
@@ -4950,10 +4905,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 18,
+      "stock": 17,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-08-08T13:29"
+      "updatedAt": "2026-08-09T14:53"
     },
     {
       "id": "mrtpiuphm57co6jsb3q",
@@ -4974,26 +4929,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "mrtpiuphcxjdjrr3msr",
       "cantidadAdquirida": 1
-    },
-    {
-      "id": "mrtpiup12gfcy2sur59",
-      "inventarioId": "mrtpiup12gfcy2sur59",
-      "variantKey": "v0057|vestido abril|vestido en tela suplex, cuello bandeja, y abertura en pierna.|única|cafe",
-      "codigo": "v0057",
-      "nombre": "Vestido Abril",
-      "categoria": "",
-      "detalle": "Vestido en tela suplex, cuello bandeja, y abertura en pierna.",
-      "talla": "Única",
-      "color": "cafe",
-      "stock": 2,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0057-cafe.webp",
-      "updatedAt": "2026-07-28T16:00",
-      "fechaAdquisicion": "2026-07-20T15:58",
-      "fechaCompra": "2026-07-20",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mrtpiuphcxjdjrr3msr",
-      "cantidadAdquirida": 2
     },
     {
       "id": "mrtpiupd4fb4cyxmhvt",
@@ -5561,26 +5496,6 @@
       "cantidadAdquirida": 1
     },
     {
-      "id": "mrkjdo94sm5c3ia2msr",
-      "inventarioId": "mrkjdo94sm5c3ia2msr",
-      "variantKey": "v0053|vestido brianny|vestido suplex, cuello circular con dije y vuelo en pecho|única|verde pino",
-      "codigo": "v0053",
-      "nombre": "Vestido Brianny",
-      "categoria": "",
-      "detalle": "Vestido suplex, cuello circular con dije y vuelo en pecho",
-      "talla": "Única",
-      "color": "verde pino",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0053-verde-pino.webp",
-      "updatedAt": "2026-07-14T05:56",
-      "fechaAdquisicion": "2026-07-14T05:56",
-      "fechaCompra": "2026-07-14",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mrkjdo9ohnf0d3aebyt",
-      "cantidadAdquirida": 1
-    },
-    {
       "id": "mq6lw6ivrttwuev8ev",
       "inventarioId": "mq6lw6ivrttwuev8ev",
       "variantKey": "v0026|vestido britania|vestido en manga asimetrica, tela premium brillosa.|est (s/m)|azul electrico",
@@ -5985,10 +5900,10 @@
       "detalle": "Vestido en tela suplex con nudo en cintura y dije en hombro",
       "talla": "Única",
       "color": "negro",
-      "stock": 2,
+      "stock": 1,
       "pvp": 45,
       "imagen": "fotos_catalogo/v0055-negro.webp",
-      "updatedAt": "2026-08-01T16:33",
+      "updatedAt": "2026-08-09T11:35",
       "fechaAdquisicion": "2026-07-14T06:04",
       "fechaCompra": "2026-07-14",
       "tipoAdquisicion": "nuevo",
@@ -6521,26 +6436,6 @@
       "cantidadAdquirida": 2
     },
     {
-      "id": "mqitpmumlkkkxrwb02j",
-      "inventarioId": "mqitpmumlkkkxrwb02j",
-      "variantKey": "v0046|vestido kendra|vestido en tela lomas, corte en a con maga corta|única|perla",
-      "codigo": "v0046",
-      "nombre": "Vestido Kendra",
-      "categoria": "",
-      "detalle": "Vestido en tela lomas, corte en A con maga corta",
-      "talla": "Única",
-      "color": "Perla",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0046-perla.webp",
-      "updatedAt": "2026-06-29T22:38",
-      "fechaAdquisicion": "2026-06-17",
-      "fechaCompra": "2026-06-17",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mqitpmum0axnh46j643",
-      "cantidadAdquirida": 1
-    },
-    {
       "id": "mqitpmubb1f8peqp0u",
       "inventarioId": "mqitpmubb1f8peqp0u",
       "variantKey": "v0046|vestido kendra|vestido en tela lomas, corte en a con maga corta|única|verde pino",
@@ -6955,10 +6850,10 @@
       "detalle": "Vestido Jumper de tira con manga larga.",
       "talla": "EST (S/M)",
       "color": "amarillo",
-      "stock": 2,
+      "stock": 1,
       "pvp": 32,
       "imagen": "fotos_catalogo/v0062-amarillo.webp",
-      "updatedAt": "2026-08-08T16:28",
+      "updatedAt": "2026-08-09T14:56",
       "fechaAdquisicion": "2026-07-31T16:32",
       "fechaCompra": "2026-07-31",
       "tipoAdquisicion": "nuevo",
@@ -7570,10 +7465,10 @@
       "detalle": "Vesitdo jumper, con manga corta floreado.",
       "talla": "EST (S/M)",
       "color": "Palo de rosa",
-      "stock": 3,
+      "stock": 2,
       "pvp": 28,
       "imagen": "fotos_catalogo/v0019-palo-de-rosa.webp",
-      "updatedAt": "2026-07-31T16:23"
+      "updatedAt": "2026-08-09T14:08"
     },
     {
       "id": "mpk64bqqcinulje8khi",
@@ -8071,26 +7966,6 @@
       "cantidadAdquirida": 1
     },
     {
-      "id": "ms9dzoedrq4q0h07r6",
-      "inventarioId": "ms9dzoedrq4q0h07r6",
-      "variantKey": "v0059|vestido spirit|vestido largo en tela tul con tira en el cuello.|única|negro",
-      "codigo": "V0059",
-      "nombre": "Vestido Spirit",
-      "categoria": "Vestidos",
-      "detalle": "Vestido largo en tela Tul con tira en el cuello.",
-      "talla": "Única",
-      "color": "negro",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v0059-negro.webp",
-      "updatedAt": "2026-08-03T20:02",
-      "fechaAdquisicion": "2026-07-31T15:20",
-      "fechaCompra": "2026-07-31",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "ms9dzoej3x9n4rdz66h",
-      "cantidadAdquirida": 2
-    },
-    {
       "id": "ms9dzoehd6yyc36iqzo",
       "inventarioId": "ms9dzoehd6yyc36iqzo",
       "variantKey": "v0059|vestido spirit|vestido largo en tela tul con tira en el cuello.|única|rojo",
@@ -8399,21 +8274,6 @@
       "pvp": 30,
       "imagen": "fotos_catalogo/v0007-lila.webp",
       "updatedAt": "2026-06-06T06:18"
-    },
-    {
-      "id": "mpml4b9r86fg12asl6i",
-      "inventarioId": "mpml4b9r86fg12asl6i",
-      "variantKey": "v0007|vestido ximena|vestido recto tirantes con lazos en hombros|est (s/m)|negro",
-      "codigo": "V0007",
-      "nombre": "VESTIDO XIMENA",
-      "categoria": "",
-      "detalle": "VESTIDO RECTO TIRANTES CON LAZOS EN HOMBROS",
-      "talla": "EST (S/M)",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/v0007-negro.webp",
-      "updatedAt": "2026-06-13T07:55"
     },
     {
       "id": "modlzg4f3b1im3l3afr",
