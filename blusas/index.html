@@ -37,9 +37,20 @@
   "alternateName": "Tienda NEOMAR",
   "url": "https://www.tiendaneomar.com/",
   "description": "Tienda de moda femenina en Ecuador.",
+  "hasMap": "https://maps.app.goo.gl/Xdnjqn81DLx4EqHf6?g_st=ic",
   "areaServed": {
     "@type": "Country",
     "name": "Ecuador"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Quito",
+    "addressCountry": "EC"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 0.2791712675244057,
+    "longitude": -78.53341358369094
   },
   "logo": "https://www.tiendaneomar.com/favicon-512.png",
   "image": "https://www.tiendaneomar.com/favicon-512.png",
@@ -2398,6 +2409,257 @@ section { padding: clamp(60px,10vw,120px) 5%; }
 }
 
 /* ── FOOTER ── */
+/* Location & reviews */
+.location-section {
+  padding: clamp(72px,9vw,118px) 5%;
+  background:
+    linear-gradient(135deg, rgba(255,253,249,.96), rgba(253,240,244,.88) 52%, rgba(250,247,244,.98)),
+    radial-gradient(circle at 88% 18%, rgba(184,146,106,.12), transparent 28%);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: 88px;
+}
+.location-inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+.location-head {
+  max-width: 660px;
+  margin-bottom: 34px;
+}
+.location-kicker {
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--rose);
+  margin-bottom: 14px;
+}
+.location-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(38px,4.8vw,66px);
+  font-weight: 300;
+  line-height: 1.02;
+  color: var(--charcoal);
+  margin-bottom: 16px;
+}
+.location-title em {
+  color: var(--rose);
+  font-style: italic;
+}
+.location-copy {
+  max-width: 560px;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.8;
+}
+.location-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.18fr) minmax(320px, .82fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.location-map-card,
+.location-review-card,
+.location-benefit {
+  background: rgba(255,253,249,.84);
+  border: 1px solid rgba(180,120,140,.22);
+  box-shadow: 0 18px 48px rgba(120,40,60,.10);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+.location-map-card {
+  border-radius: 14px;
+  overflow: hidden;
+}
+.location-map-window {
+  position: relative;
+  height: clamp(320px, 32vw, 430px);
+  min-height: 320px;
+  background: var(--rose-pale);
+  overflow: hidden;
+}
+.location-map-window iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  filter: saturate(.9) contrast(.96);
+}
+.location-map-ribbon {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 2;
+  padding: 9px 13px;
+  background: rgba(255,253,249,.90);
+  border: 1px solid rgba(180,120,140,.20);
+  color: var(--charcoal);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 22px rgba(120,40,60,.12);
+}
+.location-map-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  padding: 20px;
+}
+.location-map-name,
+.location-review-title {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--charcoal);
+  font-size: 25px;
+  line-height: 1;
+}
+.location-map-note {
+  margin-top: 5px;
+  color: var(--text-muted);
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.location-side {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.location-review-card {
+  border-radius: 14px;
+  padding: 28px;
+  min-height: 242px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.location-review-mark {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 20px;
+  background: var(--charcoal);
+  color: var(--gold-light);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+}
+.location-review-card p {
+  margin: 12px 0 22px;
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.75;
+}
+.location-benefits {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.location-benefit {
+  border-radius: 10px;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.location-benefit-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex: 0 0 34px;
+  background: rgba(184,146,106,.18);
+  color: var(--rose-deep);
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.location-benefit strong {
+  display: block;
+  color: var(--charcoal);
+  font-size: 13px;
+  letter-spacing: .2px;
+}
+.location-benefit span:last-child {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+.location-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12px 24px;
+  border: 1px solid var(--charcoal);
+  border-radius: 999px;
+  background: var(--charcoal);
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all .2s ease;
+  white-space: nowrap;
+}
+.location-btn:hover {
+  background: var(--rose-deep);
+  border-color: var(--rose-deep);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(158,58,82,.20);
+}
+.location-btn.light {
+  background: rgba(255,253,249,.68);
+  color: var(--charcoal);
+  border-color: rgba(180,120,140,.28);
+}
+.location-btn.light:hover {
+  color: #fff;
+  background: var(--rose-deep);
+}
+@media (max-width: 900px) {
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+  .location-map-window {
+    height: 360px;
+  }
+  .location-review-card {
+    min-height: 0;
+  }
+  .location-benefits {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 620px) {
+  .location-section {
+    padding: 62px 5%;
+  }
+  .location-head {
+    margin-bottom: 26px;
+  }
+  .location-map-window {
+    height: 300px;
+    min-height: 300px;
+  }
+  .location-map-footer {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 18px;
+  }
+  .location-btn {
+    width: 100%;
+  }
+  .location-review-card {
+    padding: 22px;
+  }
+  .location-benefits {
+    grid-template-columns: 1fr;
+  }
+}
+
 footer {
   background: var(--charcoal);
   padding: 60px 5% 30px;
@@ -3903,6 +4165,7 @@ footer {
     <li><a href="#coleccion" data-nav="coleccion" onclick="showCatalogo(event)">Colección</a></li>
     <li><a href="?liquidaciones=1" data-nav="liquidaciones" onclick="showLiquidaciones(event)">Liquidaciones</a></li>
     <li><a href="#nosotras">Nosotras</a></li>
+    <li><a href="#ubicacion">Ubicación</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ul>
   <div class="header-actions">
@@ -3949,6 +4212,7 @@ footer {
   <a href="#coleccion" data-nav="coleccion" onclick="showCatalogo(event);toggleMenu()">Colección</a>
   <a href="?liquidaciones=1" data-nav="liquidaciones" onclick="showLiquidaciones(event);toggleMenu()">Liquidaciones</a>
   <a href="#nosotras" onclick="toggleMenu()">Nosotras</a>
+  <a href="#ubicacion" onclick="toggleMenu()">Ubicación</a>
   <a href="#contacto" onclick="toggleMenu()">Contacto</a>
   <a href="https://wa.me/593978713623" target="_blank">WhatsApp</a>
 </div>
@@ -4069,6 +4333,61 @@ footer {
   </div>
 </div>
 
+<!-- LOCATION & REVIEWS -->
+<section class="location-section" id="ubicacion">
+  <div class="location-inner">
+    <div class="location-head reveal">
+      <div class="location-kicker">Ubicación NEOMAR</div>
+      <h2 class="location-title">Encuéntranos <em>en persona.</em></h2>
+      <p class="location-copy">Visítanos y descubre nuestras prendas en persona. También atendemos pedidos online todos los días.</p>
+    </div>
+    <div class="location-grid">
+      <div class="location-map-card reveal">
+        <div class="location-map-window">
+          <div class="location-map-ribbon">NEOMAR · Moda femenina</div>
+          <iframe
+            title="Ubicación de NEOMAR en Google Maps"
+            src="https://www.google.com/maps?q=0.2791712675244057,-78.53341358369094&z=17&output=embed"
+            width="100%"
+            height="390"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            data-maps-link="https://maps.app.goo.gl/Xdnjqn81DLx4EqHf6?g_st=ic"></iframe>
+        </div>
+        <div class="location-map-footer">
+          <div>
+            <div class="location-map-name">NEOMAR · Moda femenina</div>
+            <div class="location-map-note">Atención presencial y online</div>
+          </div>
+          <a class="location-btn" href="https://maps.app.goo.gl/Xdnjqn81DLx4EqHf6?g_st=ic" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+      <div class="location-side">
+        <div class="location-review-card reveal">
+          <div class="location-review-mark">N</div>
+          <h3 class="location-review-title">¿Ya nos visitaste?</h3>
+          <p>Tu opinión nos ayuda a crecer y a que más chicas conozcan NEOMAR.</p>
+          <a class="location-btn light" href="https://maps.app.goo.gl/Xdnjqn81DLx4EqHf6?g_st=ic" target="_blank" rel="noopener">Dejar una reseña en Google</a>
+        </div>
+        <div class="location-benefits reveal">
+          <div class="location-benefit">
+            <span class="location-benefit-icon">Local</span>
+            <span><strong>Atención presencial</strong><span>Prendas para ver y elegir con calma.</span></span>
+          </div>
+          <div class="location-benefit">
+            <span class="location-benefit-icon">EC</span>
+            <span><strong>Envíos a todo Ecuador</strong><span>Compra desde donde estés.</span></span>
+          </div>
+          <div class="location-benefit">
+            <span class="location-benefit-icon">WA</span>
+            <span><strong>Pedidos por WhatsApp</strong><span>Atención rápida y personalizada.</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer id="contacto">
   <div class="footer-top">
@@ -4089,6 +4408,7 @@ footer {
       <ul class="footer-links">
         <li><a href="#coleccion">Catálogo NEOMAR</a></li>
         <li><a href="#coleccion">Novedades NEOMAR</a></li>
+        <li><a href="#ubicacion">Encuéntranos</a></li>
         <li><a href="#contacto">Contactar a NEOMAR</a></li>
         <li><a href="https://wa.me/593978713623" target="_blank">Comprar en NEOMAR por WhatsApp</a></li>
       </ul>
