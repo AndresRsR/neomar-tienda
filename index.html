@@ -1315,6 +1315,64 @@ section { padding: clamp(60px,10vw,120px) 5%; }
   color: var(--text-muted);
   line-height: 1.35;
 }
+.tone-word-search {
+  position: relative;
+  max-width: 255px;
+  margin: -2px 0 14px;
+}
+.tone-word-search-icon {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 13px;
+  pointer-events: none;
+}
+.tone-word-search input {
+  width: 100%;
+  height: 38px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: rgba(255,255,255,.86);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  outline: none;
+  padding: 0 36px 0 36px;
+  box-shadow: 0 10px 24px rgba(74,45,56,.05);
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+.tone-word-search input:focus {
+  border-color: var(--rose);
+  box-shadow: 0 0 0 4px rgba(211,74,116,.10);
+}
+.tone-word-search-clear {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  width: 26px;
+  height: 26px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(245,232,237,.9);
+  color: var(--text-muted);
+  cursor: pointer;
+  transform: translateY(-50%);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1;
+}
+.tone-word-search.has-value .tone-word-search-clear {
+  display: inline-flex;
+}
+.tone-word-hint {
+  margin: -6px 0 13px;
+  color: var(--text-muted);
+  font-size: 11px;
+  line-height: 1.35;
+}
 .tone-wheel-wrap {
   display: grid;
   grid-template-columns: 190px minmax(0,1fr);
@@ -3436,6 +3494,10 @@ footer {
     max-width: 100%;
   }
 
+  .tone-word-search {
+    max-width: 100%;
+  }
+
   .tone-wheel-wrap {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -5002,6 +5064,7 @@ var saleActive = false;
 var lastMobileSaleScrollY = 0;
 var mobileSaleReveal = false;
 var colorToneTolerance = 28;
+var colorWordSearch = '';
 var searchQ = '';
 var currentModal = null;
 var wishlist = {};
@@ -5829,6 +5892,17 @@ var COLOR_FILTER_ALIASES = {
   'CAMELLO': 'CAMEL',
   'CAPUCHNO': 'CAPUCHINO'
 };
+var COLOR_WORD_SEARCH_GROUPS = [
+  {key:'rojo', words:['rojo','roja','rojos','rojas','vino','vinotinto','burdeos','borgona','granate','ladrillo','terracota']},
+  {key:'negro', words:['negro','negra','negros','negras','oscuro','oscura','oscuros','oscuras','black']},
+  {key:'azul', words:['azul','azules','celeste','celestes','marino','electrico','azul electrico','azul claro','azul noche','petroleo','turquesa']},
+  {key:'beige', words:['beige','beis','bej','camel','camello','capuchino','cafe','miel','crema','perla','claro','claros']},
+  {key:'verde', words:['verde','verdes','jade','oliva','militar','pino','agua','menta','perico']},
+  {key:'rosado', words:['rosado','rosada','rosados','rosadas','rosa','rosas','fucsia','palo rosa','palo de rosa','palo de rosas']},
+  {key:'morado', words:['morado','morada','morados','moradas','lila','uva','purpura','violeta']},
+  {key:'gris', words:['gris','grises','plateado','plateada','plateados','plateadas','plata','plomo']},
+  {key:'amarillo', words:['amarillo','amarilla','amarillos','amarillas','mostaza','dorado','dorada','dorados','doradas']}
+];
 var COLOR_NEUTRAL_FILTERS = [
   {key:'claro',label:'Claros',style:'#f7f1e6',keys:['BLANCO','PERLA','CREMA']},
   {key:'beige',label:'Beige / camel',style:'#c7a27a',keys:['BEIGE','BEIGE CLARO','BEIGE OSCURO','CAMEL','CAPUCHINO','CAFE','CAFE CLARO','MIEL']},
@@ -5859,6 +5933,59 @@ function nombreColorFiltro(nombre) {
 function colorFiltroKey(nombre) {
   var key = colorKey(nombre);
   return COLOR_FILTER_ALIASES[key] || key;
+}
+
+function normalizeColorWord(value) {
+  return colorKey(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g,' ')
+    .replace(/\s+/g,' ')
+    .trim();
+}
+
+function colorWordSearchTerms(query) {
+  var q = normalizeColorWord(query);
+  if (!q) return [];
+  var pieces = q.split(' ').filter(Boolean);
+  var terms = pieces.slice();
+  COLOR_WORD_SEARCH_GROUPS.forEach(function(group) {
+    var groupTerms = group.words.map(normalizeColorWord);
+    var groupHit = normalizeColorWord(group.key).indexOf(q) >= 0 || groupTerms.some(function(term) {
+      if (!term) return false;
+      if (term.indexOf(q) >= 0 || q.indexOf(term) >= 0) return true;
+      return pieces.some(function(piece) {
+        return piece && (term.indexOf(piece) >= 0 || piece.indexOf(term) >= 0);
+      });
+    });
+    if (groupHit) terms = terms.concat(groupTerms);
+  });
+  var out = [];
+  var seen = {};
+  terms.forEach(function(term) {
+    term = normalizeColorWord(term);
+    if (!term || seen[term]) return;
+    seen[term] = true;
+    out.push(term);
+    if (term.slice(-1) === 's') {
+      var singular = term.slice(0, -1);
+      if (singular && !seen[singular]) {
+        seen[singular] = true;
+        out.push(singular);
+      }
+    }
+  });
+  return out;
+}
+
+function colorMatchesWordSearch(nombre) {
+  var terms = colorWordSearchTerms(colorWordSearch);
+  if (!terms.length) return true;
+  var targets = colorKeysFiltro(nombre).concat([nombre]).map(normalizeColorWord).filter(Boolean);
+  return targets.some(function(target) {
+    return terms.some(function(term) {
+      return target.indexOf(term) >= 0 || (term.length >= 4 && term.indexOf(target) >= 0);
+    });
+  });
 }
 
 function colorKeysFiltro(nombre) {
@@ -5924,6 +6051,7 @@ function activeColorFilter() {
   return {type:'exact',key:colorActive};
 }
 function colorMatchesActiveFilter(nombre) {
+  if (!colorMatchesWordSearch(nombre)) return false;
   var filter=activeColorFilter();
   if(filter.type==='all')return true;
   var parts=colorToneParts(nombre);
@@ -5981,7 +6109,7 @@ function grupoTieneColor(g, key) {
 }
 
 function grupoCoincideTallaColor(g) {
-  if (sizeActive === 'Todas' && colorActive === 'Todos') return true;
+  if (sizeActive === 'Todas' && colorActive === 'Todos' && !colorWordSearch.trim()) return true;
   return (g.variantes || []).some(function(v) {
     if (stockValue(v.stock) <= 0) return false;
     if (sizeActive !== 'Todas' && v.talla !== sizeActive) return false;
@@ -6011,13 +6139,16 @@ function colorFilterCount() {
 }
 function colorFilterTitle() {
   var filter = activeColorFilter();
-  if (filter.type === 'all') return 'Todos los tonos';
-  if (filter.type === 'hue') return 'Tono ' + Math.round(filter.hue) + '°';
+  var word = textValue(colorWordSearch).trim();
+  var title = 'Todos los tonos';
+  if (filter.type === 'hue') title = 'Tono ' + Math.round(filter.hue) + '°';
   if (filter.type === 'neutral') {
     var n = neutralFilterByActive();
-    return n ? n.label : 'Tono neutro';
+    title = n ? n.label : 'Tono neutro';
   }
-  return nombreColorFiltro(filter.key);
+  if (filter.type === 'exact') title = nombreColorFiltro(filter.key);
+  if (word) return (filter.type === 'all' ? 'Buscar: ' : title + ' · ') + word;
+  return title;
 }
 function colorFilterSwatchStyle() {
   var filter = activeColorFilter();
@@ -6035,7 +6166,13 @@ function actualizarColorFilterSummary() {
   if (!title) return;
   var count = colorFilterCount();
   title.textContent = colorFilterTitle();
-  if (meta) meta.textContent = (activeColorFilter().type === 'hue' ? 'Rango ±'+colorToneTolerance+'° · ' : '') + count + ' modelos encontrados';
+  if (meta) {
+    var metaParts = [];
+    if (activeColorFilter().type === 'hue') metaParts.push('Rango ±'+colorToneTolerance+'°');
+    if (colorWordSearch.trim()) metaParts.push('por palabra');
+    metaParts.push(count + ' modelos encontrados');
+    meta.textContent = metaParts.join(' · ');
+  }
   if (swatch) swatch.setAttribute('style', colorFilterSwatchStyle());
   actualizarColorTonePickerEstado();
 }
@@ -6047,6 +6184,12 @@ function renderColorTonePicker() {
       '<div><div class="tone-pop-title">Selector por tono</div><div class="tone-pop-note">Elige un punto de la rueda para agrupar colores similares.</div></div>'+
       '<button type="button" class="tone-mini-btn" onclick="setColorToneAll()">Todos</button>'+
     '</div>'+
+    '<div class="tone-word-search" id="toneWordSearchBox">'+
+      '<span class="tone-word-search-icon">🔎</span>'+
+      '<input id="toneColorWordSearch" type="text" placeholder="Buscar color..." autocomplete="off" value="'+escapeAttr(colorWordSearch)+'" oninput="setColorWordSearch(this.value)">'+
+      '<button class="tone-word-search-clear" type="button" onclick="clearColorWordSearch()" aria-label="Borrar color">×</button>'+
+    '</div>'+
+    '<div class="tone-word-hint" id="toneWordHint">Ej: rojo, vino, negro, oscuro</div>'+
     '<div class="tone-wheel-wrap">'+
       '<div class="tone-wheel" onclick="selectHueFromWheel(event)" title="Elige un tono">'+
         '<span class="tone-wheel-marker" id="toneWheelMarker"></span>'+
@@ -6088,6 +6231,13 @@ function actualizarColorTonePickerEstado() {
   pop.querySelectorAll('.tone-neutral-btn').forEach(function(btn){
     btn.classList.toggle('active', filter.type === 'neutral' && btn.getAttribute('data-neutral') === filter.key);
   });
+  var searchInput = document.getElementById('toneColorWordSearch');
+  var searchBox = document.getElementById('toneWordSearchBox');
+  var searchHint = document.getElementById('toneWordHint');
+  var hasWord = !!colorWordSearch.trim();
+  if (searchInput && searchInput.value !== colorWordSearch) searchInput.value = colorWordSearch;
+  if (searchBox) searchBox.classList.toggle('has-value', hasWord);
+  if (searchHint) searchHint.textContent = hasWord ? 'Coincidencias por familias: rojo/roja, negro/oscuro...' : 'Ej: rojo, vino, negro, oscuro';
   var result = document.getElementById('colorToneResult');
   if (result) result.textContent = colorFilterTitle() + ' · ' + colorFilterCount() + ' modelos encontrados';
 }
@@ -6108,8 +6258,21 @@ function closeColorTonePopup() {
 }
 function setColorToneAll() {
   colorActive = 'Todos';
+  colorWordSearch = '';
   actualizarColorFilterSummary();
   renderProducts();
+}
+function setColorWordSearch(value) {
+  colorWordSearch = textValue(value).trim();
+  actualizarColorFilterSummary();
+  renderProducts();
+}
+function clearColorWordSearch() {
+  colorWordSearch = '';
+  actualizarColorFilterSummary();
+  renderProducts();
+  var input = document.getElementById('toneColorWordSearch');
+  if (input) input.focus();
 }
 function setColorHue(hue) {
   hue = ((parseFloat(hue)||0) % 360 + 360) % 360;
