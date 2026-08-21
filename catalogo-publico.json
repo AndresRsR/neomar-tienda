@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-08-21T22:49:57.656Z",
-  "totalVariantes": 563,
-  "totalStock": 689,
+  "updatedAt": "2026-08-21T22:51:00.269Z",
+  "totalVariantes": 562,
+  "totalStock": 687,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -2719,21 +2719,6 @@
       "pvp": 50,
       "imagen": "fotos_catalogo/cd002-beige.webp",
       "updatedAt": ""
-    },
-    {
-      "id": "modcaz3tcwgh3sdfne8",
-      "inventarioId": "modcaz3tcwgh3sdfne8",
-      "variantKey": "c818|cartera carolina herrera premiere|cartera pequeña en caja ch||negra",
-      "codigo": "C818",
-      "nombre": "CARTERA CAROLINA HERRERA PREMIERE",
-      "categoria": "",
-      "detalle": "CARTERA PEQUEÑA EN CAJA CH",
-      "talla": "",
-      "color": "NEGRA",
-      "stock": 2,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/c818-negro.webp",
-      "updatedAt": "2026-05-23T14:52"
     },
     {
       "id": "modbzx4u5adxcg6h9dm",
