@@ -5899,7 +5899,7 @@ var COLOR_WORD_SEARCH_GROUPS = [
   {key:'beige', words:['beige','beis','bej','camel','camello','capuchino','cafe','miel','crema','perla','claro','claros']},
   {key:'verde', words:['verde','verdes','jade','oliva','militar','pino','agua','menta','perico']},
   {key:'rosado', words:['rosado','rosada','rosados','rosadas','rosa','rosas','fucsia','palo rosa','palo de rosa','palo de rosas']},
-  {key:'morado', words:['morado','morada','morados','moradas','lila','uva','purpura','violeta']},
+  {key:'morado', words:['morado','morada','morados','moradas','purpura','violeta']},
   {key:'gris', words:['gris','grises','plateado','plateada','plateados','plateadas','plata','plomo']},
   {key:'amarillo', words:['amarillo','amarilla','amarillos','amarillas','mostaza','dorado','dorada','dorados','doradas']}
 ];
@@ -6264,6 +6264,7 @@ function setColorToneAll() {
 }
 function setColorWordSearch(value) {
   colorWordSearch = textValue(value).trim();
+  if (colorWordSearch) colorActive = 'Todos';
   actualizarColorFilterSummary();
   renderProducts();
 }
@@ -6276,11 +6277,13 @@ function clearColorWordSearch() {
 }
 function setColorHue(hue) {
   hue = ((parseFloat(hue)||0) % 360 + 360) % 360;
+  colorWordSearch = '';
   colorActive = 'hue:' + Math.round(hue);
   actualizarColorFilterSummary();
   renderProducts();
 }
 function setNeutralTone(key) {
+  colorWordSearch = '';
   colorActive = 'neutral:' + key;
   actualizarColorFilterSummary();
   renderProducts();
@@ -6505,6 +6508,7 @@ function setSize(sz, btn) {
   renderProducts();
 }
 function setColorFilter(color, btn) {
+  colorWordSearch = '';
   colorActive = color || 'Todos';
   actualizarColorFilterSummary();
   renderProducts();
@@ -7083,7 +7087,11 @@ function buildCardData(g, idx, previousInitialColor) {
   else if (totalStock <= 3) badgeHtml = '<div class="product-badge low">Últimas</div>';
 
   var colorOptions = colors.map(function(c) {
-    var variant = g.variantes.find(function(v){ return v.color===c; }) || g.base;
+    var variant = g.variantes.find(function(v){ return v.color===c && stockValue(v.stock)>0 && imgSrc(v, g); }) ||
+      g.variantes.find(function(v){ return v.color===c && stockValue(v.stock)>0; }) ||
+      g.variantes.find(function(v){ return v.color===c && imgSrc(v, g); }) ||
+      g.variantes.find(function(v){ return v.color===c; }) ||
+      g.base;
     return { color: c, src: imgSrc(variant, g), auto: generatedImgSrc(variant) };
   }).filter(function(opt){ return opt.src; });
   if(!colorOptions.length){
@@ -7091,7 +7099,7 @@ function buildCardData(g, idx, previousInitialColor) {
     if(fallbackSrc)colorOptions.push({ color: colors[0] || 'Disponible', src: fallbackSrc, auto: generatedImgSrc(g.base) });
   }
 
-  var selectedColorIndex = colorActive !== 'Todos'
+  var selectedColorIndex = (colorActive !== 'Todos' || colorWordSearch.trim())
     ? colorOptions.findIndex(function(opt) { return colorMatchesActiveFilter(opt.color); })
     : -1;
   var initialIndex = selectedColorIndex >= 0 ? selectedColorIndex : indiceColorInicial(colorOptions, previousInitialColor, idx);
