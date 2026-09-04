@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-09-04T19:13:20.146Z",
-  "totalVariantes": 518,
-  "totalStock": 730,
+  "updatedAt": "2026-09-04T22:25:58.957Z",
+  "totalVariantes": 514,
+  "totalStock": 721,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -34,26 +34,6 @@
       "pvp": 16,
       "imagen": "fotos_catalogo/s-250757-negro.webp",
       "updatedAt": "2026-05-14T18:30"
-    },
-    {
-      "id": "mrpfn7xfcg73nc6avcn",
-      "inventarioId": "mrpfn7xfcg73nc6avcn",
-      "variantKey": "b0013|blusa alessia|blusa llana corset|única|rojo",
-      "codigo": "b0013",
-      "nombre": "Blusa Alessia",
-      "categoria": "",
-      "detalle": "Blusa llana corset",
-      "talla": "Única",
-      "color": "rojo",
-      "stock": 1,
-      "pvp": 18,
-      "imagen": "fotos_catalogo/b0013-rojo.webp",
-      "updatedAt": "2026-07-17T16:11",
-      "fechaAdquisicion": "2026-07-17T16:11",
-      "fechaCompra": "2026-07-17",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mrpfn7xun8us5kipsmd",
-      "cantidadAdquirida": 1
     },
     {
       "id": "mrpfn7xpy9p9vq5auqg",
@@ -5984,25 +5964,10 @@
       "detalle": "Vestido en tela suplex, cuello bandeja, y abertura en pierna.",
       "talla": "Única",
       "color": "azul petroleo",
-      "stock": 2,
+      "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0057-azul-petroleo.webp",
-      "updatedAt": "2026-09-02T12:02"
-    },
-    {
-      "id": "mtkcgb5e4j0iq1vvgi6",
-      "inventarioId": "mtkcgb5e4j0iq1vvgi6",
-      "variantKey": "v0057|vestido abril|vestido en tela suplex, cuello bandeja, y abertura en pierna.|única|beige",
-      "codigo": "v0057",
-      "nombre": "Vestido Abril",
-      "categoria": "Vestidos",
-      "detalle": "Vestido en tela suplex, cuello bandeja, y abertura en pierna.",
-      "talla": "Única",
-      "color": "BEIGE",
-      "stock": 2,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0057-beige.webp",
-      "updatedAt": "2026-09-02T12:02"
+      "updatedAt": "2026-09-04T17:25"
     },
     {
       "id": "mrtpiup68ygkgqlvpy",
@@ -6054,10 +6019,10 @@
       "detalle": "Vestido en tela suplex, cuello bandeja, y abertura en pierna.",
       "talla": "Única",
       "color": "capuchino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0057-capuchino.webp",
-      "updatedAt": "2026-09-02T12:02"
+      "updatedAt": "2026-09-04T17:25"
     },
     {
       "id": "mtkcgb5mlhzr4ovknco",
@@ -6179,10 +6144,10 @@
       "detalle": "Vestido en tela suplex, cuello bandeja, y abertura en pierna.",
       "talla": "Única",
       "color": "vino",
-      "stock": 2,
+      "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0057-vino.webp",
-      "updatedAt": "2026-09-02T12:02",
+      "updatedAt": "2026-09-04T17:25",
       "fechaAdquisicion": "2026-07-20T15:58",
       "fechaCompra": "2026-07-20",
       "tipoAdquisicion": "nuevo",
@@ -6629,10 +6594,10 @@
       "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
       "talla": "Única",
       "color": "AMARILLO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0051-amarillo.webp",
-      "updatedAt": "2026-09-02T11:41"
+      "updatedAt": "2026-09-04T17:25"
     },
     {
       "id": "mr0j8n0zow8f1loztxc",
@@ -6653,21 +6618,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "mr0j8n1mm0gfxak726r",
       "cantidadAdquirida": 2
-    },
-    {
-      "id": "mtkbp8hr5ijwjadkknl",
-      "inventarioId": "mtkbp8hr5ijwjadkknl",
-      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|beige",
-      "codigo": "v0051",
-      "nombre": "Vestido Berlin",
-      "categoria": "Vestidos",
-      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
-      "talla": "Única",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0051-beige.webp",
-      "updatedAt": "2026-09-02T11:41"
     },
     {
       "id": "mtkbp8hpa93numj5f2q",
@@ -6718,21 +6668,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "mr0j8n1mm0gfxak726r",
       "cantidadAdquirida": 2
-    },
-    {
-      "id": "mtkbp8hggt5tmmxw41w",
-      "inventarioId": "mtkbp8hggt5tmmxw41w",
-      "variantKey": "v0051|vestido berlin|vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.|única|vino",
-      "codigo": "v0051",
-      "nombre": "Vestido Berlin",
-      "categoria": "Vestidos",
-      "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
-      "talla": "Única",
-      "color": "vino",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0051-vino.webp",
-      "updatedAt": "2026-09-04T12:08"
     },
     {
       "id": "mrkjdo9o9ft9le3xwg4",
