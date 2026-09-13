@@ -5903,6 +5903,14 @@ var COLOR_WORD_SEARCH_GROUPS = [
   {key:'gris', words:['gris','grises','plateado','plateada','plateados','plateadas','plata','plomo']},
   {key:'amarillo', words:['amarillo','amarilla','amarillos','amarillas','mostaza','dorado','dorada','dorados','doradas']}
 ];
+var COLOR_WORD_PRIORITY_GROUPS = [
+  {words:['vino','vinotinto','burdeos','borgona','granate'], targets:['VINO','VINOTINTO','BURDEOS','BORGONA','GRANATE']},
+  {words:['rojo','roja','rojos','rojas'], targets:['ROJO','ROJA']},
+  {words:['azul','azules','marino','electrico','petroleo'], targets:['AZUL','AZUL MARINO','AZUL ELECTRICO','AZUL PETROLEO']},
+  {words:['celeste','celestes'], targets:['CELESTE','AZUL CLARO']},
+  {words:['gris','grises','plateado','plateada','plata','plomo'], targets:['GRIS','PLATEADO','PLATA','PLOMO']},
+  {words:['negro','negra','negros','negras','oscuro','oscura','oscuros','oscuras'], targets:['NEGRO']}
+];
 var COLOR_NEUTRAL_FILTERS = [
   {key:'claro',label:'Claros',style:'#f7f1e6',keys:['BLANCO','PERLA','CREMA']},
   {key:'beige',label:'Beige / camel',style:'#c7a27a',keys:['BEIGE','BEIGE CLARO','BEIGE OSCURO','CAMEL','CAPUCHINO','CAFE','CAFE CLARO','MIEL']},
@@ -5986,6 +5994,61 @@ function colorMatchesWordSearch(nombre) {
       return target.indexOf(term) >= 0 || (term.length >= 4 && term.indexOf(target) >= 0);
     });
   });
+}
+
+function colorWordSearchScore(nombre) {
+  var q = normalizeColorWord(colorWordSearch);
+  if (!q) return 0;
+  var pieces = q.split(' ').filter(Boolean);
+  var targets = colorKeysFiltro(nombre).concat([nombre]).map(normalizeColorWord).filter(Boolean);
+  var best = 0;
+  targets.forEach(function(target) {
+    if (!target) return;
+    if (target === q) best = Math.max(best, 120);
+    if (pieces.some(function(piece) { return target === piece; })) best = Math.max(best, 115);
+    if (target.indexOf(q) >= 0 || (q.length >= 4 && q.indexOf(target) >= 0)) best = Math.max(best, 100);
+    pieces.forEach(function(piece) {
+      if (piece.length >= 3 && (target.indexOf(piece) >= 0 || (piece.length >= 4 && piece.indexOf(target) >= 0))) {
+        best = Math.max(best, 90);
+      }
+    });
+  });
+  COLOR_WORD_PRIORITY_GROUPS.forEach(function(group) {
+    var words = group.words.map(normalizeColorWord);
+    var targetKeys = group.targets.map(function(t) { return normalizeColorWord(colorFiltroKey(t)); });
+    var queryHit = words.some(function(word) {
+      return word && (word === q || q.indexOf(word) >= 0 || word.indexOf(q) >= 0 || pieces.indexOf(word) >= 0);
+    });
+    if (!queryHit) return;
+    if (targets.some(function(target) { return targetKeys.indexOf(target) >= 0; })) best = Math.max(best, 86);
+  });
+  return best;
+}
+
+function grupoColorWordSearchScore(g) {
+  if (!colorWordSearch.trim()) return 0;
+  var best = 0;
+  (g.variantes || []).forEach(function(v) {
+    if (stockValue(v.stock) <= 0) return;
+    if (!colorMatchesActiveFilter(v.color)) return;
+    best = Math.max(best, colorWordSearchScore(v.color));
+  });
+  return best;
+}
+
+function mejorIndiceColorFiltrado(colorOptions) {
+  if (!colorOptions.length || (colorActive === 'Todos' && !colorWordSearch.trim())) return -1;
+  var bestIndex = -1;
+  var bestScore = -1;
+  colorOptions.forEach(function(opt, idx) {
+    if (!colorMatchesActiveFilter(opt.color)) return;
+    var score = colorWordSearch.trim() ? colorWordSearchScore(opt.color) : 0;
+    if (score > bestScore) {
+      bestScore = score;
+      bestIndex = idx;
+    }
+  });
+  return bestIndex;
 }
 
 function colorKeysFiltro(nombre) {
@@ -6587,6 +6650,11 @@ function renderProducts() {
     }
     return true;
   });
+  if (colorWordSearch.trim()) {
+    filtered.sort(function(a, b) {
+      return grupoColorWordSearchScore(b) - grupoColorWordSearchScore(a);
+    });
+  }
 
   var grid = document.getElementById('productsGrid');
   renderNavState();
@@ -7099,9 +7167,7 @@ function buildCardData(g, idx, previousInitialColor) {
     if(fallbackSrc)colorOptions.push({ color: colors[0] || 'Disponible', src: fallbackSrc, auto: generatedImgSrc(g.base) });
   }
 
-  var selectedColorIndex = (colorActive !== 'Todos' || colorWordSearch.trim())
-    ? colorOptions.findIndex(function(opt) { return colorMatchesActiveFilter(opt.color); })
-    : -1;
+  var selectedColorIndex = mejorIndiceColorFiltrado(colorOptions);
   var initialIndex = selectedColorIndex >= 0 ? selectedColorIndex : indiceColorInicial(colorOptions, previousInitialColor, idx);
   var colorsHtml = colorOptions.map(function(opt, colorIdx) {
     var c = opt.color;
