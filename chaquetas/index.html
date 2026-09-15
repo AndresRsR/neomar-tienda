@@ -6636,25 +6636,7 @@ function setCatByName(cat, options) {
 
 // ══ RENDER PRODUCTS ══
 function renderProducts() {
-  var filtered = allGroups.filter(function(g) {
-    var cat = categoriaDe(g.base.nombre, g.base.detalle);
-    if (saleActive) {
-      if (!grupoEnLiquidacion(g)) return false;
-    } else if (catActive !== 'Todas' && cat !== catActive) return false;
-    if (!grupoCoincideTallaColor(g)) return false;
-    if (searchQ) {
-      var hay = g.base.nombre.toLowerCase().indexOf(searchQ) >= 0 ||
-                (g.base.detalle||'').toLowerCase().indexOf(searchQ) >= 0 ||
-                (g.base.codigo||'').toLowerCase().indexOf(searchQ) >= 0;
-      if (!hay) return false;
-    }
-    return true;
-  });
-  if (colorWordSearch.trim()) {
-    filtered.sort(function(a, b) {
-      return grupoColorWordSearchScore(b) - grupoColorWordSearchScore(a);
-    });
-  }
+  var filtered = getFilteredGroups();
 
   var grid = document.getElementById('productsGrid');
   renderNavState();
@@ -7255,7 +7237,7 @@ function quickWha(e, idx) {
 }
 
 function getFilteredGroups() {
-  return allGroups.filter(function(g) {
+  var filtered = allGroups.filter(function(g) {
     var cat = categoriaDe(g.base.nombre, g.base.detalle);
     if (saleActive) {
       if (!grupoEnLiquidacion(g)) return false;
@@ -7269,6 +7251,12 @@ function getFilteredGroups() {
     }
     return true;
   });
+  if (colorWordSearch.trim()) {
+    filtered.sort(function(a, b) {
+      return grupoColorWordSearchScore(b) - grupoColorWordSearchScore(a);
+    });
+  }
+  return filtered;
 }
 
 // ══ MODAL ══
