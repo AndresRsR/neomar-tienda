@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-09-19T16:06:11.465Z",
-  "totalVariantes": 533,
-  "totalStock": 733,
+  "updatedAt": "2026-09-19T21:19:26.110Z",
+  "totalVariantes": 528,
+  "totalStock": 724,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -2284,10 +2284,10 @@
       "detalle": "Chaqueta de cuerina oversize, con elastico en cintura y puños.",
       "talla": "L",
       "color": "CAMEL",
-      "stock": 2,
+      "stock": 1,
       "pvp": 30,
       "imagen": "fotos_catalogo/c0001-camel.webp",
-      "updatedAt": "2026-05-23T07:17"
+      "updatedAt": "2026-09-19T13:58"
     },
     {
       "id": "mo6mmkq9k68kdz2w4s",
@@ -2738,26 +2738,6 @@
       "categoria": "Chaquetas",
       "detalle": "Chaqueta cuerina 3/4, con cinturon",
       "talla": "M",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 38,
-      "imagen": "fotos_catalogo/c0012-negro.webp",
-      "updatedAt": "2026-09-15T11:29",
-      "fechaAdquisicion": "2026-09-15T11:29",
-      "fechaCompra": "2026-09-15T11:26",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mu2vzyv7cy0m7b7e1sh",
-      "cantidadAdquirida": 1
-    },
-    {
-      "id": "mu2vzyve4umpov0ysdx",
-      "inventarioId": "mu2vzyve4umpov0ysdx",
-      "variantKey": "c0012|chaqueta celine|chaqueta cuerina 3/4, con cinturon|s|negro",
-      "codigo": "C0012",
-      "nombre": "Chaqueta Celine",
-      "categoria": "Chaquetas",
-      "detalle": "Chaqueta cuerina 3/4, con cinturon",
-      "talla": "S",
       "color": "NEGRO",
       "stock": 1,
       "pvp": 38,
@@ -4404,10 +4384,10 @@
       "detalle": "Falda short recta en cuerina.",
       "talla": "M",
       "color": "NEGRO",
-      "stock": 3,
+      "stock": 2,
       "pvp": 22,
       "imagen": "fotos_catalogo/f0001-negro.webp",
-      "updatedAt": "2026-08-11T16:28"
+      "updatedAt": "2026-09-19T14:27"
     },
     {
       "id": "modoksyz4f6oazy459k",
@@ -7035,21 +7015,6 @@
       "updatedAt": "2026-09-11T15:50"
     },
     {
-      "id": "mtxfkegpr0uzgon9fbd",
-      "inventarioId": "mtxfkegpr0uzgon9fbd",
-      "variantKey": "v0067|vestido kalipso|vestido asimetrico con vuelo de tul|única|verde pino",
-      "codigo": "v0067",
-      "nombre": "Vestido Kalipso",
-      "categoria": "Vestidos",
-      "detalle": "Vestido asimetrico con vuelo de tul",
-      "talla": "Única",
-      "color": "Verde pino",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0067-verde-pino.webp",
-      "updatedAt": "2026-09-12T06:04"
-    },
-    {
       "id": "msote9vwm58pyk35858",
       "inventarioId": "msote9vwm58pyk35858",
       "variantKey": "v0067|vestido kalipso|vestido asimetrico con vuelo de tul|única|vino",
@@ -7743,21 +7708,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "ms9gl25hmrpbzptyrrc",
       "cantidadAdquirida": 1
-    },
-    {
-      "id": "mq5j5114d70n8b5fbvp",
-      "inventarioId": "mq5j5114d70n8b5fbvp",
-      "variantKey": "v0016|vestido nataly|vestido 3/4, en tela gaza con abertura en una pierna.|est (s/m)|beige",
-      "codigo": "v0016",
-      "nombre": "Vestido Nataly",
-      "categoria": "Blusas",
-      "detalle": "Vestido 3/4, en tela gaza con abertura en una pierna.",
-      "talla": "EST (S/M)",
-      "color": "Beige",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v0016-beige.webp",
-      "updatedAt": "2026-08-11T16:15"
     },
     {
       "id": "mr03iv87ejm1psm243k",
@@ -8505,21 +8455,6 @@
       "cantidadAdquirida": 1
     },
     {
-      "id": "mrtot431eztrgqyzx1p",
-      "inventarioId": "mrtot431eztrgqyzx1p",
-      "variantKey": "v0033|vestido sabrina|vestido en tela suplex, con dije en el hombro, escote asimétrico y vuelo en pierna.|única|uva",
-      "codigo": "v0033",
-      "nombre": "Vestido Sabrina",
-      "categoria": "",
-      "detalle": "Vestido en tela suplex, con dije en el hombro, escote asimétrico y vuelo en pierna.",
-      "talla": "Única",
-      "color": "uva",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0033-uva.webp",
-      "updatedAt": "2026-09-12T14:44"
-    },
-    {
       "id": "mtxf396999iaoc2dma",
       "inventarioId": "mtxf396999iaoc2dma",
       "variantKey": "v0033|vestido sabrina|vestido en tela suplex, con dije en el hombro, escote asimétrico y vuelo en pierna.|única|verde olivo",
@@ -8544,10 +8479,10 @@
       "detalle": "Vestido estilo coreano en tela lomas.",
       "talla": "Única",
       "color": "azul noche",
-      "stock": 2,
+      "stock": 1,
       "pvp": 32,
       "imagen": "fotos_catalogo/v0075-azul-noche.webp",
-      "updatedAt": "2026-09-11T15:59",
+      "updatedAt": "2026-09-19T12:44",
       "fechaAdquisicion": "2026-09-11T15:59",
       "fechaCompra": "2026-09-11T15:56",
       "tipoAdquisicion": "nuevo",
@@ -8644,10 +8579,10 @@
       "detalle": "Vestido estilo coreano en tela lomas.",
       "talla": "Única",
       "color": "VINO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 32,
       "imagen": "fotos_catalogo/v0075-vino.webp",
-      "updatedAt": "2026-09-11T15:59",
+      "updatedAt": "2026-09-19T12:44",
       "fechaAdquisicion": "2026-09-11T15:59",
       "fechaCompra": "2026-09-11T15:56",
       "tipoAdquisicion": "nuevo",
@@ -9167,26 +9102,6 @@
       "fechaCompra": "2026-06-08",
       "tipoAdquisicion": "nuevo",
       "compraId": "mq5mbscvnd05at1pmxp",
-      "cantidadAdquirida": 1
-    },
-    {
-      "id": "mq5ls2lmsx9mlcnlaq",
-      "inventarioId": "mq5ls2lmsx9mlcnlaq",
-      "variantKey": "v0032|vestido thalia|vestido estilo brasileño, manga larga|única|beish",
-      "codigo": "v0032",
-      "nombre": "Vestido Thalia",
-      "categoria": "",
-      "detalle": "Vestido estilo brasileño, manga larga",
-      "talla": "Única",
-      "color": "Beish",
-      "stock": 1,
-      "pvp": 25,
-      "imagen": "fotos_catalogo/v0032-beish.webp",
-      "updatedAt": "2026-06-08T14:27",
-      "fechaAdquisicion": "2026-06-08",
-      "fechaCompra": "2026-06-08",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mq5ls2lxlm42ts0sh1",
       "cantidadAdquirida": 1
     },
     {
