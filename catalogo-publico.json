@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-09-22T22:04:46.936Z",
-  "totalVariantes": 487,
-  "totalStock": 668,
+  "updatedAt": "2026-09-22T22:25:19.977Z",
+  "totalVariantes": 486,
+  "totalStock": 666,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -4105,14 +4105,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|m|azul electrico",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "M",
       "color": "AZUL ELECTRICO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-azul-electrico.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtg75i9b8rh8rv",
@@ -4120,14 +4120,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|s|azul electrico",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "S",
       "color": "AZUL ELECTRICO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-azul-electrico.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgk5ije2evr2n",
@@ -4135,14 +4135,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|s|beige",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "S",
       "color": "BEIGE",
       "stock": 2,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-beige.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgrn5g7yz15ds",
@@ -4157,7 +4157,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/f0004-blanco.webp",
-      "updatedAt": "2026-09-02T12:29"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtg9vywdv98wuq",
@@ -4165,14 +4165,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|s|celeste",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "S",
       "color": "CELESTE",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-celeste.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgs5fx66i0pz8",
@@ -4180,14 +4180,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|l|ladrillo",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "L",
       "color": "LADRILLO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-ladrillo.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtg88ibdd43gyd",
@@ -4195,14 +4195,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|m|ladrillo",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "M",
       "color": "LADRILLO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-ladrillo.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgqu7rjanp039",
@@ -4210,14 +4210,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|s|ladrillo",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "S",
       "color": "LADRILLO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-ladrillo.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgmqx34ic3jw",
@@ -4225,14 +4225,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|l|mostaza",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "L",
       "color": "MOSTAZA",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-mostaza.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgmxp4wwu2a7",
@@ -4240,14 +4240,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|m|mostaza",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "M",
       "color": "MOSTAZA",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-mostaza.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgr394qw91kbg",
@@ -4255,14 +4255,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|s|mostaza",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "S",
       "color": "MOSTAZA",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-mostaza.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtg9luhxlc61u",
@@ -4277,22 +4277,7 @@
       "stock": 3,
       "pvp": 22,
       "imagen": "fotos_catalogo/f0004-negro.webp",
-      "updatedAt": "2026-09-22T16:07"
-    },
-    {
-      "id": "modprjtgo8kneycoej",
-      "inventarioId": "modprjtgo8kneycoej",
-      "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|m|negro",
-      "codigo": "F0004",
-      "nombre": "FALDA KAROL",
-      "categoria": "Faldas",
-      "detalle": "Falda short recta en tela loma, con abertura.",
-      "talla": "M",
-      "color": "NEGRO",
-      "stock": 2,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/f0004-negro.webp",
-      "updatedAt": "2026-09-22T16:07"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtf30lih1q678v",
@@ -4307,7 +4292,7 @@
       "stock": 3,
       "pvp": 22,
       "imagen": "fotos_catalogo/f0004-negro.webp",
-      "updatedAt": "2026-09-22T16:07"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "msp74btj3dcg03t3l25",
@@ -4322,7 +4307,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/f0004-negro.webp",
-      "updatedAt": "2026-09-22T16:07"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgyrzgwrmlbtq",
@@ -4330,14 +4315,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|l|rosado",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "L",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-rosado.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgti43v7qvf3",
@@ -4345,14 +4330,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|m|rosado",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "M",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-rosado.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtg24jilwe5d1v",
@@ -4360,14 +4345,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|s|rosado",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "S",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-rosado.webp",
-      "updatedAt": "2026-05-16T16:58"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modprjtgasvgxzkt40o",
@@ -4375,14 +4360,14 @@
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|l|vino",
       "codigo": "F0004",
       "nombre": "FALDA KAROL",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Falda short recta en tela loma, con abertura.",
       "talla": "L",
       "color": "VINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0004-vino.webp",
-      "updatedAt": "2026-09-22T16:07"
+      "updatedAt": "2026-09-22T17:25"
     },
     {
       "id": "modqgc9eqqaozvlxorm",
