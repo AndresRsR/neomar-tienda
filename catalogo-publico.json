@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-10-03T13:37:20.521Z",
-  "totalVariantes": 553,
-  "totalStock": 754,
+  "updatedAt": "2026-10-03T13:56:05.880Z",
+  "totalVariantes": 552,
+  "totalStock": 753,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -7383,21 +7383,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "mqioi0g64dm9lqbwhpn",
       "cantidadAdquirida": 1
-    },
-    {
-      "id": "modk7dlj21ylo5hr6mx",
-      "inventarioId": "modk7dlj21ylo5hr6mx",
-      "variantKey": "v0015|vestido mia|vestido corto con capa y broche en la mitad|est (m/l)|rosado",
-      "codigo": "V0015",
-      "nombre": "VESTIDO MIA",
-      "categoria": "",
-      "detalle": "Vestido corto con capa y broche en la mitad",
-      "talla": "EST (M/L)",
-      "color": "ROSADO",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v0015-rosado.webp",
-      "updatedAt": "2026-07-18T16:23"
     },
     {
       "id": "ms9g26t5jx7nb4j97n",
