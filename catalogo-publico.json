@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-10-03T15:11:47.832Z",
-  "totalVariantes": 557,
-  "totalStock": 754,
+  "updatedAt": "2026-10-03T17:41:38.048Z",
+  "totalVariantes": 555,
+  "totalStock": 752,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -5385,26 +5385,6 @@
       "cantidadAdquirida": 3
     },
     {
-      "id": "msovyeva884tffofzha",
-      "inventarioId": "msovyeva884tffofzha",
-      "variantKey": "p0002|palatzo katania|pantalon palatzo en tela katania|m|negro",
-      "codigo": "p0002",
-      "nombre": "Palatzo Katania",
-      "categoria": "Pantalones",
-      "detalle": "Pantalon palatzo en tela katania",
-      "talla": "M",
-      "color": "negro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/p0002-negro.webp",
-      "updatedAt": "2026-09-27T10:58",
-      "fechaAdquisicion": "2026-08-11T11:39",
-      "fechaCompra": "2026-08-11T11:17",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "msovyeufgssblzp76hf",
-      "cantidadAdquirida": 1
-    },
-    {
       "id": "msovyeuq36jimiqz8rt",
       "inventarioId": "msovyeuq36jimiqz8rt",
       "variantKey": "p0002|palatzo katania|pantalon palatzo en tela katania|s|negro",
@@ -6175,14 +6155,14 @@
       "variantKey": "v0026|vestido britania|vestido en manga asimetrica, tela premium brillosa.|est (s/m)|beige",
       "codigo": "v0026",
       "nombre": "Vestido Britania",
-      "categoria": "Vestidos",
+      "categoria": "Chaquetas",
       "detalle": "Vestido en manga asimetrica, tela premium brillosa.",
       "talla": "EST (S/M)",
       "color": "Beige",
       "stock": 1,
-      "pvp": 40,
+      "pvp": 45,
       "imagen": "fotos_catalogo/v0026-beige.webp",
-      "updatedAt": "2026-09-25T16:05"
+      "updatedAt": "2026-10-03T12:41"
     },
     {
       "id": "muhg9p8arf7vuzt5bg",
@@ -6190,14 +6170,14 @@
       "variantKey": "v0026|vestido britania|vestido en manga asimetrica, tela premium brillosa.|est (s/m)|dorado",
       "codigo": "v0026",
       "nombre": "Vestido Britania",
-      "categoria": "Vestidos",
+      "categoria": "Chaquetas",
       "detalle": "Vestido en manga asimetrica, tela premium brillosa.",
       "talla": "EST (S/M)",
       "color": "Dorado",
       "stock": 1,
-      "pvp": 40,
+      "pvp": 45,
       "imagen": "fotos_catalogo/v0026-dorado.webp",
-      "updatedAt": "2026-09-25T16:05"
+      "updatedAt": "2026-10-03T12:41"
     },
     {
       "id": "mq5jmnb478tgtrys28c",
@@ -6205,14 +6185,14 @@
       "variantKey": "v0026|vestido britania|vestido en manga asimetrica, tela premium brillosa.|est (s/m)|plateado",
       "codigo": "v0026",
       "nombre": "Vestido Britania",
-      "categoria": "Vestidos",
+      "categoria": "Chaquetas",
       "detalle": "Vestido en manga asimetrica, tela premium brillosa.",
       "talla": "EST (S/M)",
       "color": "Plateado",
       "stock": 1,
-      "pvp": 40,
+      "pvp": 45,
       "imagen": "fotos_catalogo/v0026-plateado.webp",
-      "updatedAt": "2026-09-25T16:05",
+      "updatedAt": "2026-10-03T12:41",
       "fechaAdquisicion": "2026-06-08",
       "fechaCompra": "2026-06-08",
       "tipoAdquisicion": "nuevo",
@@ -10003,26 +9983,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "muhh0e546d89x0o225x",
       "cantidadAdquirida": 2
-    },
-    {
-      "id": "muhh0e5ivwep11qux7",
-      "inventarioId": "muhh0e5ivwep11qux7",
-      "variantKey": "v0083|vestido zafiro|vestido strapless, corte sirena en tela suplex doble forro con detalle en cuello.|única|vino",
-      "codigo": "V0083",
-      "nombre": "Vestido Zafiro",
-      "categoria": "Vestidos",
-      "detalle": "Vestido strapless, corte sirena en tela suplex doble forro con detalle en cuello.",
-      "talla": "Única",
-      "color": "VINO",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0083-vino.webp",
-      "updatedAt": "2026-09-25T16:26",
-      "fechaAdquisicion": "2026-09-25T16:26",
-      "fechaCompra": "2026-09-25T16:24",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "muhh0e546d89x0o225x",
-      "cantidadAdquirida": 1
     }
   ]
 }
