@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-10-11T16:27:14.033Z",
-  "totalVariantes": 625,
-  "totalStock": 840,
+  "updatedAt": "2026-10-11T20:41:17.188Z",
+  "totalVariantes": 621,
+  "totalStock": 830,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -1348,7 +1348,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-beige.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8gheaz9ou8zdch",
@@ -1363,22 +1363,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-beige-rayas.webp",
-      "updatedAt": "2026-10-08T14:21"
-    },
-    {
-      "id": "muzxa8ftu7fd15yjwr",
-      "inventarioId": "muzxa8ftu7fd15yjwr",
-      "variantKey": "b0027|blusa roxy|blusa tipo bbd a rayas, con amarre atras.|s|blanca rayas",
-      "codigo": "b0027",
-      "nombre": "Blusa Roxy",
-      "categoria": "Blusas",
-      "detalle": "Blusa tipo BBD a rayas, con amarre atras.",
-      "talla": "S",
-      "color": "Blanca rayas",
-      "stock": 2,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/b0027-blanca-rayas.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8fa5ya55bodzeu",
@@ -1393,7 +1378,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-blanco.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8h1am92sm2k8n",
@@ -1408,7 +1393,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-blanco.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8i56vnze5tkuxr",
@@ -1423,7 +1408,22 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-blanco-rayas.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
+    },
+    {
+      "id": "mv4ag4jgm5tbymbn42",
+      "inventarioId": "mv4ag4jgm5tbymbn42",
+      "variantKey": "b0027|blusa roxy|blusa tipo bbd a rayas, con amarre atras.|s|blanco rayas",
+      "codigo": "b0027",
+      "nombre": "Blusa Roxy",
+      "categoria": "Blusas",
+      "detalle": "Blusa tipo BBD a rayas, con amarre atras.",
+      "talla": "S",
+      "color": "Blanco rayas",
+      "stock": 2,
+      "pvp": 22,
+      "imagen": "fotos_catalogo/b0027-blanco-rayas.webp",
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8hgwfp8yfn70w",
@@ -1438,7 +1438,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-cafe.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8imal0c75dyc7",
@@ -1453,7 +1453,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-celeste-rayas.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8fi54wy4kdpcrb",
@@ -1468,22 +1468,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-melon.webp",
-      "updatedAt": "2026-10-08T14:21"
-    },
-    {
-      "id": "muzxa8gvybd013i4v5i",
-      "inventarioId": "muzxa8gvybd013i4v5i",
-      "variantKey": "b0027|blusa roxy|blusa tipo bbd a rayas, con amarre atras.|m|negro",
-      "codigo": "b0027",
-      "nombre": "Blusa Roxy",
-      "categoria": "Blusas",
-      "detalle": "Blusa tipo BBD a rayas, con amarre atras.",
-      "talla": "M",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/b0027-negro.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8id4uwo7t49r95",
@@ -1498,7 +1483,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-negro-rayas.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8gc0fzfkbu8yhrj",
@@ -1513,7 +1498,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-negro-rayas.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8g2cuw6ear93hb",
@@ -1528,7 +1513,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-rojo.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8hxsuq8vyql9nn",
@@ -1543,7 +1528,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-rosado.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "muzxa8fyydcmunsxv6h",
@@ -1558,7 +1543,7 @@
       "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/b0027-rosado.webp",
-      "updatedAt": "2026-10-08T14:21"
+      "updatedAt": "2026-10-11T15:41"
     },
     {
       "id": "ms9gv73tlsfz4qds8p8",
@@ -3220,49 +3205,19 @@
       "updatedAt": "2026-05-23T05:54"
     },
     {
-      "id": "modf78jpiid716xkrpf",
-      "inventarioId": "modf78jpiid716xkrpf",
-      "variantKey": "c51832|conjunto 2 piezas elixir|conjunto 2 piezas mar dije playa centro|m|negro",
-      "codigo": "C51832",
-      "nombre": "CONJUNTO 2 PIEZAS ELIXIR",
-      "categoria": "",
-      "detalle": "CONJUNTO 2 PIEZAS MAR DIJE PLAYA CENTRO",
-      "talla": "M",
-      "color": "NEGRO",
-      "stock": 1,
-      "pvp": 32,
-      "imagen": "fotos_catalogo/c51832-negro.webp",
-      "updatedAt": "2026-05-19T13:25"
-    },
-    {
       "id": "mo6mmkq9afdw2lplb5p",
       "inventarioId": "mo6mmkq9afdw2lplb5p",
       "variantKey": "2307|conjunto amelie|conjunto hilo manga larga raya|est (m/l)|capuchino/blanco",
       "codigo": "2307",
       "nombre": "CONJUNTO AMELIE",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Conjunto hilo manga larga raya",
       "talla": "EST (M/L)",
       "color": "CAPUCHINO/BLANCO",
       "stock": 1,
       "pvp": 32,
       "imagen": "fotos_catalogo/2307-capuchinoblanco.webp",
-      "updatedAt": "2026-05-19T10:36"
-    },
-    {
-      "id": "mo6mmkq94v1zehbbtg6",
-      "inventarioId": "mo6mmkq94v1zehbbtg6",
-      "variantKey": "2307|conjunto amelie|conjunto hilo manga larga raya|est (m/l)|negro/blanco",
-      "codigo": "2307",
-      "nombre": "CONJUNTO AMELIE",
-      "categoria": "",
-      "detalle": "Conjunto hilo manga larga raya",
-      "talla": "EST (M/L)",
-      "color": "NEGRO/BLANCO",
-      "stock": 1,
-      "pvp": 32,
-      "imagen": "fotos_catalogo/2307-negroblanco.webp",
-      "updatedAt": "2026-05-19T10:36"
+      "updatedAt": "2026-10-11T12:25"
     },
     {
       "id": "mo6mmkq95ufj4tz37ji",
@@ -3270,14 +3225,14 @@
       "variantKey": "2307|conjunto amelie|conjunto hilo manga larga raya|est (m/l)|rosado/blanco",
       "codigo": "2307",
       "nombre": "CONJUNTO AMELIE",
-      "categoria": "",
+      "categoria": "Faldas",
       "detalle": "Conjunto hilo manga larga raya",
       "talla": "EST (M/L)",
       "color": "ROSADO/BLANCO",
-      "stock": 3,
+      "stock": 2,
       "pvp": 32,
       "imagen": "fotos_catalogo/2307-rosadoblanco.webp",
-      "updatedAt": "2026-06-13T15:15"
+      "updatedAt": "2026-10-11T12:25"
     },
     {
       "id": "mo8qlmu4ry2y4raj5kn",
@@ -3564,10 +3519,10 @@
       "detalle": "Corset con manga de tul y lazo en pecho.",
       "talla": "M",
       "color": "VINO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 26,
       "imagen": "fotos_catalogo/co0001-vino.webp",
-      "updatedAt": "2026-10-10T05:55",
+      "updatedAt": "2026-10-11T15:10",
       "fechaAdquisicion": "2026-10-10T05:55",
       "fechaCompra": "2026-10-10T05:51",
       "tipoAdquisicion": "nuevo",
@@ -3584,10 +3539,10 @@
       "detalle": "Corset con manga de tul y lazo en pecho.",
       "talla": "S",
       "color": "VINO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 26,
       "imagen": "fotos_catalogo/co0001-vino.webp",
-      "updatedAt": "2026-10-10T05:55",
+      "updatedAt": "2026-10-11T15:28",
       "fechaAdquisicion": "2026-10-10T05:55",
       "fechaCompra": "2026-10-10T05:51",
       "tipoAdquisicion": "nuevo",
@@ -5273,21 +5228,6 @@
       "pvp": 22,
       "imagen": "fotos_catalogo/f0004-azul-electrico.webp",
       "updatedAt": "2026-09-22T17:25"
-    },
-    {
-      "id": "modprjtg1p2j3h4bdmx",
-      "inventarioId": "modprjtg1p2j3h4bdmx",
-      "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|l|beige",
-      "codigo": "F0004",
-      "nombre": "FALDA KAROL",
-      "categoria": "Faldas",
-      "detalle": "Falda short recta en tela loma, con abertura.",
-      "talla": "L",
-      "color": "BEIGE",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/f0004-beige.webp",
-      "updatedAt": "2026-10-10T15:15"
     },
     {
       "id": "modprjtgks07kzvi75l",
@@ -7144,10 +7084,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 73,
+      "stock": 71,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-10-10T18:19"
+      "updatedAt": "2026-10-11T13:18"
     },
     {
       "id": "mrtpiuphm57co6jsb3q",
@@ -7989,10 +7929,10 @@
       "detalle": "Vestido estilo campestre llano",
       "talla": "Única",
       "color": "blanco",
-      "stock": 2,
+      "stock": 1,
       "pvp": 32,
       "imagen": "fotos_catalogo/v0073-blanco.webp",
-      "updatedAt": "2026-09-06T14:39",
+      "updatedAt": "2026-10-11T12:06",
       "fechaAdquisicion": "2026-09-06T14:39",
       "fechaCompra": "2026-09-06T14:35",
       "tipoAdquisicion": "nuevo",
