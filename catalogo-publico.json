@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-10-11T20:41:17.188Z",
-  "totalVariantes": 621,
-  "totalStock": 830,
+  "updatedAt": "2026-10-13T12:26:31.842Z",
+  "totalVariantes": 620,
+  "totalStock": 828,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -358,26 +358,6 @@
       "stock": 1,
       "pvp": 18,
       "imagen": "fotos_catalogo/b0016-lila.webp",
-      "updatedAt": "2026-07-18T06:18",
-      "fechaAdquisicion": "2026-07-18T06:18",
-      "fechaCompra": "2026-07-17",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mrq9xln8k6h22tkhd18",
-      "cantidadAdquirida": 1
-    },
-    {
-      "id": "mrq9xlmowst1pvxes8f",
-      "inventarioId": "mrq9xlmowst1pvxes8f",
-      "variantKey": "b0016|blusa cloud|blusa hombro caido con detalle|única|melon",
-      "codigo": "b0016",
-      "nombre": "Blusa Cloud",
-      "categoria": "",
-      "detalle": "Blusa hombro caido con detalle",
-      "talla": "Única",
-      "color": "melon",
-      "stock": 1,
-      "pvp": 18,
-      "imagen": "fotos_catalogo/b0016-melon.webp",
       "updatedAt": "2026-07-18T06:18",
       "fechaAdquisicion": "2026-07-18T06:18",
       "fechaCompra": "2026-07-17",
@@ -5670,14 +5650,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|azul marino",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "AZUL MARINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-azul-marino.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9eqxwsk7k15j",
@@ -5685,14 +5665,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|m|azul marino",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "M",
       "color": "AZUL MARINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-azul-marino.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e92g6h6en0g9",
@@ -5700,14 +5680,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|s|azul marino",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "AZUL MARINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-azul-marino.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9emdhy23ggodg",
@@ -5715,14 +5695,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|beige",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-beige.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9enrmlzml8abj",
@@ -5730,14 +5710,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|s|beige",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "BEIGE",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-beige.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9ed04a9tv65ui",
@@ -5745,14 +5725,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|cafe",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-cafe.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9eejz9kcd876o",
@@ -5760,14 +5740,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|m|cafe",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "M",
       "color": "CAFE",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-cafe.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "mp8xi943q0uvaedirp",
@@ -5775,14 +5755,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|camel",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "CAMEL",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-camel.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "mp8w4z9kt4y467r15cj",
@@ -5790,14 +5770,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|s|capuchino",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "CAPUCHINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-capuchino.webp",
-      "updatedAt": "2026-06-26T11:13"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e3g15qi61foy",
@@ -5805,14 +5785,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|negro",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "NEGRO",
       "stock": 2,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-negro.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9emvve7wx253n",
@@ -5820,14 +5800,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|m|negro",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "M",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-negro.webp",
-      "updatedAt": "2026-07-12T13:53"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e12el131rpm1a",
@@ -5835,14 +5815,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|s|negro",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "NEGRO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-negro.webp",
-      "updatedAt": "2026-09-19T09:51"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9ern1g8d8ydf",
@@ -5850,14 +5830,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|rojo",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "ROJO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-rojo.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9esol9w83ea4l",
@@ -5865,14 +5845,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|s|rojo",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "ROJO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-rojo.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e0bz6v1qkrs1r",
@@ -5880,14 +5860,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|rosado",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-rosado.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e1659gwvnrqr",
@@ -5895,14 +5875,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|m|rosado",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "M",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-rosado.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e50ejm724zd9",
@@ -5910,14 +5890,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|s|rosado",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "ROSADO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-rosado.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9ecwdluqqct0k",
@@ -5925,14 +5905,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|uva",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "UVA",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-uva.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e0dyymm45i0zs",
@@ -5940,14 +5920,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|m|uva",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "M",
       "color": "UVA",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-uva.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e39y7lvb72b5",
@@ -5955,14 +5935,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|s|uva",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "UVA",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-uva.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9ex5nav3oo8fc",
@@ -5970,14 +5950,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|l|vino",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "L",
       "color": "VINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-vino.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9e4rphy06slkv",
@@ -5985,14 +5965,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|m|vino",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "M",
       "color": "VINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-vino.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "modqgc9ewfgdmfr127",
@@ -6000,14 +5980,14 @@
       "variantKey": "f0005|falda sammy|falda 3/4 en tela loma.|s|vino",
       "codigo": "F0005",
       "nombre": "FALDA SAMMY",
-      "categoria": "",
+      "categoria": "Vestidos",
       "detalle": "Falda 3/4 en tela loma.",
       "talla": "S",
       "color": "VINO",
       "stock": 1,
-      "pvp": 20,
+      "pvp": 22,
       "imagen": "fotos_catalogo/f0005-vino.webp",
-      "updatedAt": "2026-05-16T17:39"
+      "updatedAt": "2026-10-13T07:26"
     },
     {
       "id": "mv2vo4de53wsr6k33j",
@@ -7084,10 +7064,10 @@
       "detalle": "DIFERENTES PRENDAS",
       "talla": "",
       "color": "VARIADO",
-      "stock": 71,
+      "stock": 70,
       "pvp": 2,
       "imagen": "fotos_catalogo/vario-variado.webp",
-      "updatedAt": "2026-10-11T13:18"
+      "updatedAt": "2026-10-11T16:09"
     },
     {
       "id": "mrtpiuphm57co6jsb3q",
