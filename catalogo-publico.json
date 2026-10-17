@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-10-17T17:10:47.075Z",
+  "updatedAt": "2026-10-17T17:56:30.973Z",
   "totalVariantes": 574,
-  "totalStock": 786,
+  "totalStock": 784,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -4834,10 +4834,10 @@
       "detalle": "Falda short en randa, corte A con vuelos.",
       "talla": "EST (S/M)",
       "color": "NEGRO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 22,
       "imagen": "fotos_catalogo/f0007-negro.webp",
-      "updatedAt": "2026-10-17T08:42",
+      "updatedAt": "2026-10-17T12:54",
       "fechaAdquisicion": "2026-10-10T07:00",
       "fechaCompra": "2026-10-10T06:53",
       "tipoAdquisicion": "nuevo",
@@ -9619,10 +9619,10 @@
       "detalle": "Vestido en tela suplex, con aro de brillos en cintura y hombro",
       "talla": "Única",
       "color": "CELESTE",
-      "stock": 2,
+      "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0054-celeste.webp",
-      "updatedAt": "2026-09-25T16:32"
+      "updatedAt": "2026-10-17T12:53"
     },
     {
       "id": "muhh7ubdjiva2jzpkah",
