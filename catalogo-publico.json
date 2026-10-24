@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-10-20T23:08:12.729Z",
-  "totalVariantes": 654,
-  "totalStock": 947,
+  "updatedAt": "2026-10-24T12:46:47.205Z",
+  "totalVariantes": 652,
+  "totalStock": 945,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -7270,21 +7270,6 @@
       "updatedAt": ""
     },
     {
-      "id": "mpk1z2g5hxndgvgc84",
-      "inventarioId": "mpk1z2g5hxndgvgc84",
-      "variantKey": "c0005|pilot jacket|chaqueta con cierre y correa, croptop estilo rider croptop.|m|negro",
-      "codigo": "C0005",
-      "nombre": "Pilot Jacket",
-      "categoria": "Chaquetas",
-      "detalle": "Chaqueta con cierre y correa, croptop estilo rider croptop.",
-      "talla": "M",
-      "color": "negro",
-      "stock": 1,
-      "pvp": 30,
-      "imagen": "fotos_catalogo/c0005-negro.webp",
-      "updatedAt": "2026-06-13T08:18"
-    },
-    {
       "id": "mpk1z2g4uiloxhxfxgl",
       "inventarioId": "mpk1z2g4uiloxhxfxgl",
       "variantKey": "c0005|pilot jacket|chaqueta con cierre y correa, croptop estilo rider croptop.|s|vino",
@@ -8592,26 +8577,6 @@
       "stock": 1,
       "pvp": 33,
       "imagen": "fotos_catalogo/v0086-beige-oscuro.webp",
-      "updatedAt": "2026-10-18T17:55",
-      "fechaAdquisicion": "2026-10-18T17:50",
-      "fechaCompra": "2026-10-18T16:37",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mvef5pg67bhpsv5hout",
-      "cantidadAdquirida": 1
-    },
-    {
-      "id": "mvef5phxio7tiiisjsm",
-      "inventarioId": "mvef5phxio7tiiisjsm",
-      "variantKey": "v0086|vestido kiara|vestido en tela lomas, en a llano de tira.|est (s/m)|blanco",
-      "codigo": "V0086",
-      "nombre": "Vestido Kiara",
-      "categoria": "Vestidos",
-      "detalle": "Vestido en tela lomas, en A llano de tira.",
-      "talla": "EST (S/M)",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 33,
-      "imagen": "fotos_catalogo/v0086-blanco.webp",
       "updatedAt": "2026-10-18T17:55",
       "fechaAdquisicion": "2026-10-18T17:50",
       "fechaCompra": "2026-10-18T16:37",
