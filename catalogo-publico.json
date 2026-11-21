@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-11-21T17:22:27.630Z",
-  "totalVariantes": 638,
-  "totalStock": 912,
+  "updatedAt": "2026-11-21T23:21:30.791Z",
+  "totalVariantes": 633,
+  "totalStock": 908,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -1797,26 +1797,6 @@
       "stock": 1,
       "pvp": 16,
       "imagen": "fotos_catalogo/b0034-rosado.webp",
-      "updatedAt": "2026-10-10T07:56",
-      "fechaAdquisicion": "2026-10-10T07:56",
-      "fechaCompra": "2026-10-10T07:47",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mv2eev88nw8mc6ysp6h",
-      "cantidadAdquirida": 1
-    },
-    {
-      "id": "mv2eev8m5msj6a14mh3",
-      "inventarioId": "mv2eev8m5msj6a14mh3",
-      "variantKey": "b0034|blusa tatiana|blusa en tela suplex forrada, escote en la espalda con bobito delantero.|est (s/m)|vino",
-      "codigo": "B0034",
-      "nombre": "Blusa Tatiana",
-      "categoria": "Blusas",
-      "detalle": "Blusa en tela suplex forrada, escote en la espalda con bobito delantero.",
-      "talla": "EST (S/M)",
-      "color": "VINO",
-      "stock": 1,
-      "pvp": 16,
-      "imagen": "fotos_catalogo/b0034-vino.webp",
       "updatedAt": "2026-10-10T07:56",
       "fechaAdquisicion": "2026-10-10T07:56",
       "fechaCompra": "2026-10-10T07:47",
@@ -5150,21 +5130,6 @@
       "updatedAt": "2026-09-22T17:25"
     },
     {
-      "id": "modprjtgicj1mx5ccc",
-      "inventarioId": "modprjtgicj1mx5ccc",
-      "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|l|blanco",
-      "codigo": "F0004",
-      "nombre": "FALDA KAROL",
-      "categoria": "Faldas",
-      "detalle": "Falda short recta en tela loma, con abertura.",
-      "talla": "L",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 22,
-      "imagen": "fotos_catalogo/f0004-blanco.webp",
-      "updatedAt": "2026-10-10T15:15"
-    },
-    {
       "id": "modprjtg3khtcidchqm",
       "inventarioId": "modprjtg3khtcidchqm",
       "variantKey": "f0004|falda karol|falda short recta en tela loma, con abertura.|m|blanco",
@@ -7429,10 +7394,10 @@
       "detalle": "Vestido en tela suplex doble forro, corte sirena asimétrico, con dije en cintura y capa en cintura y hombro.",
       "talla": "Única",
       "color": "AMARILLO",
-      "stock": 2,
+      "stock": 1,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0051-amarillo.webp",
-      "updatedAt": "2026-11-14T11:41"
+      "updatedAt": "2026-11-21T17:28"
     },
     {
       "id": "mtkbp8hpa93numj5f2q",
@@ -7909,10 +7874,10 @@
       "detalle": "Vestido en tela brillosa, corte en A con capas.",
       "talla": "EST (S/M)",
       "color": "VINO",
-      "stock": 1,
+      "stock": 2,
       "pvp": 30,
       "imagen": "fotos_catalogo/v0090-vino.webp",
-      "updatedAt": "2026-11-21T11:42"
+      "updatedAt": "2026-11-21T12:27"
     },
     {
       "id": "mpk70e9nfebzhvgx3s5",
@@ -9185,21 +9150,6 @@
       "cantidadAdquirida": 1
     },
     {
-      "id": "mvefy01crnhappgw5e9",
-      "inventarioId": "mvefy01crnhappgw5e9",
-      "variantKey": "v0016|vestido nataly|vestido 3/4, en tela gaza con abertura en una pierna.|est (s/m)|palo de rosa",
-      "codigo": "v0016",
-      "nombre": "Vestido Nataly",
-      "categoria": "Vestidos",
-      "detalle": "Vestido 3/4, en tela gaza con abertura en una pierna.",
-      "talla": "EST (S/M)",
-      "color": "PALO DE ROSA",
-      "stock": 1,
-      "pvp": 35,
-      "imagen": "fotos_catalogo/v0016-palo-de-rosa.webp",
-      "updatedAt": "2026-10-18T18:12"
-    },
-    {
       "id": "murexkl90f14ene031m9",
       "inventarioId": "murexkl90f14ene031m9",
       "variantKey": "v0016|vestido nataly|vestido 3/4, en tela gaza con abertura en una pierna.|est (s/m)|rosado",
@@ -9262,26 +9212,6 @@
       "fechaCompra": "2026-05-24",
       "tipoAdquisicion": "nuevo",
       "compraId": "mpk2r718akoezmcm6rl",
-      "cantidadAdquirida": 1
-    },
-    {
-      "id": "mw5hr04gq5yt9puvs4a",
-      "inventarioId": "mw5hr04gq5yt9puvs4a",
-      "variantKey": "v0093|vestido pincel|vestido en tela suplex con capa en hombro|est (s/m)|blanco",
-      "codigo": "V0093",
-      "nombre": "Vestido Pincel",
-      "categoria": "Vestidos",
-      "detalle": "Vestido en tela suplex con capa en hombro",
-      "talla": "EST (S/M)",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0093-blanco.webp",
-      "updatedAt": "2026-11-06T16:33",
-      "fechaAdquisicion": "2026-11-06T16:33",
-      "fechaCompra": "2026-11-06T16:30",
-      "tipoAdquisicion": "nuevo",
-      "compraId": "mw5hmzg0pfcyinyw33j",
       "cantidadAdquirida": 1
     },
     {
@@ -9354,10 +9284,10 @@
       "detalle": "Vestido en tela suplex con capa en hombro",
       "talla": "EST (S/M)",
       "color": "VINO",
-      "stock": 1,
+      "stock": 2,
       "pvp": 40,
       "imagen": "fotos_catalogo/v0093-vino.webp",
-      "updatedAt": "2026-11-21T07:21",
+      "updatedAt": "2026-11-21T15:40",
       "fechaAdquisicion": "2026-11-06T16:33",
       "fechaCompra": "2026-11-06T16:30",
       "tipoAdquisicion": "nuevo",
@@ -10543,21 +10473,6 @@
       "tipoAdquisicion": "nuevo",
       "compraId": "mvefaayt81l51pdzpqg",
       "cantidadAdquirida": 1
-    },
-    {
-      "id": "muhh7ub81tjfd2kt79",
-      "inventarioId": "muhh7ub81tjfd2kt79",
-      "variantKey": "v0054|vestido sol|vestido en tela suplex, con aro de brillos en cintura y hombro|única|blanco",
-      "codigo": "v0054",
-      "nombre": "Vestido Sol",
-      "categoria": "Vestidos",
-      "detalle": "Vestido en tela suplex, con aro de brillos en cintura y hombro",
-      "talla": "Única",
-      "color": "BLANCO",
-      "stock": 1,
-      "pvp": 40,
-      "imagen": "fotos_catalogo/v0054-blanco.webp",
-      "updatedAt": "2026-10-24T14:01"
     },
     {
       "id": "muhh7ub6wj5tbgy2t2",
