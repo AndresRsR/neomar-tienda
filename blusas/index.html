@@ -91,8 +91,8 @@
   --radius: 4px;
   --radius-lg: 12px;
   --transition: cubic-bezier(.22,.68,0,1.2);
-  --header-motion-duration: .6s;
-  --header-motion-ease: cubic-bezier(.4,0,.2,1);
+  --header-motion-duration: .85s;
+  --header-motion-ease: cubic-bezier(.45,0,.55,1);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -177,14 +177,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transform: translate3d(0,0,0);
-  opacity: 1;
-  will-change: transform, opacity;
-  transition: transform var(--header-motion-duration) var(--header-motion-ease), opacity var(--header-motion-duration) var(--header-motion-ease), background .4s ease, padding .4s ease, box-shadow .4s ease;
+  clip-path: inset(0 -32px -24px -32px);
+  will-change: clip-path;
+  transition: clip-path var(--header-motion-duration) var(--header-motion-ease), background .4s ease, padding .4s ease, box-shadow .4s ease;
 }
 header.is-scroll-hidden {
-  transform: translate3d(0,calc(-100% - 16px),0);
-  opacity: 0;
+  clip-path: inset(0 -32px 100% -32px);
   pointer-events: none;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3391,9 +3389,9 @@ footer {
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
     cursor: pointer;
-    transform: translate3d(0,0,0);
-    will-change: transform, opacity;
-    transition: transform var(--header-motion-duration) var(--header-motion-ease), opacity var(--header-motion-duration) var(--header-motion-ease), box-shadow .3s ease, border-color .3s ease;
+    clip-path: inset(0 -48px -48px -48px);
+    will-change: clip-path;
+    transition: clip-path var(--header-motion-duration) var(--header-motion-ease), transform .2s ease, box-shadow .3s ease, border-color .3s ease;
   }
 
   .mobile-sale-access::before {
@@ -3410,9 +3408,8 @@ footer {
   }
 
   .mobile-sale-access.is-collapsed {
-    opacity: 0;
     pointer-events: none;
-    transform: translate3d(0,calc(-1 * var(--header-slide-distance, 88px)),0);
+    clip-path: inset(0 -48px calc(100% + var(--header-curtain-offset, 74px)) -48px);
   }
 
   .mobile-sale-access.active {
@@ -4977,13 +4974,14 @@ function updateMobileSaleAccess() {
   var menu = document.getElementById('mobileNav');
   var reveal = y >= 150 && !saleActive && header && !header.classList.contains('is-scroll-hidden') && !(menu && menu.classList.contains('open'));
   btn.classList.toggle('is-collapsed', !reveal);
+  btn.inert = !reveal;
   btn.classList.toggle('active', saleActive);
   var meta = document.getElementById('mobileSaleMeta');
   if (meta) meta.textContent = count === 1 ? '1 modelo con stock bajo' : count + ' modelos con stock bajo';
   if (header) {
     var headerHeight = header.offsetHeight;
     btn.style.top = (headerHeight + 8) + 'px';
-    btn.style.setProperty('--header-slide-distance', (headerHeight + 16) + 'px');
+    btn.style.setProperty('--header-curtain-offset', (headerHeight + 8) + 'px');
   }
 }
 function resetCatalogFilterUi() {
