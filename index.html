@@ -175,7 +175,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: all .4s ease;
+  transition: transform .36s cubic-bezier(.22,1,.36,1), background .3s ease, padding .3s ease, box-shadow .3s ease;
+}
+header.is-scroll-hidden {
+  transform: translateY(calc(-100% - 16px));
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  #header, #mobileSaleAccess { transition: none; }
 }
 header.scrolled {
   background: rgba(250,247,244,.92);
@@ -4953,25 +4960,19 @@ function updateMobileSaleAccess() {
   var count = allGroups.filter(function(g) { return grupoEnLiquidacion(g); }).length;
   var isMobile = window.matchMedia && window.matchMedia('(max-width: 900px)').matches;
   var y = window.pageYOffset || document.documentElement.scrollTop || 0;
-  var goingUp = y < lastMobileSaleScrollY - 8;
-  var goingDown = y > lastMobileSaleScrollY + 8;
   if (!isMobile || count <= 0) {
     btn.classList.add('is-hidden');
-    lastMobileSaleScrollY = y;
-    mobileSaleReveal = false;
     return;
   }
   btn.classList.remove('is-hidden');
-  if (y < 150 || saleActive) mobileSaleReveal = false;
-  else if (goingUp) mobileSaleReveal = true;
-  else if (goingDown) mobileSaleReveal = false;
-  btn.classList.toggle('is-collapsed', !mobileSaleReveal);
+  var header = document.getElementById('header');
+  var menu = document.getElementById('mobileNav');
+  var reveal = y >= 150 && !saleActive && header && !header.classList.contains('is-scroll-hidden') && !(menu && menu.classList.contains('open'));
+  btn.classList.toggle('is-collapsed', !reveal);
   btn.classList.toggle('active', saleActive);
   var meta = document.getElementById('mobileSaleMeta');
   if (meta) meta.textContent = count === 1 ? '1 modelo con stock bajo' : count + ' modelos con stock bajo';
-  var header = document.getElementById('header');
   if (header) btn.style.top = (header.getBoundingClientRect().height + 8) + 'px';
-  lastMobileSaleScrollY = y;
 }
 function resetCatalogFilterUi() {
   document.querySelectorAll('#catFilters .filter-pill').forEach(function(b) {
@@ -5093,8 +5094,9 @@ var catActive = 'Todas';
 var sizeActive = 'Todas';
 var colorActive = 'Todos';
 var saleActive = false;
-var lastMobileSaleScrollY = 0;
-var mobileSaleReveal = false;
+var lastHeaderScrollY = 0;
+var headerScrollDistance = 0;
+var headerScrollDirection = 0;
 var colorToneTolerance = 28;
 var colorWordSearch = '';
 var searchQ = '';
@@ -5623,8 +5625,8 @@ window.addEventListener('DOMContentLoaded', function() {
   iniciarCatalogo();
 
   // Scroll events
-  window.addEventListener('scroll', onScroll);
-  window.addEventListener('resize', updateMobileSaleAccess);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
   onScroll();
 
   // Reveal observer
@@ -5841,10 +5843,31 @@ function initCursor() {
 }
 
 // ══ SCROLL ══
-function onScroll() {
+function updateHeaderScroll() {
   var h = document.getElementById('header');
-  if (window.scrollY > 80) h.classList.add('scrolled');
-  else h.classList.remove('scrolled');
+  if (!h) return;
+  var maxY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+  var y = Math.max(0, Math.min(window.scrollY, maxY));
+  var delta = y - lastHeaderScrollY;
+  var menu = document.getElementById('mobileNav');
+  h.classList.toggle('scrolled', y > 80);
+  if (y <= Math.max(100, h.offsetHeight) || (menu && menu.classList.contains('open'))) {
+    h.classList.remove('is-scroll-hidden');
+    headerScrollDistance = 0;
+    headerScrollDirection = 0;
+  } else if (delta) {
+    var direction = delta > 0 ? 1 : -1;
+    if (direction !== headerScrollDirection) headerScrollDistance = 0;
+    headerScrollDirection = direction;
+    // Accumulate small movements so slow scrolling works without jitter.
+    headerScrollDistance += Math.abs(delta);
+    if (headerScrollDistance >= 12) h.classList.toggle('is-scroll-hidden', direction > 0);
+  }
+  h.inert = h.classList.contains('is-scroll-hidden');
+  lastHeaderScrollY = y;
+}
+function onScroll() {
+  updateHeaderScroll();
 
   var topBtn = document.getElementById('scrollTopBtn');
   updateMobileSaleAccess();
@@ -5895,6 +5918,7 @@ document.addEventListener('keydown', function(e) {
 // ══ MENU ══
 function toggleMenu() {
   document.getElementById('mobileNav').classList.toggle('open');
+  onScroll();
 }
 
 // ══ MARQUEE ══
