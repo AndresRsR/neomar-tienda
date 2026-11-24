@@ -5240,16 +5240,51 @@ function clearCart() {
   updateCartBadges();
   showToast('Carrito vaciado');
 }
+function cartWhatsAppGroups() {
+  var groups = [], byModel = new Map();
+  cart.forEach(function(item) {
+    var nombre = textValue(item.nombre), codigo = textValue(item.codigo);
+    var key = JSON.stringify([slugValue(codigo), slugValue(nombre)]);
+    var group = byModel.get(key);
+    if (!group) {
+      group = { nombre: nombre, codigo: codigo, variantes: [], subtotal: 0 };
+      byModel.set(key, group);
+      groups.push(group);
+    }
+    var talla = textValue(item.talla) || 'Por confirmar';
+    var color = textValue(item.color) || 'Por confirmar';
+    var variantKey = JSON.stringify([talla.toLowerCase(), color.toLowerCase()]);
+    var variante = group.variantes.find(function(v) { return v.key === variantKey; });
+    if (!variante) {
+      variante = { key: variantKey, talla: talla, color: color, qty: 0, precios: [] };
+      group.variantes.push(variante);
+    }
+    var qty = stockValue(item.qty), price = numberValue(item.price);
+    var precio = variante.precios.find(function(p) { return p.price === price; });
+    if (!precio) { precio = { price: price, qty: 0 }; variante.precios.push(precio); }
+    precio.qty += qty;
+    variante.qty += qty;
+    group.subtotal += price * qty;
+  });
+  return groups;
+}
 function cartWhatsAppMessage() {
-  var lines = ['Hola NEOMAR, quiero hacer este pedido:', ''];
-  cart.forEach(function(item, idx) {
-    var subtotal = numberValue(item.price) * stockValue(item.qty);
-    lines.push((idx + 1) + '. Producto: ' + item.nombre);
-    lines.push('   Color: ' + (item.color || 'Por confirmar'));
-    lines.push('   Talla: ' + (item.talla || 'Por confirmar'));
-    lines.push('   Cantidad: ' + stockValue(item.qty));
-    lines.push('   Precio unitario: ' + formatMoney(item.price));
-    lines.push('   Subtotal: ' + formatMoney(subtotal));
+  var groups = cartWhatsAppGroups(), units = cartQtyTotal();
+  var resumen = units + (units === 1 ? ' prenda' : ' prendas') + ' | ' + groups.length + (groups.length === 1 ? ' modelo' : ' modelos');
+  var lines = ['Hola NEOMAR, quiero hacer este pedido:', resumen, ''];
+  groups.forEach(function(group, idx) {
+    lines.push('*' + (idx + 1) + '. ' + group.nombre + '*' + (group.codigo ? ' | Cod. ' + group.codigo : ''));
+    var price = group.variantes[0].precios[0].price;
+    var precioUnico = group.variantes.every(function(v) {
+      return v.precios.every(function(p) { return p.price === price; });
+    });
+    group.variantes.forEach(function(v) {
+      var detalle = '- ' + v.talla + ' | ' + v.color + ' x';
+      if (precioUnico) lines.push(detalle + v.qty);
+      else v.precios.forEach(function(p) { lines.push(detalle + p.qty + ' | ' + formatMoney(p.price) + ' c/u'); });
+    });
+    if (precioUnico) lines.push('Precio unitario: ' + formatMoney(price) + ' | Subtotal: ' + formatMoney(group.subtotal));
+    else lines.push('Subtotal: ' + formatMoney(group.subtotal));
     lines.push('');
   });
   lines.push('Total del pedido: ' + formatMoney(cartTotal()));
@@ -5261,6 +5296,14 @@ function cartWhatsAppMessage() {
   lines.push('Metodo de entrega:');
   lines.push('');
   lines.push('Quedo atenta a disponibilidad.');
+  lines.push('');
+  lines.push('*RESUMEN DE PRENDAS*');
+  groups.forEach(function(group) {
+    group.variantes.forEach(function(v) {
+      lines.push('- ' + group.nombre + ' | ' + v.talla + ' | ' + v.color + ' x' + v.qty);
+    });
+  });
+  lines.push(resumen);
   return lines.join('\n');
 }
 function sendCartWhatsApp() {
