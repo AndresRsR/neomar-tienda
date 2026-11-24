@@ -1,9 +1,9 @@
 {
   "version": "neomar-catalogo-v2",
   "source": "neomar-gestion-inventario",
-  "updatedAt": "2026-11-24T14:39:15.683Z",
+  "updatedAt": "2026-11-24T18:15:08.301Z",
   "totalVariantes": 596,
-  "totalStock": 841,
+  "totalStock": 839,
   "items": [
     {
       "id": "mo8qxku9tj4qdkmsiko",
@@ -4879,10 +4879,10 @@
       "detalle": "Falda short en jean.",
       "talla": "L",
       "color": "azul",
-      "stock": 4,
+      "stock": 2,
       "pvp": 25,
       "imagen": "fotos_catalogo/f0006-azul.webp",
-      "updatedAt": "2026-11-07T17:39",
+      "updatedAt": "2026-11-24T10:25",
       "fechaAdquisicion": "2026-08-28T14:06",
       "fechaCompra": "2026-08-28T14:04",
       "tipoAdquisicion": "nuevo",
