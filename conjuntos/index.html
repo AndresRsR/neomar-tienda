@@ -4215,7 +4215,7 @@ footer {
     bottom: calc(88px + env(safe-area-inset-bottom));
   }
 }
-/* Black Friday: same stock rules and discount, with a distinct offer accent. */
+/* NEO BLACK: same stock rules and discount, with a distinct offer accent. */
 :root { --offer-red: #c81d32; --offer-red-deep: #a61225; }
 .nav-links { align-items: center; }
 .nav-links a[data-nav="liquidaciones"] {
@@ -4263,7 +4263,7 @@ footer {
   <a href="https://www.tiendaneomar.com/" class="brand" aria-label="NEOMAR tienda de moda femenina">NEO<em>MAR</em></a>
   <ul class="nav-links">
     <li><a href="#coleccion" data-nav="coleccion" onclick="showCatalogo(event)">Colección</a></li>
-    <li><a href="?liquidaciones=1" data-nav="liquidaciones" onclick="showLiquidaciones(event)">Black Friday</a></li>
+    <li><a href="?liquidaciones=1" data-nav="liquidaciones" onclick="showLiquidaciones(event)">NEO BLACK</a></li>
     <li><a href="#nosotras">Nosotras</a></li>
     <li><a href="#ubicacion">Ubicación</a></li>
     <li><a href="#contacto">Contacto</a></li>
@@ -4298,10 +4298,10 @@ footer {
   </div>
 </header>
 
-<button class="mobile-sale-access is-hidden is-collapsed" id="mobileSaleAccess" type="button" onclick="showLiquidaciones(event)" aria-label="Ver ofertas Black Friday NEOMAR">
+<button class="mobile-sale-access is-hidden is-collapsed" id="mobileSaleAccess" type="button" onclick="showLiquidaciones(event)" aria-label="Ver ofertas NEO BLACK NEOMAR">
   <span class="sale-access-dot" aria-hidden="true"></span>
   <span class="sale-access-copy">
-    <strong>Black Friday -15%</strong>
+    <strong>NEO BLACK -15%</strong>
     <small id="mobileSaleMeta">Ultimos modelos disponibles</small>
   </span>
   <span class="sale-access-arrow" aria-hidden="true">-></span>
@@ -4310,7 +4310,7 @@ footer {
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobileNav">
   <a href="#coleccion" data-nav="coleccion" onclick="showCatalogo(event);toggleMenu()">Colección</a>
-  <a href="?liquidaciones=1" data-nav="liquidaciones" onclick="showLiquidaciones(event);toggleMenu()">Black Friday</a>
+  <a href="?liquidaciones=1" data-nav="liquidaciones" onclick="showLiquidaciones(event);toggleMenu()">NEO BLACK</a>
   <a href="#nosotras" onclick="toggleMenu()">Nosotras</a>
   <a href="#ubicacion" onclick="toggleMenu()">Ubicación</a>
   <a href="#contacto" onclick="toggleMenu()">Contacto</a>
@@ -4947,7 +4947,7 @@ function renderNavState() {
   var section = document.getElementById('coleccion');
   if (section) {
     section.classList.toggle('is-black-friday', saleActive);
-    section.querySelector('.section-title').innerHTML = saleActive ? 'Black Friday' : 'Encuentra tu <em>estilo</em>';
+    section.querySelector('.section-title').innerHTML = saleActive ? 'NEO BLACK' : 'Encuentra tu <em>estilo</em>';
     section.querySelector('.section-tag').textContent = saleActive ? 'Ofertas -15%' : 'Colección Disponible';
   }
   document.querySelectorAll('[data-nav="liquidaciones"]').forEach(function(el) {
@@ -5552,7 +5552,7 @@ function updateSeoForRoute(productGroup) {
     return;
   }
   if (currentLiquidationParam()) {
-    setDocumentSeo('Black Friday NEOMAR -15%', 'Ofertas Black Friday NEOMAR con 15% de descuento en modelos con bajo stock.', siteRootUrl(), 'noindex,follow');
+    setDocumentSeo('NEO BLACK NEOMAR -15%', 'Ofertas NEO BLACK de NEOMAR con 15% de descuento en modelos con bajo stock.', siteRootUrl(), 'noindex,follow');
     return;
   }
   if (window.location.search && !currentProductParam()) {
@@ -6754,7 +6754,7 @@ function renderProducts() {
     if (!allGroups.length) {
       grid.innerHTML = '<div class="no-results"><div class="no-results-icon">⌛</div><div class="no-results-text">Catálogo en actualización</div><p style="font-size:13px;margin-top:12px;color:var(--text-muted)">Sube catalogo-publico.json para mostrar las prendas disponibles.</p></div>';
     } else if (saleActive) {
-      grid.innerHTML = '<div class="no-results"><div class="no-results-icon">%</div><div class="no-results-text">No hay ofertas Black Friday disponibles</div><p style="font-size:13px;margin-top:12px;color:var(--text-muted)">Cuando un modelo quede en 1 o 2 unidades aparecerá aquí con 15% de descuento.</p></div>';
+      grid.innerHTML = '<div class="no-results"><div class="no-results-icon">%</div><div class="no-results-text">No hay ofertas NEO BLACK disponibles</div><p style="font-size:13px;margin-top:12px;color:var(--text-muted)">Cuando un modelo quede en 1 o 2 unidades aparecerá aquí con 15% de descuento.</p></div>';
     } else {
       grid.innerHTML = '<div class="no-results"><div class="no-results-icon">🔍</div><div class="no-results-text">No encontramos esa prenda</div><p style="font-size:13px;margin-top:12px;color:var(--text-muted)">Escríbenos por WhatsApp, quizás la podemos conseguir</p></div>';
     }
@@ -7242,7 +7242,7 @@ function buildCardData(g, idx, previousInitialColor) {
 
   var badgeHtml = '';
   var liquidacion = liquidacionActivaParaGrupo(g);
-  if (liquidacion) badgeHtml = '<div class="product-badge black-friday">Black Friday -15%</div>';
+  if (liquidacion) badgeHtml = '<div class="product-badge black-friday">NEO BLACK -15%</div>';
   else if (totalStock <= 3) badgeHtml = '<div class="product-badge low">Últimas</div>';
 
   var colorOptions = colors.map(function(c) {
